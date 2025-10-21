@@ -1,3 +1,4 @@
+
 SELECT 'ayda' AS table_name, reporting_date, COUNT(*) AS total_rows FROM ayda GROUP BY reporting_date
 UNION ALL
 SELECT 'bank_guarantee', reporting_date, COUNT(*) FROM bank_guarantee GROUP BY reporting_date
@@ -11,16 +12,16 @@ UNION ALL
 SELECT 'delivered_cashflow_konven', reporting_date, COUNT(*) FROM delivered_cashflow_konven GROUP BY reporting_date
 UNION ALL
 SELECT 'delivered_cashflow_syariah', reporting_date, COUNT(*) FROM delivered_cashflow_syariah GROUP BY reporting_date
-UNION ALL
-SELECT 'historical_contracts_konven', reporting_date, COUNT(*) FROM historical_contracts_konven GROUP BY reporting_date
-UNION ALL
-SELECT 'historical_contracts_syariah', reporting_date, COUNT(*) FROM historical_contracts_syariah GROUP BY reporting_date
-UNION ALL
-SELECT 'historical_recovery_konven', reporting_date, COUNT(*) FROM historical_recovery_konven GROUP BY reporting_date
-UNION ALL
-SELECT 'historical_recovery_syariah', reporting_date, COUNT(*) FROM historical_recovery_syariah GROUP BY reporting_date
-UNION ALL
-SELECT 'market_rate', reporting_date, COUNT(*) FROM market_rate GROUP BY reporting_date
+--UNION ALL
+--SELECT 'historical_contracts_konven', reporting_date, COUNT(*) FROM historical_contract_konven GROUP BY reporting_date
+--UNION ALL
+--SELECT 'historical_contracts_syariah', reporting_date, COUNT(*) FROM historical_contracts_syariah GROUP BY reporting_date
+--UNION ALL
+--SELECT 'historical_recovery_konven', reporting_date, COUNT(*) FROM historical_recovery_konven GROUP BY reporting_date
+--UNION ALL
+--SELECT 'historical_recovery_syariah', reporting_date, COUNT(*) FROM historical_recovery_syariah GROUP BY reporting_date
+--UNION ALL
+--SELECT 'market_rate', reporting_date, COUNT(*) FROM market_rate GROUP BY reporting_date
 UNION ALL
 SELECT 'nominative_syariah', reporting_date, COUNT(*) FROM nominative_syariah GROUP BY reporting_date
 UNION ALL
