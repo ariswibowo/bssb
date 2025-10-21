@@ -1,0 +1,75 @@
+version: "3.8"
+
+services:
+  econnect:
+    image: elysiannxt/econnect:${Tag}
+    ports:
+      - "5079:5079"
+    networks:
+      enet:
+        aliases:
+          - econnect.elysian.com
+    environment:
+      - ASPNETCORE_ENVIRONMENT=${AspNetCoreEnvironment}
+      - Database__DwhContext__DatabaseEngine=${DatabaseEngine}
+      - Database__DwhContext__ConnectionString=${ConnectionString Database=DemoDwh}
+      - Database__OutboundContext__DatabaseEngine=${DatabaseEngine}
+      - Database__OutboundContext__ConnectionString=${ConnectionString Database=DemoOutbound}
+      - Database__FdrContext__DatabaseEngine=${DatabaseEngine}
+      - Database__FdrContext__ConnectionString=${ConnectionString Database=Fdr}
+      - Database__Ifrs9ImpairmentContext__DatabaseEngine=${DatabaseEngine}
+      - Database__Ifrs9ImpairmentContext__ConnectionString=${ConnectionString Database=Ifrs9Impairment}      
+      - Logging__Kafka__BrokerList=${KafkaBrokerList}
+      - Kafka__BrokerList=${KafkaBrokerList}
+      - EConnectBroker__ConsumeTimeoutMs=${KafkaConsumeTimeoutMs}
+      - Kestrel__Certificates__Default__Password=${CertPwd}
+      - Authentication__Username=${ApplicationUsername}
+      - Authentication__Password=${ApplicationPassword}
+      - Extractions__0__ConnectionString=${Staging_Env}
+      - Extractions__1__ConnectionString=${Staging_Env}
+      - Extractions__2__ConnectionString=${Staging_Env}
+      - Extractions__3__ConnectionString=${Staging_Env}
+      - Extractions__4__ConnectionString=${Staging_Env}
+      - Extractions__5__ConnectionString=${Staging_Env}
+      - Extractions__6__ConnectionString=${Staging_Env}
+      - Extractions__7__ConnectionString=${Staging_Env}
+      - Extractions__8__ConnectionString=${Staging_Env}
+      - Extractions__9__ConnectionString=${Staging_Env}
+      - Extractions__10__ConnectionString=${Staging_Env}
+      - Extractions__11__ConnectionString=${Staging_Env}
+      - Extractions__12__ConnectionString=${Staging_Env}
+      - Extractions__13__ConnectionString=${Staging_Env}
+      - Extractions__14__ConnectionString=${Staging_Env}
+      - Extractions__15__ConnectionString=${Staging_Env}
+      - Extractions__16__ConnectionString=${Staging_Env}
+
+    configs:
+      - source: EConnectAppSettings
+        target: /home/EConnect/appsettings.${AspNetCoreEnvironment}.json
+      - source: EConnectRunShell
+        target: /home/EConnect/start_EConnect.sh
+    command: sh ./start_EConnect.sh
+    deploy:
+      replicas: 1
+      placement:
+        constraints:
+          - node.labels.deploymentGroup == ${Placement}
+    secrets:
+      - elysian.pfx
+      - elysian.crt
+
+configs:
+  EConnectAppSettings:
+    file: ./appsettings.elysian.EConnect.json
+  EConnectRunShell:
+    file: ./start_EConnect.sh
+
+networks:
+  enet:
+    driver: overlay
+
+secrets:
+  elysian.pfx:
+    external: true
+  elysian.crt:
+    external: true
