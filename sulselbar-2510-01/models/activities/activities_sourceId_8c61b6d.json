@@ -1,0 +1,15 @@
+{
+  "activities": [
+    {
+      "ActivityId": "23329036-c18a-402d-962a-babf9e35d3db",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "a1d3b263-6c39-48ce-9f9f-f61bf8c61b6d",
+      "Source": "Model",
+      "Action": "CreateModel",
+      "Description": "Created model BSSB Konven - All products",
+      "Trace": null,
+      "Timestamp": "2025-10-20 06:54:31.986213",
+      "ImpersonatedUserId": null
+    }
+  ]
+}

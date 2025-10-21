@@ -1,0 +1,494 @@
+{
+  "ModelId": "425af519-cb2b-42fa-8575-062dd2f49301",
+  "DomainId": "1c534bff-1288-4a89-a31b-01ee7bda1fde",
+  "Name": "BSSB Konven - Segmentation Stage Assessment",
+  "Description": "BSSB Konven - Segmentation Level Assessment",
+  "ModelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+  "ObjectiveTypeId": "c84eec4a-5e3d-4e88-bf7f-2c7a22a54d76",
+  "ParentDeckId": null,
+  "IsPrivate": false,
+  "Status": "Open",
+  "Data": {
+    "deletionProtection": {
+      "enabled": false
+    }
+  },
+  "LatestVersionId": "d1f07ef0-4a3d-4d60-9d3f-e0da73909139",
+  "LatestVersion": 1,
+  "LatestStatus": "Draft",
+  "LatestErrors": null,
+  "LatestWarnings": null,
+  "LatestValidatedWhen": null,
+  "PublishedVersions": 0,
+  "ArchivedBy": null,
+  "ArchivedWhen": null,
+  "CreatedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+  "CreatedWhen": "2025-10-20 03:15:36.972881",
+  "LastModifiedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+  "LastModifiedWhen": "2025-10-20 06:56:58.489897",
+  "ObjectiveTypeCode": "Segmentation",
+  "ModelTypeName": "Simulation",
+  "activityExport": {
+    "sourceId": "425af519-cb2b-42fa-8575-062dd2f49301",
+    "name": "BSSB Konven - Segmentation Stage Assessment",
+    "path": "models/activities",
+    "file": "activities_sourceId_2f49301.json"
+  },
+  "versions": [
+    {
+      "VersionId": "d1f07ef0-4a3d-4d60-9d3f-e0da73909139",
+      "ModelId": "425af519-cb2b-42fa-8575-062dd2f49301",
+      "Version": 1,
+      "Description": "Initial Version",
+      "Status": "Draft",
+      "PublishedBy": null,
+      "PublishedWhen": null,
+      "PublishComments": null,
+      "ExpiryDate": null,
+      "ArchivedBy": null,
+      "ArchivedWhen": null,
+      "ConcurrencyId": "28082688-9874-481b-b81b-6cee2ca03f5b",
+      "CreatedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "CreatedWhen": "2025-10-20 03:15:36.972881",
+      "LastModifiedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "LastModifiedWhen": "2025-10-20 06:42:06.590049",
+      "versionProps": [
+        {
+          "VersionPropId": "283c60a8-c8c8-4d7e-a2dc-d32b03814fab",
+          "VersionId": "d1f07ef0-4a3d-4d60-9d3f-e0da73909139",
+          "Key": "Origin",
+          "Value": {
+            "origin": {
+              "originType": "New"
+            }
+          }
+        },
+        {
+          "VersionPropId": "1013b06c-0efb-470e-a107-d2e0fdaa52ac",
+          "VersionId": "d1f07ef0-4a3d-4d60-9d3f-e0da73909139",
+          "Key": "TestSuites",
+          "Value": {
+            "testSuites": []
+          }
+        },
+        {
+          "VersionPropId": "baa48530-1fb7-4872-bc56-852dedb9c102",
+          "VersionId": "d1f07ef0-4a3d-4d60-9d3f-e0da73909139",
+          "Key": "SegmentationConfiguration",
+          "Value": {
+            "segments": [
+              {
+                "segmentId": "72b2300f-90f6-49af-9349-f12888fef9ad",
+                "name": "Kredit",
+                "description": "Kredit",
+                "category": "Kredit",
+                "lastModifiedWhen": "2025-10-20T03:15:53.5697742"
+              },
+              {
+                "segmentId": "b40c916d-7f5b-4b3b-9a5b-42d9d8b36245",
+                "name": "Kredit Longgar Tarik",
+                "description": "Kredit Longgar Tarik",
+                "category": "Kredit Longgar Tarik",
+                "lastModifiedWhen": "2025-10-20T03:16:07.0060498"
+              },
+              {
+                "segmentId": "2ed46e1e-0550-4f74-9b56-c41658cafe7d",
+                "name": "Bank Garansi Murni",
+                "description": "Bank Garansi",
+                "category": "Bank Garansi",
+                "lastModifiedWhen": "2025-10-20T03:16:19.4841008"
+              },
+              {
+                "segmentId": "9c4878a5-58cf-4224-8d3f-72d78641179e",
+                "name": "SKDBN",
+                "description": "SKDBN",
+                "category": "SKDBN",
+                "lastModifiedWhen": "2025-10-20T03:16:35.2239421"
+              },
+              {
+                "segmentId": "84c64682-c0be-45b7-bce0-3a9bd2a70e05",
+                "name": "Treasury - Surat Berharga Obligasi",
+                "description": "Surat Berharga, Obligasi",
+                "category": "Treasury",
+                "lastModifiedWhen": "2025-10-20T03:17:24.3844349"
+              },
+              {
+                "segmentId": "2ba1d911-4f90-42c1-a2bb-387796d86174",
+                "name": "Treasury - Reverse Repo",
+                "description": "Treasury - Reverse Repo",
+                "category": "Treasury - Reverse Repo",
+                "lastModifiedWhen": "2025-10-20T03:18:32.0461525"
+              },
+              {
+                "segmentId": "6e97fc84-f5bb-4008-8171-23b82b608675",
+                "name": "Treasury - Placement",
+                "description": "Treasury - Placement",
+                "category": "Treasury - Placement",
+                "lastModifiedWhen": "2025-10-20T03:24:01.4050154"
+              },
+              {
+                "segmentId": "cf5463b3-3a91-42e9-b4f6-2f4ed6e1145a",
+                "name": "Bank Garansi Back To Back",
+                "description": "Bank Garansi Back To Back",
+                "category": "Bank Garansi Back To Back",
+                "lastModifiedWhen": "2025-10-20T06:08:53.0959303"
+              },
+              {
+                "segmentId": "3179d56a-9b02-4f90-87b7-8214e00a1727",
+                "name": "Bank Garansi Kredit",
+                "description": "Bank Garansi Kredit",
+                "category": "Bank Garansi Kredit",
+                "lastModifiedWhen": "2025-10-20T06:10:24.950868"
+              },
+              {
+                "segmentId": "1f964fe4-4215-45a0-a0ee-8de529e2d278",
+                "name": "AYDA",
+                "description": "AYDA",
+                "category": "AYDA",
+                "lastModifiedWhen": "2025-10-20T06:24:00.6975615"
+              },
+              {
+                "segmentId": "b24c9722-7a12-498c-b36d-a96d0cd03eff",
+                "name": "Penyertaan",
+                "description": "Penyertaan",
+                "category": "Penyertaan",
+                "lastModifiedWhen": "2025-10-20T06:37:27.4112648"
+              }
+            ],
+            "rules": [
+              {
+                "ruleId": "a3ffdb2f-3352-493b-97b0-4fc1a8ffef86",
+                "name": "Kredit",
+                "description": "Kredit",
+                "priority": 1,
+                "lastModifiedWhen": "2025-10-20T06:11:50.3409346",
+                "segments": [
+                  {
+                    "segmentRuleId": "975adce0-124f-4a9e-8ba0-04e95248bdb8",
+                    "segmentId": "72b2300f-90f6-49af-9349-f12888fef9ad",
+                    "segmentName": "Kredit",
+                    "priority": 1,
+                    "condition": {
+                      "conditionId": "0767a241-37b3-4e1e-943e-265227135c77",
+                      "conditions": [
+                        {
+                          "conditionId": "de41e0ca-dfd6-491a-a4ef-09cf4d9ad07c",
+                          "field": "OriginSystemId",
+                          "operator": "Equal",
+                          "value": " DWH_CREDIT"
+                        }
+                      ],
+                      "combinator": "And"
+                    }
+                  }
+                ]
+              },
+              {
+                "ruleId": "0b628eac-67c1-466d-8f91-1e9e43cbe3f6",
+                "name": "Bank Garansi Murni",
+                "description": "Bank Garansi",
+                "priority": 4,
+                "lastModifiedWhen": "2025-10-20T06:12:02.316677",
+                "segments": [
+                  {
+                    "segmentRuleId": "0ae85754-49f0-4909-b8a6-d264a47bc9ce",
+                    "segmentId": "2ed46e1e-0550-4f74-9b56-c41658cafe7d",
+                    "segmentName": "Bank Garansi",
+                    "priority": 1,
+                    "condition": {
+                      "conditionId": "a4e171a1-f45d-4ced-8352-321123261fe5",
+                      "conditions": [
+                        {
+                          "conditionId": "a794621d-b381-4025-b3ef-29e93c12300b",
+                          "field": "OriginSystemId",
+                          "operator": "Equal",
+                          "value": "REPORTING_SYSTEM_BG"
+                        },
+                        {
+                          "conditionId": "84f50cf8-8ddc-459e-9d10-3e36c6e0aeff",
+                          "field": "StatusJenisBankGaransi",
+                          "operator": "Equal",
+                          "value": "1"
+                        }
+                      ],
+                      "combinator": "And"
+                    }
+                  }
+                ]
+              },
+              {
+                "ruleId": "c9c5180e-ef5c-4eb2-b14f-3503dab30774",
+                "name": "Kredit Longgar Tarik",
+                "description": "Kredit Longgar Tarik",
+                "priority": 2,
+                "lastModifiedWhen": "2025-10-20T06:11:50.3427955",
+                "segments": [
+                  {
+                    "segmentRuleId": "0243fec8-30a3-434a-9b04-fc3b6c29979a",
+                    "segmentId": "b40c916d-7f5b-4b3b-9a5b-42d9d8b36245",
+                    "segmentName": "Kredit Longgar Tarik",
+                    "priority": 1,
+                    "condition": {
+                      "conditionId": "44aa1ecd-6a8e-4c9b-aa6b-a207c3d66206",
+                      "conditions": [
+                        {
+                          "conditionId": "f8400aba-d033-49c6-96fe-73a18e252d3c",
+                          "field": "OriginSystemId",
+                          "operator": "Equal",
+                          "value": "DWH_CREDIT_UNDRAWN"
+                        }
+                      ],
+                      "combinator": "And"
+                    }
+                  }
+                ]
+              },
+              {
+                "ruleId": "f88eee68-5591-40c6-9304-7a804e54a639",
+                "name": "SKBDN",
+                "description": "SKBDN",
+                "priority": 6,
+                "lastModifiedWhen": "2025-10-20T06:11:50.3500737",
+                "segments": [
+                  {
+                    "segmentRuleId": "aa8307fa-2292-4d06-9128-e8e918230175",
+                    "segmentId": "9c4878a5-58cf-4224-8d3f-72d78641179e",
+                    "segmentName": "SKDBN",
+                    "priority": 1,
+                    "condition": {
+                      "conditionId": "3950a2bd-8fad-48ea-a059-311bd2ae5af1",
+                      "conditions": [
+                        {
+                          "conditionId": "daadf6f2-fcdc-4bf9-a6ac-a273ca59ce8a",
+                          "field": "OriginSystemId",
+                          "operator": "Equal",
+                          "value": "Manual"
+                        },
+                        {
+                          "conditionId": "f24cbb46-da1f-4b90-ba1e-e7e5431a6391",
+                          "field": "ProductType",
+                          "operator": "Equal",
+                          "value": "SKBDN"
+                        }
+                      ],
+                      "combinator": "And"
+                    }
+                  }
+                ]
+              },
+              {
+                "ruleId": "250f42ad-7f7c-49bc-ae3f-40d142bbddc4",
+                "name": "Treasury - Placement",
+                "description": "Treasury - Placement",
+                "priority": 7,
+                "lastModifiedWhen": "2025-10-20T06:11:50.351871",
+                "segments": [
+                  {
+                    "segmentRuleId": "4763cf67-a6c1-49a5-96ca-6d1df693b90e",
+                    "segmentId": "6e97fc84-f5bb-4008-8171-23b82b608675",
+                    "segmentName": "Treasury - Placement",
+                    "priority": 1,
+                    "condition": {
+                      "conditionId": "79cf4939-c474-4525-9c52-6e13b12bd2c5",
+                      "conditions": [
+                        {
+                          "conditionId": "fbe77f7b-b07f-45f9-a0e5-c4d73725eec2",
+                          "field": "OriginSystemId",
+                          "operator": "Equal",
+                          "value": "REPORTING_SYSTEM_PLACEMENT"
+                        }
+                      ],
+                      "combinator": "And"
+                    }
+                  }
+                ]
+              },
+              {
+                "ruleId": "8e15d0f8-5b3b-4de6-9b70-9277ee0dcfce",
+                "name": "Treasury - Surat Berharga Obligasi",
+                "description": "Treasury - Surat Berharga Obligasi",
+                "priority": 8,
+                "lastModifiedWhen": "2025-10-20T06:11:50.3536768",
+                "segments": [
+                  {
+                    "segmentRuleId": "ba99bc7f-8ccc-4b27-bf5d-c337bd5212bf",
+                    "segmentId": "84c64682-c0be-45b7-bce0-3a9bd2a70e05",
+                    "segmentName": "Treasury - Surat Berharga Obligasi",
+                    "priority": 1,
+                    "condition": {
+                      "conditionId": "ba64844a-28fe-4195-b73c-89f0c8422c68",
+                      "conditions": [
+                        {
+                          "conditionId": "347715aa-e8b5-4a56-b212-8f482f166c69",
+                          "field": "OriginSystemId",
+                          "operator": "Equal",
+                          "value": "REPORTING_SYSTEM_SB"
+                        }
+                      ],
+                      "combinator": "And"
+                    }
+                  }
+                ]
+              },
+              {
+                "ruleId": "88f1231d-07de-455e-b58c-d0198c214df2",
+                "name": "Treasury - Reverse Repo",
+                "description": "Treasury - Reverse Repo",
+                "priority": 9,
+                "lastModifiedWhen": "2025-10-20T06:11:50.3554872",
+                "segments": [
+                  {
+                    "segmentRuleId": "bc98eca3-f13f-4077-8ee3-3bc2535d2bce",
+                    "segmentId": "2ba1d911-4f90-42c1-a2bb-387796d86174",
+                    "segmentName": "Treasury - Reverse Repo",
+                    "priority": 1,
+                    "condition": {
+                      "conditionId": "b54dbc63-accc-4d03-a3da-e2f88944ce72",
+                      "conditions": [
+                        {
+                          "conditionId": "5f54fb19-99e5-4b78-9a9d-ab01993d8646",
+                          "field": "OriginSystemId",
+                          "operator": "Equal",
+                          "value": "REPORTING_SYSTEM_REV_REPO"
+                        }
+                      ],
+                      "combinator": "And"
+                    }
+                  }
+                ]
+              },
+              {
+                "ruleId": "39bf45fe-1da1-4c52-a201-a1ba961518a9",
+                "name": "Bank Garansi Back To Back",
+                "description": "Bank Garansi Back To Back",
+                "priority": 5,
+                "lastModifiedWhen": "2025-10-20T06:11:50.3482866",
+                "segments": [
+                  {
+                    "segmentRuleId": "b8df645e-3550-4b02-9a1e-90be85a65514",
+                    "segmentId": "cf5463b3-3a91-42e9-b4f6-2f4ed6e1145a",
+                    "segmentName": "Bank Garansi Back To Back",
+                    "priority": 1,
+                    "condition": {
+                      "conditionId": "ce9643f8-cf3c-457b-95ff-6749e6ea21ea",
+                      "conditions": [
+                        {
+                          "conditionId": "2abb5347-fd93-4d8b-b44d-45c456aa3e30",
+                          "field": "OriginSystemId",
+                          "operator": "Equal",
+                          "value": "REPORTING_SYSTEM_BG"
+                        },
+                        {
+                          "conditionId": "89dbf613-9227-4023-ac56-94332b7aae36",
+                          "field": "BGHasCreditFacility",
+                          "operator": "Equal",
+                          "value": "N"
+                        },
+                        {
+                          "conditionId": "49994c4f-89b7-41fd-8056-77582e517c1a",
+                          "field": "StatusJenisBankGaransi",
+                          "operator": "Equal",
+                          "value": "2"
+                        }
+                      ],
+                      "combinator": "And"
+                    }
+                  }
+                ]
+              },
+              {
+                "ruleId": "c3067fcf-8480-4eb2-87ca-cd889f4b158d",
+                "name": "Bank Garansi Kredit",
+                "description": "Bank Garansi Kredit",
+                "priority": 3,
+                "lastModifiedWhen": "2025-10-20T06:11:50.3446426",
+                "segments": [
+                  {
+                    "segmentRuleId": "8699c42d-6f65-4109-8b10-d94dd95de3e4",
+                    "segmentId": "3179d56a-9b02-4f90-87b7-8214e00a1727",
+                    "segmentName": "Bank Garansi Kredit",
+                    "priority": 1,
+                    "condition": {
+                      "conditionId": "19c901d1-2197-45ea-a5f4-5c6265a3fdbd",
+                      "conditions": [
+                        {
+                          "conditionId": "ad3e84b9-0680-4cf7-9cd7-f1067d84ef36",
+                          "field": "BGHasCreditFacility",
+                          "operator": "Equal",
+                          "value": "Y"
+                        }
+                      ],
+                      "combinator": "And"
+                    }
+                  }
+                ]
+              },
+              {
+                "ruleId": "5d558849-48c6-4251-81b8-89b18638bde6",
+                "name": "AYDA",
+                "description": "AYDA",
+                "priority": 10,
+                "lastModifiedWhen": "2025-10-20T06:25:41.5999069",
+                "segments": [
+                  {
+                    "segmentRuleId": "78952267-bcf4-4084-b979-5447f7e9648f",
+                    "segmentId": "1f964fe4-4215-45a0-a0ee-8de529e2d278",
+                    "segmentName": "AYDA",
+                    "priority": 1,
+                    "condition": {
+                      "conditionId": "f50902b9-4502-4056-9820-e11da1ebb748",
+                      "conditions": [
+                        {
+                          "conditionId": "b71fbe74-4e78-4cd9-abc9-50d0024f406f",
+                          "field": "ProductType",
+                          "operator": "Equal",
+                          "value": "AYDA"
+                        }
+                      ],
+                      "combinator": "And"
+                    }
+                  }
+                ]
+              },
+              {
+                "ruleId": "2885c43e-39db-4bae-82e1-54decf49cb4e",
+                "name": "Penyertaan",
+                "description": "Penyertaan",
+                "priority": 11,
+                "lastModifiedWhen": "2025-10-20T06:42:06.5899166",
+                "segments": [
+                  {
+                    "segmentRuleId": "035efe92-8084-4cbc-be3d-8535f592be61",
+                    "segmentId": "b24c9722-7a12-498c-b36d-a96d0cd03eff",
+                    "segmentName": "Penyertaan",
+                    "priority": 1,
+                    "condition": {
+                      "conditionId": "e41500ac-5ac2-480e-a492-eff51839adf8",
+                      "conditions": [
+                        {
+                          "conditionId": "d62e5454-b31b-4b9f-8264-10b23d74e75a",
+                          "field": "ProductType",
+                          "operator": "Equal",
+                          "value": "PENYERTAAN"
+                        }
+                      ],
+                      "combinator": "And"
+                    }
+                  }
+                ]
+              }
+            ],
+            "hierarchies": []
+          }
+        }
+      ],
+      "publishRequests": [],
+      "activityExport": {
+        "sourceId": "d1f07ef0-4a3d-4d60-9d3f-e0da73909139",
+        "name": "BSSB Konven - Segmentation Stage Assessment_v1",
+        "path": "models/activities",
+        "file": "activities_sourceId_3909139.json"
+      }
+    }
+  ]
+}

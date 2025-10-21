@@ -1,0 +1,1433 @@
+{
+  "activities": [
+    {
+      "ActivityId": "d1855bb8-52b0-41b9-898b-780b75d3fe08",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "093af890-f5dc-5a28-b994-69a749f71f9d",
+      "Source": "Version",
+      "Action": "CreateVersion",
+      "Description": "Created version 1 of model BSSB Syariah - Level Asessment",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "093af890-f5dc-5a28-b994-69a749f71f9d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "createdWhen": "2025-10-20T13:45:08.6265889",
+          "lastModifiedBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "lastModifiedWhen": "2025-10-20T13:45:08.6265889",
+          "origin": {
+            "origin": {
+              "originType": "Clone",
+              "originVersionId": "3636fb43-1501-4ef2-9e57-f4f612f0c1f4",
+              "originModelId": "3763e799-f939-47e8-985e-7de5b7ae8202",
+              "name": "BSSB Konven - Level Asessment",
+              "version": 1
+            }
+          },
+          "model": {
+            "modelId": "a6932ec3-b687-5400-afd9-e726811df74b",
+            "name": "BSSB Syariah - Level Asessment",
+            "description": "BSSB Syariah - Level Asessment",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T13:45:08.5295495",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T13:45:08.5295495",
+            "objectiveType": {
+              "objectiveTypeId": "f690d7f7-7321-4423-9017-5360a6cbe680",
+              "code": "LevelAssessment",
+              "name": "Level Assessment",
+              "description": "Level Assessment Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          },
+          "segmentation": {
+            "versionId": "2877598e-c69a-4e4d-be20-d02bf88f3bc1",
+            "version": 1,
+            "status": "Draft",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T02:57:10.795548",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T02:58:32.404073",
+            "origin": {
+              "origin": {
+                "originType": "New"
+              }
+            },
+            "model": {
+              "modelId": "93fbdcf5-737f-4976-a141-de998063ac19",
+              "name": "BSSB Konven - Segmentation Level Assessment",
+              "description": "BSSB Konven - Segmentation Level Assessment",
+              "isPrivate": false,
+              "status": "Open",
+              "createdBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "createdWhen": "2025-10-20T02:57:10.795548",
+              "lastModifiedBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "lastModifiedWhen": "2025-10-20T06:56:24.349486",
+              "objectiveType": {
+                "objectiveTypeId": "c84eec4a-5e3d-4e88-bf7f-2c7a22a54d76",
+                "code": "Segmentation",
+                "name": "Segmentation",
+                "description": "Segmentation Model"
+              },
+              "modelType": {
+                "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+                "name": "Simulation",
+                "description": "Model simulation type",
+                "style": {
+                  "border": "solid 1px #36116f",
+                  "backgroundColor": "#563d7c",
+                  "color": "white"
+                }
+              }
+            },
+            "segmentationConfiguration": {
+              "segments": [
+                {
+                  "segmentId": "11bbbad6-75d8-4967-ba52-3705578c4d08",
+                  "name": "All contract konvensional",
+                  "description": "All contract konvensional",
+                  "category": "All contract konvensional",
+                  "lastModifiedWhen": "2025-10-20T02:58:19.2739807"
+                }
+              ],
+              "rules": [
+                {
+                  "ruleId": "9960679d-5d44-4ff1-b9df-6c2f19bbc5b2",
+                  "name": "All contract konvensional",
+                  "description": "All contract konvensional",
+                  "priority": 1,
+                  "lastModifiedWhen": "2025-10-20T02:58:32.4040191",
+                  "segments": [
+                    {
+                      "segmentRuleId": "e839f954-c68b-4ab7-81cb-a012cf2068ef",
+                      "segmentId": "11bbbad6-75d8-4967-ba52-3705578c4d08",
+                      "segmentName": "All contract konvensional",
+                      "priority": 1
+                    }
+                  ]
+                }
+              ],
+              "hierarchies": [],
+              "nodes": [
+                {
+                  "id": "2877598e-c69a-4e4d-be20-d02bf88f3bc1",
+                  "path": "/BSSB Konven - Segmentation Level Assessment",
+                  "name": "BSSB Konven - Segmentation Level Assessment",
+                  "description": "BSSB Konven - Segmentation Level Assessment",
+                  "nodeType": "Model"
+                },
+                {
+                  "id": "11bbbad6-75d8-4967-ba52-3705578c4d08",
+                  "path": "/BSSB Konven - Segmentation Level Assessment/All contract konvensional",
+                  "name": "All contract konvensional",
+                  "description": "All contract konvensional",
+                  "category": "All contract konvensional",
+                  "nodeType": "Segment",
+                  "parentId": "2877598e-c69a-4e4d-be20-d02bf88f3bc1"
+                }
+              ]
+            },
+            "testSuites": {
+              "testSuites": []
+            }
+          },
+          "approaches": {
+            "approaches": [
+              {
+                "approachId": "91152a77-e819-57fa-b0b0-965712713309",
+                "name": "Level Asessment Konven",
+                "description": "Level Asessment Konven",
+                "segments": [
+                  {
+                    "segmentId": "11bbbad6-75d8-4967-ba52-3705578c4d08",
+                    "name": "All contract konvensional"
+                  }
+                ],
+                "lastModifiedWhen": "2025-10-20T03:01:20.759",
+                "rules": [
+                  {
+                    "ruleId": "28d73dff-05e7-517b-a5f7-2071bbd20b68",
+                    "priority": 1,
+                    "name": "Level Asessment Konven",
+                    "description": "Level Asessment Konven",
+                    "ruleCondition": {},
+                    "levels": [
+                      {
+                        "levelId": "fc95ec1f-ad11-5b76-9746-ccf27e7d9685",
+                        "priority": 1,
+                        "levelType": "Individual",
+                        "description": "Individual Impairment",
+                        "levelCondition": {
+                          "combinator": "And",
+                          "conditionId": "285e225c-9b36-5da7-b962-2a6776eaffc7",
+                          "conditions": [
+                            {
+                              "field": "OutstandingAmount",
+                              "operator": "GreaterThan",
+                              "value": "2000000000",
+                              "conditionId": "dbeffd81-bb97-54a3-b97e-6db8e56eba20"
+                            },
+                            {
+                              "field": "IsRestructured",
+                              "operator": "Equal",
+                              "value": "true",
+                              "conditionId": "902bb7ea-5cbf-5fad-ba58-cbc8134a7c46"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "levelId": "4445ee36-5d4c-5183-bdff-5ca02f3d51c3",
+                        "priority": 2,
+                        "levelType": "Collective",
+                        "description": "Collective Impairment",
+                        "levelCondition": {
+                          "combinator": "And",
+                          "conditionId": "6e62f4e3-c2c8-598f-b559-e9e9a79bf4a1",
+                          "conditions": []
+                        }
+                      }
+                    ],
+                    "lastModifiedWhen": "2025-10-20T03:02:59.618"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 13:45:08.529549",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "38ad2d23-21a5-40a3-bb47-b8fcba3a8df1",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "093af890-f5dc-5a28-b994-69a749f71f9d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB Syariah - Level Asessment",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "093af890-f5dc-5a28-b994-69a749f71f9d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "createdWhen": "2025-10-20T13:45:08.626588",
+          "lastModifiedBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "lastModifiedWhen": "2025-10-20T13:45:22.0633667",
+          "origin": {
+            "origin": {
+              "originType": "Clone",
+              "originVersionId": "3636fb43-1501-4ef2-9e57-f4f612f0c1f4",
+              "originModelId": "3763e799-f939-47e8-985e-7de5b7ae8202",
+              "name": "BSSB Konven - Level Asessment",
+              "version": 1
+            }
+          },
+          "model": {
+            "modelId": "a6932ec3-b687-5400-afd9-e726811df74b",
+            "name": "BSSB Syariah - Level Asessment",
+            "description": "BSSB Syariah - Level Asessment",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T13:45:08.529549",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T13:45:22.0633667",
+            "objectiveType": {
+              "objectiveTypeId": "f690d7f7-7321-4423-9017-5360a6cbe680",
+              "code": "LevelAssessment",
+              "name": "Level Assessment",
+              "description": "Level Assessment Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          },
+          "segmentation": {
+            "versionId": "0883f4a1-41b0-5f6a-827f-9b523ba5f5f9",
+            "version": 1,
+            "status": "Draft",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T13:43:38.242476",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T13:43:38.242476",
+            "origin": {
+              "origin": {
+                "originType": "Clone",
+                "originVersionId": "2877598e-c69a-4e4d-be20-d02bf88f3bc1",
+                "originModelId": "93fbdcf5-737f-4976-a141-de998063ac19",
+                "name": "BSSB Konven - Segmentation Level Assessment",
+                "version": 1
+              }
+            },
+            "model": {
+              "modelId": "c2efcbef-4d87-573e-8c06-03951d7155db",
+              "name": "BSSB Syariah - Segmentation Level Assessment",
+              "description": "BSSB Syariah - Segmentation Level Assessment",
+              "isPrivate": false,
+              "status": "Open",
+              "createdBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "createdWhen": "2025-10-20T13:43:38.143028",
+              "lastModifiedBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "lastModifiedWhen": "2025-10-20T13:43:38.143028",
+              "objectiveType": {
+                "objectiveTypeId": "c84eec4a-5e3d-4e88-bf7f-2c7a22a54d76",
+                "code": "Segmentation",
+                "name": "Segmentation",
+                "description": "Segmentation Model"
+              },
+              "modelType": {
+                "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+                "name": "Simulation",
+                "description": "Model simulation type",
+                "style": {
+                  "border": "solid 1px #36116f",
+                  "backgroundColor": "#563d7c",
+                  "color": "white"
+                }
+              }
+            },
+            "segmentationConfiguration": {
+              "segments": [
+                {
+                  "segmentId": "4c037ae8-6860-5fb1-b85b-575f3d9a07b1",
+                  "name": "All contract konvensional",
+                  "description": "All contract konvensional",
+                  "category": "All contract konvensional",
+                  "lastModifiedWhen": "2025-10-20T02:58:19.2739807"
+                }
+              ],
+              "rules": [
+                {
+                  "ruleId": "c39ca274-d36d-588e-bdc6-2772faf9e3a6",
+                  "name": "All contract konvensional",
+                  "description": "All contract konvensional",
+                  "priority": 1,
+                  "lastModifiedWhen": "2025-10-20T02:58:32.4040191",
+                  "segments": [
+                    {
+                      "segmentRuleId": "49b27a55-e8fc-56fd-903a-8b7b0465d7a5",
+                      "segmentId": "4c037ae8-6860-5fb1-b85b-575f3d9a07b1",
+                      "segmentName": "All contract konvensional",
+                      "priority": 1
+                    }
+                  ]
+                }
+              ],
+              "hierarchies": [],
+              "nodes": [
+                {
+                  "id": "0883f4a1-41b0-5f6a-827f-9b523ba5f5f9",
+                  "path": "/BSSB Syariah - Segmentation Level Assessment",
+                  "name": "BSSB Syariah - Segmentation Level Assessment",
+                  "description": "BSSB Syariah - Segmentation Level Assessment",
+                  "nodeType": "Model"
+                },
+                {
+                  "id": "4c037ae8-6860-5fb1-b85b-575f3d9a07b1",
+                  "path": "/BSSB Syariah - Segmentation Level Assessment/All contract konvensional",
+                  "name": "All contract konvensional",
+                  "description": "All contract konvensional",
+                  "category": "All contract konvensional",
+                  "nodeType": "Segment",
+                  "parentId": "0883f4a1-41b0-5f6a-827f-9b523ba5f5f9"
+                }
+              ]
+            },
+            "testSuites": {
+              "testSuites": []
+            }
+          },
+          "approaches": {
+            "approaches": [
+              {
+                "approachId": "91152a77-e819-57fa-b0b0-965712713309",
+                "name": "Level Asessment Konven",
+                "description": "Level Asessment Konven",
+                "segments": [
+                  {
+                    "segmentId": "11bbbad6-75d8-4967-ba52-3705578c4d08"
+                  }
+                ],
+                "lastModifiedWhen": "2025-10-20T03:01:20.759",
+                "rules": [
+                  {
+                    "ruleId": "28d73dff-05e7-517b-a5f7-2071bbd20b68",
+                    "priority": 1,
+                    "name": "Level Asessment Konven",
+                    "description": "Level Asessment Konven",
+                    "ruleCondition": {},
+                    "levels": [
+                      {
+                        "levelId": "fc95ec1f-ad11-5b76-9746-ccf27e7d9685",
+                        "priority": 1,
+                        "levelType": "Individual",
+                        "description": "Individual Impairment",
+                        "levelCondition": {
+                          "combinator": "And",
+                          "conditionId": "285e225c-9b36-5da7-b962-2a6776eaffc7",
+                          "conditions": [
+                            {
+                              "field": "OutstandingAmount",
+                              "operator": "GreaterThan",
+                              "value": "2000000000",
+                              "conditionId": "dbeffd81-bb97-54a3-b97e-6db8e56eba20"
+                            },
+                            {
+                              "field": "IsRestructured",
+                              "operator": "Equal",
+                              "value": "true",
+                              "conditionId": "902bb7ea-5cbf-5fad-ba58-cbc8134a7c46"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "levelId": "4445ee36-5d4c-5183-bdff-5ca02f3d51c3",
+                        "priority": 2,
+                        "levelType": "Collective",
+                        "description": "Collective Impairment",
+                        "levelCondition": {
+                          "combinator": "And",
+                          "conditionId": "6e62f4e3-c2c8-598f-b559-e9e9a79bf4a1",
+                          "conditions": []
+                        }
+                      }
+                    ],
+                    "lastModifiedWhen": "2025-10-20T03:02:59.618"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 13:45:22.082051",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "ba5b3c0b-8d04-4127-90ef-26089b466654",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "093af890-f5dc-5a28-b994-69a749f71f9d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB Syariah - Level Asessment",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "093af890-f5dc-5a28-b994-69a749f71f9d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "createdWhen": "2025-10-20T13:45:08.626588",
+          "lastModifiedBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "lastModifiedWhen": "2025-10-20T13:46:10.2348713",
+          "origin": {
+            "origin": {
+              "originType": "Clone",
+              "originVersionId": "3636fb43-1501-4ef2-9e57-f4f612f0c1f4",
+              "originModelId": "3763e799-f939-47e8-985e-7de5b7ae8202",
+              "name": "BSSB Konven - Level Asessment",
+              "version": 1
+            }
+          },
+          "model": {
+            "modelId": "a6932ec3-b687-5400-afd9-e726811df74b",
+            "name": "BSSB Syariah - Level Asessment",
+            "description": "BSSB Syariah - Level Asessment",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T13:45:08.529549",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T13:46:10.2348713",
+            "objectiveType": {
+              "objectiveTypeId": "f690d7f7-7321-4423-9017-5360a6cbe680",
+              "code": "LevelAssessment",
+              "name": "Level Assessment",
+              "description": "Level Assessment Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          },
+          "segmentation": {
+            "versionId": "0883f4a1-41b0-5f6a-827f-9b523ba5f5f9",
+            "version": 1,
+            "status": "Draft",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T13:43:38.242476",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T13:45:45.313829",
+            "origin": {
+              "origin": {
+                "originType": "Clone",
+                "originVersionId": "2877598e-c69a-4e4d-be20-d02bf88f3bc1",
+                "originModelId": "93fbdcf5-737f-4976-a141-de998063ac19",
+                "name": "BSSB Konven - Segmentation Level Assessment",
+                "version": 1
+              }
+            },
+            "model": {
+              "modelId": "c2efcbef-4d87-573e-8c06-03951d7155db",
+              "name": "BSSB Syariah - Segmentation Level Assessment",
+              "description": "BSSB Syariah - Segmentation Level Assessment",
+              "isPrivate": false,
+              "status": "Open",
+              "createdBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "createdWhen": "2025-10-20T13:43:38.143028",
+              "lastModifiedBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "lastModifiedWhen": "2025-10-20T13:45:45.313829",
+              "objectiveType": {
+                "objectiveTypeId": "c84eec4a-5e3d-4e88-bf7f-2c7a22a54d76",
+                "code": "Segmentation",
+                "name": "Segmentation",
+                "description": "Segmentation Model"
+              },
+              "modelType": {
+                "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+                "name": "Simulation",
+                "description": "Model simulation type",
+                "style": {
+                  "border": "solid 1px #36116f",
+                  "backgroundColor": "#563d7c",
+                  "color": "white"
+                }
+              }
+            },
+            "segmentationConfiguration": {
+              "segments": [
+                {
+                  "segmentId": "4c037ae8-6860-5fb1-b85b-575f3d9a07b1",
+                  "name": "All contract syariah",
+                  "description": "All contract syariah",
+                  "category": "All contract syariah",
+                  "lastModifiedWhen": "2025-10-20T02:58:19.2739807"
+                }
+              ],
+              "rules": [
+                {
+                  "ruleId": "c39ca274-d36d-588e-bdc6-2772faf9e3a6",
+                  "name": "All contract syariah",
+                  "description": "All contract syariah",
+                  "priority": 1,
+                  "lastModifiedWhen": "2025-10-20T13:45:45.3137701",
+                  "segments": [
+                    {
+                      "segmentRuleId": "49b27a55-e8fc-56fd-903a-8b7b0465d7a5",
+                      "segmentId": "4c037ae8-6860-5fb1-b85b-575f3d9a07b1",
+                      "segmentName": "All contract konvensional",
+                      "priority": 1
+                    }
+                  ]
+                }
+              ],
+              "hierarchies": [],
+              "nodes": [
+                {
+                  "id": "0883f4a1-41b0-5f6a-827f-9b523ba5f5f9",
+                  "path": "/BSSB Syariah - Segmentation Level Assessment",
+                  "name": "BSSB Syariah - Segmentation Level Assessment",
+                  "description": "BSSB Syariah - Segmentation Level Assessment",
+                  "nodeType": "Model"
+                },
+                {
+                  "id": "4c037ae8-6860-5fb1-b85b-575f3d9a07b1",
+                  "path": "/BSSB Syariah - Segmentation Level Assessment/All contract syariah",
+                  "name": "All contract syariah",
+                  "description": "All contract syariah",
+                  "category": "All contract syariah",
+                  "nodeType": "Segment",
+                  "parentId": "0883f4a1-41b0-5f6a-827f-9b523ba5f5f9"
+                }
+              ]
+            },
+            "testSuites": {
+              "testSuites": []
+            }
+          },
+          "approaches": {
+            "approaches": [
+              {
+                "approachId": "91152a77-e819-57fa-b0b0-965712713309",
+                "name": "Level Asessment Konven",
+                "description": "Level Asessment Konven",
+                "segments": [
+                  {
+                    "segmentId": "4c037ae8-6860-5fb1-b85b-575f3d9a07b1",
+                    "name": "All contract syariah"
+                  }
+                ],
+                "lastModifiedWhen": "2025-10-20T03:01:20.759",
+                "rules": [
+                  {
+                    "ruleId": "28d73dff-05e7-517b-a5f7-2071bbd20b68",
+                    "priority": 1,
+                    "name": "Level Asessment Konven",
+                    "description": "Level Asessment Konven",
+                    "ruleCondition": {},
+                    "levels": [
+                      {
+                        "levelId": "fc95ec1f-ad11-5b76-9746-ccf27e7d9685",
+                        "priority": 1,
+                        "levelType": "Individual",
+                        "description": "Individual Impairment",
+                        "levelCondition": {
+                          "combinator": "And",
+                          "conditionId": "285e225c-9b36-5da7-b962-2a6776eaffc7",
+                          "conditions": [
+                            {
+                              "field": "OutstandingAmount",
+                              "operator": "GreaterThan",
+                              "value": "2000000000",
+                              "conditionId": "dbeffd81-bb97-54a3-b97e-6db8e56eba20"
+                            },
+                            {
+                              "field": "IsRestructured",
+                              "operator": "Equal",
+                              "value": "true",
+                              "conditionId": "902bb7ea-5cbf-5fad-ba58-cbc8134a7c46"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "levelId": "4445ee36-5d4c-5183-bdff-5ca02f3d51c3",
+                        "priority": 2,
+                        "levelType": "Collective",
+                        "description": "Collective Impairment",
+                        "levelCondition": {
+                          "combinator": "And",
+                          "conditionId": "6e62f4e3-c2c8-598f-b559-e9e9a79bf4a1",
+                          "conditions": []
+                        }
+                      }
+                    ],
+                    "lastModifiedWhen": "2025-10-20T03:02:59.618"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 13:46:10.253695",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "6573cf10-6503-49a3-bd2e-45cd0e23c56c",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "093af890-f5dc-5a28-b994-69a749f71f9d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB Syariah - Level Asessment",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "093af890-f5dc-5a28-b994-69a749f71f9d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "createdWhen": "2025-10-20T13:45:08.626588",
+          "lastModifiedBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "lastModifiedWhen": "2025-10-20T13:46:17.7651736",
+          "origin": {
+            "origin": {
+              "originType": "Clone",
+              "originVersionId": "3636fb43-1501-4ef2-9e57-f4f612f0c1f4",
+              "originModelId": "3763e799-f939-47e8-985e-7de5b7ae8202",
+              "name": "BSSB Konven - Level Asessment",
+              "version": 1
+            }
+          },
+          "model": {
+            "modelId": "a6932ec3-b687-5400-afd9-e726811df74b",
+            "name": "BSSB Syariah - Level Asessment",
+            "description": "BSSB Syariah - Level Asessment",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T13:45:08.529549",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T13:46:17.7651736",
+            "objectiveType": {
+              "objectiveTypeId": "f690d7f7-7321-4423-9017-5360a6cbe680",
+              "code": "LevelAssessment",
+              "name": "Level Assessment",
+              "description": "Level Assessment Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          },
+          "segmentation": {
+            "versionId": "0883f4a1-41b0-5f6a-827f-9b523ba5f5f9",
+            "version": 1,
+            "status": "Draft",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T13:43:38.242476",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T13:45:45.313829",
+            "origin": {
+              "origin": {
+                "originType": "Clone",
+                "originVersionId": "2877598e-c69a-4e4d-be20-d02bf88f3bc1",
+                "originModelId": "93fbdcf5-737f-4976-a141-de998063ac19",
+                "name": "BSSB Konven - Segmentation Level Assessment",
+                "version": 1
+              }
+            },
+            "model": {
+              "modelId": "c2efcbef-4d87-573e-8c06-03951d7155db",
+              "name": "BSSB Syariah - Segmentation Level Assessment",
+              "description": "BSSB Syariah - Segmentation Level Assessment",
+              "isPrivate": false,
+              "status": "Open",
+              "createdBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "createdWhen": "2025-10-20T13:43:38.143028",
+              "lastModifiedBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "lastModifiedWhen": "2025-10-20T13:45:45.313829",
+              "objectiveType": {
+                "objectiveTypeId": "c84eec4a-5e3d-4e88-bf7f-2c7a22a54d76",
+                "code": "Segmentation",
+                "name": "Segmentation",
+                "description": "Segmentation Model"
+              },
+              "modelType": {
+                "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+                "name": "Simulation",
+                "description": "Model simulation type",
+                "style": {
+                  "border": "solid 1px #36116f",
+                  "backgroundColor": "#563d7c",
+                  "color": "white"
+                }
+              }
+            },
+            "segmentationConfiguration": {
+              "segments": [
+                {
+                  "segmentId": "4c037ae8-6860-5fb1-b85b-575f3d9a07b1",
+                  "name": "All contract syariah",
+                  "description": "All contract syariah",
+                  "category": "All contract syariah",
+                  "lastModifiedWhen": "2025-10-20T02:58:19.2739807"
+                }
+              ],
+              "rules": [
+                {
+                  "ruleId": "c39ca274-d36d-588e-bdc6-2772faf9e3a6",
+                  "name": "All contract syariah",
+                  "description": "All contract syariah",
+                  "priority": 1,
+                  "lastModifiedWhen": "2025-10-20T13:45:45.3137701",
+                  "segments": [
+                    {
+                      "segmentRuleId": "49b27a55-e8fc-56fd-903a-8b7b0465d7a5",
+                      "segmentId": "4c037ae8-6860-5fb1-b85b-575f3d9a07b1",
+                      "segmentName": "All contract konvensional",
+                      "priority": 1
+                    }
+                  ]
+                }
+              ],
+              "hierarchies": [],
+              "nodes": [
+                {
+                  "id": "0883f4a1-41b0-5f6a-827f-9b523ba5f5f9",
+                  "path": "/BSSB Syariah - Segmentation Level Assessment",
+                  "name": "BSSB Syariah - Segmentation Level Assessment",
+                  "description": "BSSB Syariah - Segmentation Level Assessment",
+                  "nodeType": "Model"
+                },
+                {
+                  "id": "4c037ae8-6860-5fb1-b85b-575f3d9a07b1",
+                  "path": "/BSSB Syariah - Segmentation Level Assessment/All contract syariah",
+                  "name": "All contract syariah",
+                  "description": "All contract syariah",
+                  "category": "All contract syariah",
+                  "nodeType": "Segment",
+                  "parentId": "0883f4a1-41b0-5f6a-827f-9b523ba5f5f9"
+                }
+              ]
+            },
+            "testSuites": {
+              "testSuites": []
+            }
+          },
+          "approaches": {
+            "approaches": [
+              {
+                "approachId": "91152a77-e819-57fa-b0b0-965712713309",
+                "name": "Level Asessment Konven",
+                "description": "Level Asessment Konven",
+                "segments": [
+                  {
+                    "segmentId": "4c037ae8-6860-5fb1-b85b-575f3d9a07b1",
+                    "name": "All contract syariah"
+                  }
+                ],
+                "lastModifiedWhen": "2025-10-20T03:01:20.759",
+                "rules": [
+                  {
+                    "ruleId": "28d73dff-05e7-517b-a5f7-2071bbd20b68",
+                    "priority": 1,
+                    "name": "Level Asessment Syariah",
+                    "description": "Level Asessment Konven",
+                    "ruleCondition": {},
+                    "levels": [
+                      {
+                        "levelId": "fc95ec1f-ad11-5b76-9746-ccf27e7d9685",
+                        "priority": 1,
+                        "levelType": "Individual",
+                        "description": "Individual Impairment",
+                        "levelCondition": {
+                          "combinator": "And",
+                          "conditionId": "285e225c-9b36-5da7-b962-2a6776eaffc7",
+                          "conditions": [
+                            {
+                              "field": "OutstandingAmount",
+                              "operator": "GreaterThan",
+                              "value": "2000000000",
+                              "conditionId": "dbeffd81-bb97-54a3-b97e-6db8e56eba20"
+                            },
+                            {
+                              "field": "IsRestructured",
+                              "operator": "Equal",
+                              "value": "true",
+                              "conditionId": "902bb7ea-5cbf-5fad-ba58-cbc8134a7c46"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "levelId": "4445ee36-5d4c-5183-bdff-5ca02f3d51c3",
+                        "priority": 2,
+                        "levelType": "Collective",
+                        "description": "Collective Impairment",
+                        "levelCondition": {
+                          "combinator": "And",
+                          "conditionId": "6e62f4e3-c2c8-598f-b559-e9e9a79bf4a1",
+                          "conditions": []
+                        }
+                      }
+                    ],
+                    "lastModifiedWhen": "2025-10-20T13:46:17.478"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 13:46:17.783963",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "af1541c8-6706-47df-8b08-b5be4e365477",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "093af890-f5dc-5a28-b994-69a749f71f9d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB Syariah - Level Asessment",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "093af890-f5dc-5a28-b994-69a749f71f9d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "createdWhen": "2025-10-20T13:45:08.626588",
+          "lastModifiedBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "lastModifiedWhen": "2025-10-20T13:46:26.2146871",
+          "origin": {
+            "origin": {
+              "originType": "Clone",
+              "originVersionId": "3636fb43-1501-4ef2-9e57-f4f612f0c1f4",
+              "originModelId": "3763e799-f939-47e8-985e-7de5b7ae8202",
+              "name": "BSSB Konven - Level Asessment",
+              "version": 1
+            }
+          },
+          "model": {
+            "modelId": "a6932ec3-b687-5400-afd9-e726811df74b",
+            "name": "BSSB Syariah - Level Asessment",
+            "description": "BSSB Syariah - Level Asessment",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T13:45:08.529549",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T13:46:26.2146871",
+            "objectiveType": {
+              "objectiveTypeId": "f690d7f7-7321-4423-9017-5360a6cbe680",
+              "code": "LevelAssessment",
+              "name": "Level Assessment",
+              "description": "Level Assessment Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          },
+          "segmentation": {
+            "versionId": "0883f4a1-41b0-5f6a-827f-9b523ba5f5f9",
+            "version": 1,
+            "status": "Draft",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T13:43:38.242476",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T13:45:45.313829",
+            "origin": {
+              "origin": {
+                "originType": "Clone",
+                "originVersionId": "2877598e-c69a-4e4d-be20-d02bf88f3bc1",
+                "originModelId": "93fbdcf5-737f-4976-a141-de998063ac19",
+                "name": "BSSB Konven - Segmentation Level Assessment",
+                "version": 1
+              }
+            },
+            "model": {
+              "modelId": "c2efcbef-4d87-573e-8c06-03951d7155db",
+              "name": "BSSB Syariah - Segmentation Level Assessment",
+              "description": "BSSB Syariah - Segmentation Level Assessment",
+              "isPrivate": false,
+              "status": "Open",
+              "createdBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "createdWhen": "2025-10-20T13:43:38.143028",
+              "lastModifiedBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "lastModifiedWhen": "2025-10-20T13:45:45.313829",
+              "objectiveType": {
+                "objectiveTypeId": "c84eec4a-5e3d-4e88-bf7f-2c7a22a54d76",
+                "code": "Segmentation",
+                "name": "Segmentation",
+                "description": "Segmentation Model"
+              },
+              "modelType": {
+                "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+                "name": "Simulation",
+                "description": "Model simulation type",
+                "style": {
+                  "border": "solid 1px #36116f",
+                  "backgroundColor": "#563d7c",
+                  "color": "white"
+                }
+              }
+            },
+            "segmentationConfiguration": {
+              "segments": [
+                {
+                  "segmentId": "4c037ae8-6860-5fb1-b85b-575f3d9a07b1",
+                  "name": "All contract syariah",
+                  "description": "All contract syariah",
+                  "category": "All contract syariah",
+                  "lastModifiedWhen": "2025-10-20T02:58:19.2739807"
+                }
+              ],
+              "rules": [
+                {
+                  "ruleId": "c39ca274-d36d-588e-bdc6-2772faf9e3a6",
+                  "name": "All contract syariah",
+                  "description": "All contract syariah",
+                  "priority": 1,
+                  "lastModifiedWhen": "2025-10-20T13:45:45.3137701",
+                  "segments": [
+                    {
+                      "segmentRuleId": "49b27a55-e8fc-56fd-903a-8b7b0465d7a5",
+                      "segmentId": "4c037ae8-6860-5fb1-b85b-575f3d9a07b1",
+                      "segmentName": "All contract konvensional",
+                      "priority": 1
+                    }
+                  ]
+                }
+              ],
+              "hierarchies": [],
+              "nodes": [
+                {
+                  "id": "0883f4a1-41b0-5f6a-827f-9b523ba5f5f9",
+                  "path": "/BSSB Syariah - Segmentation Level Assessment",
+                  "name": "BSSB Syariah - Segmentation Level Assessment",
+                  "description": "BSSB Syariah - Segmentation Level Assessment",
+                  "nodeType": "Model"
+                },
+                {
+                  "id": "4c037ae8-6860-5fb1-b85b-575f3d9a07b1",
+                  "path": "/BSSB Syariah - Segmentation Level Assessment/All contract syariah",
+                  "name": "All contract syariah",
+                  "description": "All contract syariah",
+                  "category": "All contract syariah",
+                  "nodeType": "Segment",
+                  "parentId": "0883f4a1-41b0-5f6a-827f-9b523ba5f5f9"
+                }
+              ]
+            },
+            "testSuites": {
+              "testSuites": []
+            }
+          },
+          "approaches": {
+            "approaches": [
+              {
+                "approachId": "91152a77-e819-57fa-b0b0-965712713309",
+                "name": "Level Asessment Konven",
+                "description": "Level Asessment Konven",
+                "segments": [
+                  {
+                    "segmentId": "4c037ae8-6860-5fb1-b85b-575f3d9a07b1",
+                    "name": "All contract syariah"
+                  }
+                ],
+                "lastModifiedWhen": "2025-10-20T03:01:20.759",
+                "rules": [
+                  {
+                    "ruleId": "28d73dff-05e7-517b-a5f7-2071bbd20b68",
+                    "priority": 1,
+                    "name": "Level Asessment Syariah",
+                    "description": "Level Asessment Syariah",
+                    "ruleCondition": {},
+                    "levels": [
+                      {
+                        "levelId": "fc95ec1f-ad11-5b76-9746-ccf27e7d9685",
+                        "priority": 1,
+                        "levelType": "Individual",
+                        "description": "Individual Impairment",
+                        "levelCondition": {
+                          "combinator": "And",
+                          "conditionId": "285e225c-9b36-5da7-b962-2a6776eaffc7",
+                          "conditions": [
+                            {
+                              "field": "OutstandingAmount",
+                              "operator": "GreaterThan",
+                              "value": "2000000000",
+                              "conditionId": "dbeffd81-bb97-54a3-b97e-6db8e56eba20"
+                            },
+                            {
+                              "field": "IsRestructured",
+                              "operator": "Equal",
+                              "value": "true",
+                              "conditionId": "902bb7ea-5cbf-5fad-ba58-cbc8134a7c46"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "levelId": "4445ee36-5d4c-5183-bdff-5ca02f3d51c3",
+                        "priority": 2,
+                        "levelType": "Collective",
+                        "description": "Collective Impairment",
+                        "levelCondition": {
+                          "combinator": "And",
+                          "conditionId": "6e62f4e3-c2c8-598f-b559-e9e9a79bf4a1",
+                          "conditions": []
+                        }
+                      }
+                    ],
+                    "lastModifiedWhen": "2025-10-20T13:46:25.922"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 13:46:26.234517",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "8fd0397a-99ed-4e72-aa66-4ee52dc18137",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "093af890-f5dc-5a28-b994-69a749f71f9d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB Syariah - Level Asessment",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "093af890-f5dc-5a28-b994-69a749f71f9d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "createdWhen": "2025-10-20T13:45:08.626588",
+          "lastModifiedBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "lastModifiedWhen": "2025-10-20T13:46:48.5662696",
+          "origin": {
+            "origin": {
+              "originType": "Clone",
+              "originVersionId": "3636fb43-1501-4ef2-9e57-f4f612f0c1f4",
+              "originModelId": "3763e799-f939-47e8-985e-7de5b7ae8202",
+              "name": "BSSB Konven - Level Asessment",
+              "version": 1
+            }
+          },
+          "model": {
+            "modelId": "a6932ec3-b687-5400-afd9-e726811df74b",
+            "name": "BSSB Syariah - Level Asessment",
+            "description": "BSSB Syariah - Level Asessment",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T13:45:08.529549",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T13:46:48.5662696",
+            "objectiveType": {
+              "objectiveTypeId": "f690d7f7-7321-4423-9017-5360a6cbe680",
+              "code": "LevelAssessment",
+              "name": "Level Assessment",
+              "description": "Level Assessment Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          },
+          "segmentation": {
+            "versionId": "0883f4a1-41b0-5f6a-827f-9b523ba5f5f9",
+            "version": 1,
+            "status": "Draft",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T13:43:38.242476",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T13:45:45.313829",
+            "origin": {
+              "origin": {
+                "originType": "Clone",
+                "originVersionId": "2877598e-c69a-4e4d-be20-d02bf88f3bc1",
+                "originModelId": "93fbdcf5-737f-4976-a141-de998063ac19",
+                "name": "BSSB Konven - Segmentation Level Assessment",
+                "version": 1
+              }
+            },
+            "model": {
+              "modelId": "c2efcbef-4d87-573e-8c06-03951d7155db",
+              "name": "BSSB Syariah - Segmentation Level Assessment",
+              "description": "BSSB Syariah - Segmentation Level Assessment",
+              "isPrivate": false,
+              "status": "Open",
+              "createdBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "createdWhen": "2025-10-20T13:43:38.143028",
+              "lastModifiedBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "lastModifiedWhen": "2025-10-20T13:45:45.313829",
+              "objectiveType": {
+                "objectiveTypeId": "c84eec4a-5e3d-4e88-bf7f-2c7a22a54d76",
+                "code": "Segmentation",
+                "name": "Segmentation",
+                "description": "Segmentation Model"
+              },
+              "modelType": {
+                "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+                "name": "Simulation",
+                "description": "Model simulation type",
+                "style": {
+                  "border": "solid 1px #36116f",
+                  "backgroundColor": "#563d7c",
+                  "color": "white"
+                }
+              }
+            },
+            "segmentationConfiguration": {
+              "segments": [
+                {
+                  "segmentId": "4c037ae8-6860-5fb1-b85b-575f3d9a07b1",
+                  "name": "All contract syariah",
+                  "description": "All contract syariah",
+                  "category": "All contract syariah",
+                  "lastModifiedWhen": "2025-10-20T02:58:19.2739807"
+                }
+              ],
+              "rules": [
+                {
+                  "ruleId": "c39ca274-d36d-588e-bdc6-2772faf9e3a6",
+                  "name": "All contract syariah",
+                  "description": "All contract syariah",
+                  "priority": 1,
+                  "lastModifiedWhen": "2025-10-20T13:45:45.3137701",
+                  "segments": [
+                    {
+                      "segmentRuleId": "49b27a55-e8fc-56fd-903a-8b7b0465d7a5",
+                      "segmentId": "4c037ae8-6860-5fb1-b85b-575f3d9a07b1",
+                      "segmentName": "All contract konvensional",
+                      "priority": 1
+                    }
+                  ]
+                }
+              ],
+              "hierarchies": [],
+              "nodes": [
+                {
+                  "id": "0883f4a1-41b0-5f6a-827f-9b523ba5f5f9",
+                  "path": "/BSSB Syariah - Segmentation Level Assessment",
+                  "name": "BSSB Syariah - Segmentation Level Assessment",
+                  "description": "BSSB Syariah - Segmentation Level Assessment",
+                  "nodeType": "Model"
+                },
+                {
+                  "id": "4c037ae8-6860-5fb1-b85b-575f3d9a07b1",
+                  "path": "/BSSB Syariah - Segmentation Level Assessment/All contract syariah",
+                  "name": "All contract syariah",
+                  "description": "All contract syariah",
+                  "category": "All contract syariah",
+                  "nodeType": "Segment",
+                  "parentId": "0883f4a1-41b0-5f6a-827f-9b523ba5f5f9"
+                }
+              ]
+            },
+            "testSuites": {
+              "testSuites": []
+            }
+          },
+          "approaches": {
+            "approaches": [
+              {
+                "approachId": "91152a77-e819-57fa-b0b0-965712713309",
+                "name": "Level Asessment Syariah",
+                "description": "Level Asessment Syariah\n",
+                "segments": [
+                  {
+                    "segmentId": "4c037ae8-6860-5fb1-b85b-575f3d9a07b1",
+                    "name": "All contract syariah"
+                  }
+                ],
+                "lastModifiedWhen": "2025-10-20T13:46:48.264",
+                "rules": [
+                  {
+                    "ruleId": "28d73dff-05e7-517b-a5f7-2071bbd20b68",
+                    "priority": 1,
+                    "name": "Level Asessment Syariah",
+                    "description": "Level Asessment Syariah",
+                    "ruleCondition": {},
+                    "levels": [
+                      {
+                        "levelId": "fc95ec1f-ad11-5b76-9746-ccf27e7d9685",
+                        "priority": 1,
+                        "levelType": "Individual",
+                        "description": "Individual Impairment",
+                        "levelCondition": {
+                          "combinator": "And",
+                          "conditionId": "285e225c-9b36-5da7-b962-2a6776eaffc7",
+                          "conditions": [
+                            {
+                              "field": "OutstandingAmount",
+                              "operator": "GreaterThan",
+                              "value": "2000000000",
+                              "conditionId": "dbeffd81-bb97-54a3-b97e-6db8e56eba20"
+                            },
+                            {
+                              "field": "IsRestructured",
+                              "operator": "Equal",
+                              "value": "true",
+                              "conditionId": "902bb7ea-5cbf-5fad-ba58-cbc8134a7c46"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "levelId": "4445ee36-5d4c-5183-bdff-5ca02f3d51c3",
+                        "priority": 2,
+                        "levelType": "Collective",
+                        "description": "Collective Impairment",
+                        "levelCondition": {
+                          "combinator": "And",
+                          "conditionId": "6e62f4e3-c2c8-598f-b559-e9e9a79bf4a1",
+                          "conditions": []
+                        }
+                      }
+                    ],
+                    "lastModifiedWhen": "2025-10-20T13:46:25.922"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 13:46:48.584958",
+      "ImpersonatedUserId": null
+    }
+  ]
+}

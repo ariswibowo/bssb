@@ -1,0 +1,117 @@
+{
+  "ModelId": "ec9978b1-7cc1-5fb7-8a62-a7fad7732dbb",
+  "DomainId": "53b12633-0d4d-4879-a3c7-68a0f73ffe45",
+  "Name": "BBSB Syariah - EAD Outstanding Amount",
+  "Description": "BBSB Syariah - EAD Outstanding Amount",
+  "ModelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+  "ObjectiveTypeId": "5ad5186f-c43b-4711-8f25-287818b09bcf",
+  "ParentDeckId": null,
+  "IsPrivate": false,
+  "Status": "Open",
+  "Data": {
+    "deletionProtection": {
+      "enabled": false
+    }
+  },
+  "LatestVersionId": "aef6a11d-00a6-547f-a5a1-5792551cf4c4",
+  "LatestVersion": 1,
+  "LatestStatus": "Draft",
+  "LatestErrors": null,
+  "LatestWarnings": null,
+  "LatestValidatedWhen": null,
+  "PublishedVersions": 0,
+  "ArchivedBy": null,
+  "ArchivedWhen": null,
+  "CreatedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+  "CreatedWhen": "2025-10-20 14:16:34.967975",
+  "LastModifiedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+  "LastModifiedWhen": "2025-10-20 14:17:05.155821",
+  "ObjectiveTypeCode": "Ead",
+  "ModelTypeName": "Simulation",
+  "activityExport": {
+    "sourceId": "ec9978b1-7cc1-5fb7-8a62-a7fad7732dbb",
+    "name": "BBSB Syariah - EAD Outstanding Amount",
+    "path": "models/activities",
+    "file": "activities_sourceId_7732dbb.json"
+  },
+  "versions": [
+    {
+      "VersionId": "aef6a11d-00a6-547f-a5a1-5792551cf4c4",
+      "ModelId": "ec9978b1-7cc1-5fb7-8a62-a7fad7732dbb",
+      "Version": 1,
+      "Description": "Initial Version",
+      "Status": "Draft",
+      "PublishedBy": null,
+      "PublishedWhen": null,
+      "PublishComments": null,
+      "ExpiryDate": null,
+      "ArchivedBy": null,
+      "ArchivedWhen": null,
+      "ConcurrencyId": "abda22cc-bef6-4885-9786-b8d2f84746c8",
+      "CreatedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "CreatedWhen": "2025-10-20 14:16:35.071728",
+      "LastModifiedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "LastModifiedWhen": "2025-10-20 14:17:05.155821",
+      "versionProps": [
+        {
+          "VersionPropId": "d4753f31-2686-4b14-afd9-f7a3b41652aa",
+          "VersionId": "aef6a11d-00a6-547f-a5a1-5792551cf4c4",
+          "Key": "Origin",
+          "Value": {
+            "origin": {
+              "originType": "Clone",
+              "originVersionId": "4bb757f2-62c3-43b2-bde0-6a89966644ba",
+              "originModelId": "76d254d3-5928-42d4-a4a4-d425ccee3e93",
+              "name": "BBSB Konven - EAD Outstanding Amount",
+              "version": 1
+            }
+          }
+        },
+        {
+          "VersionPropId": "0c2e3f65-f755-594a-94de-933f30fb2488",
+          "VersionId": "aef6a11d-00a6-547f-a5a1-5792551cf4c4",
+          "Key": "General",
+          "Value": {
+            "segmentationVersionId": "7df848ec-81f5-5a88-93c3-16365a1a5c6b"
+          }
+        },
+        {
+          "VersionPropId": "38facbfd-f8a6-50f7-8545-8ad7a37ab411",
+          "VersionId": "aef6a11d-00a6-547f-a5a1-5792551cf4c4",
+          "Key": "Approaches",
+          "Value": {
+            "approaches": [
+              {
+                "approachId": "e56a0e8b-7644-5107-a525-2429b159efa4",
+                "name": "EAD Remaining Outstanding Amount",
+                "description": "EAD Remaining Outstanding Amount",
+                "approachType": "SingleMethod",
+                "segments": [
+                  {
+                    "segmentId": "aad32a87-20d2-535c-a499-63af45758acc"
+                  }
+                ],
+                "method": {
+                  "methodId": "047911d1-f6d0-5ee6-8149-a4b85e609650",
+                  "calcMethodId": "52d6d46f-e388-45b1-aa2f-6925985c5a82",
+                  "configuration": {
+                    "termStructure": {
+                      "termStructureType": "Monthly"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "publishRequests": [],
+      "activityExport": {
+        "sourceId": "aef6a11d-00a6-547f-a5a1-5792551cf4c4",
+        "name": "BBSB Syariah - EAD Outstanding Amount_v1",
+        "path": "models/activities",
+        "file": "activities_sourceId_51cf4c4.json"
+      }
+    }
+  ]
+}

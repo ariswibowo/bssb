@@ -1,0 +1,15 @@
+{
+  "activities": [
+    {
+      "ActivityId": "ea1beb07-5ba4-4cd4-ac15-34912f0e7a9b",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "ecf76b73-1084-4910-8b67-3aea9b9c9ef1",
+      "Source": "Model",
+      "Action": "CreateModel",
+      "Description": "Created model BSSB Konven - Historical LGD",
+      "Trace": null,
+      "Timestamp": "2025-10-20 07:19:02.509961",
+      "ImpersonatedUserId": null
+    }
+  ]
+}

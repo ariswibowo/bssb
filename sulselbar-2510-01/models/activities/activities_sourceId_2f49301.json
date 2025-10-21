@@ -1,0 +1,48 @@
+{
+  "activities": [
+    {
+      "ActivityId": "5cd8f746-1ab1-4f90-99f5-c22f433a64e9",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "425af519-cb2b-42fa-8575-062dd2f49301",
+      "Source": "Model",
+      "Action": "CreateModel",
+      "Description": "Created model BSSB Konvensional Stage Assessment",
+      "Trace": null,
+      "Timestamp": "2025-10-20 03:15:36.972881",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "c6da2468-b185-442a-b8d3-d5d5de032ca7",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "425af519-cb2b-42fa-8575-062dd2f49301",
+      "Source": "Model",
+      "Action": "UpdateModel",
+      "Description": "Updated model BSSB - Konvensional Stage Assessment",
+      "Trace": null,
+      "Timestamp": "2025-10-20 04:28:52.297778",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "f98221b7-8c75-47af-9f4e-b040e5988528",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "425af519-cb2b-42fa-8575-062dd2f49301",
+      "Source": "Model",
+      "Action": "UpdateModel",
+      "Description": "Updated model BSSB - Segmentation Stage Assessment - Konven",
+      "Trace": null,
+      "Timestamp": "2025-10-20 06:52:01.690275",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "dcc91bdd-f39a-4be3-9051-4d7823f41038",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "425af519-cb2b-42fa-8575-062dd2f49301",
+      "Source": "Model",
+      "Action": "UpdateModel",
+      "Description": "Updated model BSSB Konven - Segmentation Stage Assessment",
+      "Trace": null,
+      "Timestamp": "2025-10-20 06:56:58.489897",
+      "ImpersonatedUserId": null
+    }
+  ]
+}

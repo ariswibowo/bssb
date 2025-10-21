@@ -1,0 +1,28 @@
+{
+  "users": {
+    "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649": {
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "Username": "Admin",
+      "AvatarName": "avatar-d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649-8552cd63.png"
+    },
+    "b9cbafc1-b7ba-4dda-b28c-cbe24fba3055": {
+      "UserId": "b9cbafc1-b7ba-4dda-b28c-cbe24fba3055",
+      "Username": "EmpyreanAppUser",
+      "AvatarName": "avatar-b9cbafc1-b7ba-4dda-b28c-cbe24fba3055-ec05d4ac.png"
+    }
+  },
+  "teams": {
+    "afd9b401-e4a6-4ee5-b9d4-7b87d44bcdc8": {
+      "TeamId": "afd9b401-e4a6-4ee5-b9d4-7b87d44bcdc8",
+      "Name": "Elysian Application Users"
+    },
+    "ea2d9c71-83a2-4560-b43a-bab1ea63d32b": {
+      "TeamId": "ea2d9c71-83a2-4560-b43a-bab1ea63d32b",
+      "Name": "System Administrators"
+    },
+    "8af1e7a1-d465-4c7d-9b46-691169ddd443": {
+      "TeamId": "8af1e7a1-d465-4c7d-9b46-691169ddd443",
+      "Name": "Everyone"
+    }
+  }
+}

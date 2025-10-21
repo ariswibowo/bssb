@@ -1,0 +1,162 @@
+{
+  "PolicyId": "7a2cc994-3a6d-47b0-9a4a-dee16917e891",
+  "PolicyType": "RuleProps",
+  "ActivePolicy": {
+    "objectiveTypes": [
+      {
+        "objectiveType": "StageAssessment",
+        "properties": [
+          {
+            "name": "Currency",
+            "label": "Currency",
+            "type": "string",
+            "length": "3"
+          },
+          {
+            "name": "Entity",
+            "label": "Entity",
+            "type": "string",
+            "length": "50"
+          },
+          {
+            "name": "ProfitCentre",
+            "label": "Profit Centre",
+            "type": "string",
+            "length": "50"
+          },
+          {
+            "name": "Branch",
+            "label": "Branch",
+            "type": "string",
+            "length": "50"
+          },
+          {
+            "name": "BusinessUnit",
+            "label": "Business Unit",
+            "type": "string",
+            "length": "50"
+          },
+          {
+            "name": "Segment",
+            "label": "Segment",
+            "type": "string",
+            "length": "30"
+          },
+          {
+            "name": "ProductType",
+            "label": "Product Type",
+            "type": "string",
+            "length": "20"
+          },
+          {
+            "name": "ProductSubtype",
+            "label": "Product Subtype",
+            "type": "string",
+            "length": "20"
+          },
+          {
+            "name": "MaturityDate",
+            "label": "Maturity Date",
+            "type": "date",
+            "length": "10"
+          },
+          {
+            "name": "IsSecured",
+            "label": "Is Secured",
+            "type": "boolean",
+            "length": "1"
+          },
+          {
+            "name": "CollateralType",
+            "label": "Collateral Type",
+            "type": "string",
+            "length": "50"
+          },
+          {
+            "name": "CreditRating",
+            "label": "Credit Rating",
+            "type": "string",
+            "length": "50"
+          },
+          {
+            "name": "CreditRatingAgency",
+            "label": "Credit Rating Agency",
+            "type": "string",
+            "length": "50"
+          },
+          {
+            "name": "InternalRiskRating",
+            "label": "Internal Risk Rating",
+            "type": "string",
+            "length": "50"
+          },
+          {
+            "name": "ExternalRiskRating",
+            "label": "External Risk Rating",
+            "type": "string",
+            "length": "50"
+          },
+          {
+            "name": "RatingAgency",
+            "label": "Rating Agency",
+            "type": "string",
+            "length": "50"
+          },
+          {
+            "name": "DaysPastDue",
+            "label": "Days Past Due",
+            "type": "integer",
+            "length": "10"
+          },
+          {
+            "name": "MonthsOnBook",
+            "label": "Months On Book",
+            "type": "integer",
+            "length": "10"
+          },
+          {
+            "name": "InitialPd",
+            "label": "Initial PD",
+            "type": "double",
+            "length": "30"
+          },
+          {
+            "name": "CurrentPd",
+            "label": "Current PD",
+            "type": "double",
+            "length": "30"
+          },
+          {
+            "name": "Collectibility",
+            "label": "Collectibility",
+            "type": "string",
+            "length": "50"
+          },
+          {
+            "name": "DeliveredStage",
+            "label": "Delivered Stage",
+            "type": "integer",
+            "length": "10"
+          },
+          {
+            "name": "MaxDaysPastDueFacilities",
+            "label": "Max Days Past Due Facilities",
+            "type": "integer",
+            "length": "4"
+          },
+          {
+            "name": "IsRestructured",
+            "label": "Restructured Flag",
+            "type": "boolean"
+          },
+          {
+            "name": "MatureInd",
+            "label": "MatureInd",
+            "type": "string",
+            "length": "50"
+          }
+        ]
+      }
+    ]
+  }
+}

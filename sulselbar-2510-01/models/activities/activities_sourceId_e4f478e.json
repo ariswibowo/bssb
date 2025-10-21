@@ -1,0 +1,15 @@
+{
+  "activities": [
+    {
+      "ActivityId": "7eba85af-3c3d-4b4f-ac23-c63453db8b63",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "87d26ba1-f5e2-5ff0-a777-9cbc7e4f478e",
+      "Source": "Model",
+      "Action": "CreateModel",
+      "Description": "Created model BSSB Syariah - Segmentation Historical LGD",
+      "Trace": null,
+      "Timestamp": "2025-10-20 14:25:49.867765",
+      "ImpersonatedUserId": null
+    }
+  ]
+}

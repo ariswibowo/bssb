@@ -1,0 +1,15 @@
+{
+  "activities": [
+    {
+      "ActivityId": "afb3cf86-7c6f-4ce9-ab9e-42a5dbf4ceb9",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "ade88d12-fa37-5af3-aac2-1ada9c589f9f",
+      "Source": "Model",
+      "Action": "CreateModel",
+      "Description": "Created model BSSB Syariah - Stage Asessment",
+      "Trace": null,
+      "Timestamp": "2025-10-20 14:02:32.658792",
+      "ImpersonatedUserId": null
+    }
+  ]
+}

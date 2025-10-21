@@ -1,0 +1,15 @@
+{
+  "activities": [
+    {
+      "ActivityId": "8d62ab42-2d77-457f-9ba4-e2a2275e1195",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "c2efcbef-4d87-573e-8c06-03951d7155db",
+      "Source": "Model",
+      "Action": "CreateModel",
+      "Description": "Created model BSSB Syariah - Segmentation Level Assessment",
+      "Trace": null,
+      "Timestamp": "2025-10-20 13:43:38.143028",
+      "ImpersonatedUserId": null
+    }
+  ]
+}

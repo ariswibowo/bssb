@@ -1,0 +1,14 @@
+{
+  "ContentId": "ce98cda8-5c3d-4bee-a976-514cd73e639b",
+  "Code": "DataQualityAnalysis",
+  "Name": "Data Quality Analysis",
+  "Description": "data-quality-analysis",
+  "Route": "/portfolio/data-quality-analysis/*",
+  "DataAccess": null,
+  "Content": "{\"contentType\":\"DataQualityPage\",\"contentProps\":{\"title\":\"Data Quality\",\"entities\":[\"KONVEN\"],\"reports\":{\"metricsReportName\":\"Data Quality Metrics\",\"entities\":null,\"labels\":{}}}}",
+  "ConcurrencyId": "12fb562b-582d-475e-9e1e-879229c5fcb7",
+  "CreatedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "CreatedWhen": "2025-10-20 10:58:03.625589",
+  "LastModifiedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "LastModifiedWhen": "2025-10-20 10:58:17.312354"
+}

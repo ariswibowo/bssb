@@ -1,0 +1,361 @@
+{
+  "activities": [
+    {
+      "ActivityId": "09614fed-e064-43b6-b824-89327680063c",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "0883f4a1-41b0-5f6a-827f-9b523ba5f5f9",
+      "Source": "Version",
+      "Action": "CreateVersion",
+      "Description": "Created version 1 of model BSSB Syariah - Segmentation Level Assessment",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "0883f4a1-41b0-5f6a-827f-9b523ba5f5f9",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "createdWhen": "2025-10-20T13:43:38.2424764",
+          "lastModifiedBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "lastModifiedWhen": "2025-10-20T13:43:38.2424764",
+          "origin": {
+            "origin": {
+              "originType": "Clone",
+              "originVersionId": "2877598e-c69a-4e4d-be20-d02bf88f3bc1",
+              "originModelId": "93fbdcf5-737f-4976-a141-de998063ac19",
+              "name": "BSSB Konven - Segmentation Level Assessment",
+              "version": 1
+            }
+          },
+          "model": {
+            "modelId": "c2efcbef-4d87-573e-8c06-03951d7155db",
+            "name": "BSSB Syariah - Segmentation Level Assessment",
+            "description": "BSSB Syariah - Segmentation Level Assessment",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T13:43:38.1430288",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T13:43:38.1430288",
+            "objectiveType": {
+              "objectiveTypeId": "c84eec4a-5e3d-4e88-bf7f-2c7a22a54d76",
+              "code": "Segmentation",
+              "name": "Segmentation",
+              "description": "Segmentation Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          },
+          "segmentationConfiguration": {
+            "segments": [
+              {
+                "segmentId": "4c037ae8-6860-5fb1-b85b-575f3d9a07b1",
+                "name": "All contract konvensional",
+                "description": "All contract konvensional",
+                "category": "All contract konvensional",
+                "lastModifiedWhen": "2025-10-20T02:58:19.2739807"
+              }
+            ],
+            "rules": [
+              {
+                "ruleId": "c39ca274-d36d-588e-bdc6-2772faf9e3a6",
+                "name": "All contract konvensional",
+                "description": "All contract konvensional",
+                "priority": 1,
+                "lastModifiedWhen": "2025-10-20T02:58:32.4040191",
+                "segments": [
+                  {
+                    "segmentRuleId": "49b27a55-e8fc-56fd-903a-8b7b0465d7a5",
+                    "segmentId": "4c037ae8-6860-5fb1-b85b-575f3d9a07b1",
+                    "segmentName": "All contract konvensional",
+                    "priority": 1
+                  }
+                ]
+              }
+            ],
+            "hierarchies": [],
+            "nodes": [
+              {
+                "id": "0883f4a1-41b0-5f6a-827f-9b523ba5f5f9",
+                "path": "/BSSB Syariah - Segmentation Level Assessment",
+                "name": "BSSB Syariah - Segmentation Level Assessment",
+                "description": "BSSB Syariah - Segmentation Level Assessment",
+                "nodeType": "Model"
+              },
+              {
+                "id": "4c037ae8-6860-5fb1-b85b-575f3d9a07b1",
+                "path": "/BSSB Syariah - Segmentation Level Assessment/All contract konvensional",
+                "name": "All contract konvensional",
+                "description": "All contract konvensional",
+                "category": "All contract konvensional",
+                "nodeType": "Segment",
+                "parentId": "0883f4a1-41b0-5f6a-827f-9b523ba5f5f9"
+              }
+            ]
+          },
+          "testSuites": {
+            "testSuites": []
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 13:43:38.143028",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "1f91c821-20c5-477e-98d0-5d152522ead7",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "0883f4a1-41b0-5f6a-827f-9b523ba5f5f9",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB Syariah - Segmentation Level Assessment",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "0883f4a1-41b0-5f6a-827f-9b523ba5f5f9",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "createdWhen": "2025-10-20T13:43:38.242476",
+          "lastModifiedBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "lastModifiedWhen": "2025-10-20T13:45:38.6135107",
+          "origin": {
+            "origin": {
+              "originType": "Clone",
+              "originVersionId": "2877598e-c69a-4e4d-be20-d02bf88f3bc1",
+              "originModelId": "93fbdcf5-737f-4976-a141-de998063ac19",
+              "name": "BSSB Konven - Segmentation Level Assessment",
+              "version": 1
+            }
+          },
+          "model": {
+            "modelId": "c2efcbef-4d87-573e-8c06-03951d7155db",
+            "name": "BSSB Syariah - Segmentation Level Assessment",
+            "description": "BSSB Syariah - Segmentation Level Assessment",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T13:43:38.143028",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T13:45:38.6135107",
+            "objectiveType": {
+              "objectiveTypeId": "c84eec4a-5e3d-4e88-bf7f-2c7a22a54d76",
+              "code": "Segmentation",
+              "name": "Segmentation",
+              "description": "Segmentation Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          },
+          "segmentationConfiguration": {
+            "segments": [
+              {
+                "segmentId": "4c037ae8-6860-5fb1-b85b-575f3d9a07b1",
+                "name": "All contract syariah",
+                "description": "All contract syariah",
+                "category": "All contract syariah",
+                "lastModifiedWhen": "2025-10-20T02:58:19.2739807"
+              }
+            ],
+            "rules": [
+              {
+                "ruleId": "c39ca274-d36d-588e-bdc6-2772faf9e3a6",
+                "name": "All contract konvensional",
+                "description": "All contract konvensional",
+                "priority": 1,
+                "lastModifiedWhen": "2025-10-20T02:58:32.4040191",
+                "segments": [
+                  {
+                    "segmentRuleId": "49b27a55-e8fc-56fd-903a-8b7b0465d7a5",
+                    "segmentId": "4c037ae8-6860-5fb1-b85b-575f3d9a07b1",
+                    "segmentName": "All contract konvensional",
+                    "priority": 1
+                  }
+                ]
+              }
+            ],
+            "hierarchies": [],
+            "nodes": [
+              {
+                "id": "0883f4a1-41b0-5f6a-827f-9b523ba5f5f9",
+                "path": "/BSSB Syariah - Segmentation Level Assessment",
+                "name": "BSSB Syariah - Segmentation Level Assessment",
+                "description": "BSSB Syariah - Segmentation Level Assessment",
+                "nodeType": "Model"
+              },
+              {
+                "id": "4c037ae8-6860-5fb1-b85b-575f3d9a07b1",
+                "path": "/BSSB Syariah - Segmentation Level Assessment/All contract syariah",
+                "name": "All contract syariah",
+                "description": "All contract syariah",
+                "category": "All contract syariah",
+                "nodeType": "Segment",
+                "parentId": "0883f4a1-41b0-5f6a-827f-9b523ba5f5f9"
+              }
+            ]
+          },
+          "testSuites": {
+            "testSuites": []
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 13:45:38.632157",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "acca5ecf-131e-4993-8e3a-e198c8b00ce7",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "0883f4a1-41b0-5f6a-827f-9b523ba5f5f9",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB Syariah - Segmentation Level Assessment",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "0883f4a1-41b0-5f6a-827f-9b523ba5f5f9",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "createdWhen": "2025-10-20T13:43:38.242476",
+          "lastModifiedBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "lastModifiedWhen": "2025-10-20T13:45:45.3138291",
+          "origin": {
+            "origin": {
+              "originType": "Clone",
+              "originVersionId": "2877598e-c69a-4e4d-be20-d02bf88f3bc1",
+              "originModelId": "93fbdcf5-737f-4976-a141-de998063ac19",
+              "name": "BSSB Konven - Segmentation Level Assessment",
+              "version": 1
+            }
+          },
+          "model": {
+            "modelId": "c2efcbef-4d87-573e-8c06-03951d7155db",
+            "name": "BSSB Syariah - Segmentation Level Assessment",
+            "description": "BSSB Syariah - Segmentation Level Assessment",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T13:43:38.143028",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T13:45:45.3138291",
+            "objectiveType": {
+              "objectiveTypeId": "c84eec4a-5e3d-4e88-bf7f-2c7a22a54d76",
+              "code": "Segmentation",
+              "name": "Segmentation",
+              "description": "Segmentation Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          },
+          "segmentationConfiguration": {
+            "segments": [
+              {
+                "segmentId": "4c037ae8-6860-5fb1-b85b-575f3d9a07b1",
+                "name": "All contract syariah",
+                "description": "All contract syariah",
+                "category": "All contract syariah",
+                "lastModifiedWhen": "2025-10-20T02:58:19.2739807"
+              }
+            ],
+            "rules": [
+              {
+                "ruleId": "c39ca274-d36d-588e-bdc6-2772faf9e3a6",
+                "name": "All contract syariah",
+                "description": "All contract syariah",
+                "priority": 1,
+                "lastModifiedWhen": "2025-10-20T13:45:45.3137701",
+                "segments": [
+                  {
+                    "segmentRuleId": "49b27a55-e8fc-56fd-903a-8b7b0465d7a5",
+                    "segmentId": "4c037ae8-6860-5fb1-b85b-575f3d9a07b1",
+                    "segmentName": "All contract konvensional",
+                    "priority": 1
+                  }
+                ]
+              }
+            ],
+            "hierarchies": [],
+            "nodes": [
+              {
+                "id": "0883f4a1-41b0-5f6a-827f-9b523ba5f5f9",
+                "path": "/BSSB Syariah - Segmentation Level Assessment",
+                "name": "BSSB Syariah - Segmentation Level Assessment",
+                "description": "BSSB Syariah - Segmentation Level Assessment",
+                "nodeType": "Model"
+              },
+              {
+                "id": "4c037ae8-6860-5fb1-b85b-575f3d9a07b1",
+                "path": "/BSSB Syariah - Segmentation Level Assessment/All contract syariah",
+                "name": "All contract syariah",
+                "description": "All contract syariah",
+                "category": "All contract syariah",
+                "nodeType": "Segment",
+                "parentId": "0883f4a1-41b0-5f6a-827f-9b523ba5f5f9"
+              }
+            ]
+          },
+          "testSuites": {
+            "testSuites": []
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 13:45:45.332293",
+      "ImpersonatedUserId": null
+    }
+  ]
+}

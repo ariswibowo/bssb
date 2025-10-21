@@ -1,0 +1,15 @@
+{
+  "activities": [
+    {
+      "ActivityId": "6ff58ffc-1679-4ac8-a818-d081e99add30",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "0029f937-988a-58dc-b317-91acff648701",
+      "Source": "Model",
+      "Action": "CreateModel",
+      "Description": "Created model BSSB Konven - Segmentation Historical PD Detail",
+      "Trace": null,
+      "Timestamp": "2025-10-20 10:50:20.620350",
+      "ImpersonatedUserId": null
+    }
+  ]
+}

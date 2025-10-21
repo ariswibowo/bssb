@@ -1,0 +1,155 @@
+{
+  "ModelId": "a6932ec3-b687-5400-afd9-e726811df74b",
+  "DomainId": "7f49b1e5-844a-45f2-a11a-3ebd909c656b",
+  "Name": "BSSB Syariah - Level Asessment",
+  "Description": "BSSB Syariah - Level Asessment",
+  "ModelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+  "ObjectiveTypeId": "f690d7f7-7321-4423-9017-5360a6cbe680",
+  "ParentDeckId": null,
+  "IsPrivate": false,
+  "Status": "Open",
+  "Data": {
+    "deletionProtection": {
+      "enabled": false
+    }
+  },
+  "LatestVersionId": "093af890-f5dc-5a28-b994-69a749f71f9d",
+  "LatestVersion": 1,
+  "LatestStatus": "Draft",
+  "LatestErrors": null,
+  "LatestWarnings": null,
+  "LatestValidatedWhen": null,
+  "PublishedVersions": 0,
+  "ArchivedBy": null,
+  "ArchivedWhen": null,
+  "CreatedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+  "CreatedWhen": "2025-10-20 13:45:08.529549",
+  "LastModifiedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+  "LastModifiedWhen": "2025-10-20 13:46:48.566269",
+  "ObjectiveTypeCode": "LevelAssessment",
+  "ModelTypeName": "Simulation",
+  "activityExport": {
+    "sourceId": "a6932ec3-b687-5400-afd9-e726811df74b",
+    "name": "BSSB Syariah - Level Asessment",
+    "path": "models/activities",
+    "file": "activities_sourceId_11df74b.json"
+  },
+  "versions": [
+    {
+      "VersionId": "093af890-f5dc-5a28-b994-69a749f71f9d",
+      "ModelId": "a6932ec3-b687-5400-afd9-e726811df74b",
+      "Version": 1,
+      "Description": "Initial Version",
+      "Status": "Draft",
+      "PublishedBy": null,
+      "PublishedWhen": null,
+      "PublishComments": null,
+      "ExpiryDate": null,
+      "ArchivedBy": null,
+      "ArchivedWhen": null,
+      "ConcurrencyId": "b4d43100-edb2-444c-8aed-48d4ff47b74b",
+      "CreatedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "CreatedWhen": "2025-10-20 13:45:08.626588",
+      "LastModifiedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "LastModifiedWhen": "2025-10-20 13:46:48.566269",
+      "versionProps": [
+        {
+          "VersionPropId": "25fe5ca0-dd72-4fb7-ae37-65db2b305d5b",
+          "VersionId": "093af890-f5dc-5a28-b994-69a749f71f9d",
+          "Key": "Origin",
+          "Value": {
+            "origin": {
+              "originType": "Clone",
+              "originVersionId": "3636fb43-1501-4ef2-9e57-f4f612f0c1f4",
+              "originModelId": "3763e799-f939-47e8-985e-7de5b7ae8202",
+              "name": "BSSB Konven - Level Asessment",
+              "version": 1
+            }
+          }
+        },
+        {
+          "VersionPropId": "fde835b2-1aa9-51d5-a66b-c675efea6c00",
+          "VersionId": "093af890-f5dc-5a28-b994-69a749f71f9d",
+          "Key": "General",
+          "Value": {
+            "segmentationVersionId": "0883f4a1-41b0-5f6a-827f-9b523ba5f5f9"
+          }
+        },
+        {
+          "VersionPropId": "567d1b05-a8f1-5911-a992-3ae9bd9d155b",
+          "VersionId": "093af890-f5dc-5a28-b994-69a749f71f9d",
+          "Key": "Approaches",
+          "Value": {
+            "approaches": [
+              {
+                "approachId": "91152a77-e819-57fa-b0b0-965712713309",
+                "name": "Level Asessment Syariah",
+                "description": "Level Asessment Syariah\n",
+                "segments": [
+                  {
+                    "segmentId": "4c037ae8-6860-5fb1-b85b-575f3d9a07b1"
+                  }
+                ],
+                "lastModifiedWhen": "2025-10-20T13:46:48.264Z",
+                "rules": [
+                  {
+                    "ruleId": "28d73dff-05e7-517b-a5f7-2071bbd20b68",
+                    "priority": 1,
+                    "name": "Level Asessment Syariah",
+                    "description": "Level Asessment Syariah",
+                    "ruleCondition": {},
+                    "levels": [
+                      {
+                        "levelId": "fc95ec1f-ad11-5b76-9746-ccf27e7d9685",
+                        "priority": 1,
+                        "levelType": "Individual",
+                        "description": "Individual Impairment",
+                        "levelCondition": {
+                          "combinator": "And",
+                          "conditionId": "285e225c-9b36-5da7-b962-2a6776eaffc7",
+                          "conditions": [
+                            {
+                              "field": "OutstandingAmount",
+                              "operator": "GreaterThan",
+                              "value": "2000000000",
+                              "conditionId": "dbeffd81-bb97-54a3-b97e-6db8e56eba20"
+                            },
+                            {
+                              "field": "IsRestructured",
+                              "operator": "Equal",
+                              "value": "true",
+                              "conditionId": "902bb7ea-5cbf-5fad-ba58-cbc8134a7c46"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "levelId": "4445ee36-5d4c-5183-bdff-5ca02f3d51c3",
+                        "priority": 2,
+                        "levelType": "Collective",
+                        "description": "Collective Impairment",
+                        "levelCondition": {
+                          "combinator": "And",
+                          "conditionId": "6e62f4e3-c2c8-598f-b559-e9e9a79bf4a1",
+                          "conditions": []
+                        }
+                      }
+                    ],
+                    "lastModifiedWhen": "2025-10-20T13:46:25.922Z"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "publishRequests": [],
+      "activityExport": {
+        "sourceId": "093af890-f5dc-5a28-b994-69a749f71f9d",
+        "name": "BSSB Syariah - Level Asessment_v1",
+        "path": "models/activities",
+        "file": "activities_sourceId_9f71f9d.json"
+      }
+    }
+  ]
+}

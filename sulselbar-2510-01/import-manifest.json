@@ -1,0 +1,626 @@
+{
+  "import": {
+    "importEnvironment": "BSSB-DEV",
+    "imports": [
+      {
+        "name": "Segmentation Models",
+        "importType": "Models",
+        "importSettings": {
+          "path": "models",
+          "file": "bssb_konven_-_segmentation_level_assessment-063ac19.json",
+          "dupHandlingApproach": "Delete",
+          "replaceUsers": true,
+          "sourceTokens": {
+            "ifrs9StudioUrl": "https://demo-data.elysiannxt.com/studio",
+            "eDrivePublicUrl": "https://demo-data.elysiannxt.com/api/edrive",
+            "eDriveAvatarPath": "/avatars"
+          }
+        }
+      },
+      {
+        "name": "Segmentation Models",
+        "importType": "Models",
+        "importSettings": {
+          "path": "models",
+          "file": "bssb_syariah_-_segmentation_level_assessment-d7155db.json",
+          "dupHandlingApproach": "Delete",
+          "replaceUsers": true,
+          "sourceTokens": {
+            "ifrs9StudioUrl": "https://demo-data.elysiannxt.com/studio",
+            "eDrivePublicUrl": "https://demo-data.elysiannxt.com/api/edrive",
+            "eDriveAvatarPath": "/avatars"
+          }
+        }
+      },
+      {
+        "name": "Segmentation Models",
+        "importType": "Models",
+        "importSettings": {
+          "path": "models",
+          "file": "bssb_konven_-_segmentation_historical_lgd-fbc00a8.json",
+          "dupHandlingApproach": "Delete",
+          "replaceUsers": true,
+          "sourceTokens": {
+            "ifrs9StudioUrl": "https://demo-data.elysiannxt.com/studio",
+            "eDrivePublicUrl": "https://demo-data.elysiannxt.com/api/edrive",
+            "eDriveAvatarPath": "/avatars"
+          }
+        }
+      },
+      {
+        "name": "Segmentation Models",
+        "importType": "Models",
+        "importSettings": {
+          "path": "models",
+          "file": "bssb_konven_-_all_products-8c61b6d.json",
+          "dupHandlingApproach": "Delete",
+          "replaceUsers": true,
+          "sourceTokens": {
+            "ifrs9StudioUrl": "https://demo-data.elysiannxt.com/studio",
+            "eDrivePublicUrl": "https://demo-data.elysiannxt.com/api/edrive",
+            "eDriveAvatarPath": "/avatars"
+          }
+        }
+      },
+      {
+        "name": "Segmentation Models",
+        "importType": "Models",
+        "importSettings": {
+          "path": "models",
+          "file": "bssb_konven_-_segmentation_stage_assessment-2f49301.json",
+          "dupHandlingApproach": "Delete",
+          "replaceUsers": true,
+          "sourceTokens": {
+            "ifrs9StudioUrl": "https://demo-data.elysiannxt.com/studio",
+            "eDrivePublicUrl": "https://demo-data.elysiannxt.com/api/edrive",
+            "eDriveAvatarPath": "/avatars"
+          }
+        }
+      },
+      {
+        "name": "Segmentation Models",
+        "importType": "Models",
+        "importSettings": {
+          "path": "models",
+          "file": "bssb_konven_-_segmentation_historical_pd_group-54f1918.json",
+          "dupHandlingApproach": "Delete",
+          "replaceUsers": true,
+          "sourceTokens": {
+            "ifrs9StudioUrl": "https://demo-data.elysiannxt.com/studio",
+            "eDrivePublicUrl": "https://demo-data.elysiannxt.com/api/edrive",
+            "eDriveAvatarPath": "/avatars"
+          }
+        }
+      },
+      {
+        "name": "Segmentation Models",
+        "importType": "Models",
+        "importSettings": {
+          "path": "models",
+          "file": "bssb_konven_-_segmentation_historical_pd_detail-f648701.json",
+          "dupHandlingApproach": "Delete",
+          "replaceUsers": true,
+          "sourceTokens": {
+            "ifrs9StudioUrl": "https://demo-data.elysiannxt.com/studio",
+            "eDrivePublicUrl": "https://demo-data.elysiannxt.com/api/edrive",
+            "eDriveAvatarPath": "/avatars"
+          }
+        }
+      },
+      {
+        "name": "Segmentation Models",
+        "importType": "Models",
+        "importSettings": {
+          "path": "models",
+          "file": "bssb_syariah_-_all_products-a6f5fe9.json",
+          "dupHandlingApproach": "Delete",
+          "replaceUsers": true,
+          "sourceTokens": {
+            "ifrs9StudioUrl": "https://demo-data.elysiannxt.com/studio",
+            "eDrivePublicUrl": "https://demo-data.elysiannxt.com/api/edrive",
+            "eDriveAvatarPath": "/avatars"
+          }
+        }
+      },
+      {
+        "name": "Segmentation Models",
+        "importType": "Models",
+        "importSettings": {
+          "path": "models",
+          "file": "bssb_syariah_-_segmentation_historical_lgd-e4f478e.json",
+          "dupHandlingApproach": "Delete",
+          "replaceUsers": true,
+          "sourceTokens": {
+            "ifrs9StudioUrl": "https://demo-data.elysiannxt.com/studio",
+            "eDrivePublicUrl": "https://demo-data.elysiannxt.com/api/edrive",
+            "eDriveAvatarPath": "/avatars"
+          }
+        }
+      },
+      {
+        "name": "Segmentation Models",
+        "importType": "Models",
+        "importSettings": {
+          "path": "models",
+          "file": "bssb_syariah_-_segmentation_historical_pd-233d83c.json",
+          "dupHandlingApproach": "Delete",
+          "replaceUsers": true,
+          "sourceTokens": {
+            "ifrs9StudioUrl": "https://demo-data.elysiannxt.com/studio",
+            "eDrivePublicUrl": "https://demo-data.elysiannxt.com/api/edrive",
+            "eDriveAvatarPath": "/avatars"
+          }
+        }
+      },
+      {
+        "name": "Stage Assessment Models",
+        "importType": "Models",
+        "importSettings": {
+          "path": "models",
+          "file": "bssb_konven_-_stage_asessment-880f1a9.json",
+          "dupHandlingApproach": "Delete",
+          "replaceUsers": true,
+          "sourceTokens": {
+            "ifrs9StudioUrl": "https://demo-data.elysiannxt.com/studio",
+            "eDrivePublicUrl": "https://demo-data.elysiannxt.com/api/edrive",
+            "eDriveAvatarPath": "/avatars"
+          }
+        }
+      },
+      {
+        "name": "Stage Assessment Models",
+        "importType": "Models",
+        "importSettings": {
+          "path": "models",
+          "file": "bssb_syariah_-_stage_asessment-c589f9f.json",
+          "dupHandlingApproach": "Delete",
+          "replaceUsers": true,
+          "sourceTokens": {
+            "ifrs9StudioUrl": "https://demo-data.elysiannxt.com/studio",
+            "eDrivePublicUrl": "https://demo-data.elysiannxt.com/api/edrive",
+            "eDriveAvatarPath": "/avatars"
+          }
+        }
+      },
+      {
+        "name": "Level Assessment Models",
+        "importType": "Models",
+        "importSettings": {
+          "path": "models",
+          "file": "bssb_syariah_-_level_asessment-11df74b.json",
+          "dupHandlingApproach": "Delete",
+          "replaceUsers": true,
+          "sourceTokens": {
+            "ifrs9StudioUrl": "https://demo-data.elysiannxt.com/studio",
+            "eDrivePublicUrl": "https://demo-data.elysiannxt.com/api/edrive",
+            "eDriveAvatarPath": "/avatars"
+          }
+        }
+      },
+      {
+        "name": "Level Assessment Models",
+        "importType": "Models",
+        "importSettings": {
+          "path": "models",
+          "file": "bssb_konven_-_level_asessment-7ae8202.json",
+          "dupHandlingApproach": "Delete",
+          "replaceUsers": true,
+          "sourceTokens": {
+            "ifrs9StudioUrl": "https://demo-data.elysiannxt.com/studio",
+            "eDrivePublicUrl": "https://demo-data.elysiannxt.com/api/edrive",
+            "eDriveAvatarPath": "/avatars"
+          }
+        }
+      },
+      {
+        "name": "EAD Models",
+        "importType": "Models",
+        "importSettings": {
+          "path": "models",
+          "file": "bbsb_konven_-_ead_outstanding_amount-cee3e93.json",
+          "dupHandlingApproach": "Delete",
+          "replaceUsers": true,
+          "sourceTokens": {
+            "ifrs9StudioUrl": "https://demo-data.elysiannxt.com/studio",
+            "eDrivePublicUrl": "https://demo-data.elysiannxt.com/api/edrive",
+            "eDriveAvatarPath": "/avatars"
+          }
+        }
+      },
+      {
+        "name": "EAD Models",
+        "importType": "Models",
+        "importSettings": {
+          "path": "models",
+          "file": "bbsb_syariah_-_ead_outstanding_amount-7732dbb.json",
+          "dupHandlingApproach": "Delete",
+          "replaceUsers": true,
+          "sourceTokens": {
+            "ifrs9StudioUrl": "https://demo-data.elysiannxt.com/studio",
+            "eDrivePublicUrl": "https://demo-data.elysiannxt.com/api/edrive",
+            "eDriveAvatarPath": "/avatars"
+          }
+        }
+      },
+      {
+        "name": "Historical LGD Models",
+        "importType": "Models",
+        "importSettings": {
+          "path": "models",
+          "file": "bssb_konven_-_historical_lgd-b9c9ef1.json",
+          "dupHandlingApproach": "Delete",
+          "replaceUsers": true,
+          "sourceTokens": {
+            "ifrs9StudioUrl": "https://demo-data.elysiannxt.com/studio",
+            "eDrivePublicUrl": "https://demo-data.elysiannxt.com/api/edrive",
+            "eDriveAvatarPath": "/avatars"
+          }
+        }
+      },
+      {
+        "name": "Historical LGD Models",
+        "importType": "Models",
+        "importSettings": {
+          "path": "models",
+          "file": "bssb_syariah_-_historical_lgd-ed20d93.json",
+          "dupHandlingApproach": "Delete",
+          "replaceUsers": true,
+          "sourceTokens": {
+            "ifrs9StudioUrl": "https://demo-data.elysiannxt.com/studio",
+            "eDrivePublicUrl": "https://demo-data.elysiannxt.com/api/edrive",
+            "eDriveAvatarPath": "/avatars"
+          }
+        }
+      },
+      {
+        "name": "Historical PD Models",
+        "importType": "Models",
+        "importSettings": {
+          "path": "models",
+          "file": "bssb_konven_-_historical_pd_group_-_noa-b210c09.json",
+          "dupHandlingApproach": "Delete",
+          "replaceUsers": true,
+          "sourceTokens": {
+            "ifrs9StudioUrl": "https://demo-data.elysiannxt.com/studio",
+            "eDrivePublicUrl": "https://demo-data.elysiannxt.com/api/edrive",
+            "eDriveAvatarPath": "/avatars"
+          }
+        }
+      },
+      {
+        "name": "Historical PD Models",
+        "importType": "Models",
+        "importSettings": {
+          "path": "models",
+          "file": "bssb_konven_-_historical_pd_group_-_os-a4c4f39.json",
+          "dupHandlingApproach": "Delete",
+          "replaceUsers": true,
+          "sourceTokens": {
+            "ifrs9StudioUrl": "https://demo-data.elysiannxt.com/studio",
+            "eDrivePublicUrl": "https://demo-data.elysiannxt.com/api/edrive",
+            "eDriveAvatarPath": "/avatars"
+          }
+        }
+      },
+      {
+        "name": "Historical PD Models",
+        "importType": "Models",
+        "importSettings": {
+          "path": "models",
+          "file": "bssb_konven_-_historical_pd_detail-_noa-5e04f69.json",
+          "dupHandlingApproach": "Delete",
+          "replaceUsers": true,
+          "sourceTokens": {
+            "ifrs9StudioUrl": "https://demo-data.elysiannxt.com/studio",
+            "eDrivePublicUrl": "https://demo-data.elysiannxt.com/api/edrive",
+            "eDriveAvatarPath": "/avatars"
+          }
+        }
+      },
+      {
+        "name": "Historical PD Models",
+        "importType": "Models",
+        "importSettings": {
+          "path": "models",
+          "file": "bssb_konven_-_historical_pd_detail_-_os-bf0c7c8.json",
+          "dupHandlingApproach": "Delete",
+          "replaceUsers": true,
+          "sourceTokens": {
+            "ifrs9StudioUrl": "https://demo-data.elysiannxt.com/studio",
+            "eDrivePublicUrl": "https://demo-data.elysiannxt.com/api/edrive",
+            "eDriveAvatarPath": "/avatars"
+          }
+        }
+      },
+      {
+        "name": "Historical PD Models",
+        "importType": "Models",
+        "importSettings": {
+          "path": "models",
+          "file": "bssb_syariah_-_historical_pd_group_-_noa-f72a407.json",
+          "dupHandlingApproach": "Delete",
+          "replaceUsers": true,
+          "sourceTokens": {
+            "ifrs9StudioUrl": "https://demo-data.elysiannxt.com/studio",
+            "eDrivePublicUrl": "https://demo-data.elysiannxt.com/api/edrive",
+            "eDriveAvatarPath": "/avatars"
+          }
+        }
+      },
+      {
+        "name": "Historical PD Models",
+        "importType": "Models",
+        "importSettings": {
+          "path": "models",
+          "file": "bssb_syariah_-_historical_pd_group_-_os-f60890b.json",
+          "dupHandlingApproach": "Delete",
+          "replaceUsers": true,
+          "sourceTokens": {
+            "ifrs9StudioUrl": "https://demo-data.elysiannxt.com/studio",
+            "eDrivePublicUrl": "https://demo-data.elysiannxt.com/api/edrive",
+            "eDriveAvatarPath": "/avatars"
+          }
+        }
+      },
+      {
+        "name": "Product Types",
+        "importType": "ProductTypes",
+        "importSettings": {
+          "path": "productTypes",
+          "file": "bssb-k-modalkerja-3f48e7a.json",
+          "dupHandlingApproach": null
+        }
+      },
+      {
+        "name": "Product Types",
+        "importType": "ProductTypes",
+        "importSettings": {
+          "path": "productTypes",
+          "file": "bssb-k-kreditinvestasi-de1c72a.json",
+          "dupHandlingApproach": null
+        }
+      },
+      {
+        "name": "Product Types",
+        "importType": "ProductTypes",
+        "importSettings": {
+          "path": "productTypes",
+          "file": "bssb-k-lainya-151049c.json",
+          "dupHandlingApproach": null
+        }
+      },
+      {
+        "name": "Product Subtypes",
+        "importType": "ProductSubtypes",
+        "importSettings": {
+          "path": "productSubtypes",
+          "file": "bssb-k604-4afba3b.json",
+          "dupHandlingApproach": null
+        }
+      },
+      {
+        "name": "Product Subtypes",
+        "importType": "ProductSubtypes",
+        "importSettings": {
+          "path": "productSubtypes",
+          "file": "bssb-k601-8ea9b8f.json",
+          "dupHandlingApproach": null
+        }
+      },
+      {
+        "name": "Product Subtypes",
+        "importType": "ProductSubtypes",
+        "importSettings": {
+          "path": "productSubtypes",
+          "file": "bssb-k005-b89412c.json",
+          "dupHandlingApproach": null
+        }
+      },
+      {
+        "name": "Product Subtypes",
+        "importType": "ProductSubtypes",
+        "importSettings": {
+          "path": "productSubtypes",
+          "file": "bssb-s634-19c2bc1.json",
+          "dupHandlingApproach": null
+        }
+      },
+      {
+        "name": "Product Subtypes",
+        "importType": "ProductSubtypes",
+        "importSettings": {
+          "path": "productSubtypes",
+          "file": "bssb-s666-fd2511b.json",
+          "dupHandlingApproach": null
+        }
+      },
+      {
+        "name": "Product Subtypes",
+        "importType": "ProductSubtypes",
+        "importSettings": {
+          "path": "productSubtypes",
+          "file": "bssb-s682-9e7eb5a.json",
+          "dupHandlingApproach": null
+        }
+      },
+      {
+        "name": "Product Subtypes",
+        "importType": "ProductSubtypes",
+        "importSettings": {
+          "path": "productSubtypes",
+          "file": "bssb-s672-98aec75.json",
+          "dupHandlingApproach": null
+        }
+      },
+      {
+        "name": "Product Subtypes",
+        "importType": "ProductSubtypes",
+        "importSettings": {
+          "path": "productSubtypes",
+          "file": "bssb-k682-9b71846.json",
+          "dupHandlingApproach": null
+        }
+      },
+      {
+        "name": "Product Subtypes",
+        "importType": "ProductSubtypes",
+        "importSettings": {
+          "path": "productSubtypes",
+          "file": "bssb-k681-816b4aa.json",
+          "dupHandlingApproach": null
+        }
+      },
+      {
+        "name": "Product Subtypes",
+        "importType": "ProductSubtypes",
+        "importSettings": {
+          "path": "productSubtypes",
+          "file": "bssb-s631-88d492b.json",
+          "dupHandlingApproach": null
+        }
+      },
+      {
+        "name": "Product Subtypes",
+        "importType": "ProductSubtypes",
+        "importSettings": {
+          "path": "productSubtypes",
+          "file": "bssb-s635-c9d6422.json",
+          "dupHandlingApproach": null
+        }
+      },
+      {
+        "name": "Product Subtypes",
+        "importType": "ProductSubtypes",
+        "importSettings": {
+          "path": "productSubtypes",
+          "file": "bssb-s661-d2c88a7.json",
+          "dupHandlingApproach": null
+        }
+      },
+      {
+        "name": "Product Subtypes",
+        "importType": "ProductSubtypes",
+        "importSettings": {
+          "path": "productSubtypes",
+          "file": "bssb-s684-ca824b6.json",
+          "dupHandlingApproach": null
+        }
+      },
+      {
+        "name": "Product Subtypes",
+        "importType": "ProductSubtypes",
+        "importSettings": {
+          "path": "productSubtypes",
+          "file": "bssb-s695-bbfceee.json",
+          "dupHandlingApproach": null
+        }
+      },
+      {
+        "name": "Product Subtypes",
+        "importType": "ProductSubtypes",
+        "importSettings": {
+          "path": "productSubtypes",
+          "file": "bssb-k603-495058a.json",
+          "dupHandlingApproach": null
+        }
+      },
+      {
+        "name": "Product Subtypes",
+        "importType": "ProductSubtypes",
+        "importSettings": {
+          "path": "productSubtypes",
+          "file": "bssb-k602-51310f8.json",
+          "dupHandlingApproach": null
+        }
+      },
+      {
+        "name": "Product Subtypes",
+        "importType": "ProductSubtypes",
+        "importSettings": {
+          "path": "productSubtypes",
+          "file": "bssb-s632-2b48b72.json",
+          "dupHandlingApproach": null
+        }
+      },
+      {
+        "name": "Product Subtypes",
+        "importType": "ProductSubtypes",
+        "importSettings": {
+          "path": "productSubtypes",
+          "file": "bssb-s636-9435605.json",
+          "dupHandlingApproach": null
+        }
+      },
+      {
+        "name": "Product Subtypes",
+        "importType": "ProductSubtypes",
+        "importSettings": {
+          "path": "productSubtypes",
+          "file": "bssb-s681-24d2450.json",
+          "dupHandlingApproach": null
+        }
+      },
+      {
+        "name": "Product Subtypes",
+        "importType": "ProductSubtypes",
+        "importSettings": {
+          "path": "productSubtypes",
+          "file": "bssb-s671-4d8b099.json",
+          "dupHandlingApproach": null
+        }
+      },
+      {
+        "name": "Stage Assessment Policies",
+        "importType": "Policies",
+        "importSettings": {
+          "path": "policies",
+          "file": "ruleprops-917e891.json",
+          "database": "Models",
+          "table": "Policies",
+          "scope": null,
+          "migrateDefaultPolicy": false,
+          "migrateActivePolicy": true
+        }
+      },
+      {
+        "name": "Lgd Policies",
+        "importType": "Policies",
+        "importSettings": {
+          "path": "policies",
+          "file": "ruleprops-af5a582.json",
+          "database": "Models",
+          "table": "Policies",
+          "scope": null,
+          "migrateDefaultPolicy": false,
+          "migrateActivePolicy": true
+        }
+      },
+      {
+        "name": "Pd Policies",
+        "importType": "Policies",
+        "importSettings": {
+          "path": "policies",
+          "file": "ruleprops-4b93128.json",
+          "database": "Models",
+          "table": "Policies",
+          "scope": null,
+          "migrateDefaultPolicy": false,
+          "migrateActivePolicy": true
+        }
+      },
+      {
+        "name": "Segmentation Policies",
+        "importType": "Policies",
+        "importSettings": {
+          "path": "policies",
+          "file": "ruleprops-8b10b1f.json",
+          "database": "Models",
+          "table": "Policies",
+          "scope": null,
+          "migrateDefaultPolicy": false,
+          "migrateActivePolicy": true
+        }
+      }
+    ]
+  }
+}

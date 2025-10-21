@@ -1,0 +1,118 @@
+{
+  "ModelId": "a1d3b263-6c39-48ce-9f9f-f61bf8c61b6d",
+  "DomainId": "1c534bff-1288-4a89-a31b-01ee7bda1fde",
+  "Name": "BSSB Konven - All products",
+  "Description": "BSSB Konven - All products",
+  "ModelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+  "ObjectiveTypeId": "c84eec4a-5e3d-4e88-bf7f-2c7a22a54d76",
+  "ParentDeckId": null,
+  "IsPrivate": false,
+  "Status": "Open",
+  "Data": {
+    "deletionProtection": {
+      "enabled": false
+    }
+  },
+  "LatestVersionId": "6f182c43-89d8-4c7a-82b8-d889f0beee35",
+  "LatestVersion": 1,
+  "LatestStatus": "Draft",
+  "LatestErrors": null,
+  "LatestWarnings": null,
+  "LatestValidatedWhen": null,
+  "PublishedVersions": 0,
+  "ArchivedBy": null,
+  "ArchivedWhen": null,
+  "CreatedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+  "CreatedWhen": "2025-10-20 06:54:31.986213",
+  "LastModifiedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+  "LastModifiedWhen": "2025-10-20 06:54:57.925645",
+  "ObjectiveTypeCode": "Segmentation",
+  "ModelTypeName": "Simulation",
+  "activityExport": {
+    "sourceId": "a1d3b263-6c39-48ce-9f9f-f61bf8c61b6d",
+    "name": "BSSB Konven - All products",
+    "path": "models/activities",
+    "file": "activities_sourceId_8c61b6d.json"
+  },
+  "versions": [
+    {
+      "VersionId": "6f182c43-89d8-4c7a-82b8-d889f0beee35",
+      "ModelId": "a1d3b263-6c39-48ce-9f9f-f61bf8c61b6d",
+      "Version": 1,
+      "Description": "Initial Version",
+      "Status": "Draft",
+      "PublishedBy": null,
+      "PublishedWhen": null,
+      "PublishComments": null,
+      "ExpiryDate": null,
+      "ArchivedBy": null,
+      "ArchivedWhen": null,
+      "ConcurrencyId": "550bbe18-3c2f-4b94-bdf0-084a4cf26455",
+      "CreatedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "CreatedWhen": "2025-10-20 06:54:31.986213",
+      "LastModifiedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "LastModifiedWhen": "2025-10-20 06:54:57.925645",
+      "versionProps": [
+        {
+          "VersionPropId": "51efe8fe-b22e-4466-8cc0-540da8a9db15",
+          "VersionId": "6f182c43-89d8-4c7a-82b8-d889f0beee35",
+          "Key": "Origin",
+          "Value": {
+            "origin": {
+              "originType": "New"
+            }
+          }
+        },
+        {
+          "VersionPropId": "762aefd8-d393-4043-a1d3-224aea46d584",
+          "VersionId": "6f182c43-89d8-4c7a-82b8-d889f0beee35",
+          "Key": "TestSuites",
+          "Value": {
+            "testSuites": []
+          }
+        },
+        {
+          "VersionPropId": "bf79946a-89fe-4670-a72f-eb584224b82d",
+          "VersionId": "6f182c43-89d8-4c7a-82b8-d889f0beee35",
+          "Key": "SegmentationConfiguration",
+          "Value": {
+            "segments": [
+              {
+                "segmentId": "2d131a71-00cb-4e60-b1d0-2350ceadbe13",
+                "name": "All products",
+                "description": "All products",
+                "category": "All products",
+                "lastModifiedWhen": "2025-10-20T06:54:45.6037661"
+              }
+            ],
+            "rules": [
+              {
+                "ruleId": "90c5be4c-5d5c-4dbe-8d36-5d221306063b",
+                "name": "All products",
+                "description": "All products",
+                "priority": 1,
+                "lastModifiedWhen": "2025-10-20T06:54:57.9255362",
+                "segments": [
+                  {
+                    "segmentRuleId": "343e47de-72f3-49df-922a-625971d44a07",
+                    "segmentId": "2d131a71-00cb-4e60-b1d0-2350ceadbe13",
+                    "segmentName": "All products",
+                    "priority": 1
+                  }
+                ]
+              }
+            ],
+            "hierarchies": []
+          }
+        }
+      ],
+      "publishRequests": [],
+      "activityExport": {
+        "sourceId": "6f182c43-89d8-4c7a-82b8-d889f0beee35",
+        "name": "BSSB Konven - All products_v1",
+        "path": "models/activities",
+        "file": "activities_sourceId_0beee35.json"
+      }
+    }
+  ]
+}

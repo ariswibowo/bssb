@@ -1,0 +1,37 @@
+{
+  "activities": [
+    {
+      "ActivityId": "3850db91-f48e-481e-b583-779574e52792",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "38e42305-3c39-4fc5-b59e-31c9db210c09",
+      "Source": "Model",
+      "Action": "CreateModel",
+      "Description": "Created model BBSB Konven - Historical PD Group",
+      "Trace": null,
+      "Timestamp": "2025-10-20 08:36:25.797131",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "cd7db802-0261-496b-8122-2e6dee2ba519",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "38e42305-3c39-4fc5-b59e-31c9db210c09",
+      "Source": "Model",
+      "Action": "UpdateModel",
+      "Description": "Updated model BSSB Konven - Historical PD Group",
+      "Trace": null,
+      "Timestamp": "2025-10-20 10:25:16.691076",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "6cf19032-b233-494e-93ef-e590be13d571",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "38e42305-3c39-4fc5-b59e-31c9db210c09",
+      "Source": "Model",
+      "Action": "UpdateModel",
+      "Description": "Updated model BSSB Konven - Historical PD Group - NOA",
+      "Trace": null,
+      "Timestamp": "2025-10-20 10:51:33.125645",
+      "ImpersonatedUserId": null
+    }
+  ]
+}

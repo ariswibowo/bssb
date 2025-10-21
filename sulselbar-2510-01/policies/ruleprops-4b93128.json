@@ -1,0 +1,438 @@
+{
+  "PolicyId": "9aa249d0-9fc8-4f50-871b-b6f2a4b93128",
+  "PolicyType": "RuleProps",
+  "ActivePolicy": {
+    "objectiveTypes": [
+      {
+        "objectiveType": "Historical",
+        "properties": [
+          {
+            "name": "Currency",
+            "label": "Currency",
+            "type": "string",
+            "length": "3"
+          },
+          {
+            "name": "Entity",
+            "label": "Entity",
+            "type": "string",
+            "length": "50"
+          },
+          {
+            "name": "Segment",
+            "label": "Segment",
+            "type": "string",
+            "length": "30"
+          },
+          {
+            "name": "ProductType",
+            "label": "Product Type",
+            "type": "string",
+            "length": "20"
+          },
+          {
+            "name": "CreditRating",
+            "label": "Credit Rating",
+            "type": "string",
+            "length": "20"
+          },
+          {
+            "name": "CreditRatingAgency",
+            "label": "Credit Rating Agency",
+            "type": "string",
+            "length": "20"
+          },
+          {
+            "name": "Collectibility",
+            "label": "Collectibility",
+            "type": "string",
+            "length": "20"
+          },
+          {
+            "name": "ProductSubtype",
+            "label": "Product Subtype",
+            "type": "string",
+            "length": "20"
+          },
+          {
+            "name": "MaturityDate",
+            "label": "Maturity Date",
+            "type": "date",
+            "length": "10"
+          },
+          {
+            "name": "IsSecured",
+            "label": "Is Secured",
+            "type": "boolean",
+            "length": "1"
+          },
+          {
+            "name": "OriginSystemId",
+            "label": "System Id",
+            "type": "string",
+            "length": "36"
+          },
+          {
+            "name": "DaysPastDue",
+            "label": "Days Past Due",
+            "type": "integer",
+            "length": "10"
+          }
+        ]
+      },
+      {
+        "objectiveType": "Impairment",
+        "properties": [
+          {
+            "name": "Currency",
+            "label": "Currency",
+            "type": "string",
+            "length": "3"
+          },
+          {
+            "name": "Entity",
+            "label": "Entity",
+            "type": "string",
+            "length": "50"
+          },
+          {
+            "name": "Segment",
+            "label": "Segment",
+            "type": "string",
+            "length": "30"
+          },
+          {
+            "name": "ProductType",
+            "label": "Product Type",
+            "type": "string",
+            "length": "20"
+          },
+          {
+            "name": "CreditRating",
+            "label": "Credit Rating",
+            "type": "string",
+            "length": "20"
+          },
+          {
+            "name": "CreditRatingAgency",
+            "label": "Credit Rating Agency",
+            "type": "string",
+            "length": "20"
+          },
+          {
+            "name": "Collectibility",
+            "label": "Collectibility",
+            "type": "string",
+            "length": "20"
+          },
+          {
+            "name": "ProductSubtype",
+            "label": "Product Subtype",
+            "type": "string",
+            "length": "20"
+          },
+          {
+            "name": "MaturityDate",
+            "label": "Maturity Date",
+            "type": "date",
+            "length": "10"
+          },
+          {
+            "name": "IsSecured",
+            "label": "Is Secured",
+            "type": "boolean",
+            "length": "1"
+          },
+          {
+            "name": "OriginSystemId",
+            "label": "System Id",
+            "type": "string",
+            "length": "36"
+          },
+          {
+            "name": "DaysPastDue",
+            "label": "Days Past Due",
+            "type": "integer",
+            "length": "10"
+          }
+        ]
+      },
+      {
+        "objectiveType": "Base",
+        "properties": [
+          {
+            "name": "Currency",
+            "label": "Currency",
+            "type": "string",
+            "length": "3"
+          },
+          {
+            "name": "Entity",
+            "label": "Entity",
+            "type": "string",
+            "length": "50"
+          },
+          {
+            "name": "Segment",
+            "label": "Segment",
+            "type": "string",
+            "length": "30"
+          },
+          {
+            "name": "ProductType",
+            "label": "Product Type",
+            "type": "string",
+            "length": "20"
+          },
+          {
+            "name": "CreditRating",
+            "label": "Credit Rating",
+            "type": "string",
+            "length": "20"
+          },
+          {
+            "name": "CreditRatingAgency",
+            "label": "Credit Rating Agency",
+            "type": "string",
+            "length": "20"
+          },
+          {
+            "name": "Collectibility",
+            "label": "Collectibility",
+            "type": "string",
+            "length": "20"
+          },
+          {
+            "name": "ProductSubtype",
+            "label": "Product Subtype",
+            "type": "string",
+            "length": "20"
+          },
+          {
+            "name": "MaturityDate",
+            "label": "Maturity Date",
+            "type": "date",
+            "length": "10"
+          },
+          {
+            "name": "IsSecured",
+            "label": "Is Secured",
+            "type": "boolean",
+            "length": "1"
+          },
+          {
+            "name": "OriginSystemId",
+            "label": "System Id",
+            "type": "string",
+            "length": "36"
+          }
+        ]
+      }
+    ],
+    "calcMethods": [
+      {
+        "calcMethod": "Cohort",
+        "properties": [
+          {
+            "name": "DaysPastDue",
+            "label": "Days Past Due",
+            "type": "integer",
+            "length": "10"
+          },
+          {
+            "name": "Collectibility",
+            "label": "Collectibility",
+            "type": "string",
+            "length": "20"
+          }
+        ]
+      },
+      {
+        "calcMethod": "CohortWithMarginalDefault",
+        "properties": [
+          {
+            "name": "DaysPastDue",
+            "label": "Days Past Due",
+            "type": "integer",
+            "length": "10"
+          },
+          {
+            "name": "Collectibility",
+            "label": "Collectibility",
+            "type": "string",
+            "length": "20"
+          }
+        ]
+      },
+      {
+        "calcMethod": "CohortWithScalingFactor",
+        "properties": [
+          {
+            "name": "DaysPastDue",
+            "label": "Days Past Due",
+            "type": "integer",
+            "length": "10"
+          },
+          {
+            "name": "BotAssetClassification",
+            "label": "BOT Asset Classification",
+            "type": "integer",
+            "length": "36"
+          },
+          {
+            "name": "ProductType",
+            "label": "Product Type",
+            "type": "string",
+            "length": "36"
+          },
+          {
+            "name": "IsSecured",
+            "label": "Is Secured",
+            "type": "boolean",
+            "length": "1"
+          },
+          {
+            "name": "Mob",
+            "label": "Month on Book",
+            "type": "integer",
+            "length": "10"
+          },
+          {
+            "name": "DealerCode",
+            "label": "Dealer Code",
+            "type": "string",
+            "length": "20"
+          },
+          {
+            "name": "BotFinalClass",
+            "label": "BOT Final Class",
+            "type": "integer",
+            "length": "10"
+          },
+          {
+            "name": "IsRestructured",
+            "label": "Is Restructured",
+            "type": "boolean",
+            "length": "1"
+          },
+          {
+            "name": "DateOpened",
+            "label": "Date Opened",
+            "type": "date",
+            "length": "10"
+          },
+          {
+            "name": "Collectibility",
+            "label": "Collectibility",
+            "type": "string",
+            "length": "20"
+          }
+        ]
+      },
+      {
+        "calcMethod": "TransitionMatrix",
+        "properties": [
+          {
+            "name": "DaysPastDue",
+            "label": "Days Past Due",
+            "type": "integer",
+            "length": "10"
+          },
+          {
+            "name": "Collectibility",
+            "label": "Collectibility",
+            "type": "string",
+            "length": "20"
+          },
+          {
+            "name": "IsDefaulted",
+            "label": "Is Defaulted",
+            "type": "boolean",
+            "length": "1"
+          },
+          {
+            "name": "OutstandingAmount",
+            "label": "Consecutive Payment",
+            "type": "double",
+            "length": "10"
+          },
+          {
+            "name": "IsRestructured",
+            "label": "IsRestructured",
+            "type": "boolean",
+            "length": "1"
+          }
+        ]
+      },
+      {
+        "calcMethod": "TransitionMatrixAutoSettled",
+        "properties": [
+          {
+            "name": "DaysPastDue",
+            "label": "Days Past Due",
+            "type": "integer",
+            "length": "10"
+          },
+          {
+            "name": "Collectibility",
+            "label": "Collectibility",
+            "type": "string",
+            "length": "20"
+          }
+        ]
+      },
+      {
+        "calcMethod": "TransitionMatrixWeighted",
+        "properties": [
+          {
+            "name": "DaysPastDue",
+            "label": "Days Past Due",
+            "type": "integer",
+            "length": "10"
+          },
+          {
+            "name": "Collectibility",
+            "label": "Collectibility",
+            "type": "string",
+            "length": "20"
+          }
+        ]
+      },
+      {
+        "calcMethod": "VasicekZFactor",
+        "properties": [
+          {
+            "name": "PoolCode",
+            "label": "pool code",
+            "type": "string",
+            "length": "20"
+          },
+          {
+            "name": "IfrsPdRating",
+            "label": "IFRS PD Rating",
+            "type": "string",
+            "length": "20"
+          },
+          {
+            "name": "IfrsPdLetterRating",
+            "label": "IFRS PD Letter Rating",
+            "type": "string",
+            "length": "20"
+          },
+          {
+            "name": "DaysPastDue",
+            "label": "Days Past Due",
+            "type": "integer",
+            "length": "10"
+          },
+          {
+            "name": "Collectibility",
+            "label": "Collectibility",
+            "type": "string",
+            "length": "20"
+          }
+        ]
+      }
+    ]
+  }
+}

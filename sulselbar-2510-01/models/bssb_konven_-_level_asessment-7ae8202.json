@@ -1,0 +1,151 @@
+{
+  "ModelId": "3763e799-f939-47e8-985e-7de5b7ae8202",
+  "DomainId": "7f49b1e5-844a-45f2-a11a-3ebd909c656b",
+  "Name": "BSSB Konven - Level Asessment",
+  "Description": "BSSB Konven - Level Asessment",
+  "ModelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+  "ObjectiveTypeId": "f690d7f7-7321-4423-9017-5360a6cbe680",
+  "ParentDeckId": null,
+  "IsPrivate": false,
+  "Status": "Open",
+  "Data": {
+    "deletionProtection": {
+      "enabled": false
+    }
+  },
+  "LatestVersionId": "3636fb43-1501-4ef2-9e57-f4f612f0c1f4",
+  "LatestVersion": 1,
+  "LatestStatus": "Draft",
+  "LatestErrors": null,
+  "LatestWarnings": null,
+  "LatestValidatedWhen": null,
+  "PublishedVersions": 0,
+  "ArchivedBy": null,
+  "ArchivedWhen": null,
+  "CreatedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+  "CreatedWhen": "2025-10-20 03:00:54.405586",
+  "LastModifiedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+  "LastModifiedWhen": "2025-10-20 06:58:30.139086",
+  "ObjectiveTypeCode": "LevelAssessment",
+  "ModelTypeName": "Simulation",
+  "activityExport": {
+    "sourceId": "3763e799-f939-47e8-985e-7de5b7ae8202",
+    "name": "BSSB Konven - Level Asessment",
+    "path": "models/activities",
+    "file": "activities_sourceId_7ae8202.json"
+  },
+  "versions": [
+    {
+      "VersionId": "3636fb43-1501-4ef2-9e57-f4f612f0c1f4",
+      "ModelId": "3763e799-f939-47e8-985e-7de5b7ae8202",
+      "Version": 1,
+      "Description": "Initial Version",
+      "Status": "Draft",
+      "PublishedBy": null,
+      "PublishedWhen": null,
+      "PublishComments": null,
+      "ExpiryDate": null,
+      "ArchivedBy": null,
+      "ArchivedWhen": null,
+      "ConcurrencyId": "9c3c5820-f8f5-45b6-a4ef-578620af1a4b",
+      "CreatedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "CreatedWhen": "2025-10-20 03:00:54.405586",
+      "LastModifiedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "LastModifiedWhen": "2025-10-20 06:01:56.703207",
+      "versionProps": [
+        {
+          "VersionPropId": "ea298965-083e-4e7f-9791-475fe630c703",
+          "VersionId": "3636fb43-1501-4ef2-9e57-f4f612f0c1f4",
+          "Key": "Approaches",
+          "Value": {
+            "approaches": [
+              {
+                "approachId": "a92829ac-b735-464a-936f-390f0b82860f",
+                "name": "Level Asessment Konven",
+                "description": "Level Asessment Konven",
+                "segments": [
+                  {
+                    "segmentId": "11bbbad6-75d8-4967-ba52-3705578c4d08"
+                  }
+                ],
+                "lastModifiedWhen": "2025-10-20T03:01:20.759Z",
+                "rules": [
+                  {
+                    "ruleId": "50af1dd7-5dec-44df-8886-907676f0d55b",
+                    "priority": 1,
+                    "name": "Level Asessment Konven",
+                    "description": "Level Asessment Konven",
+                    "ruleCondition": {},
+                    "levels": [
+                      {
+                        "levelId": "e29b4e62-ca9a-4451-99b4-a56a2f03cef4",
+                        "priority": 1,
+                        "levelType": "Individual",
+                        "description": "Individual Impairment",
+                        "levelCondition": {
+                          "combinator": "And",
+                          "conditionId": "6ae5e511-cef8-47a6-a9fb-5c41e9a34019",
+                          "conditions": [
+                            {
+                              "field": "OutstandingAmount",
+                              "operator": "GreaterThan",
+                              "value": "2000000000",
+                              "conditionId": "10658190-115c-48e3-9c85-0b66d0fbf18d"
+                            },
+                            {
+                              "field": "IsRestructured",
+                              "operator": "Equal",
+                              "value": "true",
+                              "conditionId": "d610c562-2378-45a4-a292-32dd637230d3"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "levelId": "2d7387e5-88f5-4fc2-a3ee-ff80d1dea90f",
+                        "priority": 2,
+                        "levelType": "Collective",
+                        "description": "Collective Impairment",
+                        "levelCondition": {
+                          "combinator": "And",
+                          "conditionId": "b91d82e2-1016-46eb-a3d4-4959a115405f",
+                          "conditions": []
+                        }
+                      }
+                    ],
+                    "lastModifiedWhen": "2025-10-20T03:02:59.618Z"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "VersionPropId": "9b4a83f6-863f-42dc-b820-49dfeade2c0a",
+          "VersionId": "3636fb43-1501-4ef2-9e57-f4f612f0c1f4",
+          "Key": "Origin",
+          "Value": {
+            "origin": {
+              "originType": "New"
+            }
+          }
+        },
+        {
+          "VersionPropId": "bb5e328d-b79d-45cf-9982-e0e36b859b8c",
+          "VersionId": "3636fb43-1501-4ef2-9e57-f4f612f0c1f4",
+          "Key": "General",
+          "Value": {
+            "segmentationVersionId": "2877598e-c69a-4e4d-be20-d02bf88f3bc1"
+          }
+        }
+      ],
+      "publishRequests": [],
+      "activityExport": {
+        "sourceId": "3636fb43-1501-4ef2-9e57-f4f612f0c1f4",
+        "name": "BSSB Konven - Level Asessment_v1",
+        "path": "models/activities",
+        "file": "activities_sourceId_2f0c1f4.json"
+      }
+    }
+  ]
+}

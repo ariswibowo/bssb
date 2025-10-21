@@ -1,0 +1,15 @@
+{
+  "activities": [
+    {
+      "ActivityId": "7fe692fe-355f-4d0a-bb18-3b8351eae4e8",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "8e638e8f-6fba-5579-ad4c-0ad4ba6f5fe9",
+      "Source": "Model",
+      "Action": "CreateModel",
+      "Description": "Created model BSSB Syariah - All products",
+      "Trace": null,
+      "Timestamp": "2025-10-20 13:42:32.841697",
+      "ImpersonatedUserId": null
+    }
+  ]
+}

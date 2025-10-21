@@ -1,0 +1,620 @@
+{
+  "activities": [
+    {
+      "ActivityId": "ed6159ba-8840-4b5f-a442-e1ef9cb6e246",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "aef6a11d-00a6-547f-a5a1-5792551cf4c4",
+      "Source": "Version",
+      "Action": "CreateVersion",
+      "Description": "Created version 1 of model BBSB Syariah - EAD Outstanding Amount",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "aef6a11d-00a6-547f-a5a1-5792551cf4c4",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "createdWhen": "2025-10-20T14:16:35.0717286",
+          "lastModifiedBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "lastModifiedWhen": "2025-10-20T14:16:35.0717286",
+          "origin": {
+            "origin": {
+              "originType": "Clone",
+              "originVersionId": "4bb757f2-62c3-43b2-bde0-6a89966644ba",
+              "originModelId": "76d254d3-5928-42d4-a4a4-d425ccee3e93",
+              "name": "BBSB Konven - EAD Outstanding Amount",
+              "version": 1
+            }
+          },
+          "model": {
+            "modelId": "ec9978b1-7cc1-5fb7-8a62-a7fad7732dbb",
+            "name": "BBSB Syariah - EAD Outstanding Amount",
+            "description": "BBSB Syariah - EAD Outstanding Amount",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T14:16:34.9679756",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T14:16:34.9679756",
+            "objectiveType": {
+              "objectiveTypeId": "5ad5186f-c43b-4711-8f25-287818b09bcf",
+              "code": "Ead",
+              "name": "Ead",
+              "description": "Ead Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          },
+          "segmentation": {
+            "versionId": "6f182c43-89d8-4c7a-82b8-d889f0beee35",
+            "version": 1,
+            "status": "Draft",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T06:54:31.986213",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T06:54:57.925645",
+            "origin": {
+              "origin": {
+                "originType": "New"
+              }
+            },
+            "model": {
+              "modelId": "a1d3b263-6c39-48ce-9f9f-f61bf8c61b6d",
+              "name": "BSSB Konven - All products",
+              "description": "BSSB Konven - All products",
+              "isPrivate": false,
+              "status": "Open",
+              "createdBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "createdWhen": "2025-10-20T06:54:31.986213",
+              "lastModifiedBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "lastModifiedWhen": "2025-10-20T06:54:57.925645",
+              "objectiveType": {
+                "objectiveTypeId": "c84eec4a-5e3d-4e88-bf7f-2c7a22a54d76",
+                "code": "Segmentation",
+                "name": "Segmentation",
+                "description": "Segmentation Model"
+              },
+              "modelType": {
+                "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+                "name": "Simulation",
+                "description": "Model simulation type",
+                "style": {
+                  "border": "solid 1px #36116f",
+                  "backgroundColor": "#563d7c",
+                  "color": "white"
+                }
+              }
+            },
+            "segmentationConfiguration": {
+              "segments": [
+                {
+                  "segmentId": "2d131a71-00cb-4e60-b1d0-2350ceadbe13",
+                  "name": "All products",
+                  "description": "All products",
+                  "category": "All products",
+                  "lastModifiedWhen": "2025-10-20T06:54:45.6037661"
+                }
+              ],
+              "rules": [
+                {
+                  "ruleId": "90c5be4c-5d5c-4dbe-8d36-5d221306063b",
+                  "name": "All products",
+                  "description": "All products",
+                  "priority": 1,
+                  "lastModifiedWhen": "2025-10-20T06:54:57.9255362",
+                  "segments": [
+                    {
+                      "segmentRuleId": "343e47de-72f3-49df-922a-625971d44a07",
+                      "segmentId": "2d131a71-00cb-4e60-b1d0-2350ceadbe13",
+                      "segmentName": "All products",
+                      "priority": 1
+                    }
+                  ]
+                }
+              ],
+              "hierarchies": [],
+              "nodes": [
+                {
+                  "id": "6f182c43-89d8-4c7a-82b8-d889f0beee35",
+                  "path": "/BSSB Konven - All products",
+                  "name": "BSSB Konven - All products",
+                  "description": "BSSB Konven - All products",
+                  "nodeType": "Model"
+                },
+                {
+                  "id": "2d131a71-00cb-4e60-b1d0-2350ceadbe13",
+                  "path": "/BSSB Konven - All products/All products",
+                  "name": "All products",
+                  "description": "All products",
+                  "category": "All products",
+                  "nodeType": "Segment",
+                  "parentId": "6f182c43-89d8-4c7a-82b8-d889f0beee35"
+                }
+              ]
+            },
+            "testSuites": {
+              "testSuites": []
+            }
+          },
+          "approaches": {
+            "approaches": [
+              {
+                "approachId": "e56a0e8b-7644-5107-a525-2429b159efa4",
+                "name": "EAD Remaining Outstanding Amount",
+                "description": "EAD Remaining Outstanding Amount",
+                "approachType": "SingleMethod",
+                "segments": [
+                  {
+                    "segmentId": "2d131a71-00cb-4e60-b1d0-2350ceadbe13",
+                    "name": "All products"
+                  }
+                ],
+                "method": {
+                  "methodId": "047911d1-f6d0-5ee6-8149-a4b85e609650",
+                  "calcMethodId": "52d6d46f-e388-45b1-aa2f-6925985c5a82",
+                  "calcMethod": {
+                    "calcMethodId": "52d6d46f-e388-45b1-aa2f-6925985c5a82",
+                    "name": "Outstanding Balance",
+                    "description": "Outstanding Balance",
+                    "code": "OutstandingBalance"
+                  },
+                  "configuration": {
+                    "termStructure": {
+                      "termStructureType": "Monthly"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 14:16:34.967975",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "563aa76f-54aa-4c1c-8cad-6648e4b0a810",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "aef6a11d-00a6-547f-a5a1-5792551cf4c4",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BBSB Syariah - EAD Outstanding Amount",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "aef6a11d-00a6-547f-a5a1-5792551cf4c4",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "createdWhen": "2025-10-20T14:16:35.071728",
+          "lastModifiedBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "lastModifiedWhen": "2025-10-20T14:16:51.2560926",
+          "origin": {
+            "origin": {
+              "originType": "Clone",
+              "originVersionId": "4bb757f2-62c3-43b2-bde0-6a89966644ba",
+              "originModelId": "76d254d3-5928-42d4-a4a4-d425ccee3e93",
+              "name": "BBSB Konven - EAD Outstanding Amount",
+              "version": 1
+            }
+          },
+          "model": {
+            "modelId": "ec9978b1-7cc1-5fb7-8a62-a7fad7732dbb",
+            "name": "BBSB Syariah - EAD Outstanding Amount",
+            "description": "BBSB Syariah - EAD Outstanding Amount",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T14:16:34.967975",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T14:16:51.2560926",
+            "objectiveType": {
+              "objectiveTypeId": "5ad5186f-c43b-4711-8f25-287818b09bcf",
+              "code": "Ead",
+              "name": "Ead",
+              "description": "Ead Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          },
+          "segmentation": {
+            "versionId": "7df848ec-81f5-5a88-93c3-16365a1a5c6b",
+            "version": 1,
+            "status": "Draft",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T13:42:32.937965",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T13:42:32.937965",
+            "origin": {
+              "origin": {
+                "originType": "Clone",
+                "originVersionId": "6f182c43-89d8-4c7a-82b8-d889f0beee35",
+                "originModelId": "a1d3b263-6c39-48ce-9f9f-f61bf8c61b6d",
+                "name": "BSSB Konven - All products",
+                "version": 1
+              }
+            },
+            "model": {
+              "modelId": "8e638e8f-6fba-5579-ad4c-0ad4ba6f5fe9",
+              "name": "BSSB Syariah - All products",
+              "description": "BSSB Syariah - All products",
+              "isPrivate": false,
+              "status": "Open",
+              "createdBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "createdWhen": "2025-10-20T13:42:32.841697",
+              "lastModifiedBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "lastModifiedWhen": "2025-10-20T13:42:32.841697",
+              "objectiveType": {
+                "objectiveTypeId": "c84eec4a-5e3d-4e88-bf7f-2c7a22a54d76",
+                "code": "Segmentation",
+                "name": "Segmentation",
+                "description": "Segmentation Model"
+              },
+              "modelType": {
+                "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+                "name": "Simulation",
+                "description": "Model simulation type",
+                "style": {
+                  "border": "solid 1px #36116f",
+                  "backgroundColor": "#563d7c",
+                  "color": "white"
+                }
+              }
+            },
+            "segmentationConfiguration": {
+              "segments": [
+                {
+                  "segmentId": "aad32a87-20d2-535c-a499-63af45758acc",
+                  "name": "All products",
+                  "description": "All products",
+                  "category": "All products",
+                  "lastModifiedWhen": "2025-10-20T06:54:45.6037661"
+                }
+              ],
+              "rules": [
+                {
+                  "ruleId": "720c4fd4-8f98-59ce-accf-67942238d6d5",
+                  "name": "All products",
+                  "description": "All products",
+                  "priority": 1,
+                  "lastModifiedWhen": "2025-10-20T06:54:57.9255362",
+                  "segments": [
+                    {
+                      "segmentRuleId": "62ab22ba-f803-50dd-8a41-c4d2d5a18e80",
+                      "segmentId": "aad32a87-20d2-535c-a499-63af45758acc",
+                      "segmentName": "All products",
+                      "priority": 1
+                    }
+                  ]
+                }
+              ],
+              "hierarchies": [],
+              "nodes": [
+                {
+                  "id": "7df848ec-81f5-5a88-93c3-16365a1a5c6b",
+                  "path": "/BSSB Syariah - All products",
+                  "name": "BSSB Syariah - All products",
+                  "description": "BSSB Syariah - All products",
+                  "nodeType": "Model"
+                },
+                {
+                  "id": "aad32a87-20d2-535c-a499-63af45758acc",
+                  "path": "/BSSB Syariah - All products/All products",
+                  "name": "All products",
+                  "description": "All products",
+                  "category": "All products",
+                  "nodeType": "Segment",
+                  "parentId": "7df848ec-81f5-5a88-93c3-16365a1a5c6b"
+                }
+              ]
+            },
+            "testSuites": {
+              "testSuites": []
+            }
+          },
+          "approaches": {
+            "approaches": [
+              {
+                "approachId": "e56a0e8b-7644-5107-a525-2429b159efa4",
+                "name": "EAD Remaining Outstanding Amount",
+                "description": "EAD Remaining Outstanding Amount",
+                "approachType": "SingleMethod",
+                "segments": [
+                  {
+                    "segmentId": "2d131a71-00cb-4e60-b1d0-2350ceadbe13"
+                  }
+                ],
+                "method": {
+                  "methodId": "047911d1-f6d0-5ee6-8149-a4b85e609650",
+                  "calcMethodId": "52d6d46f-e388-45b1-aa2f-6925985c5a82",
+                  "calcMethod": {
+                    "calcMethodId": "52d6d46f-e388-45b1-aa2f-6925985c5a82",
+                    "name": "Outstanding Balance",
+                    "description": "Outstanding Balance",
+                    "code": "OutstandingBalance"
+                  },
+                  "configuration": {
+                    "termStructure": {
+                      "termStructureType": "Monthly"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 14:16:51.276693",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "a4d9bca3-9478-46e1-8556-61d4c24946ec",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "aef6a11d-00a6-547f-a5a1-5792551cf4c4",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BBSB Syariah - EAD Outstanding Amount",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "aef6a11d-00a6-547f-a5a1-5792551cf4c4",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "createdWhen": "2025-10-20T14:16:35.071728",
+          "lastModifiedBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "lastModifiedWhen": "2025-10-20T14:17:05.1558218",
+          "origin": {
+            "origin": {
+              "originType": "Clone",
+              "originVersionId": "4bb757f2-62c3-43b2-bde0-6a89966644ba",
+              "originModelId": "76d254d3-5928-42d4-a4a4-d425ccee3e93",
+              "name": "BBSB Konven - EAD Outstanding Amount",
+              "version": 1
+            }
+          },
+          "model": {
+            "modelId": "ec9978b1-7cc1-5fb7-8a62-a7fad7732dbb",
+            "name": "BBSB Syariah - EAD Outstanding Amount",
+            "description": "BBSB Syariah - EAD Outstanding Amount",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T14:16:34.967975",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T14:17:05.1558218",
+            "objectiveType": {
+              "objectiveTypeId": "5ad5186f-c43b-4711-8f25-287818b09bcf",
+              "code": "Ead",
+              "name": "Ead",
+              "description": "Ead Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          },
+          "segmentation": {
+            "versionId": "7df848ec-81f5-5a88-93c3-16365a1a5c6b",
+            "version": 1,
+            "status": "Draft",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T13:42:32.937965",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T13:42:32.937965",
+            "origin": {
+              "origin": {
+                "originType": "Clone",
+                "originVersionId": "6f182c43-89d8-4c7a-82b8-d889f0beee35",
+                "originModelId": "a1d3b263-6c39-48ce-9f9f-f61bf8c61b6d",
+                "name": "BSSB Konven - All products",
+                "version": 1
+              }
+            },
+            "model": {
+              "modelId": "8e638e8f-6fba-5579-ad4c-0ad4ba6f5fe9",
+              "name": "BSSB Syariah - All products",
+              "description": "BSSB Syariah - All products",
+              "isPrivate": false,
+              "status": "Open",
+              "createdBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "createdWhen": "2025-10-20T13:42:32.841697",
+              "lastModifiedBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "lastModifiedWhen": "2025-10-20T13:42:32.841697",
+              "objectiveType": {
+                "objectiveTypeId": "c84eec4a-5e3d-4e88-bf7f-2c7a22a54d76",
+                "code": "Segmentation",
+                "name": "Segmentation",
+                "description": "Segmentation Model"
+              },
+              "modelType": {
+                "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+                "name": "Simulation",
+                "description": "Model simulation type",
+                "style": {
+                  "border": "solid 1px #36116f",
+                  "backgroundColor": "#563d7c",
+                  "color": "white"
+                }
+              }
+            },
+            "segmentationConfiguration": {
+              "segments": [
+                {
+                  "segmentId": "aad32a87-20d2-535c-a499-63af45758acc",
+                  "name": "All products",
+                  "description": "All products",
+                  "category": "All products",
+                  "lastModifiedWhen": "2025-10-20T06:54:45.6037661"
+                }
+              ],
+              "rules": [
+                {
+                  "ruleId": "720c4fd4-8f98-59ce-accf-67942238d6d5",
+                  "name": "All products",
+                  "description": "All products",
+                  "priority": 1,
+                  "lastModifiedWhen": "2025-10-20T06:54:57.9255362",
+                  "segments": [
+                    {
+                      "segmentRuleId": "62ab22ba-f803-50dd-8a41-c4d2d5a18e80",
+                      "segmentId": "aad32a87-20d2-535c-a499-63af45758acc",
+                      "segmentName": "All products",
+                      "priority": 1
+                    }
+                  ]
+                }
+              ],
+              "hierarchies": [],
+              "nodes": [
+                {
+                  "id": "7df848ec-81f5-5a88-93c3-16365a1a5c6b",
+                  "path": "/BSSB Syariah - All products",
+                  "name": "BSSB Syariah - All products",
+                  "description": "BSSB Syariah - All products",
+                  "nodeType": "Model"
+                },
+                {
+                  "id": "aad32a87-20d2-535c-a499-63af45758acc",
+                  "path": "/BSSB Syariah - All products/All products",
+                  "name": "All products",
+                  "description": "All products",
+                  "category": "All products",
+                  "nodeType": "Segment",
+                  "parentId": "7df848ec-81f5-5a88-93c3-16365a1a5c6b"
+                }
+              ]
+            },
+            "testSuites": {
+              "testSuites": []
+            }
+          },
+          "approaches": {
+            "approaches": [
+              {
+                "approachId": "e56a0e8b-7644-5107-a525-2429b159efa4",
+                "name": "EAD Remaining Outstanding Amount",
+                "description": "EAD Remaining Outstanding Amount",
+                "approachType": "SingleMethod",
+                "segments": [
+                  {
+                    "segmentId": "aad32a87-20d2-535c-a499-63af45758acc",
+                    "name": "All products"
+                  }
+                ],
+                "method": {
+                  "methodId": "047911d1-f6d0-5ee6-8149-a4b85e609650",
+                  "calcMethodId": "52d6d46f-e388-45b1-aa2f-6925985c5a82",
+                  "calcMethod": {
+                    "calcMethodId": "52d6d46f-e388-45b1-aa2f-6925985c5a82",
+                    "name": "Outstanding Balance",
+                    "description": "Outstanding Balance",
+                    "code": "OutstandingBalance"
+                  },
+                  "configuration": {
+                    "termStructure": {
+                      "termStructureType": "Monthly"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 14:17:05.175848",
+      "ImpersonatedUserId": null
+    }
+  ]
+}

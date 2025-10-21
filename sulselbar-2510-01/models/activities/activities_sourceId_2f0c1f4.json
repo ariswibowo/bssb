@@ -1,0 +1,1480 @@
+{
+  "activities": [
+    {
+      "ActivityId": "2c79e093-5ab6-497d-8d4f-b178523c2a60",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "3636fb43-1501-4ef2-9e57-f4f612f0c1f4",
+      "Source": "Version",
+      "Action": "CreateVersion",
+      "Description": "Created version 1 of model BSSB - Konven - Level Assessment",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "3636fb43-1501-4ef2-9e57-f4f612f0c1f4",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "createdWhen": "2025-10-20T03:00:54.4055868",
+          "lastModifiedBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "lastModifiedWhen": "2025-10-20T03:00:54.4055868",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "3763e799-f939-47e8-985e-7de5b7ae8202",
+            "name": "BSSB - Konven - Level Assessment",
+            "description": "BSSB - Konven - Level Assessment",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T03:00:54.4055868",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T03:00:54.4055868",
+            "objectiveType": {
+              "objectiveTypeId": "f690d7f7-7321-4423-9017-5360a6cbe680",
+              "code": "LevelAssessment",
+              "name": "Level Assessment",
+              "description": "Level Assessment Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          },
+          "segmentation": null
+        }
+      },
+      "Timestamp": "2025-10-20 03:00:54.405586",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "ec0c8658-706d-4045-a988-e1565c8b8b03",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "3636fb43-1501-4ef2-9e57-f4f612f0c1f4",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Konven - Level Assessment",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "3636fb43-1501-4ef2-9e57-f4f612f0c1f4",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "createdWhen": "2025-10-20T03:00:54.405586",
+          "lastModifiedBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "lastModifiedWhen": "2025-10-20T03:01:04.6724569",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "3763e799-f939-47e8-985e-7de5b7ae8202",
+            "name": "BSSB - Konven - Level Assessment",
+            "description": "BSSB - Konven - Level Assessment",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T03:00:54.405586",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T03:01:04.6724569",
+            "objectiveType": {
+              "objectiveTypeId": "f690d7f7-7321-4423-9017-5360a6cbe680",
+              "code": "LevelAssessment",
+              "name": "Level Assessment",
+              "description": "Level Assessment Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          },
+          "segmentation": {
+            "versionId": "2877598e-c69a-4e4d-be20-d02bf88f3bc1",
+            "version": 1,
+            "status": "Draft",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T02:57:10.795548",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T02:58:32.404073",
+            "origin": {
+              "origin": {
+                "originType": "New"
+              }
+            },
+            "model": {
+              "modelId": "93fbdcf5-737f-4976-a141-de998063ac19",
+              "name": "BSSB Konvensional Level Assessment",
+              "description": "BSSB Konvensional Level Assessment",
+              "isPrivate": false,
+              "status": "Open",
+              "createdBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "createdWhen": "2025-10-20T02:57:10.795548",
+              "lastModifiedBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "lastModifiedWhen": "2025-10-20T03:00:04.161847",
+              "objectiveType": {
+                "objectiveTypeId": "c84eec4a-5e3d-4e88-bf7f-2c7a22a54d76",
+                "code": "Segmentation",
+                "name": "Segmentation",
+                "description": "Segmentation Model"
+              },
+              "modelType": {
+                "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+                "name": "Simulation",
+                "description": "Model simulation type",
+                "style": {
+                  "border": "solid 1px #36116f",
+                  "backgroundColor": "#563d7c",
+                  "color": "white"
+                }
+              }
+            },
+            "segmentationConfiguration": {
+              "segments": [
+                {
+                  "segmentId": "11bbbad6-75d8-4967-ba52-3705578c4d08",
+                  "name": "All contract konvensional",
+                  "description": "All contract konvensional",
+                  "category": "All contract konvensional",
+                  "lastModifiedWhen": "2025-10-20T02:58:19.2739807"
+                }
+              ],
+              "rules": [
+                {
+                  "ruleId": "9960679d-5d44-4ff1-b9df-6c2f19bbc5b2",
+                  "name": "All contract konvensional",
+                  "description": "All contract konvensional",
+                  "priority": 1,
+                  "lastModifiedWhen": "2025-10-20T02:58:32.4040191",
+                  "segments": [
+                    {
+                      "segmentRuleId": "e839f954-c68b-4ab7-81cb-a012cf2068ef",
+                      "segmentId": "11bbbad6-75d8-4967-ba52-3705578c4d08",
+                      "segmentName": "All contract konvensional",
+                      "priority": 1
+                    }
+                  ]
+                }
+              ],
+              "hierarchies": [],
+              "nodes": [
+                {
+                  "id": "2877598e-c69a-4e4d-be20-d02bf88f3bc1",
+                  "path": "/BSSB Konvensional Level Assessment",
+                  "name": "BSSB Konvensional Level Assessment",
+                  "description": "BSSB Konvensional Level Assessment",
+                  "nodeType": "Model"
+                },
+                {
+                  "id": "11bbbad6-75d8-4967-ba52-3705578c4d08",
+                  "path": "/BSSB Konvensional Level Assessment/All contract konvensional",
+                  "name": "All contract konvensional",
+                  "description": "All contract konvensional",
+                  "category": "All contract konvensional",
+                  "nodeType": "Segment",
+                  "parentId": "2877598e-c69a-4e4d-be20-d02bf88f3bc1"
+                }
+              ]
+            },
+            "testSuites": {
+              "testSuites": []
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 03:01:04.691137",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "2fa9bd27-e32f-4cb2-9fe1-dbcee5de0f55",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "3636fb43-1501-4ef2-9e57-f4f612f0c1f4",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Konven - Level Assessment",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "3636fb43-1501-4ef2-9e57-f4f612f0c1f4",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "createdWhen": "2025-10-20T03:00:54.405586",
+          "lastModifiedBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "lastModifiedWhen": "2025-10-20T03:01:20.5165774",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "3763e799-f939-47e8-985e-7de5b7ae8202",
+            "name": "BSSB - Konven - Level Assessment",
+            "description": "BSSB - Konven - Level Assessment",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T03:00:54.405586",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T03:01:20.5165774",
+            "objectiveType": {
+              "objectiveTypeId": "f690d7f7-7321-4423-9017-5360a6cbe680",
+              "code": "LevelAssessment",
+              "name": "Level Assessment",
+              "description": "Level Assessment Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          },
+          "segmentation": {
+            "versionId": "2877598e-c69a-4e4d-be20-d02bf88f3bc1",
+            "version": 1,
+            "status": "Draft",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T02:57:10.795548",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T02:58:32.404073",
+            "origin": {
+              "origin": {
+                "originType": "New"
+              }
+            },
+            "model": {
+              "modelId": "93fbdcf5-737f-4976-a141-de998063ac19",
+              "name": "BSSB Konvensional Level Assessment",
+              "description": "BSSB Konvensional Level Assessment",
+              "isPrivate": false,
+              "status": "Open",
+              "createdBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "createdWhen": "2025-10-20T02:57:10.795548",
+              "lastModifiedBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "lastModifiedWhen": "2025-10-20T03:00:04.161847",
+              "objectiveType": {
+                "objectiveTypeId": "c84eec4a-5e3d-4e88-bf7f-2c7a22a54d76",
+                "code": "Segmentation",
+                "name": "Segmentation",
+                "description": "Segmentation Model"
+              },
+              "modelType": {
+                "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+                "name": "Simulation",
+                "description": "Model simulation type",
+                "style": {
+                  "border": "solid 1px #36116f",
+                  "backgroundColor": "#563d7c",
+                  "color": "white"
+                }
+              }
+            },
+            "segmentationConfiguration": {
+              "segments": [
+                {
+                  "segmentId": "11bbbad6-75d8-4967-ba52-3705578c4d08",
+                  "name": "All contract konvensional",
+                  "description": "All contract konvensional",
+                  "category": "All contract konvensional",
+                  "lastModifiedWhen": "2025-10-20T02:58:19.2739807"
+                }
+              ],
+              "rules": [
+                {
+                  "ruleId": "9960679d-5d44-4ff1-b9df-6c2f19bbc5b2",
+                  "name": "All contract konvensional",
+                  "description": "All contract konvensional",
+                  "priority": 1,
+                  "lastModifiedWhen": "2025-10-20T02:58:32.4040191",
+                  "segments": [
+                    {
+                      "segmentRuleId": "e839f954-c68b-4ab7-81cb-a012cf2068ef",
+                      "segmentId": "11bbbad6-75d8-4967-ba52-3705578c4d08",
+                      "segmentName": "All contract konvensional",
+                      "priority": 1
+                    }
+                  ]
+                }
+              ],
+              "hierarchies": [],
+              "nodes": [
+                {
+                  "id": "2877598e-c69a-4e4d-be20-d02bf88f3bc1",
+                  "path": "/BSSB Konvensional Level Assessment",
+                  "name": "BSSB Konvensional Level Assessment",
+                  "description": "BSSB Konvensional Level Assessment",
+                  "nodeType": "Model"
+                },
+                {
+                  "id": "11bbbad6-75d8-4967-ba52-3705578c4d08",
+                  "path": "/BSSB Konvensional Level Assessment/All contract konvensional",
+                  "name": "All contract konvensional",
+                  "description": "All contract konvensional",
+                  "category": "All contract konvensional",
+                  "nodeType": "Segment",
+                  "parentId": "2877598e-c69a-4e4d-be20-d02bf88f3bc1"
+                }
+              ]
+            },
+            "testSuites": {
+              "testSuites": []
+            }
+          },
+          "approaches": {
+            "approaches": [
+              {
+                "approachId": "a92829ac-b735-464a-936f-390f0b82860f",
+                "name": "Level Asessment Konven",
+                "description": "Level Asessment Konven",
+                "segments": [],
+                "lastModifiedWhen": "2025-10-20T03:01:20.759",
+                "rules": []
+              }
+            ]
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 03:01:20.535584",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "14b1f09a-3fff-4cf0-81b9-7fc33fb84555",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "3636fb43-1501-4ef2-9e57-f4f612f0c1f4",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Konven - Level Assessment",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "3636fb43-1501-4ef2-9e57-f4f612f0c1f4",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "createdWhen": "2025-10-20T03:00:54.405586",
+          "lastModifiedBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "lastModifiedWhen": "2025-10-20T03:01:26.1159542",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "3763e799-f939-47e8-985e-7de5b7ae8202",
+            "name": "BSSB - Konven - Level Assessment",
+            "description": "BSSB - Konven - Level Assessment",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T03:00:54.405586",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T03:01:26.1159542",
+            "objectiveType": {
+              "objectiveTypeId": "f690d7f7-7321-4423-9017-5360a6cbe680",
+              "code": "LevelAssessment",
+              "name": "Level Assessment",
+              "description": "Level Assessment Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          },
+          "segmentation": {
+            "versionId": "2877598e-c69a-4e4d-be20-d02bf88f3bc1",
+            "version": 1,
+            "status": "Draft",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T02:57:10.795548",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T02:58:32.404073",
+            "origin": {
+              "origin": {
+                "originType": "New"
+              }
+            },
+            "model": {
+              "modelId": "93fbdcf5-737f-4976-a141-de998063ac19",
+              "name": "BSSB Konvensional Level Assessment",
+              "description": "BSSB Konvensional Level Assessment",
+              "isPrivate": false,
+              "status": "Open",
+              "createdBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "createdWhen": "2025-10-20T02:57:10.795548",
+              "lastModifiedBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "lastModifiedWhen": "2025-10-20T03:00:04.161847",
+              "objectiveType": {
+                "objectiveTypeId": "c84eec4a-5e3d-4e88-bf7f-2c7a22a54d76",
+                "code": "Segmentation",
+                "name": "Segmentation",
+                "description": "Segmentation Model"
+              },
+              "modelType": {
+                "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+                "name": "Simulation",
+                "description": "Model simulation type",
+                "style": {
+                  "border": "solid 1px #36116f",
+                  "backgroundColor": "#563d7c",
+                  "color": "white"
+                }
+              }
+            },
+            "segmentationConfiguration": {
+              "segments": [
+                {
+                  "segmentId": "11bbbad6-75d8-4967-ba52-3705578c4d08",
+                  "name": "All contract konvensional",
+                  "description": "All contract konvensional",
+                  "category": "All contract konvensional",
+                  "lastModifiedWhen": "2025-10-20T02:58:19.2739807"
+                }
+              ],
+              "rules": [
+                {
+                  "ruleId": "9960679d-5d44-4ff1-b9df-6c2f19bbc5b2",
+                  "name": "All contract konvensional",
+                  "description": "All contract konvensional",
+                  "priority": 1,
+                  "lastModifiedWhen": "2025-10-20T02:58:32.4040191",
+                  "segments": [
+                    {
+                      "segmentRuleId": "e839f954-c68b-4ab7-81cb-a012cf2068ef",
+                      "segmentId": "11bbbad6-75d8-4967-ba52-3705578c4d08",
+                      "segmentName": "All contract konvensional",
+                      "priority": 1
+                    }
+                  ]
+                }
+              ],
+              "hierarchies": [],
+              "nodes": [
+                {
+                  "id": "2877598e-c69a-4e4d-be20-d02bf88f3bc1",
+                  "path": "/BSSB Konvensional Level Assessment",
+                  "name": "BSSB Konvensional Level Assessment",
+                  "description": "BSSB Konvensional Level Assessment",
+                  "nodeType": "Model"
+                },
+                {
+                  "id": "11bbbad6-75d8-4967-ba52-3705578c4d08",
+                  "path": "/BSSB Konvensional Level Assessment/All contract konvensional",
+                  "name": "All contract konvensional",
+                  "description": "All contract konvensional",
+                  "category": "All contract konvensional",
+                  "nodeType": "Segment",
+                  "parentId": "2877598e-c69a-4e4d-be20-d02bf88f3bc1"
+                }
+              ]
+            },
+            "testSuites": {
+              "testSuites": []
+            }
+          },
+          "approaches": {
+            "approaches": [
+              {
+                "approachId": "a92829ac-b735-464a-936f-390f0b82860f",
+                "name": "Level Asessment Konven",
+                "description": "Level Asessment Konven",
+                "segments": [
+                  {
+                    "segmentId": "11bbbad6-75d8-4967-ba52-3705578c4d08",
+                    "name": "All contract konvensional"
+                  }
+                ],
+                "lastModifiedWhen": "2025-10-20T03:01:20.759",
+                "rules": []
+              }
+            ]
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 03:01:26.135271",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "d9d8c506-fb9c-46ec-8554-b0822588b569",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "3636fb43-1501-4ef2-9e57-f4f612f0c1f4",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Konven - Level Assessment",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "3636fb43-1501-4ef2-9e57-f4f612f0c1f4",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "createdWhen": "2025-10-20T03:00:54.405586",
+          "lastModifiedBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "lastModifiedWhen": "2025-10-20T03:01:36.7540236",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "3763e799-f939-47e8-985e-7de5b7ae8202",
+            "name": "BSSB - Konven - Level Assessment",
+            "description": "BSSB - Konven - Level Assessment",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T03:00:54.405586",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T03:01:36.7540236",
+            "objectiveType": {
+              "objectiveTypeId": "f690d7f7-7321-4423-9017-5360a6cbe680",
+              "code": "LevelAssessment",
+              "name": "Level Assessment",
+              "description": "Level Assessment Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          },
+          "segmentation": {
+            "versionId": "2877598e-c69a-4e4d-be20-d02bf88f3bc1",
+            "version": 1,
+            "status": "Draft",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T02:57:10.795548",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T02:58:32.404073",
+            "origin": {
+              "origin": {
+                "originType": "New"
+              }
+            },
+            "model": {
+              "modelId": "93fbdcf5-737f-4976-a141-de998063ac19",
+              "name": "BSSB Konvensional Level Assessment",
+              "description": "BSSB Konvensional Level Assessment",
+              "isPrivate": false,
+              "status": "Open",
+              "createdBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "createdWhen": "2025-10-20T02:57:10.795548",
+              "lastModifiedBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "lastModifiedWhen": "2025-10-20T03:00:04.161847",
+              "objectiveType": {
+                "objectiveTypeId": "c84eec4a-5e3d-4e88-bf7f-2c7a22a54d76",
+                "code": "Segmentation",
+                "name": "Segmentation",
+                "description": "Segmentation Model"
+              },
+              "modelType": {
+                "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+                "name": "Simulation",
+                "description": "Model simulation type",
+                "style": {
+                  "border": "solid 1px #36116f",
+                  "backgroundColor": "#563d7c",
+                  "color": "white"
+                }
+              }
+            },
+            "segmentationConfiguration": {
+              "segments": [
+                {
+                  "segmentId": "11bbbad6-75d8-4967-ba52-3705578c4d08",
+                  "name": "All contract konvensional",
+                  "description": "All contract konvensional",
+                  "category": "All contract konvensional",
+                  "lastModifiedWhen": "2025-10-20T02:58:19.2739807"
+                }
+              ],
+              "rules": [
+                {
+                  "ruleId": "9960679d-5d44-4ff1-b9df-6c2f19bbc5b2",
+                  "name": "All contract konvensional",
+                  "description": "All contract konvensional",
+                  "priority": 1,
+                  "lastModifiedWhen": "2025-10-20T02:58:32.4040191",
+                  "segments": [
+                    {
+                      "segmentRuleId": "e839f954-c68b-4ab7-81cb-a012cf2068ef",
+                      "segmentId": "11bbbad6-75d8-4967-ba52-3705578c4d08",
+                      "segmentName": "All contract konvensional",
+                      "priority": 1
+                    }
+                  ]
+                }
+              ],
+              "hierarchies": [],
+              "nodes": [
+                {
+                  "id": "2877598e-c69a-4e4d-be20-d02bf88f3bc1",
+                  "path": "/BSSB Konvensional Level Assessment",
+                  "name": "BSSB Konvensional Level Assessment",
+                  "description": "BSSB Konvensional Level Assessment",
+                  "nodeType": "Model"
+                },
+                {
+                  "id": "11bbbad6-75d8-4967-ba52-3705578c4d08",
+                  "path": "/BSSB Konvensional Level Assessment/All contract konvensional",
+                  "name": "All contract konvensional",
+                  "description": "All contract konvensional",
+                  "category": "All contract konvensional",
+                  "nodeType": "Segment",
+                  "parentId": "2877598e-c69a-4e4d-be20-d02bf88f3bc1"
+                }
+              ]
+            },
+            "testSuites": {
+              "testSuites": []
+            }
+          },
+          "approaches": {
+            "approaches": [
+              {
+                "approachId": "a92829ac-b735-464a-936f-390f0b82860f",
+                "name": "Level Asessment Konven",
+                "description": "Level Asessment Konven",
+                "segments": [
+                  {
+                    "segmentId": "11bbbad6-75d8-4967-ba52-3705578c4d08",
+                    "name": "All contract konvensional"
+                  }
+                ],
+                "lastModifiedWhen": "2025-10-20T03:01:20.759",
+                "rules": [
+                  {
+                    "ruleId": "50af1dd7-5dec-44df-8886-907676f0d55b",
+                    "priority": 1,
+                    "name": "Level Asessment Konven",
+                    "description": "Level Asessment Konven",
+                    "ruleCondition": {},
+                    "levels": [],
+                    "lastModifiedWhen": "2025-10-20T03:01:36.999"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 03:01:36.773343",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "6a701012-5020-4eb4-ab3f-e95015fc9d96",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "3636fb43-1501-4ef2-9e57-f4f612f0c1f4",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Konven - Level Assessment",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "3636fb43-1501-4ef2-9e57-f4f612f0c1f4",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "createdWhen": "2025-10-20T03:00:54.405586",
+          "lastModifiedBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "lastModifiedWhen": "2025-10-20T03:02:53.2035868",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "3763e799-f939-47e8-985e-7de5b7ae8202",
+            "name": "BSSB - Konven - Level Assessment",
+            "description": "BSSB - Konven - Level Assessment",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T03:00:54.405586",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T03:02:53.2035868",
+            "objectiveType": {
+              "objectiveTypeId": "f690d7f7-7321-4423-9017-5360a6cbe680",
+              "code": "LevelAssessment",
+              "name": "Level Assessment",
+              "description": "Level Assessment Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          },
+          "segmentation": {
+            "versionId": "2877598e-c69a-4e4d-be20-d02bf88f3bc1",
+            "version": 1,
+            "status": "Draft",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T02:57:10.795548",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T02:58:32.404073",
+            "origin": {
+              "origin": {
+                "originType": "New"
+              }
+            },
+            "model": {
+              "modelId": "93fbdcf5-737f-4976-a141-de998063ac19",
+              "name": "BSSB Konvensional Level Assessment",
+              "description": "BSSB Konvensional Level Assessment",
+              "isPrivate": false,
+              "status": "Open",
+              "createdBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "createdWhen": "2025-10-20T02:57:10.795548",
+              "lastModifiedBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "lastModifiedWhen": "2025-10-20T03:00:04.161847",
+              "objectiveType": {
+                "objectiveTypeId": "c84eec4a-5e3d-4e88-bf7f-2c7a22a54d76",
+                "code": "Segmentation",
+                "name": "Segmentation",
+                "description": "Segmentation Model"
+              },
+              "modelType": {
+                "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+                "name": "Simulation",
+                "description": "Model simulation type",
+                "style": {
+                  "border": "solid 1px #36116f",
+                  "backgroundColor": "#563d7c",
+                  "color": "white"
+                }
+              }
+            },
+            "segmentationConfiguration": {
+              "segments": [
+                {
+                  "segmentId": "11bbbad6-75d8-4967-ba52-3705578c4d08",
+                  "name": "All contract konvensional",
+                  "description": "All contract konvensional",
+                  "category": "All contract konvensional",
+                  "lastModifiedWhen": "2025-10-20T02:58:19.2739807"
+                }
+              ],
+              "rules": [
+                {
+                  "ruleId": "9960679d-5d44-4ff1-b9df-6c2f19bbc5b2",
+                  "name": "All contract konvensional",
+                  "description": "All contract konvensional",
+                  "priority": 1,
+                  "lastModifiedWhen": "2025-10-20T02:58:32.4040191",
+                  "segments": [
+                    {
+                      "segmentRuleId": "e839f954-c68b-4ab7-81cb-a012cf2068ef",
+                      "segmentId": "11bbbad6-75d8-4967-ba52-3705578c4d08",
+                      "segmentName": "All contract konvensional",
+                      "priority": 1
+                    }
+                  ]
+                }
+              ],
+              "hierarchies": [],
+              "nodes": [
+                {
+                  "id": "2877598e-c69a-4e4d-be20-d02bf88f3bc1",
+                  "path": "/BSSB Konvensional Level Assessment",
+                  "name": "BSSB Konvensional Level Assessment",
+                  "description": "BSSB Konvensional Level Assessment",
+                  "nodeType": "Model"
+                },
+                {
+                  "id": "11bbbad6-75d8-4967-ba52-3705578c4d08",
+                  "path": "/BSSB Konvensional Level Assessment/All contract konvensional",
+                  "name": "All contract konvensional",
+                  "description": "All contract konvensional",
+                  "category": "All contract konvensional",
+                  "nodeType": "Segment",
+                  "parentId": "2877598e-c69a-4e4d-be20-d02bf88f3bc1"
+                }
+              ]
+            },
+            "testSuites": {
+              "testSuites": []
+            }
+          },
+          "approaches": {
+            "approaches": [
+              {
+                "approachId": "a92829ac-b735-464a-936f-390f0b82860f",
+                "name": "Level Asessment Konven",
+                "description": "Level Asessment Konven",
+                "segments": [
+                  {
+                    "segmentId": "11bbbad6-75d8-4967-ba52-3705578c4d08",
+                    "name": "All contract konvensional"
+                  }
+                ],
+                "lastModifiedWhen": "2025-10-20T03:01:20.759",
+                "rules": [
+                  {
+                    "ruleId": "50af1dd7-5dec-44df-8886-907676f0d55b",
+                    "priority": 1,
+                    "name": "Level Asessment Konven",
+                    "description": "Level Asessment Konven",
+                    "ruleCondition": {},
+                    "levels": [
+                      {
+                        "levelId": "e29b4e62-ca9a-4451-99b4-a56a2f03cef4",
+                        "priority": 1,
+                        "levelType": "Individual",
+                        "description": "Individual Impairment",
+                        "levelCondition": {
+                          "combinator": "And",
+                          "conditionId": "6ae5e511-cef8-47a6-a9fb-5c41e9a34019",
+                          "conditions": [
+                            {
+                              "field": "OutstandingAmount",
+                              "operator": "GreaterThan",
+                              "value": "2000000000",
+                              "conditionId": "10658190-115c-48e3-9c85-0b66d0fbf18d"
+                            },
+                            {
+                              "field": "IsRestructured",
+                              "operator": "Equal",
+                              "value": "true",
+                              "conditionId": "d610c562-2378-45a4-a292-32dd637230d3"
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "lastModifiedWhen": "2025-10-20T03:02:53.447"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 03:02:53.222699",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "6f52c44d-27df-4627-a512-6b6c061555b0",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "3636fb43-1501-4ef2-9e57-f4f612f0c1f4",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Konven - Level Assessment",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "3636fb43-1501-4ef2-9e57-f4f612f0c1f4",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "createdWhen": "2025-10-20T03:00:54.405586",
+          "lastModifiedBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "lastModifiedWhen": "2025-10-20T03:02:59.3835844",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "3763e799-f939-47e8-985e-7de5b7ae8202",
+            "name": "BSSB - Konven - Level Assessment",
+            "description": "BSSB - Konven - Level Assessment",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T03:00:54.405586",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T03:02:59.3835844",
+            "objectiveType": {
+              "objectiveTypeId": "f690d7f7-7321-4423-9017-5360a6cbe680",
+              "code": "LevelAssessment",
+              "name": "Level Assessment",
+              "description": "Level Assessment Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          },
+          "segmentation": {
+            "versionId": "2877598e-c69a-4e4d-be20-d02bf88f3bc1",
+            "version": 1,
+            "status": "Draft",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T02:57:10.795548",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T02:58:32.404073",
+            "origin": {
+              "origin": {
+                "originType": "New"
+              }
+            },
+            "model": {
+              "modelId": "93fbdcf5-737f-4976-a141-de998063ac19",
+              "name": "BSSB Konvensional Level Assessment",
+              "description": "BSSB Konvensional Level Assessment",
+              "isPrivate": false,
+              "status": "Open",
+              "createdBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "createdWhen": "2025-10-20T02:57:10.795548",
+              "lastModifiedBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "lastModifiedWhen": "2025-10-20T03:00:04.161847",
+              "objectiveType": {
+                "objectiveTypeId": "c84eec4a-5e3d-4e88-bf7f-2c7a22a54d76",
+                "code": "Segmentation",
+                "name": "Segmentation",
+                "description": "Segmentation Model"
+              },
+              "modelType": {
+                "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+                "name": "Simulation",
+                "description": "Model simulation type",
+                "style": {
+                  "border": "solid 1px #36116f",
+                  "backgroundColor": "#563d7c",
+                  "color": "white"
+                }
+              }
+            },
+            "segmentationConfiguration": {
+              "segments": [
+                {
+                  "segmentId": "11bbbad6-75d8-4967-ba52-3705578c4d08",
+                  "name": "All contract konvensional",
+                  "description": "All contract konvensional",
+                  "category": "All contract konvensional",
+                  "lastModifiedWhen": "2025-10-20T02:58:19.2739807"
+                }
+              ],
+              "rules": [
+                {
+                  "ruleId": "9960679d-5d44-4ff1-b9df-6c2f19bbc5b2",
+                  "name": "All contract konvensional",
+                  "description": "All contract konvensional",
+                  "priority": 1,
+                  "lastModifiedWhen": "2025-10-20T02:58:32.4040191",
+                  "segments": [
+                    {
+                      "segmentRuleId": "e839f954-c68b-4ab7-81cb-a012cf2068ef",
+                      "segmentId": "11bbbad6-75d8-4967-ba52-3705578c4d08",
+                      "segmentName": "All contract konvensional",
+                      "priority": 1
+                    }
+                  ]
+                }
+              ],
+              "hierarchies": [],
+              "nodes": [
+                {
+                  "id": "2877598e-c69a-4e4d-be20-d02bf88f3bc1",
+                  "path": "/BSSB Konvensional Level Assessment",
+                  "name": "BSSB Konvensional Level Assessment",
+                  "description": "BSSB Konvensional Level Assessment",
+                  "nodeType": "Model"
+                },
+                {
+                  "id": "11bbbad6-75d8-4967-ba52-3705578c4d08",
+                  "path": "/BSSB Konvensional Level Assessment/All contract konvensional",
+                  "name": "All contract konvensional",
+                  "description": "All contract konvensional",
+                  "category": "All contract konvensional",
+                  "nodeType": "Segment",
+                  "parentId": "2877598e-c69a-4e4d-be20-d02bf88f3bc1"
+                }
+              ]
+            },
+            "testSuites": {
+              "testSuites": []
+            }
+          },
+          "approaches": {
+            "approaches": [
+              {
+                "approachId": "a92829ac-b735-464a-936f-390f0b82860f",
+                "name": "Level Asessment Konven",
+                "description": "Level Asessment Konven",
+                "segments": [
+                  {
+                    "segmentId": "11bbbad6-75d8-4967-ba52-3705578c4d08",
+                    "name": "All contract konvensional"
+                  }
+                ],
+                "lastModifiedWhen": "2025-10-20T03:01:20.759",
+                "rules": [
+                  {
+                    "ruleId": "50af1dd7-5dec-44df-8886-907676f0d55b",
+                    "priority": 1,
+                    "name": "Level Asessment Konven",
+                    "description": "Level Asessment Konven",
+                    "ruleCondition": {},
+                    "levels": [
+                      {
+                        "levelId": "e29b4e62-ca9a-4451-99b4-a56a2f03cef4",
+                        "priority": 1,
+                        "levelType": "Individual",
+                        "description": "Individual Impairment",
+                        "levelCondition": {
+                          "combinator": "And",
+                          "conditionId": "6ae5e511-cef8-47a6-a9fb-5c41e9a34019",
+                          "conditions": [
+                            {
+                              "field": "OutstandingAmount",
+                              "operator": "GreaterThan",
+                              "value": "2000000000",
+                              "conditionId": "10658190-115c-48e3-9c85-0b66d0fbf18d"
+                            },
+                            {
+                              "field": "IsRestructured",
+                              "operator": "Equal",
+                              "value": "true",
+                              "conditionId": "d610c562-2378-45a4-a292-32dd637230d3"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "levelId": "2d7387e5-88f5-4fc2-a3ee-ff80d1dea90f",
+                        "priority": 2,
+                        "levelType": "Collective",
+                        "description": "",
+                        "levelCondition": {
+                          "combinator": "And",
+                          "conditionId": "b91d82e2-1016-46eb-a3d4-4959a115405f",
+                          "conditions": []
+                        }
+                      }
+                    ],
+                    "lastModifiedWhen": "2025-10-20T03:02:59.618"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 03:02:59.402957",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "3f5d793a-b2d2-40c4-9546-1bd8c7ddc40b",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "3636fb43-1501-4ef2-9e57-f4f612f0c1f4",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Konven - Level Assessment",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "3636fb43-1501-4ef2-9e57-f4f612f0c1f4",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "createdWhen": "2025-10-20T03:00:54.405586",
+          "lastModifiedBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "lastModifiedWhen": "2025-10-20T06:01:56.7032073",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "3763e799-f939-47e8-985e-7de5b7ae8202",
+            "name": "BSSB - Konven - Level Assessment",
+            "description": "BSSB - Konven - Level Assessment",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T03:00:54.405586",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T06:01:56.7032073",
+            "objectiveType": {
+              "objectiveTypeId": "f690d7f7-7321-4423-9017-5360a6cbe680",
+              "code": "LevelAssessment",
+              "name": "Level Assessment",
+              "description": "Level Assessment Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          },
+          "segmentation": {
+            "versionId": "2877598e-c69a-4e4d-be20-d02bf88f3bc1",
+            "version": 1,
+            "status": "Draft",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T02:57:10.795548",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T02:58:32.404073",
+            "origin": {
+              "origin": {
+                "originType": "New"
+              }
+            },
+            "model": {
+              "modelId": "93fbdcf5-737f-4976-a141-de998063ac19",
+              "name": "BSSB - Konvensional Level Assessment",
+              "description": "BSSB Konvensional Level Assessment",
+              "isPrivate": false,
+              "status": "Open",
+              "createdBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "createdWhen": "2025-10-20T02:57:10.795548",
+              "lastModifiedBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "lastModifiedWhen": "2025-10-20T04:29:21.917802",
+              "objectiveType": {
+                "objectiveTypeId": "c84eec4a-5e3d-4e88-bf7f-2c7a22a54d76",
+                "code": "Segmentation",
+                "name": "Segmentation",
+                "description": "Segmentation Model"
+              },
+              "modelType": {
+                "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+                "name": "Simulation",
+                "description": "Model simulation type",
+                "style": {
+                  "border": "solid 1px #36116f",
+                  "backgroundColor": "#563d7c",
+                  "color": "white"
+                }
+              }
+            },
+            "segmentationConfiguration": {
+              "segments": [
+                {
+                  "segmentId": "11bbbad6-75d8-4967-ba52-3705578c4d08",
+                  "name": "All contract konvensional",
+                  "description": "All contract konvensional",
+                  "category": "All contract konvensional",
+                  "lastModifiedWhen": "2025-10-20T02:58:19.2739807"
+                }
+              ],
+              "rules": [
+                {
+                  "ruleId": "9960679d-5d44-4ff1-b9df-6c2f19bbc5b2",
+                  "name": "All contract konvensional",
+                  "description": "All contract konvensional",
+                  "priority": 1,
+                  "lastModifiedWhen": "2025-10-20T02:58:32.4040191",
+                  "segments": [
+                    {
+                      "segmentRuleId": "e839f954-c68b-4ab7-81cb-a012cf2068ef",
+                      "segmentId": "11bbbad6-75d8-4967-ba52-3705578c4d08",
+                      "segmentName": "All contract konvensional",
+                      "priority": 1
+                    }
+                  ]
+                }
+              ],
+              "hierarchies": [],
+              "nodes": [
+                {
+                  "id": "2877598e-c69a-4e4d-be20-d02bf88f3bc1",
+                  "path": "/BSSB - Konvensional Level Assessment",
+                  "name": "BSSB - Konvensional Level Assessment",
+                  "description": "BSSB Konvensional Level Assessment",
+                  "nodeType": "Model"
+                },
+                {
+                  "id": "11bbbad6-75d8-4967-ba52-3705578c4d08",
+                  "path": "/BSSB - Konvensional Level Assessment/All contract konvensional",
+                  "name": "All contract konvensional",
+                  "description": "All contract konvensional",
+                  "category": "All contract konvensional",
+                  "nodeType": "Segment",
+                  "parentId": "2877598e-c69a-4e4d-be20-d02bf88f3bc1"
+                }
+              ]
+            },
+            "testSuites": {
+              "testSuites": []
+            }
+          },
+          "approaches": {
+            "approaches": [
+              {
+                "approachId": "a92829ac-b735-464a-936f-390f0b82860f",
+                "name": "Level Asessment Konven",
+                "description": "Level Asessment Konven",
+                "segments": [
+                  {
+                    "segmentId": "11bbbad6-75d8-4967-ba52-3705578c4d08",
+                    "name": "All contract konvensional"
+                  }
+                ],
+                "lastModifiedWhen": "2025-10-20T03:01:20.759",
+                "rules": [
+                  {
+                    "ruleId": "50af1dd7-5dec-44df-8886-907676f0d55b",
+                    "priority": 1,
+                    "name": "Level Asessment Konven",
+                    "description": "Level Asessment Konven",
+                    "ruleCondition": {},
+                    "levels": [
+                      {
+                        "levelId": "e29b4e62-ca9a-4451-99b4-a56a2f03cef4",
+                        "priority": 1,
+                        "levelType": "Individual",
+                        "description": "Individual Impairment",
+                        "levelCondition": {
+                          "combinator": "And",
+                          "conditionId": "6ae5e511-cef8-47a6-a9fb-5c41e9a34019",
+                          "conditions": [
+                            {
+                              "field": "OutstandingAmount",
+                              "operator": "GreaterThan",
+                              "value": "2000000000",
+                              "conditionId": "10658190-115c-48e3-9c85-0b66d0fbf18d"
+                            },
+                            {
+                              "field": "IsRestructured",
+                              "operator": "Equal",
+                              "value": "true",
+                              "conditionId": "d610c562-2378-45a4-a292-32dd637230d3"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "levelId": "2d7387e5-88f5-4fc2-a3ee-ff80d1dea90f",
+                        "priority": 2,
+                        "levelType": "Collective",
+                        "description": "Collective Impairment",
+                        "levelCondition": {
+                          "combinator": "And",
+                          "conditionId": "b91d82e2-1016-46eb-a3d4-4959a115405f",
+                          "conditions": []
+                        }
+                      }
+                    ],
+                    "lastModifiedWhen": "2025-10-20T03:02:59.618"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 06:01:56.724401",
+      "ImpersonatedUserId": null
+    }
+  ]
+}

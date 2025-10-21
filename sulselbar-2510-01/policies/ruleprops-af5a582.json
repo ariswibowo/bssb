@@ -1,0 +1,276 @@
+{
+  "PolicyId": "a1cadb0a-b771-4a6d-b6e2-a4197af5a582",
+  "PolicyType": "RuleProps",
+  "ActivePolicy": {
+    "objectiveTypes": [
+      {
+        "objectiveType": "Impairment",
+        "properties": [
+          {
+            "name": "Currency",
+            "label": "Currency",
+            "type": "string",
+            "length": "3"
+          },
+          {
+            "name": "Entity",
+            "label": "Entity",
+            "type": "string",
+            "length": "50"
+          },
+          {
+            "name": "Segment",
+            "label": "Segment",
+            "type": "string",
+            "length": "30"
+          },
+          {
+            "name": "ProductType",
+            "label": "Product Type",
+            "type": "string",
+            "length": "20"
+          },
+          {
+            "name": "CreditRating",
+            "label": "Credit Rating",
+            "type": "string",
+            "length": "20"
+          },
+          {
+            "name": "CreditRatingAgency",
+            "label": "Credit Rating Agency",
+            "type": "string",
+            "length": "20"
+          },
+          {
+            "name": "Collectibility",
+            "label": "Collectibility",
+            "type": "string",
+            "length": "20"
+          },
+          {
+            "name": "ProductSubtype",
+            "label": "Product Subtype",
+            "type": "string",
+            "length": "20"
+          },
+          {
+            "name": "MaturityDate",
+            "label": "Maturity Date",
+            "type": "date",
+            "length": "10"
+          },
+          {
+            "name": "IsSecured",
+            "label": "Is Secured",
+            "type": "boolean",
+            "length": "1"
+          },
+          {
+            "name": "OriginSystemId",
+            "label": "System Id",
+            "type": "string",
+            "length": "36"
+          },
+          {
+            "name": "MaxDaysPastDueFacilities",
+            "label": "Max Days Past Due Facilities",
+            "type": "integer",
+            "length": "4"
+          }
+        ]
+      },
+      {
+        "objectiveType": "Base",
+        "properties": [
+          {
+            "name": "Currency",
+            "label": "Currency",
+            "type": "string",
+            "length": "3"
+          },
+          {
+            "name": "Entity",
+            "label": "Entity",
+            "type": "string",
+            "length": "50"
+          },
+          {
+            "name": "Segment",
+            "label": "Segment",
+            "type": "string",
+            "length": "30"
+          },
+          {
+            "name": "ProductType",
+            "label": "Product Type",
+            "type": "string",
+            "length": "20"
+          },
+          {
+            "name": "CreditRating",
+            "label": "Credit Rating",
+            "type": "string",
+            "length": "20"
+          },
+          {
+            "name": "CreditRatingAgency",
+            "label": "Credit Rating Agency",
+            "type": "string",
+            "length": "20"
+          },
+          {
+            "name": "Collectibility",
+            "label": "Collectibility",
+            "type": "string",
+            "length": "20"
+          },
+          {
+            "name": "ProductSubtype",
+            "label": "Product Subtype",
+            "type": "string",
+            "length": "20"
+          },
+          {
+            "name": "MaturityDate",
+            "label": "Maturity Date",
+            "type": "date",
+            "length": "10"
+          },
+          {
+            "name": "IsSecured",
+            "label": "Is Secured",
+            "type": "boolean",
+            "length": "1"
+          },
+          {
+            "name": "OriginSystemId",
+            "label": "System Id",
+            "type": "string",
+            "length": "36"
+          },
+          {
+            "name": "DaysPastDue",
+            "label": "Days Past Due",
+            "type": "integer",
+            "length": "10"
+          }
+        ]
+      }
+    ],
+    "calcMethods": [
+      {
+        "calcMethod": "ChainLadder",
+        "configuration": {
+          "outcomes": {
+            "properties": [
+              {
+                "name": "Collectibility",
+                "label": "Collectibility",
+                "type": "string",
+                "length": "50"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "calcMethod": "CollateralizedChainLadder",
+        "configuration": {
+          "outcomes": {
+            "properties": [
+              {
+                "name": "Collectibility",
+                "label": "Collectibility",
+                "type": "string",
+                "length": "50"
+              },
+              {
+                "name": "DaysPastDue",
+                "label": "Days Past Due",
+                "type": "integer",
+                "length": "10"
+              },
+              {
+                "name": "IsDefaulted",
+                "label": "Is Defaulted",
+                "type": "boolean",
+                "length": "1"
+              }
+            ]
+          },
+          "recoveries": {
+            "properties": [
+              {
+                "name": "CashFlowType",
+                "label": "Cash Flow Type",
+                "type": "string",
+                "length": "50"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "calcMethod": "Vintage",
+        "configuration": {
+          "outcomes": {
+            "properties": [
+              {
+                "name": "Collectibility",
+                "label": "Collectibility",
+                "type": "string",
+                "length": "50"
+              },
+              {
+                "name": "DaysPastDue",
+                "label": "Days Past Due",
+                "type": "integer",
+                "length": "10"
+              },
+              {
+                "name": "IsDefaulted",
+                "label": "Is Defaulted",
+                "type": "boolean",
+                "length": "1"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "calcMethod": "Workout",
+        "configuration": {
+          "outcomes": {
+            "properties": [
+              {
+                "name": "DaysPastDue",
+                "label": "Days Past Due",
+                "type": "integer",
+                "length": "10"
+              },
+              {
+                "name": "IsDefaulted",
+                "label": "Is Defaulted",
+                "type": "boolean",
+                "length": "1"
+              },
+              {
+                "name": "Collectibility",
+                "label": "Collectibility",
+                "type": "string",
+                "length": "20"
+              },
+              {
+                "name": "IsRestructured",
+                "label": "IsRestructured",
+                "type": "boolean",
+                "length": "1"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

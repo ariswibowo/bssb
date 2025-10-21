@@ -1,0 +1,193 @@
+{
+  "PolicyId": "ebcb10b3-0b81-41c2-80b7-c1f1f8b10b1f",
+  "PolicyType": "RuleProps",
+  "ActivePolicy": {
+    "objectiveTypes": [
+      {
+        "objectiveType": "Segmentation",
+        "properties": [
+          {
+            "name": "Currency",
+            "label": "Currency",
+            "type": "string",
+            "length": "3"
+          },
+          {
+            "name": "Entity",
+            "label": "Entity",
+            "type": "string",
+            "length": "50"
+          },
+          {
+            "name": "ProfitCentre",
+            "label": "Profit Centre",
+            "type": "string",
+            "length": "50"
+          },
+          {
+            "name": "Branch",
+            "label": "Branch",
+            "type": "string",
+            "length": "50"
+          },
+          {
+            "name": "BusinessUnit",
+            "label": "Business Unit",
+            "type": "string",
+            "length": "50"
+          },
+          {
+            "name": "Segment",
+            "label": "Segment",
+            "type": "string",
+            "length": "30"
+          },
+          {
+            "name": "ProductType",
+            "label": "Product Type",
+            "type": "string",
+            "length": "20"
+          },
+          {
+            "name": "ProductSubtype",
+            "label": "Product Subtype",
+            "type": "string",
+            "length": "20"
+          },
+          {
+            "name": "MaturityDate",
+            "label": "Maturity Date",
+            "type": "date",
+            "length": "10"
+          },
+          {
+            "name": "StartDate",
+            "label": "Start Date",
+            "type": "date",
+            "length": "10"
+          },
+          {
+            "name": "CashFlowType",
+            "label": "Cash Flow Type",
+            "type": "string",
+            "length": "20"
+          },
+          {
+            "name": "IsSecured",
+            "label": "Is Secured",
+            "type": "boolean",
+            "length": "1"
+          },
+          {
+            "name": "CollateralType",
+            "label": "Collateral Type",
+            "type": "string",
+            "length": "50"
+          },
+          {
+            "name": "OriginSystemId",
+            "label": "System Id",
+            "type": "string",
+            "length": "36"
+          },
+          {
+            "name": "NPVChange",
+            "label": "NPV Change",
+            "type": "double",
+            "length": "30"
+          },
+          {
+            "name": "CounterpartyType",
+            "label": "Counterparty Type",
+            "type": "string",
+            "length": "50"
+          },
+          {
+            "name": "AsLb",
+            "label": "AsLb",
+            "type": "string",
+            "length": "1"
+          },
+          {
+            "name": "CreditRating",
+            "label": "Credit Rating",
+            "type": "string",
+            "length": "20"
+          },
+          {
+            "name": "IsInFacility",
+            "label": "Is In Facility",
+            "type": "boolean",
+            "length": "1"
+          },
+          {
+            "name": "MaxDaysPastDueFacilities",
+            "label": "Max Days Past Due Facilities",
+            "type": "integer",
+            "length": "4"
+          },
+          {
+            "name": "DaysPastDue",
+            "label": "Days Past Due",
+            "type": "integer",
+            "length": "4"
+          },
+          {
+            "name": "FacilityType",
+            "label": "Facility Type",
+            "type": "string",
+            "length": "50"
+          },
+          {
+            "name": "CounterpartiesCountry",
+            "label": "Counterparty Country",
+            "type": "string",
+            "length": "50"
+          },
+          {
+            "name": "NaceGroup",
+            "label": "Nace Group",
+            "type": "string",
+            "length": "50"
+          },
+          {
+            "name": "IsInReliefProgram",
+            "label": "Is In Relief Program",
+            "type": "boolean",
+            "length": "1"
+          },
+          {
+            "name": "CounterpartyDeposits",
+            "label": "Counterparty Deposits",
+            "type": "double",
+            "length": "50"
+          },
+          {
+            "name": "StatusJenisBankGaransi",
+            "label": "StatusJenisBankGaransi",
+            "type": "string",
+            "length": "50"
+          },
+          {
+            "name": "BGHasCreditFacility",
+            "label": "HasCreditFacility",
+            "type": "string",
+            "length": "50"
+          },
+          {
+            "name": "AntasenaJenisPengguna",
+            "label": "AntasenaJenisPengguna",
+            "type": "string",
+            "length": "50"
+          },
+          {
+            "name": "AntasenaKategoriDebitur",
+            "label": "AntasenaKategoriDebitur",
+            "type": "string",
+            "length": "50"
+          }
+        ]
+      }
+    ]
+  }
+}

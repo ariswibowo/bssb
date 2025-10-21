@@ -1,0 +1,390 @@
+{
+  "activities": [
+    {
+      "ActivityId": "fbf70e52-ff63-43ea-a181-a44dd4df6bed",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "2877598e-c69a-4e4d-be20-d02bf88f3bc1",
+      "Source": "Version",
+      "Action": "CreateVersion",
+      "Description": "Created version 1 of model BSSB-Konvensional-SingleSegment",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "2877598e-c69a-4e4d-be20-d02bf88f3bc1",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "createdWhen": "2025-10-20T02:57:10.7955489",
+          "lastModifiedBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "lastModifiedWhen": "2025-10-20T02:57:10.7955489",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "93fbdcf5-737f-4976-a141-de998063ac19",
+            "name": "BSSB-Konvensional-SingleSegment",
+            "description": "BSSB-Konvensional-SingleSegment",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T02:57:10.7955489",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T02:57:10.7955489",
+            "objectiveType": {
+              "objectiveTypeId": "c84eec4a-5e3d-4e88-bf7f-2c7a22a54d76",
+              "code": "Segmentation",
+              "name": "Segmentation",
+              "description": "Segmentation Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 02:57:10.795548",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "3e57cb1a-41f4-48c4-a6f5-6fb2db4bca91",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "2877598e-c69a-4e4d-be20-d02bf88f3bc1",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB-Konvensional",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "2877598e-c69a-4e4d-be20-d02bf88f3bc1",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "createdWhen": "2025-10-20T02:57:10.795548",
+          "lastModifiedBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "lastModifiedWhen": "2025-10-20T02:58:19.274025",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "93fbdcf5-737f-4976-a141-de998063ac19",
+            "name": "BSSB-Konvensional",
+            "description": "BSSB-Konvensional\n",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T02:57:10.795548",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T02:58:19.274025",
+            "objectiveType": {
+              "objectiveTypeId": "c84eec4a-5e3d-4e88-bf7f-2c7a22a54d76",
+              "code": "Segmentation",
+              "name": "Segmentation",
+              "description": "Segmentation Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          },
+          "segmentationConfiguration": {
+            "segments": [
+              {
+                "segmentId": "11bbbad6-75d8-4967-ba52-3705578c4d08",
+                "name": "All contract konvensional",
+                "description": "All contract konvensional",
+                "category": "All contract konvensional",
+                "lastModifiedWhen": "2025-10-20T02:58:19.2739807"
+              }
+            ],
+            "rules": [],
+            "hierarchies": [],
+            "nodes": [
+              {
+                "id": "2877598e-c69a-4e4d-be20-d02bf88f3bc1",
+                "path": "/BSSB-Konvensional",
+                "name": "BSSB-Konvensional",
+                "description": "BSSB-Konvensional\n",
+                "nodeType": "Model"
+              },
+              {
+                "id": "11bbbad6-75d8-4967-ba52-3705578c4d08",
+                "path": "/BSSB-Konvensional/All contract konvensional",
+                "name": "All contract konvensional",
+                "description": "All contract konvensional",
+                "category": "All contract konvensional",
+                "nodeType": "Segment",
+                "parentId": "2877598e-c69a-4e4d-be20-d02bf88f3bc1"
+              }
+            ]
+          },
+          "testSuites": {
+            "testSuites": []
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 02:58:19.294923",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "57ebf973-4e9c-44fd-9166-fe73cc6b4688",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "2877598e-c69a-4e4d-be20-d02bf88f3bc1",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB-Konvensional",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "2877598e-c69a-4e4d-be20-d02bf88f3bc1",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "createdWhen": "2025-10-20T02:57:10.795548",
+          "lastModifiedBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "lastModifiedWhen": "2025-10-20T02:58:26.0628371",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "93fbdcf5-737f-4976-a141-de998063ac19",
+            "name": "BSSB-Konvensional",
+            "description": "BSSB-Konvensional\n",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T02:57:10.795548",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T02:58:26.0628371",
+            "objectiveType": {
+              "objectiveTypeId": "c84eec4a-5e3d-4e88-bf7f-2c7a22a54d76",
+              "code": "Segmentation",
+              "name": "Segmentation",
+              "description": "Segmentation Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          },
+          "segmentationConfiguration": {
+            "segments": [
+              {
+                "segmentId": "11bbbad6-75d8-4967-ba52-3705578c4d08",
+                "name": "All contract konvensional",
+                "description": "All contract konvensional",
+                "category": "All contract konvensional",
+                "lastModifiedWhen": "2025-10-20T02:58:19.2739807"
+              }
+            ],
+            "rules": [
+              {
+                "ruleId": "9960679d-5d44-4ff1-b9df-6c2f19bbc5b2",
+                "name": "All contract konvensional",
+                "description": "All contract konvensional",
+                "priority": 1,
+                "lastModifiedWhen": "2025-10-20T02:58:26.0626988"
+              }
+            ],
+            "hierarchies": [],
+            "nodes": [
+              {
+                "id": "2877598e-c69a-4e4d-be20-d02bf88f3bc1",
+                "path": "/BSSB-Konvensional",
+                "name": "BSSB-Konvensional",
+                "description": "BSSB-Konvensional\n",
+                "nodeType": "Model"
+              },
+              {
+                "id": "11bbbad6-75d8-4967-ba52-3705578c4d08",
+                "path": "/BSSB-Konvensional/All contract konvensional",
+                "name": "All contract konvensional",
+                "description": "All contract konvensional",
+                "category": "All contract konvensional",
+                "nodeType": "Segment",
+                "parentId": "2877598e-c69a-4e4d-be20-d02bf88f3bc1"
+              }
+            ]
+          },
+          "testSuites": {
+            "testSuites": []
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 02:58:26.081721",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "ff5151ab-2882-4817-87b1-2e2cef33175d",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "2877598e-c69a-4e4d-be20-d02bf88f3bc1",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB-Konvensional",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "2877598e-c69a-4e4d-be20-d02bf88f3bc1",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "createdWhen": "2025-10-20T02:57:10.795548",
+          "lastModifiedBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "lastModifiedWhen": "2025-10-20T02:58:32.4040737",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "93fbdcf5-737f-4976-a141-de998063ac19",
+            "name": "BSSB-Konvensional",
+            "description": "BSSB-Konvensional\n",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T02:57:10.795548",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T02:58:32.4040737",
+            "objectiveType": {
+              "objectiveTypeId": "c84eec4a-5e3d-4e88-bf7f-2c7a22a54d76",
+              "code": "Segmentation",
+              "name": "Segmentation",
+              "description": "Segmentation Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          },
+          "segmentationConfiguration": {
+            "segments": [
+              {
+                "segmentId": "11bbbad6-75d8-4967-ba52-3705578c4d08",
+                "name": "All contract konvensional",
+                "description": "All contract konvensional",
+                "category": "All contract konvensional",
+                "lastModifiedWhen": "2025-10-20T02:58:19.2739807"
+              }
+            ],
+            "rules": [
+              {
+                "ruleId": "9960679d-5d44-4ff1-b9df-6c2f19bbc5b2",
+                "name": "All contract konvensional",
+                "description": "All contract konvensional",
+                "priority": 1,
+                "lastModifiedWhen": "2025-10-20T02:58:32.4040191",
+                "segments": [
+                  {
+                    "segmentRuleId": "e839f954-c68b-4ab7-81cb-a012cf2068ef",
+                    "segmentId": "11bbbad6-75d8-4967-ba52-3705578c4d08",
+                    "segmentName": "All contract konvensional",
+                    "priority": 1
+                  }
+                ]
+              }
+            ],
+            "hierarchies": [],
+            "nodes": [
+              {
+                "id": "2877598e-c69a-4e4d-be20-d02bf88f3bc1",
+                "path": "/BSSB-Konvensional",
+                "name": "BSSB-Konvensional",
+                "description": "BSSB-Konvensional\n",
+                "nodeType": "Model"
+              },
+              {
+                "id": "11bbbad6-75d8-4967-ba52-3705578c4d08",
+                "path": "/BSSB-Konvensional/All contract konvensional",
+                "name": "All contract konvensional",
+                "description": "All contract konvensional",
+                "category": "All contract konvensional",
+                "nodeType": "Segment",
+                "parentId": "2877598e-c69a-4e4d-be20-d02bf88f3bc1"
+              }
+            ]
+          },
+          "testSuites": {
+            "testSuites": []
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 02:58:32.423247",
+      "ImpersonatedUserId": null
+    }
+  ]
+}

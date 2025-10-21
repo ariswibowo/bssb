@@ -1,0 +1,122 @@
+{
+  "ModelId": "8e638e8f-6fba-5579-ad4c-0ad4ba6f5fe9",
+  "DomainId": "1c534bff-1288-4a89-a31b-01ee7bda1fde",
+  "Name": "BSSB Syariah - All products",
+  "Description": "BSSB Syariah - All products",
+  "ModelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+  "ObjectiveTypeId": "c84eec4a-5e3d-4e88-bf7f-2c7a22a54d76",
+  "ParentDeckId": null,
+  "IsPrivate": false,
+  "Status": "Open",
+  "Data": {
+    "deletionProtection": {
+      "enabled": false
+    }
+  },
+  "LatestVersionId": "7df848ec-81f5-5a88-93c3-16365a1a5c6b",
+  "LatestVersion": 1,
+  "LatestStatus": "Draft",
+  "LatestErrors": null,
+  "LatestWarnings": null,
+  "LatestValidatedWhen": null,
+  "PublishedVersions": 0,
+  "ArchivedBy": null,
+  "ArchivedWhen": null,
+  "CreatedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+  "CreatedWhen": "2025-10-20 13:42:32.841697",
+  "LastModifiedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+  "LastModifiedWhen": "2025-10-20 13:42:32.841697",
+  "ObjectiveTypeCode": "Segmentation",
+  "ModelTypeName": "Simulation",
+  "activityExport": {
+    "sourceId": "8e638e8f-6fba-5579-ad4c-0ad4ba6f5fe9",
+    "name": "BSSB Syariah - All products",
+    "path": "models/activities",
+    "file": "activities_sourceId_a6f5fe9.json"
+  },
+  "versions": [
+    {
+      "VersionId": "7df848ec-81f5-5a88-93c3-16365a1a5c6b",
+      "ModelId": "8e638e8f-6fba-5579-ad4c-0ad4ba6f5fe9",
+      "Version": 1,
+      "Description": "Initial Version",
+      "Status": "Draft",
+      "PublishedBy": null,
+      "PublishedWhen": null,
+      "PublishComments": null,
+      "ExpiryDate": null,
+      "ArchivedBy": null,
+      "ArchivedWhen": null,
+      "ConcurrencyId": "1a8cedda-095b-40b3-ae23-c69d89cdecf3",
+      "CreatedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "CreatedWhen": "2025-10-20 13:42:32.937965",
+      "LastModifiedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "LastModifiedWhen": "2025-10-20 13:42:32.937965",
+      "versionProps": [
+        {
+          "VersionPropId": "1c1ce3d8-789b-52cb-952f-f55418768c94",
+          "VersionId": "7df848ec-81f5-5a88-93c3-16365a1a5c6b",
+          "Key": "TestSuites",
+          "Value": {
+            "testSuites": []
+          }
+        },
+        {
+          "VersionPropId": "359abe53-89bd-51ec-9db0-91458a52df66",
+          "VersionId": "7df848ec-81f5-5a88-93c3-16365a1a5c6b",
+          "Key": "SegmentationConfiguration",
+          "Value": {
+            "segments": [
+              {
+                "segmentId": "aad32a87-20d2-535c-a499-63af45758acc",
+                "name": "All products",
+                "description": "All products",
+                "category": "All products",
+                "lastModifiedWhen": "2025-10-20T06:54:45.6037661"
+              }
+            ],
+            "rules": [
+              {
+                "ruleId": "720c4fd4-8f98-59ce-accf-67942238d6d5",
+                "name": "All products",
+                "description": "All products",
+                "priority": 1,
+                "lastModifiedWhen": "2025-10-20T06:54:57.9255362",
+                "segments": [
+                  {
+                    "segmentRuleId": "62ab22ba-f803-50dd-8a41-c4d2d5a18e80",
+                    "segmentId": "aad32a87-20d2-535c-a499-63af45758acc",
+                    "segmentName": "All products",
+                    "priority": 1
+                  }
+                ]
+              }
+            ],
+            "hierarchies": []
+          }
+        },
+        {
+          "VersionPropId": "4d409b99-c279-4102-a6ba-00b0b4a5491f",
+          "VersionId": "7df848ec-81f5-5a88-93c3-16365a1a5c6b",
+          "Key": "Origin",
+          "Value": {
+            "origin": {
+              "originType": "Clone",
+              "originVersionId": "6f182c43-89d8-4c7a-82b8-d889f0beee35",
+              "originModelId": "a1d3b263-6c39-48ce-9f9f-f61bf8c61b6d",
+              "name": "BSSB Konven - All products",
+              "version": 1
+            }
+          }
+        }
+      ],
+      "publishRequests": [],
+      "activityExport": {
+        "sourceId": "7df848ec-81f5-5a88-93c3-16365a1a5c6b",
+        "name": "BSSB Syariah - All products_v1",
+        "path": "models/activities",
+        "file": "activities_sourceId_a1a5c6b.json"
+      }
+    }
+  ]
+}

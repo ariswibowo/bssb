@@ -1,0 +1,184 @@
+{
+  "export": {
+    "exportEnvironment": "DEMO-DATA",
+    "importEnvironment": "BSSB-DEV",
+    "exports": [
+      {
+        "name": "Segmentation Models",
+        "exportType": "Models",
+        "exportSettings": {
+          "modelNames": [
+              "BSSB Konven - Segmentation Level Assessment",
+              "BSSB Konven - Segmentation Stage Assessment",
+              "BSSB Konven - All products",
+              "BSSB Konven - Segmentation Historical LGD",
+              "BSSB Konven - Segmentation Historical PD Group",
+              "BSSB Konven - Segmentation Historical PD Detail",
+              "BSSB Syariah - All products",
+              "BSSB Syariah - Segmentation Level Assessment",
+              "BSSB Syariah - Segmentation Historical LGD",
+              "BSSB Syariah - Segmentation Historical PD"
+           ],
+          "excludeModelNames": [],
+          "modelTypes": [],
+          "includePrivate": false,
+          "objectiveTypes": [],
+          "dupHandlingApproach": "Delete",
+          "replaceUsers": true,
+          "includeActivities": true
+        }
+      },
+      {
+        "name": "Stage Assessment Models",
+        "exportType": "Models",
+        "exportSettings": {
+          "modelNames": [
+              "BSSB Konven - Stage Asessment",
+              "BSSB Syariah - Stage Asessment"
+           ],
+          "excludeModelNames": [],
+          "modelTypes": [],
+          "includePrivate": false,
+          "objectiveTypes": [],
+          "dupHandlingApproach": "Delete",
+          "replaceUsers": true,
+          "includeActivities": true
+        }
+      },
+      {
+        "name": "Level Assessment Models",
+        "exportType": "Models",
+        "exportSettings": {
+          "modelNames": [
+              "BSSB Konven - Level Asessment",
+              "BSSB Syariah - Level Asessment"
+           ],
+          "excludeModelNames": [],
+          "modelTypes": [],
+          "includePrivate": false,
+          "objectiveTypes": [],
+          "dupHandlingApproach": "Delete",
+          "replaceUsers": true,
+          "includeActivities": true
+        }
+      },
+      {
+        "name": "EAD Models",
+        "exportType": "Models",
+        "exportSettings": {
+          "modelNames": [
+              "BBSB Konven - EAD Outstanding Amount",
+              "BBSB Syariah - EAD Outstanding Amount"
+           ],
+          "excludeModelNames": [],
+          "modelTypes": [],
+          "includePrivate": false,
+          "objectiveTypes": [],
+          "dupHandlingApproach": "Delete",
+          "replaceUsers": true,
+          "includeActivities": true
+        }
+      },
+      {
+        "name": "Historical LGD Models",
+        "exportType": "Models",
+        "exportSettings": {
+          "modelNames": [
+              "BSSB Konven - Historical LGD",
+              "BSSB Syariah - Historical LGD"
+           ],
+          "excludeModelNames": [],
+          "modelTypes": [],
+          "includePrivate": false,
+          "objectiveTypes": [],
+          "dupHandlingApproach": "Delete",
+          "replaceUsers": true,
+          "includeActivities": true
+        }
+      },
+      {
+        "name": "Historical PD Models",
+        "exportType": "Models",
+        "exportSettings": {
+          "modelNames": [
+              "BSSB Konven - Historical PD Group - NOA",
+              "BSSB Konven - Historical PD Group - OS",
+              "BSSB Konven - Historical PD Detail- NOA",
+              "BSSB Konven - Historical PD Detail - OS",
+              "BSSB Syariah - Historical PD Group - NOA",
+              "BSSB Syariah - Historical PD Group - OS"
+           ],
+          "excludeModelNames": [],
+          "modelTypes": [],
+          "includePrivate": false,
+          "objectiveTypes": [],
+          "dupHandlingApproach": "Delete",
+          "replaceUsers": true,
+          "includeActivities": true
+        }
+      },
+      {
+        "name": "Product Types",
+        "exportType": "ProductTypes",
+        "exportSettings": {}
+      },
+      {
+        "name": "Product Subtypes",
+        "exportType": "ProductSubtypes",
+        "exportSettings": {}
+      },
+      {
+        "name": "Stage Assessment Policies",
+        "exportType": "Policies",
+        "exportSettings": {
+          "policyType": "RuleProps",
+          "database": "Models",
+          "objectiveTypes": [],
+          "domains": [ "StageAssessment" ],
+          "scope": null,
+          "migrateDefaultPolicy": false,
+          "migrateActivePolicy": true
+        }
+      },   
+      {
+        "name": "Lgd Policies",
+        "exportType": "Policies",
+        "exportSettings": {
+          "policyType": "RuleProps",
+          "database": "Models",
+          "objectiveTypes": [],
+          "domains": [ "Lgd" ],
+          "scope": null,
+          "migrateDefaultPolicy": false,
+          "migrateActivePolicy": true
+        }
+      },  
+      {
+        "name": "Pd Policies",
+        "exportType": "Policies",
+        "exportSettings": {
+          "policyType": "RuleProps",
+          "database": "Models",
+          "objectiveTypes": [],
+          "domains": [ "Pd" ],
+          "scope": null,
+          "migrateDefaultPolicy": false,
+          "migrateActivePolicy": true
+        }
+      },  
+      {
+        "name": "Segmentation Policies",
+        "exportType": "Policies",
+        "exportSettings": {
+          "policyType": "RuleProps",
+          "database": "Models",
+          "objectiveTypes": [],
+          "domains": [ "Segmentation" ],
+          "scope": null,
+          "migrateDefaultPolicy": false,
+          "migrateActivePolicy": true
+        }
+      }                     
+    ]
+  }
+}

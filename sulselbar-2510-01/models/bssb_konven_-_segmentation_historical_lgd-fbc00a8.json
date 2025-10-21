@@ -1,0 +1,211 @@
+{
+  "ModelId": "f0ddfdba-ef89-4978-a4b9-fdf06fbc00a8",
+  "DomainId": "1c534bff-1288-4a89-a31b-01ee7bda1fde",
+  "Name": "BSSB Konven - Segmentation Historical LGD",
+  "Description": "BSSB Konven - Segmentation Historical LGD",
+  "ModelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+  "ObjectiveTypeId": "c84eec4a-5e3d-4e88-bf7f-2c7a22a54d76",
+  "ParentDeckId": null,
+  "IsPrivate": false,
+  "Status": "Open",
+  "Data": {
+    "deletionProtection": {
+      "enabled": false
+    }
+  },
+  "LatestVersionId": "f8193d77-7c90-45c0-a400-a88fe6b9bfb1",
+  "LatestVersion": 1,
+  "LatestStatus": "Draft",
+  "LatestErrors": null,
+  "LatestWarnings": null,
+  "LatestValidatedWhen": null,
+  "PublishedVersions": 0,
+  "ArchivedBy": null,
+  "ArchivedWhen": null,
+  "CreatedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+  "CreatedWhen": "2025-10-20 07:01:53.360983",
+  "LastModifiedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+  "LastModifiedWhen": "2025-10-20 07:12:57.133860",
+  "ObjectiveTypeCode": "Segmentation",
+  "ModelTypeName": "Simulation",
+  "activityExport": {
+    "sourceId": "f0ddfdba-ef89-4978-a4b9-fdf06fbc00a8",
+    "name": "BSSB Konven - Segmentation Historical LGD",
+    "path": "models/activities",
+    "file": "activities_sourceId_fbc00a8.json"
+  },
+  "versions": [
+    {
+      "VersionId": "f8193d77-7c90-45c0-a400-a88fe6b9bfb1",
+      "ModelId": "f0ddfdba-ef89-4978-a4b9-fdf06fbc00a8",
+      "Version": 1,
+      "Description": "Initial Version",
+      "Status": "Draft",
+      "PublishedBy": null,
+      "PublishedWhen": null,
+      "PublishComments": null,
+      "ExpiryDate": null,
+      "ArchivedBy": null,
+      "ArchivedWhen": null,
+      "ConcurrencyId": "df1de09e-e317-4ca0-8ed4-2e608a064b82",
+      "CreatedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "CreatedWhen": "2025-10-20 07:01:53.360983",
+      "LastModifiedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "LastModifiedWhen": "2025-10-20 07:12:57.133860",
+      "versionProps": [
+        {
+          "VersionPropId": "73722034-30a9-401c-bf2d-9e5cdc396113",
+          "VersionId": "f8193d77-7c90-45c0-a400-a88fe6b9bfb1",
+          "Key": "Origin",
+          "Value": {
+            "origin": {
+              "originType": "New"
+            }
+          }
+        },
+        {
+          "VersionPropId": "a313d867-2bd1-47bb-8c0b-121398a8a7d0",
+          "VersionId": "f8193d77-7c90-45c0-a400-a88fe6b9bfb1",
+          "Key": "TestSuites",
+          "Value": {
+            "testSuites": []
+          }
+        },
+        {
+          "VersionPropId": "7196444d-be63-4287-a103-ed1c8d634e07",
+          "VersionId": "f8193d77-7c90-45c0-a400-a88fe6b9bfb1",
+          "Key": "SegmentationConfiguration",
+          "Value": {
+            "segments": [
+              {
+                "segmentId": "bb067a10-5716-470b-8911-eace89543a2d",
+                "name": "LGD Investasi",
+                "description": "LGD Investasi",
+                "category": "LGD Investasi",
+                "lastModifiedWhen": "2025-10-20T07:02:23.6279377"
+              },
+              {
+                "segmentId": "67c260b4-11a5-45bf-b0a3-03cc1c6eec98",
+                "name": "LGD Modal Kerja",
+                "description": "LGD Modal Kerja",
+                "category": "LGD Modal Kerja",
+                "lastModifiedWhen": "2025-10-20T07:02:33.0315399"
+              },
+              {
+                "segmentId": "35282f55-bddc-473c-8920-1158d507a54a",
+                "name": "LGD Kredit Lainya",
+                "description": "LGD Kredit Lainya",
+                "category": "LGD Kredit Lainya",
+                "lastModifiedWhen": "2025-10-20T07:02:44.2040717"
+              }
+            ],
+            "rules": [
+              {
+                "ruleId": "dd8c0e0e-b87b-41cb-b71e-ae1525a98eae",
+                "name": "Rules segment LGD investasi",
+                "description": "Rules segment LGD investasi",
+                "priority": 1,
+                "lastModifiedWhen": "2025-10-20T07:04:02.4243543",
+                "segments": [
+                  {
+                    "segmentRuleId": "b7c05286-ebc9-4f2f-b1e6-48407ec2dd91",
+                    "segmentId": "bb067a10-5716-470b-8911-eace89543a2d",
+                    "segmentName": "LGD Investasi",
+                    "priority": 1,
+                    "condition": {
+                      "conditionId": "cbb4204f-beb1-4c8e-87fe-86224f10d31a",
+                      "conditions": [
+                        {
+                          "conditionId": "ef62848a-6ff2-43a4-b3e8-60693bf77fd8",
+                          "field": "ProductSubtype",
+                          "operator": "In",
+                          "value": "",
+                          "values": [
+                            "BSSB-K601",
+                            "BSSB-K681"
+                          ]
+                        }
+                      ],
+                      "combinator": "And"
+                    }
+                  }
+                ]
+              },
+              {
+                "ruleId": "70e56380-7265-4006-b521-4e5e0dd115a2",
+                "name": "Rules segment LGD modal kerja",
+                "description": "Rules segment LGD modal kerja",
+                "priority": 2,
+                "lastModifiedWhen": "2025-10-20T07:10:07.9367292",
+                "segments": [
+                  {
+                    "segmentRuleId": "e9da378e-d12d-4cc2-8f18-5bf4530ce491",
+                    "segmentId": "67c260b4-11a5-45bf-b0a3-03cc1c6eec98",
+                    "segmentName": "LGD Modal Kerja",
+                    "priority": 1,
+                    "condition": {
+                      "conditionId": "7113f671-4a37-4ae0-9df4-90b4cf6ec2bd",
+                      "conditions": [
+                        {
+                          "conditionId": "61137d34-da2f-4603-b1d8-c4307ebda387",
+                          "field": "ProductSubtype",
+                          "operator": "In",
+                          "value": "",
+                          "values": [
+                            "BSSB-K602",
+                            "BSSB-K005",
+                            "BSSB-K682"
+                          ]
+                        }
+                      ],
+                      "combinator": "And"
+                    }
+                  }
+                ]
+              },
+              {
+                "ruleId": "66077f20-84dd-4048-a0a9-251496beebbb",
+                "name": "Rules segment kredit lainya",
+                "description": "Rules segment kredit lainya",
+                "priority": 3,
+                "lastModifiedWhen": "2025-10-20T07:12:57.1336981",
+                "segments": [
+                  {
+                    "segmentRuleId": "d97c7524-fca0-4cca-acaf-83575636bebb",
+                    "segmentId": "35282f55-bddc-473c-8920-1158d507a54a",
+                    "segmentName": "LGD Kredit Lainya",
+                    "priority": 1,
+                    "condition": {
+                      "conditionId": "9708a8f9-7f69-445d-90a5-b0919023d8c0",
+                      "conditions": [
+                        {
+                          "conditionId": "6e554a1a-e7fb-4b9f-9a96-5121766df5c5",
+                          "field": "ProductSubtype",
+                          "operator": "In",
+                          "value": "",
+                          "values": [
+                            "BSSB-K603",
+                            "BSSB-K604"
+                          ]
+                        }
+                      ],
+                      "combinator": "And"
+                    }
+                  }
+                ]
+              }
+            ],
+            "hierarchies": []
+          }
+        }
+      ],
+      "publishRequests": [],
+      "activityExport": {
+        "sourceId": "f8193d77-7c90-45c0-a400-a88fe6b9bfb1",
+        "name": "BSSB Konven - Segmentation Historical LGD_v1",
+        "path": "models/activities",
+        "file": "activities_sourceId_6b9bfb1.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1120 @@
+{
+  "activities": [
+    {
+      "ActivityId": "da8e520d-dbf8-4a48-8bea-8cb50327a8bc",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "3fabe0bd-06d0-5e5b-9b20-24f06ac10305",
+      "Source": "Version",
+      "Action": "CreateVersion",
+      "Description": "Created version 1 of model BSSB Syariah - Historical PD Group - OS",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "3fabe0bd-06d0-5e5b-9b20-24f06ac10305",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "createdWhen": "2025-10-20T14:35:56.4588843",
+          "lastModifiedBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "lastModifiedWhen": "2025-10-20T14:35:56.4588843",
+          "origin": {
+            "origin": {
+              "originType": "Clone",
+              "originVersionId": "f1a5850f-c366-5c7b-b8c6-3829b24ad42c",
+              "originModelId": "831b3c7a-7b79-55d7-870f-f0eecf72a407",
+              "name": "BSSB Syariah - Historical PD Group - NOA",
+              "version": 1
+            }
+          },
+          "model": {
+            "modelId": "f4da88e6-0dc9-554e-a9ff-fba8bf60890b",
+            "name": "BSSB Syariah - Historical PD Group - OS",
+            "description": "BSSB Syariah - Historical PD Group - OS",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T14:35:56.3631014",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T14:35:56.3631014",
+            "objectiveType": {
+              "objectiveTypeId": "a7c5ee8f-30d2-4ea2-8833-657c306318e6",
+              "code": "Historical",
+              "name": "Historical",
+              "description": "Historical PD values calculation"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          },
+          "segmentation": {
+            "versionId": "a4a0a9b9-a1c6-5248-ae71-c0b320bb9a8b",
+            "version": 1,
+            "status": "Draft",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T14:34:03.779255",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T14:34:03.779255",
+            "origin": {
+              "origin": {
+                "originType": "Clone",
+                "originVersionId": "f4fb95dd-ee2d-58fa-aec1-be0bf46c0077",
+                "originModelId": "87d26ba1-f5e2-5ff0-a777-9cbc7e4f478e",
+                "name": "BSSB Syariah - Segmentation Historical LGD",
+                "version": 1
+              }
+            },
+            "model": {
+              "modelId": "bd27ec65-4027-5a26-a90c-5d981233d83c",
+              "name": "BSSB Syariah - Segmentation Historical PD",
+              "description": "BSSB Syariah - Segmentation Historical PD",
+              "isPrivate": false,
+              "status": "Open",
+              "createdBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "createdWhen": "2025-10-20T14:34:03.678247",
+              "lastModifiedBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "lastModifiedWhen": "2025-10-20T14:34:03.678247",
+              "objectiveType": {
+                "objectiveTypeId": "c84eec4a-5e3d-4e88-bf7f-2c7a22a54d76",
+                "code": "Segmentation",
+                "name": "Segmentation",
+                "description": "Segmentation Model"
+              },
+              "modelType": {
+                "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+                "name": "Simulation",
+                "description": "Model simulation type",
+                "style": {
+                  "border": "solid 1px #36116f",
+                  "backgroundColor": "#563d7c",
+                  "color": "white"
+                }
+              }
+            },
+            "segmentationConfiguration": {
+              "segments": [
+                {
+                  "segmentId": "4428f5b6-5c25-523f-a3c3-35591b1a10a6",
+                  "name": "LGD Investasi",
+                  "description": "LGD Investasi",
+                  "category": "LGD Investasi",
+                  "lastModifiedWhen": "2025-10-20T07:02:23.6279377"
+                },
+                {
+                  "segmentId": "6cad0754-7efc-53d4-86c9-7b87871346a7",
+                  "name": "LGD Modal Kerja",
+                  "description": "LGD Modal Kerja",
+                  "category": "LGD Modal Kerja",
+                  "lastModifiedWhen": "2025-10-20T07:02:33.0315399"
+                },
+                {
+                  "segmentId": "dbfcbf6f-8f1e-568a-b8df-55437b0e83d7",
+                  "name": "LGD Pembiayaan Lainnya",
+                  "description": "LGD Pembiayaan Lainnya",
+                  "category": "LGD Pembiayaan Lainnya",
+                  "lastModifiedWhen": "2025-10-20T07:02:44.2040717"
+                }
+              ],
+              "rules": [
+                {
+                  "ruleId": "3a827170-cc92-5122-bd37-fceccac0034f",
+                  "name": "Rules segment LGD investasi",
+                  "description": "Rules segment LGD investasi",
+                  "priority": 1,
+                  "lastModifiedWhen": "2025-10-20T14:27:05.6284145",
+                  "segments": [
+                    {
+                      "segmentRuleId": "5ea3b0d8-43f4-54f3-bd28-7148da1416f9",
+                      "segmentId": "4428f5b6-5c25-523f-a3c3-35591b1a10a6",
+                      "segmentName": "LGD Investasi",
+                      "priority": 1,
+                      "condition": {
+                        "conditionId": "cbb4204f-beb1-4c8e-87fe-86224f10d31a",
+                        "conditions": [
+                          {
+                            "conditionId": "856466dc-3f26-40e1-bbf5-7378f4d63129",
+                            "conditions": [
+                              {
+                                "conditionId": "c4aabc2f-aca9-4c74-bde0-271ecc784a7f",
+                                "field": "AntasenaJenisPengguna",
+                                "operator": "Equal",
+                                "value": "2"
+                              }
+                            ],
+                            "combinator": "And"
+                          }
+                        ],
+                        "combinator": "And"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "ruleId": "4f553102-f5a8-5cc4-a694-16a21845e855",
+                  "name": "Rules segment LGD modal kerja",
+                  "description": "Rules segment LGD modal kerja",
+                  "priority": 2,
+                  "lastModifiedWhen": "2025-10-20T14:27:24.3770457",
+                  "segments": [
+                    {
+                      "segmentRuleId": "87bb8844-2390-590c-b318-72b741af880f",
+                      "segmentId": "6cad0754-7efc-53d4-86c9-7b87871346a7",
+                      "segmentName": "LGD Modal Kerja",
+                      "priority": 1,
+                      "condition": {
+                        "conditionId": "7113f671-4a37-4ae0-9df4-90b4cf6ec2bd",
+                        "conditions": [
+                          {
+                            "conditionId": "7126056b-fca7-4a33-87bc-a729a77bf82c",
+                            "field": "AntasenaJenisPengguna",
+                            "operator": "Equal",
+                            "value": "1"
+                          }
+                        ],
+                        "combinator": "And"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "ruleId": "a40f6a7b-7cb3-5fd4-bc8c-820328fc495b",
+                  "name": "Rules segment kredit lainya",
+                  "description": "Rules segment kredit lainya",
+                  "priority": 3,
+                  "lastModifiedWhen": "2025-10-20T14:27:41.7163078",
+                  "segments": [
+                    {
+                      "segmentRuleId": "4bf235f3-a7e3-5bcd-bea5-ad90ef7cf68a",
+                      "segmentId": "dbfcbf6f-8f1e-568a-b8df-55437b0e83d7",
+                      "segmentName": "LGD Kredit Lainya",
+                      "priority": 1,
+                      "condition": {
+                        "conditionId": "9708a8f9-7f69-445d-90a5-b0919023d8c0",
+                        "conditions": [
+                          {
+                            "conditionId": "5bbd6374-4eaf-4431-9070-c35d9c52cc5f",
+                            "conditions": [
+                              {
+                                "conditionId": "9f4976a8-a0a6-42b3-8fa8-96c63f13ed89",
+                                "field": "AntasenaJenisPengguna",
+                                "operator": "Equal",
+                                "value": "3"
+                              }
+                            ],
+                            "combinator": "And"
+                          }
+                        ],
+                        "combinator": "And"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "hierarchies": [],
+              "nodes": [
+                {
+                  "id": "a4a0a9b9-a1c6-5248-ae71-c0b320bb9a8b",
+                  "path": "/BSSB Syariah - Segmentation Historical PD",
+                  "name": "BSSB Syariah - Segmentation Historical PD",
+                  "description": "BSSB Syariah - Segmentation Historical PD",
+                  "nodeType": "Model"
+                },
+                {
+                  "id": "4428f5b6-5c25-523f-a3c3-35591b1a10a6",
+                  "path": "/BSSB Syariah - Segmentation Historical PD/LGD Investasi",
+                  "name": "LGD Investasi",
+                  "description": "LGD Investasi",
+                  "category": "LGD Investasi",
+                  "nodeType": "Segment",
+                  "parentId": "a4a0a9b9-a1c6-5248-ae71-c0b320bb9a8b"
+                },
+                {
+                  "id": "6cad0754-7efc-53d4-86c9-7b87871346a7",
+                  "path": "/BSSB Syariah - Segmentation Historical PD/LGD Modal Kerja",
+                  "name": "LGD Modal Kerja",
+                  "description": "LGD Modal Kerja",
+                  "category": "LGD Modal Kerja",
+                  "nodeType": "Segment",
+                  "parentId": "a4a0a9b9-a1c6-5248-ae71-c0b320bb9a8b"
+                },
+                {
+                  "id": "dbfcbf6f-8f1e-568a-b8df-55437b0e83d7",
+                  "path": "/BSSB Syariah - Segmentation Historical PD/LGD Pembiayaan Lainnya",
+                  "name": "LGD Pembiayaan Lainnya",
+                  "description": "LGD Pembiayaan Lainnya",
+                  "category": "LGD Pembiayaan Lainnya",
+                  "nodeType": "Segment",
+                  "parentId": "a4a0a9b9-a1c6-5248-ae71-c0b320bb9a8b"
+                }
+              ]
+            },
+            "testSuites": {
+              "testSuites": []
+            }
+          },
+          "approaches": {
+            "approaches": [
+              {
+                "approachId": "613ed7eb-025a-5a82-bab7-4fc97d39e627",
+                "name": "Transisition Matrix",
+                "description": "Transisition Matrix",
+                "approachType": "SingleMethod",
+                "segments": [
+                  {
+                    "segmentId": "4428f5b6-5c25-523f-a3c3-35591b1a10a6",
+                    "name": "LGD Investasi"
+                  },
+                  {
+                    "segmentId": "6cad0754-7efc-53d4-86c9-7b87871346a7",
+                    "name": "LGD Modal Kerja"
+                  },
+                  {
+                    "segmentId": "dbfcbf6f-8f1e-568a-b8df-55437b0e83d7",
+                    "name": "LGD Pembiayaan Lainnya"
+                  }
+                ],
+                "method": {
+                  "methodId": "fe0d3d99-9645-5b8e-9de4-36e656529dc1",
+                  "calcMethodId": "1db0e93a-ec0f-4246-8393-e84f087d38a7",
+                  "calcMethod": {
+                    "calcMethodId": "1db0e93a-ec0f-4246-8393-e84f087d38a7",
+                    "name": "Transition Matrix",
+                    "description": "Transition Matrix",
+                    "code": "TransitionMatrix"
+                  },
+                  "configuration": {
+                    "observation": {
+                      "observationWindowTimeUnitMultiplicity": 7,
+                      "observationWindowTimeUnit": "Y",
+                      "observePointTimeUnitMultiplicity": 1,
+                      "observePointTimeUnit": "M",
+                      "performanceWindowTimeUnitMultiplicity": 12,
+                      "performanceWindowTimeUnit": "M",
+                      "measurementUnit": "NumContracts",
+                      "everDefault": {
+                        "method": "None"
+                      }
+                    },
+                    "buckets": [
+                      {
+                        "bucketId": "f62b470e-eba3-5f48-a9af-c9eda41d9317",
+                        "sequence": 1,
+                        "name": "Bucket 1",
+                        "description": "DPD 0 ",
+                        "type": "Standard",
+                        "creditState": "Transient"
+                      },
+                      {
+                        "bucketId": "1245e292-a37e-5bf2-a228-bc2b7d444b40",
+                        "sequence": 2,
+                        "name": "Bucket 2",
+                        "description": "DPD 1 sd 30",
+                        "type": "Standard",
+                        "creditState": "Transient"
+                      },
+                      {
+                        "bucketId": "afd3fc39-73ba-5812-9c5b-5c5571e24dce",
+                        "sequence": 3,
+                        "name": "Bucket 3",
+                        "description": "DPD 31 sd 60",
+                        "type": "Standard",
+                        "creditState": "Transient"
+                      },
+                      {
+                        "bucketId": "2bb2650e-9dfd-5b2e-833f-d3394e5b8afa",
+                        "sequence": 4,
+                        "name": "Bucket 4",
+                        "description": "DPD 61 sd 90",
+                        "type": "Standard",
+                        "creditState": "Transient"
+                      },
+                      {
+                        "bucketId": "bf027570-8843-5039-8bb8-71dbae062318",
+                        "sequence": 5,
+                        "name": "Bucket Default",
+                        "description": "DPD >90",
+                        "type": "Default",
+                        "creditState": "Absorbing"
+                      },
+                      {
+                        "bucketId": "bcb63148-4195-5bec-bab5-141b1cf0ff12",
+                        "sequence": 6,
+                        "name": "Bucket Settled",
+                        "description": "Bucket Settled",
+                        "type": "Settled",
+                        "creditState": "Transient"
+                      }
+                    ],
+                    "gapFilling": {
+                      "apply": false,
+                      "bucketId": null
+                    },
+                    "rules": [
+                      {
+                        "ruleId": "c40a7a5e-0a0e-5258-8d7e-87c47e2bd4cc",
+                        "priority": 1,
+                        "name": "Bucket 1",
+                        "description": "Bucket 1 (DPD 0)",
+                        "bucketId": "f62b470e-eba3-5f48-a9af-c9eda41d9317",
+                        "lastModifiedWhen": "2025-10-20T10:47:21.941",
+                        "ruleCondition": {
+                          "combinator": "And",
+                          "conditionId": "66e2e11b-29ca-4ab3-972e-94a4aa1b6665",
+                          "conditions": [
+                            {
+                              "field": "DaysPastDue",
+                              "operator": "Equal",
+                              "value": "0",
+                              "conditionId": "53686f55-e550-4672-836d-e68aa72a9de5"
+                            },
+                            {
+                              "field": "IsRestructured",
+                              "operator": "Equal",
+                              "value": "false",
+                              "conditionId": "220f24ce-1d20-4b09-b7d1-dd937b8103cf"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "ruleId": "3780d17d-5dea-5813-b7df-6b205a3a18f7",
+                        "priority": 2,
+                        "name": "Bucket 2",
+                        "description": "Bucket 2 (DPD 1 sd 30)",
+                        "bucketId": "1245e292-a37e-5bf2-a228-bc2b7d444b40",
+                        "lastModifiedWhen": "2025-10-20T10:47:55.808",
+                        "ruleCondition": {
+                          "combinator": "And",
+                          "conditionId": "003b359c-9e4c-4f68-9f20-f579d067770e",
+                          "conditions": [
+                            {
+                              "field": "DaysPastDue",
+                              "operator": "GreaterThan",
+                              "value": "0",
+                              "conditionId": "4fcdc686-5321-4253-8191-e565a915f0a3"
+                            },
+                            {
+                              "field": "DaysPastDue",
+                              "operator": "LessThanOrEqual",
+                              "value": "30",
+                              "conditionId": "7385fe08-8138-444a-9363-d836d081aab9"
+                            },
+                            {
+                              "field": "IsRestructured",
+                              "operator": "Equal",
+                              "value": "false",
+                              "conditionId": "07d66773-393f-4482-8cef-a5aaad33bc63"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "ruleId": "a937921a-3771-56af-9395-43ba1a0e983b",
+                        "priority": 3,
+                        "name": "Bucket 3",
+                        "description": "Bucket 3 (DPD 31 sd 60)",
+                        "bucketId": "afd3fc39-73ba-5812-9c5b-5c5571e24dce",
+                        "lastModifiedWhen": "2025-10-20T10:48:07.327",
+                        "ruleCondition": {
+                          "combinator": "And",
+                          "conditionId": "7d356df8-371c-4e71-9fa5-6d719e0e1be9",
+                          "conditions": [
+                            {
+                              "field": "DaysPastDue",
+                              "operator": "GreaterThan",
+                              "value": "30",
+                              "conditionId": "cc83510c-aac7-46f3-9f82-e6303e24f951"
+                            },
+                            {
+                              "field": "DaysPastDue",
+                              "operator": "LessThanOrEqual",
+                              "value": "60",
+                              "conditionId": "9323c182-7cf0-48cf-a3a0-52050c3075d3"
+                            },
+                            {
+                              "field": "IsRestructured",
+                              "operator": "Equal",
+                              "value": "false",
+                              "conditionId": "53311f82-1f5a-487f-90ac-fc0e88b3a5f5"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "ruleId": "cff72d43-4dee-5440-bdf7-d8cd08f1feef",
+                        "priority": 4,
+                        "name": "Bucket 4",
+                        "description": "Bucket 4 (DPD 61 sd 90)",
+                        "bucketId": "2bb2650e-9dfd-5b2e-833f-d3394e5b8afa",
+                        "lastModifiedWhen": "2025-10-20T10:48:20.129",
+                        "ruleCondition": {
+                          "combinator": "And",
+                          "conditionId": "c143ce6d-fe26-4535-b6eb-390f01f33ecd",
+                          "conditions": [
+                            {
+                              "field": "DaysPastDue",
+                              "operator": "GreaterThan",
+                              "value": "60",
+                              "conditionId": "eacdea1d-e7e8-4720-b930-2fe420b7b306"
+                            },
+                            {
+                              "field": "DaysPastDue",
+                              "operator": "LessThanOrEqual",
+                              "value": "89",
+                              "conditionId": "0fd09083-2595-4ef7-92b7-88d26f5d08cc"
+                            },
+                            {
+                              "field": "IsRestructured",
+                              "operator": "Equal",
+                              "value": "false",
+                              "conditionId": "f86519a9-2c2d-4d5e-aff9-6970f6cee5a7"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "ruleId": "5f804872-fac0-5858-9168-d465bffe9a7e",
+                        "priority": 5,
+                        "name": "Bucket Default",
+                        "description": "Bucket Default (DPD > 90)",
+                        "bucketId": "bf027570-8843-5039-8bb8-71dbae062318",
+                        "lastModifiedWhen": "2025-10-20T10:48:34.869",
+                        "ruleCondition": {
+                          "combinator": "Or",
+                          "conditionId": "36876877-4404-4579-97c4-2b80a14ff252",
+                          "conditions": [
+                            {
+                              "field": "DaysPastDue",
+                              "operator": "GreaterThan",
+                              "value": "90",
+                              "conditionId": "f6c6f73d-926a-422e-b35e-97b50f81a351"
+                            },
+                            {
+                              "field": "IsRestructured",
+                              "operator": "Equal",
+                              "value": "true",
+                              "conditionId": "e514cec6-2297-4c1b-8683-c9c40bf88b4a"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "ruleId": "2e79825c-5ed7-5df0-8cd0-2e97fedfb0e0",
+                        "priority": 6,
+                        "name": "Bucket Settled",
+                        "description": "Bucket Settled",
+                        "bucketId": "bcb63148-4195-5bec-bab5-141b1cf0ff12",
+                        "lastModifiedWhen": "2025-10-20T10:41:57.239",
+                        "ruleCondition": {
+                          "combinator": "And",
+                          "conditionId": "203f6054-515b-4179-a0d0-1e9fef5492e7",
+                          "conditions": []
+                        }
+                      }
+                    ],
+                    "consolidation": {
+                      "primaryConsolidation": "SimpleAverage",
+                      "secondaryConsolidations": [],
+                      "curveFitting": {
+                        "apply": false
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 14:35:56.363101",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "2ceb3353-b8bb-4ac1-916b-14753187ee0e",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "3fabe0bd-06d0-5e5b-9b20-24f06ac10305",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB Syariah - Historical PD Group - OS",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "3fabe0bd-06d0-5e5b-9b20-24f06ac10305",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "createdWhen": "2025-10-20T14:35:56.458884",
+          "lastModifiedBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "lastModifiedWhen": "2025-10-20T14:36:12.8855502",
+          "origin": {
+            "origin": {
+              "originType": "Clone",
+              "originVersionId": "f1a5850f-c366-5c7b-b8c6-3829b24ad42c",
+              "originModelId": "831b3c7a-7b79-55d7-870f-f0eecf72a407",
+              "name": "BSSB Syariah - Historical PD Group - NOA",
+              "version": 1
+            }
+          },
+          "model": {
+            "modelId": "f4da88e6-0dc9-554e-a9ff-fba8bf60890b",
+            "name": "BSSB Syariah - Historical PD Group - OS",
+            "description": "BSSB Syariah - Historical PD Group - OS",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T14:35:56.363101",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T14:36:12.8855502",
+            "objectiveType": {
+              "objectiveTypeId": "a7c5ee8f-30d2-4ea2-8833-657c306318e6",
+              "code": "Historical",
+              "name": "Historical",
+              "description": "Historical PD values calculation"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          },
+          "segmentation": {
+            "versionId": "a4a0a9b9-a1c6-5248-ae71-c0b320bb9a8b",
+            "version": 1,
+            "status": "Draft",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T14:34:03.779255",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T14:34:03.779255",
+            "origin": {
+              "origin": {
+                "originType": "Clone",
+                "originVersionId": "f4fb95dd-ee2d-58fa-aec1-be0bf46c0077",
+                "originModelId": "87d26ba1-f5e2-5ff0-a777-9cbc7e4f478e",
+                "name": "BSSB Syariah - Segmentation Historical LGD",
+                "version": 1
+              }
+            },
+            "model": {
+              "modelId": "bd27ec65-4027-5a26-a90c-5d981233d83c",
+              "name": "BSSB Syariah - Segmentation Historical PD",
+              "description": "BSSB Syariah - Segmentation Historical PD",
+              "isPrivate": false,
+              "status": "Open",
+              "createdBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "createdWhen": "2025-10-20T14:34:03.678247",
+              "lastModifiedBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "lastModifiedWhen": "2025-10-20T14:34:03.678247",
+              "objectiveType": {
+                "objectiveTypeId": "c84eec4a-5e3d-4e88-bf7f-2c7a22a54d76",
+                "code": "Segmentation",
+                "name": "Segmentation",
+                "description": "Segmentation Model"
+              },
+              "modelType": {
+                "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+                "name": "Simulation",
+                "description": "Model simulation type",
+                "style": {
+                  "border": "solid 1px #36116f",
+                  "backgroundColor": "#563d7c",
+                  "color": "white"
+                }
+              }
+            },
+            "segmentationConfiguration": {
+              "segments": [
+                {
+                  "segmentId": "4428f5b6-5c25-523f-a3c3-35591b1a10a6",
+                  "name": "LGD Investasi",
+                  "description": "LGD Investasi",
+                  "category": "LGD Investasi",
+                  "lastModifiedWhen": "2025-10-20T07:02:23.6279377"
+                },
+                {
+                  "segmentId": "6cad0754-7efc-53d4-86c9-7b87871346a7",
+                  "name": "LGD Modal Kerja",
+                  "description": "LGD Modal Kerja",
+                  "category": "LGD Modal Kerja",
+                  "lastModifiedWhen": "2025-10-20T07:02:33.0315399"
+                },
+                {
+                  "segmentId": "dbfcbf6f-8f1e-568a-b8df-55437b0e83d7",
+                  "name": "LGD Pembiayaan Lainnya",
+                  "description": "LGD Pembiayaan Lainnya",
+                  "category": "LGD Pembiayaan Lainnya",
+                  "lastModifiedWhen": "2025-10-20T07:02:44.2040717"
+                }
+              ],
+              "rules": [
+                {
+                  "ruleId": "3a827170-cc92-5122-bd37-fceccac0034f",
+                  "name": "Rules segment LGD investasi",
+                  "description": "Rules segment LGD investasi",
+                  "priority": 1,
+                  "lastModifiedWhen": "2025-10-20T14:27:05.6284145",
+                  "segments": [
+                    {
+                      "segmentRuleId": "5ea3b0d8-43f4-54f3-bd28-7148da1416f9",
+                      "segmentId": "4428f5b6-5c25-523f-a3c3-35591b1a10a6",
+                      "segmentName": "LGD Investasi",
+                      "priority": 1,
+                      "condition": {
+                        "conditionId": "cbb4204f-beb1-4c8e-87fe-86224f10d31a",
+                        "conditions": [
+                          {
+                            "conditionId": "856466dc-3f26-40e1-bbf5-7378f4d63129",
+                            "conditions": [
+                              {
+                                "conditionId": "c4aabc2f-aca9-4c74-bde0-271ecc784a7f",
+                                "field": "AntasenaJenisPengguna",
+                                "operator": "Equal",
+                                "value": "2"
+                              }
+                            ],
+                            "combinator": "And"
+                          }
+                        ],
+                        "combinator": "And"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "ruleId": "4f553102-f5a8-5cc4-a694-16a21845e855",
+                  "name": "Rules segment LGD modal kerja",
+                  "description": "Rules segment LGD modal kerja",
+                  "priority": 2,
+                  "lastModifiedWhen": "2025-10-20T14:27:24.3770457",
+                  "segments": [
+                    {
+                      "segmentRuleId": "87bb8844-2390-590c-b318-72b741af880f",
+                      "segmentId": "6cad0754-7efc-53d4-86c9-7b87871346a7",
+                      "segmentName": "LGD Modal Kerja",
+                      "priority": 1,
+                      "condition": {
+                        "conditionId": "7113f671-4a37-4ae0-9df4-90b4cf6ec2bd",
+                        "conditions": [
+                          {
+                            "conditionId": "7126056b-fca7-4a33-87bc-a729a77bf82c",
+                            "field": "AntasenaJenisPengguna",
+                            "operator": "Equal",
+                            "value": "1"
+                          }
+                        ],
+                        "combinator": "And"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "ruleId": "a40f6a7b-7cb3-5fd4-bc8c-820328fc495b",
+                  "name": "Rules segment kredit lainya",
+                  "description": "Rules segment kredit lainya",
+                  "priority": 3,
+                  "lastModifiedWhen": "2025-10-20T14:27:41.7163078",
+                  "segments": [
+                    {
+                      "segmentRuleId": "4bf235f3-a7e3-5bcd-bea5-ad90ef7cf68a",
+                      "segmentId": "dbfcbf6f-8f1e-568a-b8df-55437b0e83d7",
+                      "segmentName": "LGD Kredit Lainya",
+                      "priority": 1,
+                      "condition": {
+                        "conditionId": "9708a8f9-7f69-445d-90a5-b0919023d8c0",
+                        "conditions": [
+                          {
+                            "conditionId": "5bbd6374-4eaf-4431-9070-c35d9c52cc5f",
+                            "conditions": [
+                              {
+                                "conditionId": "9f4976a8-a0a6-42b3-8fa8-96c63f13ed89",
+                                "field": "AntasenaJenisPengguna",
+                                "operator": "Equal",
+                                "value": "3"
+                              }
+                            ],
+                            "combinator": "And"
+                          }
+                        ],
+                        "combinator": "And"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "hierarchies": [],
+              "nodes": [
+                {
+                  "id": "a4a0a9b9-a1c6-5248-ae71-c0b320bb9a8b",
+                  "path": "/BSSB Syariah - Segmentation Historical PD",
+                  "name": "BSSB Syariah - Segmentation Historical PD",
+                  "description": "BSSB Syariah - Segmentation Historical PD",
+                  "nodeType": "Model"
+                },
+                {
+                  "id": "4428f5b6-5c25-523f-a3c3-35591b1a10a6",
+                  "path": "/BSSB Syariah - Segmentation Historical PD/LGD Investasi",
+                  "name": "LGD Investasi",
+                  "description": "LGD Investasi",
+                  "category": "LGD Investasi",
+                  "nodeType": "Segment",
+                  "parentId": "a4a0a9b9-a1c6-5248-ae71-c0b320bb9a8b"
+                },
+                {
+                  "id": "6cad0754-7efc-53d4-86c9-7b87871346a7",
+                  "path": "/BSSB Syariah - Segmentation Historical PD/LGD Modal Kerja",
+                  "name": "LGD Modal Kerja",
+                  "description": "LGD Modal Kerja",
+                  "category": "LGD Modal Kerja",
+                  "nodeType": "Segment",
+                  "parentId": "a4a0a9b9-a1c6-5248-ae71-c0b320bb9a8b"
+                },
+                {
+                  "id": "dbfcbf6f-8f1e-568a-b8df-55437b0e83d7",
+                  "path": "/BSSB Syariah - Segmentation Historical PD/LGD Pembiayaan Lainnya",
+                  "name": "LGD Pembiayaan Lainnya",
+                  "description": "LGD Pembiayaan Lainnya",
+                  "category": "LGD Pembiayaan Lainnya",
+                  "nodeType": "Segment",
+                  "parentId": "a4a0a9b9-a1c6-5248-ae71-c0b320bb9a8b"
+                }
+              ]
+            },
+            "testSuites": {
+              "testSuites": []
+            }
+          },
+          "approaches": {
+            "approaches": [
+              {
+                "approachId": "613ed7eb-025a-5a82-bab7-4fc97d39e627",
+                "name": "Transisition Matrix",
+                "description": "Transisition Matrix",
+                "approachType": "SingleMethod",
+                "segments": [
+                  {
+                    "segmentId": "4428f5b6-5c25-523f-a3c3-35591b1a10a6",
+                    "name": "LGD Investasi"
+                  },
+                  {
+                    "segmentId": "6cad0754-7efc-53d4-86c9-7b87871346a7",
+                    "name": "LGD Modal Kerja"
+                  },
+                  {
+                    "segmentId": "dbfcbf6f-8f1e-568a-b8df-55437b0e83d7",
+                    "name": "LGD Pembiayaan Lainnya"
+                  }
+                ],
+                "method": {
+                  "methodId": "fe0d3d99-9645-5b8e-9de4-36e656529dc1",
+                  "calcMethodId": "1db0e93a-ec0f-4246-8393-e84f087d38a7",
+                  "calcMethod": {
+                    "calcMethodId": "1db0e93a-ec0f-4246-8393-e84f087d38a7",
+                    "name": "Transition Matrix",
+                    "description": "Transition Matrix",
+                    "code": "TransitionMatrix"
+                  },
+                  "configuration": {
+                    "observation": {
+                      "observationWindowTimeUnitMultiplicity": 7,
+                      "observationWindowTimeUnit": "Y",
+                      "observePointTimeUnitMultiplicity": 1,
+                      "observePointTimeUnit": "M",
+                      "performanceWindowTimeUnitMultiplicity": 12,
+                      "performanceWindowTimeUnit": "M",
+                      "measurementUnit": "OutstandingAmount",
+                      "everDefault": {
+                        "method": "None"
+                      }
+                    },
+                    "buckets": [
+                      {
+                        "bucketId": "f62b470e-eba3-5f48-a9af-c9eda41d9317",
+                        "sequence": 1,
+                        "name": "Bucket 1",
+                        "description": "DPD 0 ",
+                        "type": "Standard",
+                        "creditState": "Transient"
+                      },
+                      {
+                        "bucketId": "1245e292-a37e-5bf2-a228-bc2b7d444b40",
+                        "sequence": 2,
+                        "name": "Bucket 2",
+                        "description": "DPD 1 sd 30",
+                        "type": "Standard",
+                        "creditState": "Transient"
+                      },
+                      {
+                        "bucketId": "afd3fc39-73ba-5812-9c5b-5c5571e24dce",
+                        "sequence": 3,
+                        "name": "Bucket 3",
+                        "description": "DPD 31 sd 60",
+                        "type": "Standard",
+                        "creditState": "Transient"
+                      },
+                      {
+                        "bucketId": "2bb2650e-9dfd-5b2e-833f-d3394e5b8afa",
+                        "sequence": 4,
+                        "name": "Bucket 4",
+                        "description": "DPD 61 sd 90",
+                        "type": "Standard",
+                        "creditState": "Transient"
+                      },
+                      {
+                        "bucketId": "bf027570-8843-5039-8bb8-71dbae062318",
+                        "sequence": 5,
+                        "name": "Bucket Default",
+                        "description": "DPD >90",
+                        "type": "Default",
+                        "creditState": "Absorbing"
+                      },
+                      {
+                        "bucketId": "bcb63148-4195-5bec-bab5-141b1cf0ff12",
+                        "sequence": 6,
+                        "name": "Bucket Settled",
+                        "description": "Bucket Settled",
+                        "type": "Settled",
+                        "creditState": "Transient"
+                      }
+                    ],
+                    "gapFilling": {
+                      "apply": false,
+                      "bucketId": null
+                    },
+                    "rules": [
+                      {
+                        "ruleId": "c40a7a5e-0a0e-5258-8d7e-87c47e2bd4cc",
+                        "priority": 1,
+                        "name": "Bucket 1",
+                        "description": "Bucket 1 (DPD 0)",
+                        "bucketId": "f62b470e-eba3-5f48-a9af-c9eda41d9317",
+                        "lastModifiedWhen": "2025-10-20T10:47:21.941",
+                        "ruleCondition": {
+                          "combinator": "And",
+                          "conditionId": "66e2e11b-29ca-4ab3-972e-94a4aa1b6665",
+                          "conditions": [
+                            {
+                              "field": "DaysPastDue",
+                              "operator": "Equal",
+                              "value": "0",
+                              "conditionId": "53686f55-e550-4672-836d-e68aa72a9de5"
+                            },
+                            {
+                              "field": "IsRestructured",
+                              "operator": "Equal",
+                              "value": "false",
+                              "conditionId": "220f24ce-1d20-4b09-b7d1-dd937b8103cf"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "ruleId": "3780d17d-5dea-5813-b7df-6b205a3a18f7",
+                        "priority": 2,
+                        "name": "Bucket 2",
+                        "description": "Bucket 2 (DPD 1 sd 30)",
+                        "bucketId": "1245e292-a37e-5bf2-a228-bc2b7d444b40",
+                        "lastModifiedWhen": "2025-10-20T10:47:55.808",
+                        "ruleCondition": {
+                          "combinator": "And",
+                          "conditionId": "003b359c-9e4c-4f68-9f20-f579d067770e",
+                          "conditions": [
+                            {
+                              "field": "DaysPastDue",
+                              "operator": "GreaterThan",
+                              "value": "0",
+                              "conditionId": "4fcdc686-5321-4253-8191-e565a915f0a3"
+                            },
+                            {
+                              "field": "DaysPastDue",
+                              "operator": "LessThanOrEqual",
+                              "value": "30",
+                              "conditionId": "7385fe08-8138-444a-9363-d836d081aab9"
+                            },
+                            {
+                              "field": "IsRestructured",
+                              "operator": "Equal",
+                              "value": "false",
+                              "conditionId": "07d66773-393f-4482-8cef-a5aaad33bc63"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "ruleId": "a937921a-3771-56af-9395-43ba1a0e983b",
+                        "priority": 3,
+                        "name": "Bucket 3",
+                        "description": "Bucket 3 (DPD 31 sd 60)",
+                        "bucketId": "afd3fc39-73ba-5812-9c5b-5c5571e24dce",
+                        "lastModifiedWhen": "2025-10-20T10:48:07.327",
+                        "ruleCondition": {
+                          "combinator": "And",
+                          "conditionId": "7d356df8-371c-4e71-9fa5-6d719e0e1be9",
+                          "conditions": [
+                            {
+                              "field": "DaysPastDue",
+                              "operator": "GreaterThan",
+                              "value": "30",
+                              "conditionId": "cc83510c-aac7-46f3-9f82-e6303e24f951"
+                            },
+                            {
+                              "field": "DaysPastDue",
+                              "operator": "LessThanOrEqual",
+                              "value": "60",
+                              "conditionId": "9323c182-7cf0-48cf-a3a0-52050c3075d3"
+                            },
+                            {
+                              "field": "IsRestructured",
+                              "operator": "Equal",
+                              "value": "false",
+                              "conditionId": "53311f82-1f5a-487f-90ac-fc0e88b3a5f5"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "ruleId": "cff72d43-4dee-5440-bdf7-d8cd08f1feef",
+                        "priority": 4,
+                        "name": "Bucket 4",
+                        "description": "Bucket 4 (DPD 61 sd 90)",
+                        "bucketId": "2bb2650e-9dfd-5b2e-833f-d3394e5b8afa",
+                        "lastModifiedWhen": "2025-10-20T10:48:20.129",
+                        "ruleCondition": {
+                          "combinator": "And",
+                          "conditionId": "c143ce6d-fe26-4535-b6eb-390f01f33ecd",
+                          "conditions": [
+                            {
+                              "field": "DaysPastDue",
+                              "operator": "GreaterThan",
+                              "value": "60",
+                              "conditionId": "eacdea1d-e7e8-4720-b930-2fe420b7b306"
+                            },
+                            {
+                              "field": "DaysPastDue",
+                              "operator": "LessThanOrEqual",
+                              "value": "89",
+                              "conditionId": "0fd09083-2595-4ef7-92b7-88d26f5d08cc"
+                            },
+                            {
+                              "field": "IsRestructured",
+                              "operator": "Equal",
+                              "value": "false",
+                              "conditionId": "f86519a9-2c2d-4d5e-aff9-6970f6cee5a7"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "ruleId": "5f804872-fac0-5858-9168-d465bffe9a7e",
+                        "priority": 5,
+                        "name": "Bucket Default",
+                        "description": "Bucket Default (DPD > 90)",
+                        "bucketId": "bf027570-8843-5039-8bb8-71dbae062318",
+                        "lastModifiedWhen": "2025-10-20T10:48:34.869",
+                        "ruleCondition": {
+                          "combinator": "Or",
+                          "conditionId": "36876877-4404-4579-97c4-2b80a14ff252",
+                          "conditions": [
+                            {
+                              "field": "DaysPastDue",
+                              "operator": "GreaterThan",
+                              "value": "90",
+                              "conditionId": "f6c6f73d-926a-422e-b35e-97b50f81a351"
+                            },
+                            {
+                              "field": "IsRestructured",
+                              "operator": "Equal",
+                              "value": "true",
+                              "conditionId": "e514cec6-2297-4c1b-8683-c9c40bf88b4a"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "ruleId": "2e79825c-5ed7-5df0-8cd0-2e97fedfb0e0",
+                        "priority": 6,
+                        "name": "Bucket Settled",
+                        "description": "Bucket Settled",
+                        "bucketId": "bcb63148-4195-5bec-bab5-141b1cf0ff12",
+                        "lastModifiedWhen": "2025-10-20T10:41:57.239",
+                        "ruleCondition": {
+                          "combinator": "And",
+                          "conditionId": "203f6054-515b-4179-a0d0-1e9fef5492e7",
+                          "conditions": []
+                        }
+                      }
+                    ],
+                    "consolidation": {
+                      "primaryConsolidation": "SimpleAverage",
+                      "secondaryConsolidations": [],
+                      "curveFitting": {
+                        "apply": false
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 14:36:12.905733",
+      "ImpersonatedUserId": null
+    }
+  ]
+}

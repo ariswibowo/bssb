@@ -1,0 +1,113 @@
+{
+  "ModelId": "76d254d3-5928-42d4-a4a4-d425ccee3e93",
+  "DomainId": "53b12633-0d4d-4879-a3c7-68a0f73ffe45",
+  "Name": "BBSB Konven - EAD Outstanding Amount",
+  "Description": "BBSB Konven - EAD Outstanding Amount",
+  "ModelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+  "ObjectiveTypeId": "5ad5186f-c43b-4711-8f25-287818b09bcf",
+  "ParentDeckId": null,
+  "IsPrivate": false,
+  "Status": "Open",
+  "Data": {
+    "deletionProtection": {
+      "enabled": false
+    }
+  },
+  "LatestVersionId": "4bb757f2-62c3-43b2-bde0-6a89966644ba",
+  "LatestVersion": 1,
+  "LatestStatus": "Draft",
+  "LatestErrors": null,
+  "LatestWarnings": null,
+  "LatestValidatedWhen": null,
+  "PublishedVersions": 0,
+  "ArchivedBy": null,
+  "ArchivedWhen": null,
+  "CreatedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+  "CreatedWhen": "2025-10-20 07:00:01.714101",
+  "LastModifiedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+  "LastModifiedWhen": "2025-10-20 07:00:48.779424",
+  "ObjectiveTypeCode": "Ead",
+  "ModelTypeName": "Simulation",
+  "activityExport": {
+    "sourceId": "76d254d3-5928-42d4-a4a4-d425ccee3e93",
+    "name": "BBSB Konven - EAD Outstanding Amount",
+    "path": "models/activities",
+    "file": "activities_sourceId_cee3e93.json"
+  },
+  "versions": [
+    {
+      "VersionId": "4bb757f2-62c3-43b2-bde0-6a89966644ba",
+      "ModelId": "76d254d3-5928-42d4-a4a4-d425ccee3e93",
+      "Version": 1,
+      "Description": "Initial Version",
+      "Status": "Draft",
+      "PublishedBy": null,
+      "PublishedWhen": null,
+      "PublishComments": null,
+      "ExpiryDate": null,
+      "ArchivedBy": null,
+      "ArchivedWhen": null,
+      "ConcurrencyId": "ec6f79aa-1377-48d9-aca9-a49990dbee84",
+      "CreatedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "CreatedWhen": "2025-10-20 07:00:01.714101",
+      "LastModifiedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "LastModifiedWhen": "2025-10-20 07:00:48.779424",
+      "versionProps": [
+        {
+          "VersionPropId": "e26ebd35-7264-4a39-8ade-3958f854c978",
+          "VersionId": "4bb757f2-62c3-43b2-bde0-6a89966644ba",
+          "Key": "Origin",
+          "Value": {
+            "origin": {
+              "originType": "New"
+            }
+          }
+        },
+        {
+          "VersionPropId": "a6c713c2-9bf4-4782-81ae-a61da966c21f",
+          "VersionId": "4bb757f2-62c3-43b2-bde0-6a89966644ba",
+          "Key": "General",
+          "Value": {
+            "segmentationVersionId": "6f182c43-89d8-4c7a-82b8-d889f0beee35"
+          }
+        },
+        {
+          "VersionPropId": "dfdc84b1-0114-4e5e-a1e2-6d3a2282c9b4",
+          "VersionId": "4bb757f2-62c3-43b2-bde0-6a89966644ba",
+          "Key": "Approaches",
+          "Value": {
+            "approaches": [
+              {
+                "approachId": "f391637c-5110-41b4-b6e6-cfec638d65ec",
+                "name": "EAD Remaining Outstanding Amount",
+                "description": "EAD Remaining Outstanding Amount",
+                "approachType": "SingleMethod",
+                "segments": [
+                  {
+                    "segmentId": "2d131a71-00cb-4e60-b1d0-2350ceadbe13"
+                  }
+                ],
+                "method": {
+                  "methodId": "f146aa54-5ae8-4ce4-b2a7-6cd2a0382fc2",
+                  "calcMethodId": "52d6d46f-e388-45b1-aa2f-6925985c5a82",
+                  "configuration": {
+                    "termStructure": {
+                      "termStructureType": "Monthly"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "publishRequests": [],
+      "activityExport": {
+        "sourceId": "4bb757f2-62c3-43b2-bde0-6a89966644ba",
+        "name": "BBSB Konven - EAD Outstanding Amount_v1",
+        "path": "models/activities",
+        "file": "activities_sourceId_66644ba.json"
+      }
+    }
+  ]
+}

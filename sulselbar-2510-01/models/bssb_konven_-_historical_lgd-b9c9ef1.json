@@ -1,0 +1,167 @@
+{
+  "ModelId": "ecf76b73-1084-4910-8b67-3aea9b9c9ef1",
+  "DomainId": "0b8af8a8-8e58-4f2e-b4cd-aac37e263e55",
+  "Name": "BSSB Konven - Historical LGD",
+  "Description": "BSSB Konven - Historical LGD",
+  "ModelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+  "ObjectiveTypeId": "60c4ce91-d7ca-46c6-85dc-918e15ac79d6",
+  "ParentDeckId": null,
+  "IsPrivate": false,
+  "Status": "Open",
+  "Data": {
+    "deletionProtection": {
+      "enabled": false
+    }
+  },
+  "LatestVersionId": "45b51b0c-c708-4bc9-9d2a-0f4d1587dfda",
+  "LatestVersion": 1,
+  "LatestStatus": "Draft",
+  "LatestErrors": null,
+  "LatestWarnings": null,
+  "LatestValidatedWhen": null,
+  "PublishedVersions": 0,
+  "ArchivedBy": null,
+  "ArchivedWhen": null,
+  "CreatedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+  "CreatedWhen": "2025-10-20 07:19:02.509961",
+  "LastModifiedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+  "LastModifiedWhen": "2025-10-20 07:46:32.345326",
+  "ObjectiveTypeCode": "Historical",
+  "ModelTypeName": "Simulation",
+  "activityExport": {
+    "sourceId": "ecf76b73-1084-4910-8b67-3aea9b9c9ef1",
+    "name": "BSSB Konven - Historical LGD",
+    "path": "models/activities",
+    "file": "activities_sourceId_b9c9ef1.json"
+  },
+  "versions": [
+    {
+      "VersionId": "45b51b0c-c708-4bc9-9d2a-0f4d1587dfda",
+      "ModelId": "ecf76b73-1084-4910-8b67-3aea9b9c9ef1",
+      "Version": 1,
+      "Description": "Initial Version",
+      "Status": "Draft",
+      "PublishedBy": null,
+      "PublishedWhen": null,
+      "PublishComments": null,
+      "ExpiryDate": null,
+      "ArchivedBy": null,
+      "ArchivedWhen": null,
+      "ConcurrencyId": "1461b3cb-5a62-499b-9a05-bbb9974fbe18",
+      "CreatedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "CreatedWhen": "2025-10-20 07:19:02.509961",
+      "LastModifiedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "LastModifiedWhen": "2025-10-20 07:46:32.345326",
+      "versionProps": [
+        {
+          "VersionPropId": "d5d432f9-fd8e-4554-848f-b44a403f1873",
+          "VersionId": "45b51b0c-c708-4bc9-9d2a-0f4d1587dfda",
+          "Key": "Origin",
+          "Value": {
+            "origin": {
+              "originType": "New"
+            }
+          }
+        },
+        {
+          "VersionPropId": "ac280ac6-2d8e-430a-b006-a9ec63fcfef4",
+          "VersionId": "45b51b0c-c708-4bc9-9d2a-0f4d1587dfda",
+          "Key": "General",
+          "Value": {
+            "segmentationVersionId": "f8193d77-7c90-45c0-a400-a88fe6b9bfb1"
+          }
+        },
+        {
+          "VersionPropId": "bd53610e-4995-4104-9fc0-d90d492be7c3",
+          "VersionId": "45b51b0c-c708-4bc9-9d2a-0f4d1587dfda",
+          "Key": "Approaches",
+          "Value": {
+            "approaches": [
+              {
+                "approachId": "573b0f62-d79b-4d64-a353-1db29cadd21c",
+                "name": "Historical LGD",
+                "description": "Historical LGD ",
+                "approachType": "SingleMethod",
+                "segments": [
+                  {
+                    "segmentId": "bb067a10-5716-470b-8911-eace89543a2d"
+                  },
+                  {
+                    "segmentId": "67c260b4-11a5-45bf-b0a3-03cc1c6eec98"
+                  },
+                  {
+                    "segmentId": "35282f55-bddc-473c-8920-1158d507a54a"
+                  }
+                ],
+                "method": {
+                  "methodId": "8b452f47-0f08-4005-a0a4-51c72496e8a2",
+                  "calcMethodId": "2e1ffcf8-9d83-45a6-949a-b465f6da5840",
+                  "configuration": {
+                    "observation": {
+                      "observationWindowTimeUnitMultiplicity": 7,
+                      "observationWindowTimeUnit": "Y",
+                      "minWorkoutTimeUnitMultiplicity": 6,
+                      "minWorkoutTimeUnit": "M",
+                      "maxWorkoutTimeUnitMultiplicity": 7,
+                      "maxWorkoutTimeUnit": "Y"
+                    },
+                    "outcomes": [
+                      {
+                        "outcomeId": "6e49af81-e6b0-4ebe-8656-7135b51c9406",
+                        "priority": 1,
+                        "outcomeType": "Default",
+                        "description": "",
+                        "outcomeCondition": {
+                          "combinator": "Or",
+                          "conditionId": "b95d3bf0-3ad1-454e-87a0-fff5935aa1b6",
+                          "conditions": [
+                            {
+                              "field": "DaysPastDue",
+                              "operator": "GreaterThan",
+                              "value": "90",
+                              "conditionId": "c0fdedf9-6d3a-4c75-bd15-ee83c4255d85"
+                            },
+                            {
+                              "field": "IsRestructured",
+                              "operator": "Equal",
+                              "value": "true",
+                              "conditionId": "28344c7b-10a2-48c5-b609-d6785e7d9d4b"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "outcomeId": "c3ad9eba-f21f-4c81-8470-4be353da1c6d",
+                        "priority": 2,
+                        "outcomeType": "NonDefault",
+                        "description": "",
+                        "outcomeCondition": {
+                          "combinator": "And",
+                          "conditionId": "da6862a3-a014-48bd-9e23-3dd6191a0c92",
+                          "conditions": []
+                        }
+                      }
+                    ],
+                    "consolidation": {
+                      "primaryConsolidation": "SimpleAverage",
+                      "secondaryConsolidations": [
+                        "WeightedOutstandingAmount"
+                      ]
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "publishRequests": [],
+      "activityExport": {
+        "sourceId": "45b51b0c-c708-4bc9-9d2a-0f4d1587dfda",
+        "name": "BSSB Konven - Historical LGD_v1",
+        "path": "models/activities",
+        "file": "activities_sourceId_587dfda.json"
+      }
+    }
+  ]
+}

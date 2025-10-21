@@ -1,0 +1,172 @@
+{
+  "ModelId": "ade88d12-fa37-5af3-aac2-1ada9c589f9f",
+  "DomainId": "ca5d1117-113d-4566-842c-75ed0057b9e4",
+  "Name": "BSSB Syariah - Stage Asessment",
+  "Description": "BSSB Syariah - Stage Asessment",
+  "ModelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+  "ObjectiveTypeId": "7dda0858-665b-4421-8874-e1953583f13a",
+  "ParentDeckId": null,
+  "IsPrivate": false,
+  "Status": "Open",
+  "Data": {
+    "deletionProtection": {
+      "enabled": false
+    }
+  },
+  "LatestVersionId": "15dae6a2-4717-5a38-8448-997fb103f8df",
+  "LatestVersion": 1,
+  "LatestStatus": "Draft",
+  "LatestErrors": null,
+  "LatestWarnings": null,
+  "LatestValidatedWhen": null,
+  "PublishedVersions": 0,
+  "ArchivedBy": null,
+  "ArchivedWhen": null,
+  "CreatedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+  "CreatedWhen": "2025-10-20 14:02:32.658792",
+  "LastModifiedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+  "LastModifiedWhen": "2025-10-20 14:15:01.764369",
+  "ObjectiveTypeCode": "StageAssessment",
+  "ModelTypeName": "Simulation",
+  "activityExport": {
+    "sourceId": "ade88d12-fa37-5af3-aac2-1ada9c589f9f",
+    "name": "BSSB Syariah - Stage Asessment",
+    "path": "models/activities",
+    "file": "activities_sourceId_c589f9f.json"
+  },
+  "versions": [
+    {
+      "VersionId": "15dae6a2-4717-5a38-8448-997fb103f8df",
+      "ModelId": "ade88d12-fa37-5af3-aac2-1ada9c589f9f",
+      "Version": 1,
+      "Description": "Initial Version",
+      "Status": "Draft",
+      "PublishedBy": null,
+      "PublishedWhen": null,
+      "PublishComments": null,
+      "ExpiryDate": null,
+      "ArchivedBy": null,
+      "ArchivedWhen": null,
+      "ConcurrencyId": "577f772c-64af-44e7-8dcc-169520e1b66e",
+      "CreatedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "CreatedWhen": "2025-10-20 14:02:32.837115",
+      "LastModifiedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "LastModifiedWhen": "2025-10-20 14:15:01.764369",
+      "versionProps": [
+        {
+          "VersionPropId": "843f403d-67ed-45bf-911d-578069becc9a",
+          "VersionId": "15dae6a2-4717-5a38-8448-997fb103f8df",
+          "Key": "Origin",
+          "Value": {
+            "origin": {
+              "originType": "Clone",
+              "originVersionId": "e45208a4-d0b7-4d76-9005-7453dcb9d6f9",
+              "originModelId": "52e96a77-c667-4162-ae8a-af530880f1a9",
+              "name": "BSSB Konven - Stage Asessment",
+              "version": 1
+            }
+          }
+        },
+        {
+          "VersionPropId": "63b2a743-9004-57f8-a8fc-9a2b987209e6",
+          "VersionId": "15dae6a2-4717-5a38-8448-997fb103f8df",
+          "Key": "General",
+          "Value": {
+            "segmentationVersionId": "7df848ec-81f5-5a88-93c3-16365a1a5c6b"
+          }
+        },
+        {
+          "VersionPropId": "8843f056-1e11-5af5-8fd4-58f60ff67f1f",
+          "VersionId": "15dae6a2-4717-5a38-8448-997fb103f8df",
+          "Key": "Approaches",
+          "Value": {
+            "approaches": [
+              {
+                "approachId": "efff81f8-a6fa-56f7-ad25-63113919fe38",
+                "name": "Stage all syariah products",
+                "description": "Stage all syariah products ",
+                "segments": [
+                  {
+                    "segmentId": "aad32a87-20d2-535c-a499-63af45758acc"
+                  }
+                ],
+                "lastModifiedWhen": "2025-10-20T14:15:01.430Z",
+                "rules": [
+                  {
+                    "ruleId": "8f137dca-e85e-4892-96a4-443b47763f7c",
+                    "priority": 1,
+                    "name": "Rule stage assessment syariah",
+                    "description": "Rule stage assessment syariah",
+                    "calcMethodId": "2daea4e4-501b-43b9-bc7d-d3f0d9b4ebe5",
+                    "ruleCondition": {},
+                    "stages": [
+                      {
+                        "stageId": "85f22f98-57ea-4826-bddf-8740fa017cfa",
+                        "priority": 1,
+                        "stage": 1,
+                        "stageCondition": {
+                          "combinator": "And",
+                          "conditionId": "545e102e-1324-4c64-84ab-f69cb0f449a1",
+                          "conditions": [
+                            {
+                              "field": "DaysPastDue",
+                              "operator": "LessThanOrEqual",
+                              "value": "30",
+                              "conditionId": "98a71a02-af21-4ac6-b0a8-ff24a2096196"
+                            },
+                            {
+                              "combinator": "Or",
+                              "conditionId": "8323490f-9370-4ca4-a1c0-f34e25764a24",
+                              "conditions": [
+                                {
+                                  "field": "MatureInd",
+                                  "operator": "Equal",
+                                  "value": "N",
+                                  "conditionId": "397fd725-6eb5-4ea0-9f15-4706ec2d7ad5"
+                                },
+                                {
+                                  "field": "MatureInd",
+                                  "operator": "Empty",
+                                  "value": "",
+                                  "conditionId": "e89106e5-b55a-4c0e-9416-4de01e71e16e"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "borderCondition": {}
+                      },
+                      {
+                        "stageId": "dcb28cd1-2c74-4d83-aca8-2a17185a436f",
+                        "priority": 2,
+                        "stage": 2,
+                        "stageCondition": {},
+                        "borderCondition": {}
+                      },
+                      {
+                        "stageId": "e8e12d7c-0351-4521-bc7b-9071a6a5f9c0",
+                        "priority": 3,
+                        "stage": 3,
+                        "stageCondition": {},
+                        "borderCondition": {}
+                      }
+                    ],
+                    "lastModifiedWhen": "2025-10-20T14:06:32.403Z"
+                  }
+                ],
+                "ruleConsolidation": {}
+              }
+            ]
+          }
+        }
+      ],
+      "publishRequests": [],
+      "activityExport": {
+        "sourceId": "15dae6a2-4717-5a38-8448-997fb103f8df",
+        "name": "BSSB Syariah - Stage Asessment_v1",
+        "path": "models/activities",
+        "file": "activities_sourceId_103f8df.json"
+      }
+    }
+  ]
+}

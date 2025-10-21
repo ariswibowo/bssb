@@ -1,0 +1,15 @@
+{
+  "activities": [
+    {
+      "ActivityId": "936a41cc-463c-482d-b6d8-8e23e0a0af89",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "f66f46bc-1f94-54d7-90e9-bf525a4c4f39",
+      "Source": "Model",
+      "Action": "CreateModel",
+      "Description": "Created model BSSB Konven - Historical PD Group - OS",
+      "Trace": null,
+      "Timestamp": "2025-10-20 10:51:47.260204",
+      "ImpersonatedUserId": null
+    }
+  ]
+}

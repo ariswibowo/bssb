@@ -1,0 +1,617 @@
+{
+  "ModelId": "52e96a77-c667-4162-ae8a-af530880f1a9",
+  "DomainId": "ca5d1117-113d-4566-842c-75ed0057b9e4",
+  "Name": "BSSB Konven - Stage Asessment",
+  "Description": "BSSB Konven - Stage Asessment",
+  "ModelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+  "ObjectiveTypeId": "7dda0858-665b-4421-8874-e1953583f13a",
+  "ParentDeckId": null,
+  "IsPrivate": false,
+  "Status": "Open",
+  "Data": {
+    "deletionProtection": {
+      "enabled": false
+    }
+  },
+  "LatestVersionId": "e45208a4-d0b7-4d76-9005-7453dcb9d6f9",
+  "LatestVersion": 1,
+  "LatestStatus": "Draft",
+  "LatestErrors": null,
+  "LatestWarnings": null,
+  "LatestValidatedWhen": null,
+  "PublishedVersions": 0,
+  "ArchivedBy": null,
+  "ArchivedWhen": null,
+  "CreatedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+  "CreatedWhen": "2025-10-20 04:36:53.447296",
+  "LastModifiedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+  "LastModifiedWhen": "2025-10-20 14:11:56.923605",
+  "ObjectiveTypeCode": "StageAssessment",
+  "ModelTypeName": "Simulation",
+  "activityExport": {
+    "sourceId": "52e96a77-c667-4162-ae8a-af530880f1a9",
+    "name": "BSSB Konven - Stage Asessment",
+    "path": "models/activities",
+    "file": "activities_sourceId_880f1a9.json"
+  },
+  "versions": [
+    {
+      "VersionId": "e45208a4-d0b7-4d76-9005-7453dcb9d6f9",
+      "ModelId": "52e96a77-c667-4162-ae8a-af530880f1a9",
+      "Version": 1,
+      "Description": "Initial Version",
+      "Status": "Draft",
+      "PublishedBy": null,
+      "PublishedWhen": null,
+      "PublishComments": null,
+      "ExpiryDate": null,
+      "ArchivedBy": null,
+      "ArchivedWhen": null,
+      "ConcurrencyId": "af131bd8-7b5b-4b17-8125-c3e5651313d9",
+      "CreatedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "CreatedWhen": "2025-10-20 04:36:53.447296",
+      "LastModifiedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "LastModifiedWhen": "2025-10-20 14:11:56.923605",
+      "versionProps": [
+        {
+          "VersionPropId": "92c09fab-57eb-4594-a80b-c5734dc909b0",
+          "VersionId": "e45208a4-d0b7-4d76-9005-7453dcb9d6f9",
+          "Key": "Approaches",
+          "Value": {
+            "approaches": [
+              {
+                "approachId": "b335189b-6308-49cd-8900-5c5e33d8ca31",
+                "name": "Stage Non Treasury",
+                "description": "Stage untuk mencover kredit, longgar tarik, BG, SKBDN ",
+                "segments": [
+                  {
+                    "segmentId": "72b2300f-90f6-49af-9349-f12888fef9ad"
+                  },
+                  {
+                    "segmentId": "2ed46e1e-0550-4f74-9b56-c41658cafe7d"
+                  },
+                  {
+                    "segmentId": "b40c916d-7f5b-4b3b-9a5b-42d9d8b36245"
+                  },
+                  {
+                    "segmentId": "9c4878a5-58cf-4224-8d3f-72d78641179e"
+                  },
+                  {
+                    "segmentId": "3179d56a-9b02-4f90-87b7-8214e00a1727"
+                  },
+                  {
+                    "segmentId": "cf5463b3-3a91-42e9-b4f6-2f4ed6e1145a"
+                  }
+                ],
+                "lastModifiedWhen": "2025-10-20T04:43:06.086Z",
+                "rules": [
+                  {
+                    "ruleId": "cc9d5e6d-7ee7-42b2-bcff-19271ecb4949",
+                    "priority": 1,
+                    "name": "Rule Stage Non Treasury",
+                    "description": "Rule Stage Non Treasury",
+                    "calcMethodId": "70cf3957-4dac-4260-92e2-d6d9cdfd2baa",
+                    "ruleCondition": {},
+                    "stages": [
+                      {
+                        "stageId": "3b6f08fe-ac9d-49ad-adf7-e84704152076",
+                        "priority": 1,
+                        "stage": 3,
+                        "stageCondition": {
+                          "combinator": "And",
+                          "conditionId": "d89a6cb1-48c4-44be-a828-3006a275f3a6",
+                          "conditions": [
+                            {
+                              "combinator": "Or",
+                              "conditionId": "1bc84ca8-d575-471e-8e1d-e58a84f28fca",
+                              "conditions": [
+                                {
+                                  "combinator": "And",
+                                  "conditionId": "92796552-1325-4a1a-81dc-725535a9a3ee",
+                                  "conditions": [
+                                    {
+                                      "field": "DaysPastDue",
+                                      "operator": "GreaterThan",
+                                      "value": "90",
+                                      "conditionId": "c3deaa4f-4714-4a11-809b-5b3a208649be"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "combinator": "And",
+                                  "conditionId": "680a7a69-485f-4231-821d-154f34af920a",
+                                  "conditions": [
+                                    {
+                                      "field": "DaysPastDue",
+                                      "operator": "GreaterThan",
+                                      "value": "90",
+                                      "conditionId": "edfca50d-7e4d-4a87-933a-555901bdaf66"
+                                    },
+                                    {
+                                      "field": "MatureInd",
+                                      "operator": "Equal",
+                                      "value": "Y",
+                                      "conditionId": "6303f13c-52ea-4f56-8abe-cc8edfb9803d"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "borderCondition": {
+                          "combinator": "Or",
+                          "conditionId": "025eb2ad-81ed-4f11-9676-af1992f01dec",
+                          "conditions": []
+                        },
+                        "description": "DPD >90 days "
+                      },
+                      {
+                        "stageId": "59d2f3fa-8509-49f9-9c9a-b847604b294c",
+                        "priority": 2,
+                        "stage": 2,
+                        "stageCondition": {
+                          "combinator": "Or",
+                          "conditionId": "98e2525a-fa84-4adf-bb60-cd4278349846",
+                          "conditions": [
+                            {
+                              "combinator": "And",
+                              "conditionId": "9e75d8fc-442d-476d-9826-4925164d9541",
+                              "conditions": [
+                                {
+                                  "field": "DaysPastDue",
+                                  "operator": "GreaterThan",
+                                  "value": "30",
+                                  "conditionId": "dc49d2b6-83e0-4c10-94b0-46e96439c139"
+                                },
+                                {
+                                  "field": "DaysPastDue",
+                                  "operator": "LessThanOrEqual",
+                                  "value": "90",
+                                  "conditionId": "3fbd2918-5d06-4218-8422-94b7d168e0a1"
+                                },
+                                {
+                                  "field": "MatureInd",
+                                  "operator": "Equal",
+                                  "value": "Y",
+                                  "conditionId": "da7226f5-d4af-4455-af48-490882fa15cc"
+                                }
+                              ]
+                            },
+                            {
+                              "combinator": "And",
+                              "conditionId": "5bd8a730-2445-4000-ae48-c5a19cb66f7f",
+                              "conditions": [
+                                {
+                                  "combinator": "And",
+                                  "conditionId": "6c0e077d-9ac5-4be3-9045-d8103c9067f4",
+                                  "conditions": [
+                                    {
+                                      "field": "DaysPastDue",
+                                      "operator": "GreaterThan",
+                                      "value": "30",
+                                      "conditionId": "090b62e1-4b5c-4cd8-bf08-14acbff76bc7"
+                                    },
+                                    {
+                                      "field": "DaysPastDue",
+                                      "operator": "LessThanOrEqual",
+                                      "value": "90",
+                                      "conditionId": "19c19502-6717-402c-b346-64d80bf21686"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "borderCondition": {},
+                        "description": "DPD > 31 to 90 Days "
+                      },
+                      {
+                        "stageId": "b521fd9e-71a6-4b31-90e0-c2ef3729e6a0",
+                        "priority": 3,
+                        "stage": 1,
+                        "stageCondition": {
+                          "combinator": "And",
+                          "conditionId": "64b6c545-6c10-4d4f-bad6-539d339c590d",
+                          "conditions": [
+                            {
+                              "combinator": "And",
+                              "conditionId": "07d44190-353d-4ac6-bf32-9a6a27b42c3c",
+                              "conditions": [
+                                {
+                                  "field": "DaysPastDue",
+                                  "operator": "GreaterThanOrEqual",
+                                  "value": "0",
+                                  "conditionId": "d5dbaf39-6ca9-4a95-aa01-65de823501f5"
+                                },
+                                {
+                                  "field": "DaysPastDue",
+                                  "operator": "LessThanOrEqual",
+                                  "value": "30",
+                                  "conditionId": "1f687a4e-865d-469a-b104-aa45b25baade"
+                                },
+                                {
+                                  "field": "MatureInd",
+                                  "operator": "Equal",
+                                  "value": "Y",
+                                  "conditionId": "c16f130b-69d5-4be5-a45f-1326330d761c"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "borderCondition": {},
+                        "description": "DPD = 0 to DPD 30"
+                      },
+                      {
+                        "stageId": "0fceca2a-2b23-4366-8373-d7bd16997d13",
+                        "stage": 1,
+                        "description": "selain kondisi diatas",
+                        "priority": 4,
+                        "stageCondition": {},
+                        "borderCondition": {}
+                      }
+                    ],
+                    "lastModifiedWhen": "2025-10-20T04:45:51.641Z"
+                  }
+                ],
+                "ruleConsolidation": {}
+              },
+              {
+                "approachId": "26cfe2b4-6cc8-4670-917b-71c999e0b6a1",
+                "name": "Stage Treasury",
+                "description": "Stage Treasury (Placement, Surat Berharga, Obligasi, Reverse Repo)",
+                "segments": [
+                  {
+                    "segmentId": "6e97fc84-f5bb-4008-8171-23b82b608675"
+                  },
+                  {
+                    "segmentId": "2ba1d911-4f90-42c1-a2bb-387796d86174"
+                  },
+                  {
+                    "segmentId": "84c64682-c0be-45b7-bce0-3a9bd2a70e05"
+                  }
+                ],
+                "lastModifiedWhen": "2025-10-20T06:36:07.227Z",
+                "rules": [
+                  {
+                    "ruleId": "cc0ba848-6dd6-44ad-be2e-a379036e0206",
+                    "priority": 1,
+                    "name": "Stage for Treasury",
+                    "description": "Stage for Treasury",
+                    "calcMethodId": "70cf3957-4dac-4260-92e2-d6d9cdfd2baa",
+                    "ruleCondition": {},
+                    "stages": [
+                      {
+                        "stageId": "549fe4e2-1809-4d2f-971f-752849b3a731",
+                        "priority": 1,
+                        "stage": 3,
+                        "stageCondition": {
+                          "combinator": "And",
+                          "conditionId": "bf4ec289-29ae-4009-b8f3-24df5cf09d28",
+                          "conditions": [
+                            {
+                              "combinator": "Or",
+                              "conditionId": "a09688ad-177a-42de-9769-d8eb25da1195",
+                              "conditions": [
+                                {
+                                  "combinator": "And",
+                                  "conditionId": "10637f53-d33f-46e4-aceb-2ab142f5d37d",
+                                  "conditions": [
+                                    {
+                                      "field": "CreditRatingAgency",
+                                      "operator": "Equal",
+                                      "value": "PEFINDO",
+                                      "conditionId": "996a0ae7-a6ca-4e8c-8993-c7949454a0cc"
+                                    },
+                                    {
+                                      "field": "CreditRating",
+                                      "operator": "In",
+                                      "conditionId": "c2355153-60be-4f18-b664-9a5ca06fe85b",
+                                      "values": [
+                                        "idBB",
+                                        "idB",
+                                        "idCCC",
+                                        "idSD",
+                                        "idD"
+                                      ],
+                                      "value": ""
+                                    }
+                                  ]
+                                },
+                                {
+                                  "combinator": "And",
+                                  "conditionId": "680611a3-a40b-4f3f-9fda-20c1c89ea3e8",
+                                  "conditions": [
+                                    {
+                                      "field": "DaysPastDue",
+                                      "operator": "GreaterThan",
+                                      "value": "90",
+                                      "conditionId": "9d744e50-a7e0-4d93-b74f-789f42b2a48f"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "borderCondition": {}
+                      },
+                      {
+                        "stageId": "9b99f723-a514-4aca-9b40-b67f53812c4f",
+                        "priority": 2,
+                        "stage": 2,
+                        "stageCondition": {
+                          "combinator": "And",
+                          "conditionId": "489a6e22-7dcf-497e-9a5e-5d36ddd44703",
+                          "conditions": [
+                            {
+                              "combinator": "And",
+                              "conditionId": "c4034ff1-2ac8-4a7c-9d0d-864c40f6805e",
+                              "conditions": [
+                                {
+                                  "combinator": "And",
+                                  "conditionId": "dc979d2b-6b8e-4a80-85a1-9cd8768e18e6",
+                                  "conditions": [
+                                    {
+                                      "field": "CreditRatingAgency",
+                                      "operator": "Equal",
+                                      "value": "PEFINDO",
+                                      "conditionId": "13af27cd-9f0c-4fcb-9df2-cfd0c1ce63b0"
+                                    },
+                                    {
+                                      "field": "CreditRating",
+                                      "operator": "In",
+                                      "conditionId": "1b24bb9e-7e97-485d-adb2-3d64ac535952",
+                                      "values": [
+                                        "idAAA",
+                                        "idAA",
+                                        "idA",
+                                        "idBBB"
+                                      ],
+                                      "value": ""
+                                    }
+                                  ]
+                                },
+                                {
+                                  "combinator": "And",
+                                  "conditionId": "ec9acf1a-1cc3-49f8-8c79-a548696a91a4",
+                                  "conditions": [
+                                    {
+                                      "field": "DaysPastDue",
+                                      "operator": "GreaterThanOrEqual",
+                                      "value": "31",
+                                      "conditionId": "e8b5342c-b734-4615-a96f-ac5cd5b75bac"
+                                    },
+                                    {
+                                      "field": "DaysPastDue",
+                                      "operator": "GreaterThanOrEqual",
+                                      "value": "90",
+                                      "conditionId": "212e6416-09b1-4a27-baa5-85037736a34e"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "borderCondition": {}
+                      },
+                      {
+                        "stageId": "67e0b79c-b831-4910-8952-cb33acd9b047",
+                        "priority": 3,
+                        "stage": 1,
+                        "stageCondition": {
+                          "combinator": "And",
+                          "conditionId": "bf086091-a09f-443b-a035-8cdc95aa685d",
+                          "conditions": [
+                            {
+                              "combinator": "Or",
+                              "conditionId": "f0852c00-5551-4e1e-95af-55737469443d",
+                              "conditions": [
+                                {
+                                  "combinator": "And",
+                                  "conditionId": "6be31082-1eb0-4e75-9019-9136252523b0",
+                                  "conditions": [
+                                    {
+                                      "field": "CreditRatingAgency",
+                                      "operator": "Equal",
+                                      "value": "PEFINDO",
+                                      "conditionId": "752d0247-143e-415f-9f65-21e7fd21b7d7"
+                                    },
+                                    {
+                                      "field": "CreditRating",
+                                      "operator": "In",
+                                      "conditionId": "edc6d5cb-f3ac-4d72-9039-b02861b9d012",
+                                      "values": [
+                                        "idAAA",
+                                        "idAA",
+                                        "idA",
+                                        "idBBB"
+                                      ],
+                                      "value": ""
+                                    }
+                                  ]
+                                },
+                                {
+                                  "combinator": "And",
+                                  "conditionId": "4a99558a-c56d-4bf1-aca1-bc960bbf5a0f",
+                                  "conditions": [
+                                    {
+                                      "field": "DaysPastDue",
+                                      "operator": "LessThanOrEqual",
+                                      "value": "30",
+                                      "conditionId": "df434cd9-2e5e-4adc-a17c-6ea21aea93d1"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "borderCondition": {}
+                      }
+                    ],
+                    "lastModifiedWhen": "2025-10-20T06:30:20.787Z"
+                  }
+                ],
+                "ruleConsolidation": {}
+              },
+              {
+                "approachId": "9c9d21fe-ba49-4b05-8a4d-7e144abb3a1e",
+                "name": "Stage AYDA",
+                "description": "Untuk mengcover AYDA",
+                "segments": [
+                  {
+                    "segmentId": "1f964fe4-4215-45a0-a0ee-8de529e2d278"
+                  }
+                ],
+                "lastModifiedWhen": "2025-10-20T06:34:37.641Z",
+                "rules": [
+                  {
+                    "ruleId": "2d403172-ee1e-42d7-94ea-9c433d53a8e4",
+                    "priority": 1,
+                    "name": "AYDA",
+                    "description": "AYDA",
+                    "calcMethodId": "2daea4e4-501b-43b9-bc7d-d3f0d9b4ebe5",
+                    "ruleCondition": {},
+                    "stages": [
+                      {
+                        "stageId": "f48e7e0d-b855-4d9e-9e82-f9f8e9636a67",
+                        "priority": 1,
+                        "stage": 3,
+                        "stageCondition": {
+                          "combinator": "And",
+                          "conditionId": "cf507e00-5dd4-4ca2-9a4a-36256d748864",
+                          "conditions": [
+                            {
+                              "field": "ProductType",
+                              "operator": "Equal",
+                              "value": "AYDA",
+                              "conditionId": "7359c3d0-e6a5-4070-bf93-3d656d1a88f0"
+                            }
+                          ]
+                        },
+                        "borderCondition": {}
+                      },
+                      {
+                        "stageId": "3b8c29a0-3810-4652-9e17-260db6117909",
+                        "priority": 2,
+                        "stage": 2,
+                        "stageCondition": {},
+                        "borderCondition": {}
+                      },
+                      {
+                        "stageId": "434694a5-6a54-452a-b5aa-f94a30adc141",
+                        "priority": 3,
+                        "stage": 1,
+                        "stageCondition": {},
+                        "borderCondition": {}
+                      }
+                    ],
+                    "lastModifiedWhen": "2025-10-20T06:34:53.099Z"
+                  }
+                ],
+                "ruleConsolidation": {}
+              },
+              {
+                "approachId": "ee33f666-eba2-4bbe-8df3-04c3e8e7afaf",
+                "name": "Stage for Penyertaan",
+                "description": "Stage for Penyertaan",
+                "segments": [
+                  {
+                    "segmentId": "b24c9722-7a12-498c-b36d-a96d0cd03eff"
+                  }
+                ],
+                "lastModifiedWhen": "2025-10-20T06:40:14.380Z",
+                "rules": [
+                  {
+                    "ruleId": "fa40d79d-da94-4564-b9c2-662f72381933",
+                    "priority": 1,
+                    "name": "Stage for Penyertaan",
+                    "description": "Stage for Penyertaan",
+                    "calcMethodId": "2daea4e4-501b-43b9-bc7d-d3f0d9b4ebe5",
+                    "ruleCondition": {},
+                    "stages": [
+                      {
+                        "stageId": "e77b3801-fced-46d6-8d60-7ba9c1f9a7e0",
+                        "priority": 1,
+                        "stage": 3,
+                        "stageCondition": {
+                          "combinator": "And",
+                          "conditionId": "fb5a68af-48de-4e88-b14e-2c7019625e27",
+                          "conditions": [
+                            {
+                              "field": "Collectibility",
+                              "operator": "Equal",
+                              "value": "3",
+                              "conditionId": "29908e14-f139-41fe-8037-4dcd6c4dc413"
+                            }
+                          ]
+                        },
+                        "borderCondition": {}
+                      },
+                      {
+                        "stageId": "93bc4099-c725-4db9-a41d-569f5af1470f",
+                        "priority": 2,
+                        "stage": 1,
+                        "stageCondition": {
+                          "combinator": "And",
+                          "conditionId": "13e29e0e-272e-4eb4-aa60-32977bd8c5fe",
+                          "conditions": [
+                            {
+                              "field": "Collectibility",
+                              "operator": "Equal",
+                              "value": "1",
+                              "conditionId": "93f9a06c-8f17-4c8e-90ea-6c77cbf464d6"
+                            }
+                          ]
+                        },
+                        "borderCondition": {}
+                      },
+                      {
+                        "stageId": "a065653f-8044-4684-8de5-f2976d5605a4",
+                        "priority": 3,
+                        "stage": 2,
+                        "stageCondition": {},
+                        "borderCondition": {}
+                      }
+                    ],
+                    "lastModifiedWhen": "2025-10-20T06:40:33.527Z"
+                  }
+                ],
+                "ruleConsolidation": {}
+              }
+            ]
+          }
+        },
+        {
+          "VersionPropId": "f84b0569-54e2-446a-8df7-53d9a9254269",
+          "VersionId": "e45208a4-d0b7-4d76-9005-7453dcb9d6f9",
+          "Key": "Origin",
+          "Value": {
+            "origin": {
+              "originType": "New"
+            }
+          }
+        },
+        {
+          "VersionPropId": "c5ce9d61-6966-4343-bbc8-f4b2208980f2",
+          "VersionId": "e45208a4-d0b7-4d76-9005-7453dcb9d6f9",
+          "Key": "General",
+          "Value": {
+            "segmentationVersionId": "d1f07ef0-4a3d-4d60-9d3f-e0da73909139"
+          }
+        }
+      ],
+      "publishRequests": [],
+      "activityExport": {
+        "sourceId": "e45208a4-d0b7-4d76-9005-7453dcb9d6f9",
+        "name": "BSSB Konven - Stage Asessment_v1",
+        "path": "models/activities",
+        "file": "activities_sourceId_cb9d6f9.json"
+      }
+    }
+  ]
+}

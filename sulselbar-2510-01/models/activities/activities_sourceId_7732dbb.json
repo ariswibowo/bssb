@@ -1,0 +1,15 @@
+{
+  "activities": [
+    {
+      "ActivityId": "ef0b475b-8347-4300-83fc-8b205d77048a",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "ec9978b1-7cc1-5fb7-8a62-a7fad7732dbb",
+      "Source": "Model",
+      "Action": "CreateModel",
+      "Description": "Created model BBSB Syariah - EAD Outstanding Amount",
+      "Trace": null,
+      "Timestamp": "2025-10-20 14:16:34.967975",
+      "ImpersonatedUserId": null
+    }
+  ]
+}

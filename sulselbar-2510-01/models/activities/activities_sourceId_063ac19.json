@@ -1,0 +1,103 @@
+{
+  "activities": [
+    {
+      "ActivityId": "5f584988-a37a-4f28-90c7-73f238070325",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "93fbdcf5-737f-4976-a141-de998063ac19",
+      "Source": "Model",
+      "Action": "CreateModel",
+      "Description": "Created model BSSB-Konvensional-SingleSegment",
+      "Trace": null,
+      "Timestamp": "2025-10-20 02:57:10.795548",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "33cdaa37-3d17-4fbf-b353-c8edb0bd010d",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "93fbdcf5-737f-4976-a141-de998063ac19",
+      "Source": "Model",
+      "Action": "UpdateModel",
+      "Description": "Updated model BSSB-Konvensional",
+      "Trace": null,
+      "Timestamp": "2025-10-20 02:57:39.639752",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "aa4b9e27-332c-4d44-adf5-68a932c4275f",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "93fbdcf5-737f-4976-a141-de998063ac19",
+      "Source": "Model",
+      "Action": "UpdateModel",
+      "Description": "Updated model BSSB-Konvensional",
+      "Trace": null,
+      "Timestamp": "2025-10-20 02:57:46.539944",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "0b2b4600-3806-4379-8b59-20c131899901",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "93fbdcf5-737f-4976-a141-de998063ac19",
+      "Source": "Model",
+      "Action": "UpdateModel",
+      "Description": "Updated model BSSB Konvensional Level Assessment",
+      "Trace": null,
+      "Timestamp": "2025-10-20 03:00:04.161847",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "b450a07a-c8b4-43ba-b148-10f52328c93d",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "93fbdcf5-737f-4976-a141-de998063ac19",
+      "Source": "Model",
+      "Action": "UpdateModel",
+      "Description": "Updated model BSSB - Konvensional Level Assessment",
+      "Trace": null,
+      "Timestamp": "2025-10-20 04:29:21.917802",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "7010f876-557c-4925-a1e5-523ad4d70a31",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "93fbdcf5-737f-4976-a141-de998063ac19",
+      "Source": "Model",
+      "Action": "UpdateModel",
+      "Description": "Updated model BSSB - Segmentation Level Assessment - Konven",
+      "Trace": null,
+      "Timestamp": "2025-10-20 06:49:19.877199",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "5f4f4abd-457c-4506-8889-422aa0247849",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "93fbdcf5-737f-4976-a141-de998063ac19",
+      "Source": "Model",
+      "Action": "UpdateModel",
+      "Description": "Updated model BSSB Konven- Segmentation Level Assessment",
+      "Trace": null,
+      "Timestamp": "2025-10-20 06:56:10.669324",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "a43d9730-3d27-4ca7-ba8c-f30d79f64975",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "93fbdcf5-737f-4976-a141-de998063ac19",
+      "Source": "Model",
+      "Action": "UpdateModel",
+      "Description": "Updated model BSSB Konven - Segmentation Level Assessment",
+      "Trace": null,
+      "Timestamp": "2025-10-20 06:56:19.499897",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "34823895-5ec2-4e53-9fd8-0a9d4affea0a",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "93fbdcf5-737f-4976-a141-de998063ac19",
+      "Source": "Model",
+      "Action": "UpdateModel",
+      "Description": "Updated model BSSB Konven - Segmentation Level Assessment",
+      "Trace": null,
+      "Timestamp": "2025-10-20 06:56:24.349486",
+      "ImpersonatedUserId": null
+    }
+  ]
+}

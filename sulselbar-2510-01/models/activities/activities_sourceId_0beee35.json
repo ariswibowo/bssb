@@ -1,0 +1,390 @@
+{
+  "activities": [
+    {
+      "ActivityId": "90876182-6416-487b-9ccc-c12884841d77",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "6f182c43-89d8-4c7a-82b8-d889f0beee35",
+      "Source": "Version",
+      "Action": "CreateVersion",
+      "Description": "Created version 1 of model BSSB Konven - All products",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "6f182c43-89d8-4c7a-82b8-d889f0beee35",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "createdWhen": "2025-10-20T06:54:31.9862136",
+          "lastModifiedBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "lastModifiedWhen": "2025-10-20T06:54:31.9862136",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "a1d3b263-6c39-48ce-9f9f-f61bf8c61b6d",
+            "name": "BSSB Konven - All products",
+            "description": "BSSB Konven - All products",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T06:54:31.9862136",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T06:54:31.9862136",
+            "objectiveType": {
+              "objectiveTypeId": "c84eec4a-5e3d-4e88-bf7f-2c7a22a54d76",
+              "code": "Segmentation",
+              "name": "Segmentation",
+              "description": "Segmentation Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 06:54:31.986213",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "65ea6a4c-0916-42f0-8eee-1cdc027f1b81",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "6f182c43-89d8-4c7a-82b8-d889f0beee35",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB Konven - All products",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "6f182c43-89d8-4c7a-82b8-d889f0beee35",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "createdWhen": "2025-10-20T06:54:31.986213",
+          "lastModifiedBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "lastModifiedWhen": "2025-10-20T06:54:45.6038149",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "a1d3b263-6c39-48ce-9f9f-f61bf8c61b6d",
+            "name": "BSSB Konven - All products",
+            "description": "BSSB Konven - All products",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T06:54:31.986213",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T06:54:45.6038149",
+            "objectiveType": {
+              "objectiveTypeId": "c84eec4a-5e3d-4e88-bf7f-2c7a22a54d76",
+              "code": "Segmentation",
+              "name": "Segmentation",
+              "description": "Segmentation Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          },
+          "segmentationConfiguration": {
+            "segments": [
+              {
+                "segmentId": "2d131a71-00cb-4e60-b1d0-2350ceadbe13",
+                "name": "All products",
+                "description": "All products",
+                "category": "All products",
+                "lastModifiedWhen": "2025-10-20T06:54:45.6037661"
+              }
+            ],
+            "rules": [],
+            "hierarchies": [],
+            "nodes": [
+              {
+                "id": "6f182c43-89d8-4c7a-82b8-d889f0beee35",
+                "path": "/BSSB Konven - All products",
+                "name": "BSSB Konven - All products",
+                "description": "BSSB Konven - All products",
+                "nodeType": "Model"
+              },
+              {
+                "id": "2d131a71-00cb-4e60-b1d0-2350ceadbe13",
+                "path": "/BSSB Konven - All products/All products",
+                "name": "All products",
+                "description": "All products",
+                "category": "All products",
+                "nodeType": "Segment",
+                "parentId": "6f182c43-89d8-4c7a-82b8-d889f0beee35"
+              }
+            ]
+          },
+          "testSuites": {
+            "testSuites": []
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 06:54:45.623135",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "ebfd9ccf-d284-493b-8fa9-d988c31d4fa2",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "6f182c43-89d8-4c7a-82b8-d889f0beee35",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB Konven - All products",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "6f182c43-89d8-4c7a-82b8-d889f0beee35",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "createdWhen": "2025-10-20T06:54:31.986213",
+          "lastModifiedBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "lastModifiedWhen": "2025-10-20T06:54:51.7762212",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "a1d3b263-6c39-48ce-9f9f-f61bf8c61b6d",
+            "name": "BSSB Konven - All products",
+            "description": "BSSB Konven - All products",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T06:54:31.986213",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T06:54:51.7762212",
+            "objectiveType": {
+              "objectiveTypeId": "c84eec4a-5e3d-4e88-bf7f-2c7a22a54d76",
+              "code": "Segmentation",
+              "name": "Segmentation",
+              "description": "Segmentation Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          },
+          "segmentationConfiguration": {
+            "segments": [
+              {
+                "segmentId": "2d131a71-00cb-4e60-b1d0-2350ceadbe13",
+                "name": "All products",
+                "description": "All products",
+                "category": "All products",
+                "lastModifiedWhen": "2025-10-20T06:54:45.6037661"
+              }
+            ],
+            "rules": [
+              {
+                "ruleId": "90c5be4c-5d5c-4dbe-8d36-5d221306063b",
+                "name": "All products",
+                "description": "All products",
+                "priority": 1,
+                "lastModifiedWhen": "2025-10-20T06:54:51.7760992"
+              }
+            ],
+            "hierarchies": [],
+            "nodes": [
+              {
+                "id": "6f182c43-89d8-4c7a-82b8-d889f0beee35",
+                "path": "/BSSB Konven - All products",
+                "name": "BSSB Konven - All products",
+                "description": "BSSB Konven - All products",
+                "nodeType": "Model"
+              },
+              {
+                "id": "2d131a71-00cb-4e60-b1d0-2350ceadbe13",
+                "path": "/BSSB Konven - All products/All products",
+                "name": "All products",
+                "description": "All products",
+                "category": "All products",
+                "nodeType": "Segment",
+                "parentId": "6f182c43-89d8-4c7a-82b8-d889f0beee35"
+              }
+            ]
+          },
+          "testSuites": {
+            "testSuites": []
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 06:54:51.794803",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "5be7b273-5917-42fd-80d7-58c9cfe10a15",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "6f182c43-89d8-4c7a-82b8-d889f0beee35",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB Konven - All products",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "6f182c43-89d8-4c7a-82b8-d889f0beee35",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "createdWhen": "2025-10-20T06:54:31.986213",
+          "lastModifiedBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "lastModifiedWhen": "2025-10-20T06:54:57.9256452",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "a1d3b263-6c39-48ce-9f9f-f61bf8c61b6d",
+            "name": "BSSB Konven - All products",
+            "description": "BSSB Konven - All products",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T06:54:31.986213",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T06:54:57.9256452",
+            "objectiveType": {
+              "objectiveTypeId": "c84eec4a-5e3d-4e88-bf7f-2c7a22a54d76",
+              "code": "Segmentation",
+              "name": "Segmentation",
+              "description": "Segmentation Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          },
+          "segmentationConfiguration": {
+            "segments": [
+              {
+                "segmentId": "2d131a71-00cb-4e60-b1d0-2350ceadbe13",
+                "name": "All products",
+                "description": "All products",
+                "category": "All products",
+                "lastModifiedWhen": "2025-10-20T06:54:45.6037661"
+              }
+            ],
+            "rules": [
+              {
+                "ruleId": "90c5be4c-5d5c-4dbe-8d36-5d221306063b",
+                "name": "All products",
+                "description": "All products",
+                "priority": 1,
+                "lastModifiedWhen": "2025-10-20T06:54:57.9255362",
+                "segments": [
+                  {
+                    "segmentRuleId": "343e47de-72f3-49df-922a-625971d44a07",
+                    "segmentId": "2d131a71-00cb-4e60-b1d0-2350ceadbe13",
+                    "segmentName": "All products",
+                    "priority": 1
+                  }
+                ]
+              }
+            ],
+            "hierarchies": [],
+            "nodes": [
+              {
+                "id": "6f182c43-89d8-4c7a-82b8-d889f0beee35",
+                "path": "/BSSB Konven - All products",
+                "name": "BSSB Konven - All products",
+                "description": "BSSB Konven - All products",
+                "nodeType": "Model"
+              },
+              {
+                "id": "2d131a71-00cb-4e60-b1d0-2350ceadbe13",
+                "path": "/BSSB Konven - All products/All products",
+                "name": "All products",
+                "description": "All products",
+                "category": "All products",
+                "nodeType": "Segment",
+                "parentId": "6f182c43-89d8-4c7a-82b8-d889f0beee35"
+              }
+            ]
+          },
+          "testSuites": {
+            "testSuites": []
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 06:54:57.944364",
+      "ImpersonatedUserId": null
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "ModelId": "3231221f-96c1-5d28-a8fc-04d33ed20d93",
+  "DomainId": "0b8af8a8-8e58-4f2e-b4cd-aac37e263e55",
+  "Name": "BSSB Syariah - Historical LGD",
+  "Description": "BSSB Syariah - Historical LGD",
+  "ModelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+  "ObjectiveTypeId": "60c4ce91-d7ca-46c6-85dc-918e15ac79d6",
+  "ParentDeckId": null,
+  "IsPrivate": false,
+  "Status": "Open",
+  "Data": {
+    "deletionProtection": {
+      "enabled": false
+    }
+  },
+  "LatestVersionId": "d6076032-bd99-5b15-ad2e-2b29002b44ef",
+  "LatestVersion": 1,
+  "LatestStatus": "Draft",
+  "LatestErrors": null,
+  "LatestWarnings": null,
+  "LatestValidatedWhen": null,
+  "PublishedVersions": 0,
+  "ArchivedBy": null,
+  "ArchivedWhen": null,
+  "CreatedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+  "CreatedWhen": "2025-10-20 14:29:38.473090",
+  "LastModifiedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+  "LastModifiedWhen": "2025-10-20 14:30:00.518829",
+  "ObjectiveTypeCode": "Historical",
+  "ModelTypeName": "Simulation",
+  "activityExport": {
+    "sourceId": "3231221f-96c1-5d28-a8fc-04d33ed20d93",
+    "name": "BSSB Syariah - Historical LGD",
+    "path": "models/activities",
+    "file": "activities_sourceId_ed20d93.json"
+  },
+  "versions": [
+    {
+      "VersionId": "d6076032-bd99-5b15-ad2e-2b29002b44ef",
+      "ModelId": "3231221f-96c1-5d28-a8fc-04d33ed20d93",
+      "Version": 1,
+      "Description": "Initial Version",
+      "Status": "Draft",
+      "PublishedBy": null,
+      "PublishedWhen": null,
+      "PublishComments": null,
+      "ExpiryDate": null,
+      "ArchivedBy": null,
+      "ArchivedWhen": null,
+      "ConcurrencyId": "d2de3a3f-57c5-4b89-bbb7-352bca49f893",
+      "CreatedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "CreatedWhen": "2025-10-20 14:29:38.681345",
+      "LastModifiedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "LastModifiedWhen": "2025-10-20 14:30:00.518829",
+      "versionProps": [
+        {
+          "VersionPropId": "5b9cda04-1326-4333-88f7-890e64de47b3",
+          "VersionId": "d6076032-bd99-5b15-ad2e-2b29002b44ef",
+          "Key": "Origin",
+          "Value": {
+            "origin": {
+              "originType": "Clone",
+              "originVersionId": "45b51b0c-c708-4bc9-9d2a-0f4d1587dfda",
+              "originModelId": "ecf76b73-1084-4910-8b67-3aea9b9c9ef1",
+              "name": "BSSB Konven - Historical LGD",
+              "version": 1
+            }
+          }
+        },
+        {
+          "VersionPropId": "39d6cdbb-cac6-589c-b4cd-5beab1bb333a",
+          "VersionId": "d6076032-bd99-5b15-ad2e-2b29002b44ef",
+          "Key": "General",
+          "Value": {
+            "segmentationVersionId": "f4fb95dd-ee2d-58fa-aec1-be0bf46c0077"
+          }
+        },
+        {
+          "VersionPropId": "93033484-ba8a-5a9c-904f-f24378399d89",
+          "VersionId": "d6076032-bd99-5b15-ad2e-2b29002b44ef",
+          "Key": "Approaches",
+          "Value": {
+            "approaches": [
+              {
+                "approachId": "36d02ea5-020d-5c50-9155-d0c3d8dced56",
+                "name": "Historical LGD",
+                "description": "Historical LGD ",
+                "approachType": "SingleMethod",
+                "segments": [
+                  {
+                    "segmentId": "1775d34d-c864-5e1e-90c9-d89b7c1b9088"
+                  },
+                  {
+                    "segmentId": "5be384f1-4a1c-5763-bc7c-58ac40b213b0"
+                  },
+                  {
+                    "segmentId": "283f32b9-b7fa-5899-89ef-89575ff5c802"
+                  }
+                ],
+                "method": {
+                  "methodId": "b33cb15f-1e18-5ba8-ad6e-7550edbee604",
+                  "calcMethodId": "2e1ffcf8-9d83-45a6-949a-b465f6da5840",
+                  "configuration": {
+                    "observation": {
+                      "observationWindowTimeUnitMultiplicity": 7,
+                      "observationWindowTimeUnit": "Y",
+                      "minWorkoutTimeUnitMultiplicity": 6,
+                      "minWorkoutTimeUnit": "M",
+                      "maxWorkoutTimeUnitMultiplicity": 7,
+                      "maxWorkoutTimeUnit": "Y"
+                    },
+                    "outcomes": [
+                      {
+                        "outcomeId": "cba33817-66ae-53d2-b612-0c0d5ee23d81",
+                        "priority": 1,
+                        "outcomeType": "Default",
+                        "description": "",
+                        "outcomeCondition": {
+                          "combinator": "Or",
+                          "conditionId": "ef0eeebe-fd94-57ed-ac9e-48d517921b00",
+                          "conditions": [
+                            {
+                              "field": "DaysPastDue",
+                              "operator": "GreaterThan",
+                              "value": "90",
+                              "conditionId": "d08919a8-056e-5aeb-88d6-7314d6b734e4"
+                            },
+                            {
+                              "field": "IsRestructured",
+                              "operator": "Equal",
+                              "value": "true",
+                              "conditionId": "64a06df0-4a17-5a0b-a02a-a0aac66ba2a1"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "outcomeId": "2ed39760-aab9-54c5-bbc4-877fdc8c4743",
+                        "priority": 2,
+                        "outcomeType": "NonDefault",
+                        "description": "",
+                        "outcomeCondition": {
+                          "combinator": "And",
+                          "conditionId": "add928b4-eabb-5c95-900f-2d06d22766ac",
+                          "conditions": []
+                        }
+                      }
+                    ],
+                    "consolidation": {
+                      "primaryConsolidation": "SimpleAverage",
+                      "secondaryConsolidations": [
+                        "WeightedOutstandingAmount"
+                      ]
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "publishRequests": [],
+      "activityExport": {
+        "sourceId": "d6076032-bd99-5b15-ad2e-2b29002b44ef",
+        "name": "BSSB Syariah - Historical LGD_v1",
+        "path": "models/activities",
+        "file": "activities_sourceId_02b44ef.json"
+      }
+    }
+  ]
+}

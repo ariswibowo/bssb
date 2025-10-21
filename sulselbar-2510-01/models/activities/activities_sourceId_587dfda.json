@@ -1,0 +1,2705 @@
+{
+  "activities": [
+    {
+      "ActivityId": "c3e70fd6-e4d7-42f7-b8fb-5e3757269370",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "45b51b0c-c708-4bc9-9d2a-0f4d1587dfda",
+      "Source": "Version",
+      "Action": "CreateVersion",
+      "Description": "Created version 1 of model BSSB Konven - Historical LGD",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "45b51b0c-c708-4bc9-9d2a-0f4d1587dfda",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "createdWhen": "2025-10-20T07:19:02.509961",
+          "lastModifiedBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "lastModifiedWhen": "2025-10-20T07:19:02.509961",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "ecf76b73-1084-4910-8b67-3aea9b9c9ef1",
+            "name": "BSSB Konven - Historical LGD",
+            "description": "BSSB Konven - Historical LGD",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T07:19:02.509961",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T07:19:02.509961",
+            "objectiveType": {
+              "objectiveTypeId": "60c4ce91-d7ca-46c6-85dc-918e15ac79d6",
+              "code": "Historical",
+              "name": "Historical",
+              "description": "Historical LGD values calculation"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          },
+          "segmentation": null
+        }
+      },
+      "Timestamp": "2025-10-20 07:19:02.509961",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "844285b0-10a2-49ea-bfad-179d83a779fd",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "45b51b0c-c708-4bc9-9d2a-0f4d1587dfda",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB Konven - Historical LGD",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "45b51b0c-c708-4bc9-9d2a-0f4d1587dfda",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "createdWhen": "2025-10-20T07:19:02.509961",
+          "lastModifiedBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "lastModifiedWhen": "2025-10-20T07:19:13.1627935",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "ecf76b73-1084-4910-8b67-3aea9b9c9ef1",
+            "name": "BSSB Konven - Historical LGD",
+            "description": "BSSB Konven - Historical LGD",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T07:19:02.509961",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T07:19:13.1627935",
+            "objectiveType": {
+              "objectiveTypeId": "60c4ce91-d7ca-46c6-85dc-918e15ac79d6",
+              "code": "Historical",
+              "name": "Historical",
+              "description": "Historical LGD values calculation"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          },
+          "segmentation": {
+            "versionId": "f8193d77-7c90-45c0-a400-a88fe6b9bfb1",
+            "version": 1,
+            "status": "Draft",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T07:01:53.360983",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T07:12:57.13386",
+            "origin": {
+              "origin": {
+                "originType": "New"
+              }
+            },
+            "model": {
+              "modelId": "f0ddfdba-ef89-4978-a4b9-fdf06fbc00a8",
+              "name": "BSSB Konven - Segmentation Historical LGD",
+              "description": "BSSB Konven - Segmentation Historical LGD",
+              "isPrivate": false,
+              "status": "Open",
+              "createdBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "createdWhen": "2025-10-20T07:01:53.360983",
+              "lastModifiedBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "lastModifiedWhen": "2025-10-20T07:12:57.13386",
+              "objectiveType": {
+                "objectiveTypeId": "c84eec4a-5e3d-4e88-bf7f-2c7a22a54d76",
+                "code": "Segmentation",
+                "name": "Segmentation",
+                "description": "Segmentation Model"
+              },
+              "modelType": {
+                "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+                "name": "Simulation",
+                "description": "Model simulation type",
+                "style": {
+                  "border": "solid 1px #36116f",
+                  "backgroundColor": "#563d7c",
+                  "color": "white"
+                }
+              }
+            },
+            "segmentationConfiguration": {
+              "segments": [
+                {
+                  "segmentId": "bb067a10-5716-470b-8911-eace89543a2d",
+                  "name": "LGD Investasi",
+                  "description": "LGD Investasi",
+                  "category": "LGD Investasi",
+                  "lastModifiedWhen": "2025-10-20T07:02:23.6279377"
+                },
+                {
+                  "segmentId": "67c260b4-11a5-45bf-b0a3-03cc1c6eec98",
+                  "name": "LGD Modal Kerja",
+                  "description": "LGD Modal Kerja",
+                  "category": "LGD Modal Kerja",
+                  "lastModifiedWhen": "2025-10-20T07:02:33.0315399"
+                },
+                {
+                  "segmentId": "35282f55-bddc-473c-8920-1158d507a54a",
+                  "name": "LGD Kredit Lainya",
+                  "description": "LGD Kredit Lainya",
+                  "category": "LGD Kredit Lainya",
+                  "lastModifiedWhen": "2025-10-20T07:02:44.2040717"
+                }
+              ],
+              "rules": [
+                {
+                  "ruleId": "dd8c0e0e-b87b-41cb-b71e-ae1525a98eae",
+                  "name": "Rules segment LGD investasi",
+                  "description": "Rules segment LGD investasi",
+                  "priority": 1,
+                  "lastModifiedWhen": "2025-10-20T07:04:02.4243543",
+                  "segments": [
+                    {
+                      "segmentRuleId": "b7c05286-ebc9-4f2f-b1e6-48407ec2dd91",
+                      "segmentId": "bb067a10-5716-470b-8911-eace89543a2d",
+                      "segmentName": "LGD Investasi",
+                      "priority": 1,
+                      "condition": {
+                        "conditionId": "cbb4204f-beb1-4c8e-87fe-86224f10d31a",
+                        "conditions": [
+                          {
+                            "conditionId": "ef62848a-6ff2-43a4-b3e8-60693bf77fd8",
+                            "field": "ProductSubtype",
+                            "operator": "In",
+                            "value": "",
+                            "values": [
+                              "BSSB-K601",
+                              "BSSB-K681"
+                            ]
+                          }
+                        ],
+                        "combinator": "And"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "ruleId": "70e56380-7265-4006-b521-4e5e0dd115a2",
+                  "name": "Rules segment LGD modal kerja",
+                  "description": "Rules segment LGD modal kerja",
+                  "priority": 2,
+                  "lastModifiedWhen": "2025-10-20T07:10:07.9367292",
+                  "segments": [
+                    {
+                      "segmentRuleId": "e9da378e-d12d-4cc2-8f18-5bf4530ce491",
+                      "segmentId": "67c260b4-11a5-45bf-b0a3-03cc1c6eec98",
+                      "segmentName": "LGD Modal Kerja",
+                      "priority": 1,
+                      "condition": {
+                        "conditionId": "7113f671-4a37-4ae0-9df4-90b4cf6ec2bd",
+                        "conditions": [
+                          {
+                            "conditionId": "61137d34-da2f-4603-b1d8-c4307ebda387",
+                            "field": "ProductSubtype",
+                            "operator": "In",
+                            "value": "",
+                            "values": [
+                              "BSSB-K602",
+                              "BSSB-K005",
+                              "BSSB-K682"
+                            ]
+                          }
+                        ],
+                        "combinator": "And"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "ruleId": "66077f20-84dd-4048-a0a9-251496beebbb",
+                  "name": "Rules segment kredit lainya",
+                  "description": "Rules segment kredit lainya",
+                  "priority": 3,
+                  "lastModifiedWhen": "2025-10-20T07:12:57.1336981",
+                  "segments": [
+                    {
+                      "segmentRuleId": "d97c7524-fca0-4cca-acaf-83575636bebb",
+                      "segmentId": "35282f55-bddc-473c-8920-1158d507a54a",
+                      "segmentName": "LGD Kredit Lainya",
+                      "priority": 1,
+                      "condition": {
+                        "conditionId": "9708a8f9-7f69-445d-90a5-b0919023d8c0",
+                        "conditions": [
+                          {
+                            "conditionId": "6e554a1a-e7fb-4b9f-9a96-5121766df5c5",
+                            "field": "ProductSubtype",
+                            "operator": "In",
+                            "value": "",
+                            "values": [
+                              "BSSB-K603",
+                              "BSSB-K604"
+                            ]
+                          }
+                        ],
+                        "combinator": "And"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "hierarchies": [],
+              "nodes": [
+                {
+                  "id": "f8193d77-7c90-45c0-a400-a88fe6b9bfb1",
+                  "path": "/BSSB Konven - Segmentation Historical LGD",
+                  "name": "BSSB Konven - Segmentation Historical LGD",
+                  "description": "BSSB Konven - Segmentation Historical LGD",
+                  "nodeType": "Model"
+                },
+                {
+                  "id": "bb067a10-5716-470b-8911-eace89543a2d",
+                  "path": "/BSSB Konven - Segmentation Historical LGD/LGD Investasi",
+                  "name": "LGD Investasi",
+                  "description": "LGD Investasi",
+                  "category": "LGD Investasi",
+                  "nodeType": "Segment",
+                  "parentId": "f8193d77-7c90-45c0-a400-a88fe6b9bfb1"
+                },
+                {
+                  "id": "67c260b4-11a5-45bf-b0a3-03cc1c6eec98",
+                  "path": "/BSSB Konven - Segmentation Historical LGD/LGD Modal Kerja",
+                  "name": "LGD Modal Kerja",
+                  "description": "LGD Modal Kerja",
+                  "category": "LGD Modal Kerja",
+                  "nodeType": "Segment",
+                  "parentId": "f8193d77-7c90-45c0-a400-a88fe6b9bfb1"
+                },
+                {
+                  "id": "35282f55-bddc-473c-8920-1158d507a54a",
+                  "path": "/BSSB Konven - Segmentation Historical LGD/LGD Kredit Lainya",
+                  "name": "LGD Kredit Lainya",
+                  "description": "LGD Kredit Lainya",
+                  "category": "LGD Kredit Lainya",
+                  "nodeType": "Segment",
+                  "parentId": "f8193d77-7c90-45c0-a400-a88fe6b9bfb1"
+                }
+              ]
+            },
+            "testSuites": {
+              "testSuites": []
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 07:19:13.181614",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "e097b794-bf0a-44e3-80d5-cda6f9c5fbc4",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "45b51b0c-c708-4bc9-9d2a-0f4d1587dfda",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB Konven - Historical LGD",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "45b51b0c-c708-4bc9-9d2a-0f4d1587dfda",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "createdWhen": "2025-10-20T07:19:02.509961",
+          "lastModifiedBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "lastModifiedWhen": "2025-10-20T07:19:42.2587696",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "ecf76b73-1084-4910-8b67-3aea9b9c9ef1",
+            "name": "BSSB Konven - Historical LGD",
+            "description": "BSSB Konven - Historical LGD",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T07:19:02.509961",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T07:19:42.2587696",
+            "objectiveType": {
+              "objectiveTypeId": "60c4ce91-d7ca-46c6-85dc-918e15ac79d6",
+              "code": "Historical",
+              "name": "Historical",
+              "description": "Historical LGD values calculation"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          },
+          "segmentation": {
+            "versionId": "f8193d77-7c90-45c0-a400-a88fe6b9bfb1",
+            "version": 1,
+            "status": "Draft",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T07:01:53.360983",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T07:12:57.13386",
+            "origin": {
+              "origin": {
+                "originType": "New"
+              }
+            },
+            "model": {
+              "modelId": "f0ddfdba-ef89-4978-a4b9-fdf06fbc00a8",
+              "name": "BSSB Konven - Segmentation Historical LGD",
+              "description": "BSSB Konven - Segmentation Historical LGD",
+              "isPrivate": false,
+              "status": "Open",
+              "createdBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "createdWhen": "2025-10-20T07:01:53.360983",
+              "lastModifiedBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "lastModifiedWhen": "2025-10-20T07:12:57.13386",
+              "objectiveType": {
+                "objectiveTypeId": "c84eec4a-5e3d-4e88-bf7f-2c7a22a54d76",
+                "code": "Segmentation",
+                "name": "Segmentation",
+                "description": "Segmentation Model"
+              },
+              "modelType": {
+                "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+                "name": "Simulation",
+                "description": "Model simulation type",
+                "style": {
+                  "border": "solid 1px #36116f",
+                  "backgroundColor": "#563d7c",
+                  "color": "white"
+                }
+              }
+            },
+            "segmentationConfiguration": {
+              "segments": [
+                {
+                  "segmentId": "bb067a10-5716-470b-8911-eace89543a2d",
+                  "name": "LGD Investasi",
+                  "description": "LGD Investasi",
+                  "category": "LGD Investasi",
+                  "lastModifiedWhen": "2025-10-20T07:02:23.6279377"
+                },
+                {
+                  "segmentId": "67c260b4-11a5-45bf-b0a3-03cc1c6eec98",
+                  "name": "LGD Modal Kerja",
+                  "description": "LGD Modal Kerja",
+                  "category": "LGD Modal Kerja",
+                  "lastModifiedWhen": "2025-10-20T07:02:33.0315399"
+                },
+                {
+                  "segmentId": "35282f55-bddc-473c-8920-1158d507a54a",
+                  "name": "LGD Kredit Lainya",
+                  "description": "LGD Kredit Lainya",
+                  "category": "LGD Kredit Lainya",
+                  "lastModifiedWhen": "2025-10-20T07:02:44.2040717"
+                }
+              ],
+              "rules": [
+                {
+                  "ruleId": "dd8c0e0e-b87b-41cb-b71e-ae1525a98eae",
+                  "name": "Rules segment LGD investasi",
+                  "description": "Rules segment LGD investasi",
+                  "priority": 1,
+                  "lastModifiedWhen": "2025-10-20T07:04:02.4243543",
+                  "segments": [
+                    {
+                      "segmentRuleId": "b7c05286-ebc9-4f2f-b1e6-48407ec2dd91",
+                      "segmentId": "bb067a10-5716-470b-8911-eace89543a2d",
+                      "segmentName": "LGD Investasi",
+                      "priority": 1,
+                      "condition": {
+                        "conditionId": "cbb4204f-beb1-4c8e-87fe-86224f10d31a",
+                        "conditions": [
+                          {
+                            "conditionId": "ef62848a-6ff2-43a4-b3e8-60693bf77fd8",
+                            "field": "ProductSubtype",
+                            "operator": "In",
+                            "value": "",
+                            "values": [
+                              "BSSB-K601",
+                              "BSSB-K681"
+                            ]
+                          }
+                        ],
+                        "combinator": "And"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "ruleId": "70e56380-7265-4006-b521-4e5e0dd115a2",
+                  "name": "Rules segment LGD modal kerja",
+                  "description": "Rules segment LGD modal kerja",
+                  "priority": 2,
+                  "lastModifiedWhen": "2025-10-20T07:10:07.9367292",
+                  "segments": [
+                    {
+                      "segmentRuleId": "e9da378e-d12d-4cc2-8f18-5bf4530ce491",
+                      "segmentId": "67c260b4-11a5-45bf-b0a3-03cc1c6eec98",
+                      "segmentName": "LGD Modal Kerja",
+                      "priority": 1,
+                      "condition": {
+                        "conditionId": "7113f671-4a37-4ae0-9df4-90b4cf6ec2bd",
+                        "conditions": [
+                          {
+                            "conditionId": "61137d34-da2f-4603-b1d8-c4307ebda387",
+                            "field": "ProductSubtype",
+                            "operator": "In",
+                            "value": "",
+                            "values": [
+                              "BSSB-K602",
+                              "BSSB-K005",
+                              "BSSB-K682"
+                            ]
+                          }
+                        ],
+                        "combinator": "And"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "ruleId": "66077f20-84dd-4048-a0a9-251496beebbb",
+                  "name": "Rules segment kredit lainya",
+                  "description": "Rules segment kredit lainya",
+                  "priority": 3,
+                  "lastModifiedWhen": "2025-10-20T07:12:57.1336981",
+                  "segments": [
+                    {
+                      "segmentRuleId": "d97c7524-fca0-4cca-acaf-83575636bebb",
+                      "segmentId": "35282f55-bddc-473c-8920-1158d507a54a",
+                      "segmentName": "LGD Kredit Lainya",
+                      "priority": 1,
+                      "condition": {
+                        "conditionId": "9708a8f9-7f69-445d-90a5-b0919023d8c0",
+                        "conditions": [
+                          {
+                            "conditionId": "6e554a1a-e7fb-4b9f-9a96-5121766df5c5",
+                            "field": "ProductSubtype",
+                            "operator": "In",
+                            "value": "",
+                            "values": [
+                              "BSSB-K603",
+                              "BSSB-K604"
+                            ]
+                          }
+                        ],
+                        "combinator": "And"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "hierarchies": [],
+              "nodes": [
+                {
+                  "id": "f8193d77-7c90-45c0-a400-a88fe6b9bfb1",
+                  "path": "/BSSB Konven - Segmentation Historical LGD",
+                  "name": "BSSB Konven - Segmentation Historical LGD",
+                  "description": "BSSB Konven - Segmentation Historical LGD",
+                  "nodeType": "Model"
+                },
+                {
+                  "id": "bb067a10-5716-470b-8911-eace89543a2d",
+                  "path": "/BSSB Konven - Segmentation Historical LGD/LGD Investasi",
+                  "name": "LGD Investasi",
+                  "description": "LGD Investasi",
+                  "category": "LGD Investasi",
+                  "nodeType": "Segment",
+                  "parentId": "f8193d77-7c90-45c0-a400-a88fe6b9bfb1"
+                },
+                {
+                  "id": "67c260b4-11a5-45bf-b0a3-03cc1c6eec98",
+                  "path": "/BSSB Konven - Segmentation Historical LGD/LGD Modal Kerja",
+                  "name": "LGD Modal Kerja",
+                  "description": "LGD Modal Kerja",
+                  "category": "LGD Modal Kerja",
+                  "nodeType": "Segment",
+                  "parentId": "f8193d77-7c90-45c0-a400-a88fe6b9bfb1"
+                },
+                {
+                  "id": "35282f55-bddc-473c-8920-1158d507a54a",
+                  "path": "/BSSB Konven - Segmentation Historical LGD/LGD Kredit Lainya",
+                  "name": "LGD Kredit Lainya",
+                  "description": "LGD Kredit Lainya",
+                  "category": "LGD Kredit Lainya",
+                  "nodeType": "Segment",
+                  "parentId": "f8193d77-7c90-45c0-a400-a88fe6b9bfb1"
+                }
+              ]
+            },
+            "testSuites": {
+              "testSuites": []
+            }
+          },
+          "approaches": {
+            "approaches": [
+              {
+                "approachId": "573b0f62-d79b-4d64-a353-1db29cadd21c",
+                "name": "Historical LGD",
+                "description": "Historical LGD ",
+                "approachType": "SingleMethod",
+                "segments": [],
+                "method": {
+                  "methodId": "8b452f47-0f08-4005-a0a4-51c72496e8a2",
+                  "calcMethodId": "2e1ffcf8-9d83-45a6-949a-b465f6da5840",
+                  "calcMethod": {
+                    "calcMethodId": "2e1ffcf8-9d83-45a6-949a-b465f6da5840",
+                    "name": "Workout LGD",
+                    "description": "Workout LGD",
+                    "code": "Workout"
+                  },
+                  "configuration": {}
+                }
+              }
+            ]
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 07:19:42.277896",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "7bfd682d-6fc0-4d53-ab10-5289a63e3257",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "45b51b0c-c708-4bc9-9d2a-0f4d1587dfda",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB Konven - Historical LGD",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "45b51b0c-c708-4bc9-9d2a-0f4d1587dfda",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "createdWhen": "2025-10-20T07:19:02.509961",
+          "lastModifiedBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "lastModifiedWhen": "2025-10-20T07:19:47.1433899",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "ecf76b73-1084-4910-8b67-3aea9b9c9ef1",
+            "name": "BSSB Konven - Historical LGD",
+            "description": "BSSB Konven - Historical LGD",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T07:19:02.509961",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T07:19:47.1433899",
+            "objectiveType": {
+              "objectiveTypeId": "60c4ce91-d7ca-46c6-85dc-918e15ac79d6",
+              "code": "Historical",
+              "name": "Historical",
+              "description": "Historical LGD values calculation"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          },
+          "segmentation": {
+            "versionId": "f8193d77-7c90-45c0-a400-a88fe6b9bfb1",
+            "version": 1,
+            "status": "Draft",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T07:01:53.360983",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T07:12:57.13386",
+            "origin": {
+              "origin": {
+                "originType": "New"
+              }
+            },
+            "model": {
+              "modelId": "f0ddfdba-ef89-4978-a4b9-fdf06fbc00a8",
+              "name": "BSSB Konven - Segmentation Historical LGD",
+              "description": "BSSB Konven - Segmentation Historical LGD",
+              "isPrivate": false,
+              "status": "Open",
+              "createdBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "createdWhen": "2025-10-20T07:01:53.360983",
+              "lastModifiedBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "lastModifiedWhen": "2025-10-20T07:12:57.13386",
+              "objectiveType": {
+                "objectiveTypeId": "c84eec4a-5e3d-4e88-bf7f-2c7a22a54d76",
+                "code": "Segmentation",
+                "name": "Segmentation",
+                "description": "Segmentation Model"
+              },
+              "modelType": {
+                "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+                "name": "Simulation",
+                "description": "Model simulation type",
+                "style": {
+                  "border": "solid 1px #36116f",
+                  "backgroundColor": "#563d7c",
+                  "color": "white"
+                }
+              }
+            },
+            "segmentationConfiguration": {
+              "segments": [
+                {
+                  "segmentId": "bb067a10-5716-470b-8911-eace89543a2d",
+                  "name": "LGD Investasi",
+                  "description": "LGD Investasi",
+                  "category": "LGD Investasi",
+                  "lastModifiedWhen": "2025-10-20T07:02:23.6279377"
+                },
+                {
+                  "segmentId": "67c260b4-11a5-45bf-b0a3-03cc1c6eec98",
+                  "name": "LGD Modal Kerja",
+                  "description": "LGD Modal Kerja",
+                  "category": "LGD Modal Kerja",
+                  "lastModifiedWhen": "2025-10-20T07:02:33.0315399"
+                },
+                {
+                  "segmentId": "35282f55-bddc-473c-8920-1158d507a54a",
+                  "name": "LGD Kredit Lainya",
+                  "description": "LGD Kredit Lainya",
+                  "category": "LGD Kredit Lainya",
+                  "lastModifiedWhen": "2025-10-20T07:02:44.2040717"
+                }
+              ],
+              "rules": [
+                {
+                  "ruleId": "dd8c0e0e-b87b-41cb-b71e-ae1525a98eae",
+                  "name": "Rules segment LGD investasi",
+                  "description": "Rules segment LGD investasi",
+                  "priority": 1,
+                  "lastModifiedWhen": "2025-10-20T07:04:02.4243543",
+                  "segments": [
+                    {
+                      "segmentRuleId": "b7c05286-ebc9-4f2f-b1e6-48407ec2dd91",
+                      "segmentId": "bb067a10-5716-470b-8911-eace89543a2d",
+                      "segmentName": "LGD Investasi",
+                      "priority": 1,
+                      "condition": {
+                        "conditionId": "cbb4204f-beb1-4c8e-87fe-86224f10d31a",
+                        "conditions": [
+                          {
+                            "conditionId": "ef62848a-6ff2-43a4-b3e8-60693bf77fd8",
+                            "field": "ProductSubtype",
+                            "operator": "In",
+                            "value": "",
+                            "values": [
+                              "BSSB-K601",
+                              "BSSB-K681"
+                            ]
+                          }
+                        ],
+                        "combinator": "And"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "ruleId": "70e56380-7265-4006-b521-4e5e0dd115a2",
+                  "name": "Rules segment LGD modal kerja",
+                  "description": "Rules segment LGD modal kerja",
+                  "priority": 2,
+                  "lastModifiedWhen": "2025-10-20T07:10:07.9367292",
+                  "segments": [
+                    {
+                      "segmentRuleId": "e9da378e-d12d-4cc2-8f18-5bf4530ce491",
+                      "segmentId": "67c260b4-11a5-45bf-b0a3-03cc1c6eec98",
+                      "segmentName": "LGD Modal Kerja",
+                      "priority": 1,
+                      "condition": {
+                        "conditionId": "7113f671-4a37-4ae0-9df4-90b4cf6ec2bd",
+                        "conditions": [
+                          {
+                            "conditionId": "61137d34-da2f-4603-b1d8-c4307ebda387",
+                            "field": "ProductSubtype",
+                            "operator": "In",
+                            "value": "",
+                            "values": [
+                              "BSSB-K602",
+                              "BSSB-K005",
+                              "BSSB-K682"
+                            ]
+                          }
+                        ],
+                        "combinator": "And"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "ruleId": "66077f20-84dd-4048-a0a9-251496beebbb",
+                  "name": "Rules segment kredit lainya",
+                  "description": "Rules segment kredit lainya",
+                  "priority": 3,
+                  "lastModifiedWhen": "2025-10-20T07:12:57.1336981",
+                  "segments": [
+                    {
+                      "segmentRuleId": "d97c7524-fca0-4cca-acaf-83575636bebb",
+                      "segmentId": "35282f55-bddc-473c-8920-1158d507a54a",
+                      "segmentName": "LGD Kredit Lainya",
+                      "priority": 1,
+                      "condition": {
+                        "conditionId": "9708a8f9-7f69-445d-90a5-b0919023d8c0",
+                        "conditions": [
+                          {
+                            "conditionId": "6e554a1a-e7fb-4b9f-9a96-5121766df5c5",
+                            "field": "ProductSubtype",
+                            "operator": "In",
+                            "value": "",
+                            "values": [
+                              "BSSB-K603",
+                              "BSSB-K604"
+                            ]
+                          }
+                        ],
+                        "combinator": "And"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "hierarchies": [],
+              "nodes": [
+                {
+                  "id": "f8193d77-7c90-45c0-a400-a88fe6b9bfb1",
+                  "path": "/BSSB Konven - Segmentation Historical LGD",
+                  "name": "BSSB Konven - Segmentation Historical LGD",
+                  "description": "BSSB Konven - Segmentation Historical LGD",
+                  "nodeType": "Model"
+                },
+                {
+                  "id": "bb067a10-5716-470b-8911-eace89543a2d",
+                  "path": "/BSSB Konven - Segmentation Historical LGD/LGD Investasi",
+                  "name": "LGD Investasi",
+                  "description": "LGD Investasi",
+                  "category": "LGD Investasi",
+                  "nodeType": "Segment",
+                  "parentId": "f8193d77-7c90-45c0-a400-a88fe6b9bfb1"
+                },
+                {
+                  "id": "67c260b4-11a5-45bf-b0a3-03cc1c6eec98",
+                  "path": "/BSSB Konven - Segmentation Historical LGD/LGD Modal Kerja",
+                  "name": "LGD Modal Kerja",
+                  "description": "LGD Modal Kerja",
+                  "category": "LGD Modal Kerja",
+                  "nodeType": "Segment",
+                  "parentId": "f8193d77-7c90-45c0-a400-a88fe6b9bfb1"
+                },
+                {
+                  "id": "35282f55-bddc-473c-8920-1158d507a54a",
+                  "path": "/BSSB Konven - Segmentation Historical LGD/LGD Kredit Lainya",
+                  "name": "LGD Kredit Lainya",
+                  "description": "LGD Kredit Lainya",
+                  "category": "LGD Kredit Lainya",
+                  "nodeType": "Segment",
+                  "parentId": "f8193d77-7c90-45c0-a400-a88fe6b9bfb1"
+                }
+              ]
+            },
+            "testSuites": {
+              "testSuites": []
+            }
+          },
+          "approaches": {
+            "approaches": [
+              {
+                "approachId": "573b0f62-d79b-4d64-a353-1db29cadd21c",
+                "name": "Historical LGD",
+                "description": "Historical LGD ",
+                "approachType": "SingleMethod",
+                "segments": [
+                  {
+                    "segmentId": "bb067a10-5716-470b-8911-eace89543a2d",
+                    "name": "LGD Investasi"
+                  },
+                  {
+                    "segmentId": "67c260b4-11a5-45bf-b0a3-03cc1c6eec98",
+                    "name": "LGD Modal Kerja"
+                  },
+                  {
+                    "segmentId": "35282f55-bddc-473c-8920-1158d507a54a",
+                    "name": "LGD Kredit Lainya"
+                  }
+                ],
+                "method": {
+                  "methodId": "8b452f47-0f08-4005-a0a4-51c72496e8a2",
+                  "calcMethodId": "2e1ffcf8-9d83-45a6-949a-b465f6da5840",
+                  "calcMethod": {
+                    "calcMethodId": "2e1ffcf8-9d83-45a6-949a-b465f6da5840",
+                    "name": "Workout LGD",
+                    "description": "Workout LGD",
+                    "code": "Workout"
+                  },
+                  "configuration": {}
+                }
+              }
+            ]
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 07:19:47.162422",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "3640b418-f0c1-4b13-b982-997cac8bc7fb",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "45b51b0c-c708-4bc9-9d2a-0f4d1587dfda",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB Konven - Historical LGD",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "45b51b0c-c708-4bc9-9d2a-0f4d1587dfda",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "createdWhen": "2025-10-20T07:19:02.509961",
+          "lastModifiedBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "lastModifiedWhen": "2025-10-20T07:20:09.1234463",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "ecf76b73-1084-4910-8b67-3aea9b9c9ef1",
+            "name": "BSSB Konven - Historical LGD",
+            "description": "BSSB Konven - Historical LGD",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T07:19:02.509961",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T07:20:09.1234463",
+            "objectiveType": {
+              "objectiveTypeId": "60c4ce91-d7ca-46c6-85dc-918e15ac79d6",
+              "code": "Historical",
+              "name": "Historical",
+              "description": "Historical LGD values calculation"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          },
+          "segmentation": {
+            "versionId": "f8193d77-7c90-45c0-a400-a88fe6b9bfb1",
+            "version": 1,
+            "status": "Draft",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T07:01:53.360983",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T07:12:57.13386",
+            "origin": {
+              "origin": {
+                "originType": "New"
+              }
+            },
+            "model": {
+              "modelId": "f0ddfdba-ef89-4978-a4b9-fdf06fbc00a8",
+              "name": "BSSB Konven - Segmentation Historical LGD",
+              "description": "BSSB Konven - Segmentation Historical LGD",
+              "isPrivate": false,
+              "status": "Open",
+              "createdBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "createdWhen": "2025-10-20T07:01:53.360983",
+              "lastModifiedBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "lastModifiedWhen": "2025-10-20T07:12:57.13386",
+              "objectiveType": {
+                "objectiveTypeId": "c84eec4a-5e3d-4e88-bf7f-2c7a22a54d76",
+                "code": "Segmentation",
+                "name": "Segmentation",
+                "description": "Segmentation Model"
+              },
+              "modelType": {
+                "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+                "name": "Simulation",
+                "description": "Model simulation type",
+                "style": {
+                  "border": "solid 1px #36116f",
+                  "backgroundColor": "#563d7c",
+                  "color": "white"
+                }
+              }
+            },
+            "segmentationConfiguration": {
+              "segments": [
+                {
+                  "segmentId": "bb067a10-5716-470b-8911-eace89543a2d",
+                  "name": "LGD Investasi",
+                  "description": "LGD Investasi",
+                  "category": "LGD Investasi",
+                  "lastModifiedWhen": "2025-10-20T07:02:23.6279377"
+                },
+                {
+                  "segmentId": "67c260b4-11a5-45bf-b0a3-03cc1c6eec98",
+                  "name": "LGD Modal Kerja",
+                  "description": "LGD Modal Kerja",
+                  "category": "LGD Modal Kerja",
+                  "lastModifiedWhen": "2025-10-20T07:02:33.0315399"
+                },
+                {
+                  "segmentId": "35282f55-bddc-473c-8920-1158d507a54a",
+                  "name": "LGD Kredit Lainya",
+                  "description": "LGD Kredit Lainya",
+                  "category": "LGD Kredit Lainya",
+                  "lastModifiedWhen": "2025-10-20T07:02:44.2040717"
+                }
+              ],
+              "rules": [
+                {
+                  "ruleId": "dd8c0e0e-b87b-41cb-b71e-ae1525a98eae",
+                  "name": "Rules segment LGD investasi",
+                  "description": "Rules segment LGD investasi",
+                  "priority": 1,
+                  "lastModifiedWhen": "2025-10-20T07:04:02.4243543",
+                  "segments": [
+                    {
+                      "segmentRuleId": "b7c05286-ebc9-4f2f-b1e6-48407ec2dd91",
+                      "segmentId": "bb067a10-5716-470b-8911-eace89543a2d",
+                      "segmentName": "LGD Investasi",
+                      "priority": 1,
+                      "condition": {
+                        "conditionId": "cbb4204f-beb1-4c8e-87fe-86224f10d31a",
+                        "conditions": [
+                          {
+                            "conditionId": "ef62848a-6ff2-43a4-b3e8-60693bf77fd8",
+                            "field": "ProductSubtype",
+                            "operator": "In",
+                            "value": "",
+                            "values": [
+                              "BSSB-K601",
+                              "BSSB-K681"
+                            ]
+                          }
+                        ],
+                        "combinator": "And"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "ruleId": "70e56380-7265-4006-b521-4e5e0dd115a2",
+                  "name": "Rules segment LGD modal kerja",
+                  "description": "Rules segment LGD modal kerja",
+                  "priority": 2,
+                  "lastModifiedWhen": "2025-10-20T07:10:07.9367292",
+                  "segments": [
+                    {
+                      "segmentRuleId": "e9da378e-d12d-4cc2-8f18-5bf4530ce491",
+                      "segmentId": "67c260b4-11a5-45bf-b0a3-03cc1c6eec98",
+                      "segmentName": "LGD Modal Kerja",
+                      "priority": 1,
+                      "condition": {
+                        "conditionId": "7113f671-4a37-4ae0-9df4-90b4cf6ec2bd",
+                        "conditions": [
+                          {
+                            "conditionId": "61137d34-da2f-4603-b1d8-c4307ebda387",
+                            "field": "ProductSubtype",
+                            "operator": "In",
+                            "value": "",
+                            "values": [
+                              "BSSB-K602",
+                              "BSSB-K005",
+                              "BSSB-K682"
+                            ]
+                          }
+                        ],
+                        "combinator": "And"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "ruleId": "66077f20-84dd-4048-a0a9-251496beebbb",
+                  "name": "Rules segment kredit lainya",
+                  "description": "Rules segment kredit lainya",
+                  "priority": 3,
+                  "lastModifiedWhen": "2025-10-20T07:12:57.1336981",
+                  "segments": [
+                    {
+                      "segmentRuleId": "d97c7524-fca0-4cca-acaf-83575636bebb",
+                      "segmentId": "35282f55-bddc-473c-8920-1158d507a54a",
+                      "segmentName": "LGD Kredit Lainya",
+                      "priority": 1,
+                      "condition": {
+                        "conditionId": "9708a8f9-7f69-445d-90a5-b0919023d8c0",
+                        "conditions": [
+                          {
+                            "conditionId": "6e554a1a-e7fb-4b9f-9a96-5121766df5c5",
+                            "field": "ProductSubtype",
+                            "operator": "In",
+                            "value": "",
+                            "values": [
+                              "BSSB-K603",
+                              "BSSB-K604"
+                            ]
+                          }
+                        ],
+                        "combinator": "And"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "hierarchies": [],
+              "nodes": [
+                {
+                  "id": "f8193d77-7c90-45c0-a400-a88fe6b9bfb1",
+                  "path": "/BSSB Konven - Segmentation Historical LGD",
+                  "name": "BSSB Konven - Segmentation Historical LGD",
+                  "description": "BSSB Konven - Segmentation Historical LGD",
+                  "nodeType": "Model"
+                },
+                {
+                  "id": "bb067a10-5716-470b-8911-eace89543a2d",
+                  "path": "/BSSB Konven - Segmentation Historical LGD/LGD Investasi",
+                  "name": "LGD Investasi",
+                  "description": "LGD Investasi",
+                  "category": "LGD Investasi",
+                  "nodeType": "Segment",
+                  "parentId": "f8193d77-7c90-45c0-a400-a88fe6b9bfb1"
+                },
+                {
+                  "id": "67c260b4-11a5-45bf-b0a3-03cc1c6eec98",
+                  "path": "/BSSB Konven - Segmentation Historical LGD/LGD Modal Kerja",
+                  "name": "LGD Modal Kerja",
+                  "description": "LGD Modal Kerja",
+                  "category": "LGD Modal Kerja",
+                  "nodeType": "Segment",
+                  "parentId": "f8193d77-7c90-45c0-a400-a88fe6b9bfb1"
+                },
+                {
+                  "id": "35282f55-bddc-473c-8920-1158d507a54a",
+                  "path": "/BSSB Konven - Segmentation Historical LGD/LGD Kredit Lainya",
+                  "name": "LGD Kredit Lainya",
+                  "description": "LGD Kredit Lainya",
+                  "category": "LGD Kredit Lainya",
+                  "nodeType": "Segment",
+                  "parentId": "f8193d77-7c90-45c0-a400-a88fe6b9bfb1"
+                }
+              ]
+            },
+            "testSuites": {
+              "testSuites": []
+            }
+          },
+          "approaches": {
+            "approaches": [
+              {
+                "approachId": "573b0f62-d79b-4d64-a353-1db29cadd21c",
+                "name": "Historical LGD",
+                "description": "Historical LGD ",
+                "approachType": "SingleMethod",
+                "segments": [
+                  {
+                    "segmentId": "bb067a10-5716-470b-8911-eace89543a2d",
+                    "name": "LGD Investasi"
+                  },
+                  {
+                    "segmentId": "67c260b4-11a5-45bf-b0a3-03cc1c6eec98",
+                    "name": "LGD Modal Kerja"
+                  },
+                  {
+                    "segmentId": "35282f55-bddc-473c-8920-1158d507a54a",
+                    "name": "LGD Kredit Lainya"
+                  }
+                ],
+                "method": {
+                  "methodId": "8b452f47-0f08-4005-a0a4-51c72496e8a2",
+                  "calcMethodId": "2e1ffcf8-9d83-45a6-949a-b465f6da5840",
+                  "calcMethod": {
+                    "calcMethodId": "2e1ffcf8-9d83-45a6-949a-b465f6da5840",
+                    "name": "Workout LGD",
+                    "description": "Workout LGD",
+                    "code": "Workout"
+                  },
+                  "configuration": {
+                    "observation": {
+                      "observationWindowTimeUnitMultiplicity": 7,
+                      "observationWindowTimeUnit": "Y",
+                      "minWorkoutTimeUnitMultiplicity": 6,
+                      "minWorkoutTimeUnit": "M",
+                      "maxWorkoutTimeUnitMultiplicity": 7,
+                      "maxWorkoutTimeUnit": "Y"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 07:20:09.142531",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "e32d74e6-9c03-430b-949f-868e28d368a3",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "45b51b0c-c708-4bc9-9d2a-0f4d1587dfda",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB Konven - Historical LGD",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "45b51b0c-c708-4bc9-9d2a-0f4d1587dfda",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "createdWhen": "2025-10-20T07:19:02.509961",
+          "lastModifiedBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "lastModifiedWhen": "2025-10-20T07:20:45.0884706",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "ecf76b73-1084-4910-8b67-3aea9b9c9ef1",
+            "name": "BSSB Konven - Historical LGD",
+            "description": "BSSB Konven - Historical LGD",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T07:19:02.509961",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T07:20:45.0884706",
+            "objectiveType": {
+              "objectiveTypeId": "60c4ce91-d7ca-46c6-85dc-918e15ac79d6",
+              "code": "Historical",
+              "name": "Historical",
+              "description": "Historical LGD values calculation"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          },
+          "segmentation": {
+            "versionId": "f8193d77-7c90-45c0-a400-a88fe6b9bfb1",
+            "version": 1,
+            "status": "Draft",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T07:01:53.360983",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T07:12:57.13386",
+            "origin": {
+              "origin": {
+                "originType": "New"
+              }
+            },
+            "model": {
+              "modelId": "f0ddfdba-ef89-4978-a4b9-fdf06fbc00a8",
+              "name": "BSSB Konven - Segmentation Historical LGD",
+              "description": "BSSB Konven - Segmentation Historical LGD",
+              "isPrivate": false,
+              "status": "Open",
+              "createdBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "createdWhen": "2025-10-20T07:01:53.360983",
+              "lastModifiedBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "lastModifiedWhen": "2025-10-20T07:12:57.13386",
+              "objectiveType": {
+                "objectiveTypeId": "c84eec4a-5e3d-4e88-bf7f-2c7a22a54d76",
+                "code": "Segmentation",
+                "name": "Segmentation",
+                "description": "Segmentation Model"
+              },
+              "modelType": {
+                "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+                "name": "Simulation",
+                "description": "Model simulation type",
+                "style": {
+                  "border": "solid 1px #36116f",
+                  "backgroundColor": "#563d7c",
+                  "color": "white"
+                }
+              }
+            },
+            "segmentationConfiguration": {
+              "segments": [
+                {
+                  "segmentId": "bb067a10-5716-470b-8911-eace89543a2d",
+                  "name": "LGD Investasi",
+                  "description": "LGD Investasi",
+                  "category": "LGD Investasi",
+                  "lastModifiedWhen": "2025-10-20T07:02:23.6279377"
+                },
+                {
+                  "segmentId": "67c260b4-11a5-45bf-b0a3-03cc1c6eec98",
+                  "name": "LGD Modal Kerja",
+                  "description": "LGD Modal Kerja",
+                  "category": "LGD Modal Kerja",
+                  "lastModifiedWhen": "2025-10-20T07:02:33.0315399"
+                },
+                {
+                  "segmentId": "35282f55-bddc-473c-8920-1158d507a54a",
+                  "name": "LGD Kredit Lainya",
+                  "description": "LGD Kredit Lainya",
+                  "category": "LGD Kredit Lainya",
+                  "lastModifiedWhen": "2025-10-20T07:02:44.2040717"
+                }
+              ],
+              "rules": [
+                {
+                  "ruleId": "dd8c0e0e-b87b-41cb-b71e-ae1525a98eae",
+                  "name": "Rules segment LGD investasi",
+                  "description": "Rules segment LGD investasi",
+                  "priority": 1,
+                  "lastModifiedWhen": "2025-10-20T07:04:02.4243543",
+                  "segments": [
+                    {
+                      "segmentRuleId": "b7c05286-ebc9-4f2f-b1e6-48407ec2dd91",
+                      "segmentId": "bb067a10-5716-470b-8911-eace89543a2d",
+                      "segmentName": "LGD Investasi",
+                      "priority": 1,
+                      "condition": {
+                        "conditionId": "cbb4204f-beb1-4c8e-87fe-86224f10d31a",
+                        "conditions": [
+                          {
+                            "conditionId": "ef62848a-6ff2-43a4-b3e8-60693bf77fd8",
+                            "field": "ProductSubtype",
+                            "operator": "In",
+                            "value": "",
+                            "values": [
+                              "BSSB-K601",
+                              "BSSB-K681"
+                            ]
+                          }
+                        ],
+                        "combinator": "And"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "ruleId": "70e56380-7265-4006-b521-4e5e0dd115a2",
+                  "name": "Rules segment LGD modal kerja",
+                  "description": "Rules segment LGD modal kerja",
+                  "priority": 2,
+                  "lastModifiedWhen": "2025-10-20T07:10:07.9367292",
+                  "segments": [
+                    {
+                      "segmentRuleId": "e9da378e-d12d-4cc2-8f18-5bf4530ce491",
+                      "segmentId": "67c260b4-11a5-45bf-b0a3-03cc1c6eec98",
+                      "segmentName": "LGD Modal Kerja",
+                      "priority": 1,
+                      "condition": {
+                        "conditionId": "7113f671-4a37-4ae0-9df4-90b4cf6ec2bd",
+                        "conditions": [
+                          {
+                            "conditionId": "61137d34-da2f-4603-b1d8-c4307ebda387",
+                            "field": "ProductSubtype",
+                            "operator": "In",
+                            "value": "",
+                            "values": [
+                              "BSSB-K602",
+                              "BSSB-K005",
+                              "BSSB-K682"
+                            ]
+                          }
+                        ],
+                        "combinator": "And"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "ruleId": "66077f20-84dd-4048-a0a9-251496beebbb",
+                  "name": "Rules segment kredit lainya",
+                  "description": "Rules segment kredit lainya",
+                  "priority": 3,
+                  "lastModifiedWhen": "2025-10-20T07:12:57.1336981",
+                  "segments": [
+                    {
+                      "segmentRuleId": "d97c7524-fca0-4cca-acaf-83575636bebb",
+                      "segmentId": "35282f55-bddc-473c-8920-1158d507a54a",
+                      "segmentName": "LGD Kredit Lainya",
+                      "priority": 1,
+                      "condition": {
+                        "conditionId": "9708a8f9-7f69-445d-90a5-b0919023d8c0",
+                        "conditions": [
+                          {
+                            "conditionId": "6e554a1a-e7fb-4b9f-9a96-5121766df5c5",
+                            "field": "ProductSubtype",
+                            "operator": "In",
+                            "value": "",
+                            "values": [
+                              "BSSB-K603",
+                              "BSSB-K604"
+                            ]
+                          }
+                        ],
+                        "combinator": "And"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "hierarchies": [],
+              "nodes": [
+                {
+                  "id": "f8193d77-7c90-45c0-a400-a88fe6b9bfb1",
+                  "path": "/BSSB Konven - Segmentation Historical LGD",
+                  "name": "BSSB Konven - Segmentation Historical LGD",
+                  "description": "BSSB Konven - Segmentation Historical LGD",
+                  "nodeType": "Model"
+                },
+                {
+                  "id": "bb067a10-5716-470b-8911-eace89543a2d",
+                  "path": "/BSSB Konven - Segmentation Historical LGD/LGD Investasi",
+                  "name": "LGD Investasi",
+                  "description": "LGD Investasi",
+                  "category": "LGD Investasi",
+                  "nodeType": "Segment",
+                  "parentId": "f8193d77-7c90-45c0-a400-a88fe6b9bfb1"
+                },
+                {
+                  "id": "67c260b4-11a5-45bf-b0a3-03cc1c6eec98",
+                  "path": "/BSSB Konven - Segmentation Historical LGD/LGD Modal Kerja",
+                  "name": "LGD Modal Kerja",
+                  "description": "LGD Modal Kerja",
+                  "category": "LGD Modal Kerja",
+                  "nodeType": "Segment",
+                  "parentId": "f8193d77-7c90-45c0-a400-a88fe6b9bfb1"
+                },
+                {
+                  "id": "35282f55-bddc-473c-8920-1158d507a54a",
+                  "path": "/BSSB Konven - Segmentation Historical LGD/LGD Kredit Lainya",
+                  "name": "LGD Kredit Lainya",
+                  "description": "LGD Kredit Lainya",
+                  "category": "LGD Kredit Lainya",
+                  "nodeType": "Segment",
+                  "parentId": "f8193d77-7c90-45c0-a400-a88fe6b9bfb1"
+                }
+              ]
+            },
+            "testSuites": {
+              "testSuites": []
+            }
+          },
+          "approaches": {
+            "approaches": [
+              {
+                "approachId": "573b0f62-d79b-4d64-a353-1db29cadd21c",
+                "name": "Historical LGD",
+                "description": "Historical LGD ",
+                "approachType": "SingleMethod",
+                "segments": [
+                  {
+                    "segmentId": "bb067a10-5716-470b-8911-eace89543a2d",
+                    "name": "LGD Investasi"
+                  },
+                  {
+                    "segmentId": "67c260b4-11a5-45bf-b0a3-03cc1c6eec98",
+                    "name": "LGD Modal Kerja"
+                  },
+                  {
+                    "segmentId": "35282f55-bddc-473c-8920-1158d507a54a",
+                    "name": "LGD Kredit Lainya"
+                  }
+                ],
+                "method": {
+                  "methodId": "8b452f47-0f08-4005-a0a4-51c72496e8a2",
+                  "calcMethodId": "2e1ffcf8-9d83-45a6-949a-b465f6da5840",
+                  "calcMethod": {
+                    "calcMethodId": "2e1ffcf8-9d83-45a6-949a-b465f6da5840",
+                    "name": "Workout LGD",
+                    "description": "Workout LGD",
+                    "code": "Workout"
+                  },
+                  "configuration": {
+                    "observation": {
+                      "observationWindowTimeUnitMultiplicity": 7,
+                      "observationWindowTimeUnit": "Y",
+                      "minWorkoutTimeUnitMultiplicity": 6,
+                      "minWorkoutTimeUnit": "M",
+                      "maxWorkoutTimeUnitMultiplicity": 7,
+                      "maxWorkoutTimeUnit": "Y"
+                    },
+                    "outcomes": [
+                      {
+                        "outcomeId": "6e49af81-e6b0-4ebe-8656-7135b51c9406",
+                        "priority": 1,
+                        "outcomeType": "Default",
+                        "description": "",
+                        "outcomeCondition": {
+                          "combinator": "Or",
+                          "conditionId": "b95d3bf0-3ad1-454e-87a0-fff5935aa1b6",
+                          "conditions": [
+                            {
+                              "field": "DaysPastDue",
+                              "operator": "GreaterThan",
+                              "value": "90",
+                              "conditionId": "c0fdedf9-6d3a-4c75-bd15-ee83c4255d85"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 07:20:45.110722",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "9fcb049a-b7b0-4aaa-80e9-9efa222c509c",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "45b51b0c-c708-4bc9-9d2a-0f4d1587dfda",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB Konven - Historical LGD",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "45b51b0c-c708-4bc9-9d2a-0f4d1587dfda",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "createdWhen": "2025-10-20T07:19:02.509961",
+          "lastModifiedBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "lastModifiedWhen": "2025-10-20T07:20:53.1177491",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "ecf76b73-1084-4910-8b67-3aea9b9c9ef1",
+            "name": "BSSB Konven - Historical LGD",
+            "description": "BSSB Konven - Historical LGD",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T07:19:02.509961",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T07:20:53.1177491",
+            "objectiveType": {
+              "objectiveTypeId": "60c4ce91-d7ca-46c6-85dc-918e15ac79d6",
+              "code": "Historical",
+              "name": "Historical",
+              "description": "Historical LGD values calculation"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          },
+          "segmentation": {
+            "versionId": "f8193d77-7c90-45c0-a400-a88fe6b9bfb1",
+            "version": 1,
+            "status": "Draft",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T07:01:53.360983",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T07:12:57.13386",
+            "origin": {
+              "origin": {
+                "originType": "New"
+              }
+            },
+            "model": {
+              "modelId": "f0ddfdba-ef89-4978-a4b9-fdf06fbc00a8",
+              "name": "BSSB Konven - Segmentation Historical LGD",
+              "description": "BSSB Konven - Segmentation Historical LGD",
+              "isPrivate": false,
+              "status": "Open",
+              "createdBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "createdWhen": "2025-10-20T07:01:53.360983",
+              "lastModifiedBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "lastModifiedWhen": "2025-10-20T07:12:57.13386",
+              "objectiveType": {
+                "objectiveTypeId": "c84eec4a-5e3d-4e88-bf7f-2c7a22a54d76",
+                "code": "Segmentation",
+                "name": "Segmentation",
+                "description": "Segmentation Model"
+              },
+              "modelType": {
+                "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+                "name": "Simulation",
+                "description": "Model simulation type",
+                "style": {
+                  "border": "solid 1px #36116f",
+                  "backgroundColor": "#563d7c",
+                  "color": "white"
+                }
+              }
+            },
+            "segmentationConfiguration": {
+              "segments": [
+                {
+                  "segmentId": "bb067a10-5716-470b-8911-eace89543a2d",
+                  "name": "LGD Investasi",
+                  "description": "LGD Investasi",
+                  "category": "LGD Investasi",
+                  "lastModifiedWhen": "2025-10-20T07:02:23.6279377"
+                },
+                {
+                  "segmentId": "67c260b4-11a5-45bf-b0a3-03cc1c6eec98",
+                  "name": "LGD Modal Kerja",
+                  "description": "LGD Modal Kerja",
+                  "category": "LGD Modal Kerja",
+                  "lastModifiedWhen": "2025-10-20T07:02:33.0315399"
+                },
+                {
+                  "segmentId": "35282f55-bddc-473c-8920-1158d507a54a",
+                  "name": "LGD Kredit Lainya",
+                  "description": "LGD Kredit Lainya",
+                  "category": "LGD Kredit Lainya",
+                  "lastModifiedWhen": "2025-10-20T07:02:44.2040717"
+                }
+              ],
+              "rules": [
+                {
+                  "ruleId": "dd8c0e0e-b87b-41cb-b71e-ae1525a98eae",
+                  "name": "Rules segment LGD investasi",
+                  "description": "Rules segment LGD investasi",
+                  "priority": 1,
+                  "lastModifiedWhen": "2025-10-20T07:04:02.4243543",
+                  "segments": [
+                    {
+                      "segmentRuleId": "b7c05286-ebc9-4f2f-b1e6-48407ec2dd91",
+                      "segmentId": "bb067a10-5716-470b-8911-eace89543a2d",
+                      "segmentName": "LGD Investasi",
+                      "priority": 1,
+                      "condition": {
+                        "conditionId": "cbb4204f-beb1-4c8e-87fe-86224f10d31a",
+                        "conditions": [
+                          {
+                            "conditionId": "ef62848a-6ff2-43a4-b3e8-60693bf77fd8",
+                            "field": "ProductSubtype",
+                            "operator": "In",
+                            "value": "",
+                            "values": [
+                              "BSSB-K601",
+                              "BSSB-K681"
+                            ]
+                          }
+                        ],
+                        "combinator": "And"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "ruleId": "70e56380-7265-4006-b521-4e5e0dd115a2",
+                  "name": "Rules segment LGD modal kerja",
+                  "description": "Rules segment LGD modal kerja",
+                  "priority": 2,
+                  "lastModifiedWhen": "2025-10-20T07:10:07.9367292",
+                  "segments": [
+                    {
+                      "segmentRuleId": "e9da378e-d12d-4cc2-8f18-5bf4530ce491",
+                      "segmentId": "67c260b4-11a5-45bf-b0a3-03cc1c6eec98",
+                      "segmentName": "LGD Modal Kerja",
+                      "priority": 1,
+                      "condition": {
+                        "conditionId": "7113f671-4a37-4ae0-9df4-90b4cf6ec2bd",
+                        "conditions": [
+                          {
+                            "conditionId": "61137d34-da2f-4603-b1d8-c4307ebda387",
+                            "field": "ProductSubtype",
+                            "operator": "In",
+                            "value": "",
+                            "values": [
+                              "BSSB-K602",
+                              "BSSB-K005",
+                              "BSSB-K682"
+                            ]
+                          }
+                        ],
+                        "combinator": "And"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "ruleId": "66077f20-84dd-4048-a0a9-251496beebbb",
+                  "name": "Rules segment kredit lainya",
+                  "description": "Rules segment kredit lainya",
+                  "priority": 3,
+                  "lastModifiedWhen": "2025-10-20T07:12:57.1336981",
+                  "segments": [
+                    {
+                      "segmentRuleId": "d97c7524-fca0-4cca-acaf-83575636bebb",
+                      "segmentId": "35282f55-bddc-473c-8920-1158d507a54a",
+                      "segmentName": "LGD Kredit Lainya",
+                      "priority": 1,
+                      "condition": {
+                        "conditionId": "9708a8f9-7f69-445d-90a5-b0919023d8c0",
+                        "conditions": [
+                          {
+                            "conditionId": "6e554a1a-e7fb-4b9f-9a96-5121766df5c5",
+                            "field": "ProductSubtype",
+                            "operator": "In",
+                            "value": "",
+                            "values": [
+                              "BSSB-K603",
+                              "BSSB-K604"
+                            ]
+                          }
+                        ],
+                        "combinator": "And"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "hierarchies": [],
+              "nodes": [
+                {
+                  "id": "f8193d77-7c90-45c0-a400-a88fe6b9bfb1",
+                  "path": "/BSSB Konven - Segmentation Historical LGD",
+                  "name": "BSSB Konven - Segmentation Historical LGD",
+                  "description": "BSSB Konven - Segmentation Historical LGD",
+                  "nodeType": "Model"
+                },
+                {
+                  "id": "bb067a10-5716-470b-8911-eace89543a2d",
+                  "path": "/BSSB Konven - Segmentation Historical LGD/LGD Investasi",
+                  "name": "LGD Investasi",
+                  "description": "LGD Investasi",
+                  "category": "LGD Investasi",
+                  "nodeType": "Segment",
+                  "parentId": "f8193d77-7c90-45c0-a400-a88fe6b9bfb1"
+                },
+                {
+                  "id": "67c260b4-11a5-45bf-b0a3-03cc1c6eec98",
+                  "path": "/BSSB Konven - Segmentation Historical LGD/LGD Modal Kerja",
+                  "name": "LGD Modal Kerja",
+                  "description": "LGD Modal Kerja",
+                  "category": "LGD Modal Kerja",
+                  "nodeType": "Segment",
+                  "parentId": "f8193d77-7c90-45c0-a400-a88fe6b9bfb1"
+                },
+                {
+                  "id": "35282f55-bddc-473c-8920-1158d507a54a",
+                  "path": "/BSSB Konven - Segmentation Historical LGD/LGD Kredit Lainya",
+                  "name": "LGD Kredit Lainya",
+                  "description": "LGD Kredit Lainya",
+                  "category": "LGD Kredit Lainya",
+                  "nodeType": "Segment",
+                  "parentId": "f8193d77-7c90-45c0-a400-a88fe6b9bfb1"
+                }
+              ]
+            },
+            "testSuites": {
+              "testSuites": []
+            }
+          },
+          "approaches": {
+            "approaches": [
+              {
+                "approachId": "573b0f62-d79b-4d64-a353-1db29cadd21c",
+                "name": "Historical LGD",
+                "description": "Historical LGD ",
+                "approachType": "SingleMethod",
+                "segments": [
+                  {
+                    "segmentId": "bb067a10-5716-470b-8911-eace89543a2d",
+                    "name": "LGD Investasi"
+                  },
+                  {
+                    "segmentId": "67c260b4-11a5-45bf-b0a3-03cc1c6eec98",
+                    "name": "LGD Modal Kerja"
+                  },
+                  {
+                    "segmentId": "35282f55-bddc-473c-8920-1158d507a54a",
+                    "name": "LGD Kredit Lainya"
+                  }
+                ],
+                "method": {
+                  "methodId": "8b452f47-0f08-4005-a0a4-51c72496e8a2",
+                  "calcMethodId": "2e1ffcf8-9d83-45a6-949a-b465f6da5840",
+                  "calcMethod": {
+                    "calcMethodId": "2e1ffcf8-9d83-45a6-949a-b465f6da5840",
+                    "name": "Workout LGD",
+                    "description": "Workout LGD",
+                    "code": "Workout"
+                  },
+                  "configuration": {
+                    "observation": {
+                      "observationWindowTimeUnitMultiplicity": 7,
+                      "observationWindowTimeUnit": "Y",
+                      "minWorkoutTimeUnitMultiplicity": 6,
+                      "minWorkoutTimeUnit": "M",
+                      "maxWorkoutTimeUnitMultiplicity": 7,
+                      "maxWorkoutTimeUnit": "Y"
+                    },
+                    "outcomes": [
+                      {
+                        "outcomeId": "6e49af81-e6b0-4ebe-8656-7135b51c9406",
+                        "priority": 1,
+                        "outcomeType": "Default",
+                        "description": "",
+                        "outcomeCondition": {
+                          "combinator": "Or",
+                          "conditionId": "b95d3bf0-3ad1-454e-87a0-fff5935aa1b6",
+                          "conditions": [
+                            {
+                              "field": "DaysPastDue",
+                              "operator": "GreaterThan",
+                              "value": "90",
+                              "conditionId": "c0fdedf9-6d3a-4c75-bd15-ee83c4255d85"
+                            }
+                          ]
+                        }
+                      }
+                    ],
+                    "consolidation": {
+                      "primaryConsolidation": "SimpleAverage",
+                      "secondaryConsolidations": [
+                        "WeightedOutstandingAmount"
+                      ]
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 07:20:53.138166",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "2247d8ed-4cf2-4ae0-bb53-9d5b04cb6e84",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "45b51b0c-c708-4bc9-9d2a-0f4d1587dfda",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB Konven - Historical LGD",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "45b51b0c-c708-4bc9-9d2a-0f4d1587dfda",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "createdWhen": "2025-10-20T07:19:02.509961",
+          "lastModifiedBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "lastModifiedWhen": "2025-10-20T07:21:05.4527079",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "ecf76b73-1084-4910-8b67-3aea9b9c9ef1",
+            "name": "BSSB Konven - Historical LGD",
+            "description": "BSSB Konven - Historical LGD",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T07:19:02.509961",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T07:21:05.4527079",
+            "objectiveType": {
+              "objectiveTypeId": "60c4ce91-d7ca-46c6-85dc-918e15ac79d6",
+              "code": "Historical",
+              "name": "Historical",
+              "description": "Historical LGD values calculation"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          },
+          "segmentation": {
+            "versionId": "f8193d77-7c90-45c0-a400-a88fe6b9bfb1",
+            "version": 1,
+            "status": "Draft",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T07:01:53.360983",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T07:12:57.13386",
+            "origin": {
+              "origin": {
+                "originType": "New"
+              }
+            },
+            "model": {
+              "modelId": "f0ddfdba-ef89-4978-a4b9-fdf06fbc00a8",
+              "name": "BSSB Konven - Segmentation Historical LGD",
+              "description": "BSSB Konven - Segmentation Historical LGD",
+              "isPrivate": false,
+              "status": "Open",
+              "createdBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "createdWhen": "2025-10-20T07:01:53.360983",
+              "lastModifiedBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "lastModifiedWhen": "2025-10-20T07:12:57.13386",
+              "objectiveType": {
+                "objectiveTypeId": "c84eec4a-5e3d-4e88-bf7f-2c7a22a54d76",
+                "code": "Segmentation",
+                "name": "Segmentation",
+                "description": "Segmentation Model"
+              },
+              "modelType": {
+                "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+                "name": "Simulation",
+                "description": "Model simulation type",
+                "style": {
+                  "border": "solid 1px #36116f",
+                  "backgroundColor": "#563d7c",
+                  "color": "white"
+                }
+              }
+            },
+            "segmentationConfiguration": {
+              "segments": [
+                {
+                  "segmentId": "bb067a10-5716-470b-8911-eace89543a2d",
+                  "name": "LGD Investasi",
+                  "description": "LGD Investasi",
+                  "category": "LGD Investasi",
+                  "lastModifiedWhen": "2025-10-20T07:02:23.6279377"
+                },
+                {
+                  "segmentId": "67c260b4-11a5-45bf-b0a3-03cc1c6eec98",
+                  "name": "LGD Modal Kerja",
+                  "description": "LGD Modal Kerja",
+                  "category": "LGD Modal Kerja",
+                  "lastModifiedWhen": "2025-10-20T07:02:33.0315399"
+                },
+                {
+                  "segmentId": "35282f55-bddc-473c-8920-1158d507a54a",
+                  "name": "LGD Kredit Lainya",
+                  "description": "LGD Kredit Lainya",
+                  "category": "LGD Kredit Lainya",
+                  "lastModifiedWhen": "2025-10-20T07:02:44.2040717"
+                }
+              ],
+              "rules": [
+                {
+                  "ruleId": "dd8c0e0e-b87b-41cb-b71e-ae1525a98eae",
+                  "name": "Rules segment LGD investasi",
+                  "description": "Rules segment LGD investasi",
+                  "priority": 1,
+                  "lastModifiedWhen": "2025-10-20T07:04:02.4243543",
+                  "segments": [
+                    {
+                      "segmentRuleId": "b7c05286-ebc9-4f2f-b1e6-48407ec2dd91",
+                      "segmentId": "bb067a10-5716-470b-8911-eace89543a2d",
+                      "segmentName": "LGD Investasi",
+                      "priority": 1,
+                      "condition": {
+                        "conditionId": "cbb4204f-beb1-4c8e-87fe-86224f10d31a",
+                        "conditions": [
+                          {
+                            "conditionId": "ef62848a-6ff2-43a4-b3e8-60693bf77fd8",
+                            "field": "ProductSubtype",
+                            "operator": "In",
+                            "value": "",
+                            "values": [
+                              "BSSB-K601",
+                              "BSSB-K681"
+                            ]
+                          }
+                        ],
+                        "combinator": "And"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "ruleId": "70e56380-7265-4006-b521-4e5e0dd115a2",
+                  "name": "Rules segment LGD modal kerja",
+                  "description": "Rules segment LGD modal kerja",
+                  "priority": 2,
+                  "lastModifiedWhen": "2025-10-20T07:10:07.9367292",
+                  "segments": [
+                    {
+                      "segmentRuleId": "e9da378e-d12d-4cc2-8f18-5bf4530ce491",
+                      "segmentId": "67c260b4-11a5-45bf-b0a3-03cc1c6eec98",
+                      "segmentName": "LGD Modal Kerja",
+                      "priority": 1,
+                      "condition": {
+                        "conditionId": "7113f671-4a37-4ae0-9df4-90b4cf6ec2bd",
+                        "conditions": [
+                          {
+                            "conditionId": "61137d34-da2f-4603-b1d8-c4307ebda387",
+                            "field": "ProductSubtype",
+                            "operator": "In",
+                            "value": "",
+                            "values": [
+                              "BSSB-K602",
+                              "BSSB-K005",
+                              "BSSB-K682"
+                            ]
+                          }
+                        ],
+                        "combinator": "And"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "ruleId": "66077f20-84dd-4048-a0a9-251496beebbb",
+                  "name": "Rules segment kredit lainya",
+                  "description": "Rules segment kredit lainya",
+                  "priority": 3,
+                  "lastModifiedWhen": "2025-10-20T07:12:57.1336981",
+                  "segments": [
+                    {
+                      "segmentRuleId": "d97c7524-fca0-4cca-acaf-83575636bebb",
+                      "segmentId": "35282f55-bddc-473c-8920-1158d507a54a",
+                      "segmentName": "LGD Kredit Lainya",
+                      "priority": 1,
+                      "condition": {
+                        "conditionId": "9708a8f9-7f69-445d-90a5-b0919023d8c0",
+                        "conditions": [
+                          {
+                            "conditionId": "6e554a1a-e7fb-4b9f-9a96-5121766df5c5",
+                            "field": "ProductSubtype",
+                            "operator": "In",
+                            "value": "",
+                            "values": [
+                              "BSSB-K603",
+                              "BSSB-K604"
+                            ]
+                          }
+                        ],
+                        "combinator": "And"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "hierarchies": [],
+              "nodes": [
+                {
+                  "id": "f8193d77-7c90-45c0-a400-a88fe6b9bfb1",
+                  "path": "/BSSB Konven - Segmentation Historical LGD",
+                  "name": "BSSB Konven - Segmentation Historical LGD",
+                  "description": "BSSB Konven - Segmentation Historical LGD",
+                  "nodeType": "Model"
+                },
+                {
+                  "id": "bb067a10-5716-470b-8911-eace89543a2d",
+                  "path": "/BSSB Konven - Segmentation Historical LGD/LGD Investasi",
+                  "name": "LGD Investasi",
+                  "description": "LGD Investasi",
+                  "category": "LGD Investasi",
+                  "nodeType": "Segment",
+                  "parentId": "f8193d77-7c90-45c0-a400-a88fe6b9bfb1"
+                },
+                {
+                  "id": "67c260b4-11a5-45bf-b0a3-03cc1c6eec98",
+                  "path": "/BSSB Konven - Segmentation Historical LGD/LGD Modal Kerja",
+                  "name": "LGD Modal Kerja",
+                  "description": "LGD Modal Kerja",
+                  "category": "LGD Modal Kerja",
+                  "nodeType": "Segment",
+                  "parentId": "f8193d77-7c90-45c0-a400-a88fe6b9bfb1"
+                },
+                {
+                  "id": "35282f55-bddc-473c-8920-1158d507a54a",
+                  "path": "/BSSB Konven - Segmentation Historical LGD/LGD Kredit Lainya",
+                  "name": "LGD Kredit Lainya",
+                  "description": "LGD Kredit Lainya",
+                  "category": "LGD Kredit Lainya",
+                  "nodeType": "Segment",
+                  "parentId": "f8193d77-7c90-45c0-a400-a88fe6b9bfb1"
+                }
+              ]
+            },
+            "testSuites": {
+              "testSuites": []
+            }
+          },
+          "approaches": {
+            "approaches": [
+              {
+                "approachId": "573b0f62-d79b-4d64-a353-1db29cadd21c",
+                "name": "Historical LGD",
+                "description": "Historical LGD ",
+                "approachType": "SingleMethod",
+                "segments": [
+                  {
+                    "segmentId": "bb067a10-5716-470b-8911-eace89543a2d",
+                    "name": "LGD Investasi"
+                  },
+                  {
+                    "segmentId": "67c260b4-11a5-45bf-b0a3-03cc1c6eec98",
+                    "name": "LGD Modal Kerja"
+                  },
+                  {
+                    "segmentId": "35282f55-bddc-473c-8920-1158d507a54a",
+                    "name": "LGD Kredit Lainya"
+                  }
+                ],
+                "method": {
+                  "methodId": "8b452f47-0f08-4005-a0a4-51c72496e8a2",
+                  "calcMethodId": "2e1ffcf8-9d83-45a6-949a-b465f6da5840",
+                  "calcMethod": {
+                    "calcMethodId": "2e1ffcf8-9d83-45a6-949a-b465f6da5840",
+                    "name": "Workout LGD",
+                    "description": "Workout LGD",
+                    "code": "Workout"
+                  },
+                  "configuration": {
+                    "observation": {
+                      "observationWindowTimeUnitMultiplicity": 7,
+                      "observationWindowTimeUnit": "Y",
+                      "minWorkoutTimeUnitMultiplicity": 6,
+                      "minWorkoutTimeUnit": "M",
+                      "maxWorkoutTimeUnitMultiplicity": 7,
+                      "maxWorkoutTimeUnit": "Y"
+                    },
+                    "outcomes": [
+                      {
+                        "outcomeId": "6e49af81-e6b0-4ebe-8656-7135b51c9406",
+                        "priority": 1,
+                        "outcomeType": "Default",
+                        "description": "",
+                        "outcomeCondition": {
+                          "combinator": "Or",
+                          "conditionId": "b95d3bf0-3ad1-454e-87a0-fff5935aa1b6",
+                          "conditions": [
+                            {
+                              "field": "DaysPastDue",
+                              "operator": "GreaterThan",
+                              "value": "90",
+                              "conditionId": "c0fdedf9-6d3a-4c75-bd15-ee83c4255d85"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "outcomeId": "c3ad9eba-f21f-4c81-8470-4be353da1c6d",
+                        "priority": 2,
+                        "outcomeType": "NonDefault",
+                        "description": "",
+                        "outcomeCondition": {
+                          "combinator": "And",
+                          "conditionId": "da6862a3-a014-48bd-9e23-3dd6191a0c92",
+                          "conditions": []
+                        }
+                      }
+                    ],
+                    "consolidation": {
+                      "primaryConsolidation": "SimpleAverage",
+                      "secondaryConsolidations": [
+                        "WeightedOutstandingAmount"
+                      ]
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 07:21:05.471646",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "f250b729-9504-48ae-8fa9-cce57d2c1f60",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "45b51b0c-c708-4bc9-9d2a-0f4d1587dfda",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB Konven - Historical LGD",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "45b51b0c-c708-4bc9-9d2a-0f4d1587dfda",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "createdWhen": "2025-10-20T07:19:02.509961",
+          "lastModifiedBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "lastModifiedWhen": "2025-10-20T07:46:32.3453261",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "ecf76b73-1084-4910-8b67-3aea9b9c9ef1",
+            "name": "BSSB Konven - Historical LGD",
+            "description": "BSSB Konven - Historical LGD",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T07:19:02.509961",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T07:46:32.3453261",
+            "objectiveType": {
+              "objectiveTypeId": "60c4ce91-d7ca-46c6-85dc-918e15ac79d6",
+              "code": "Historical",
+              "name": "Historical",
+              "description": "Historical LGD values calculation"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          },
+          "segmentation": {
+            "versionId": "f8193d77-7c90-45c0-a400-a88fe6b9bfb1",
+            "version": 1,
+            "status": "Draft",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T07:01:53.360983",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T07:12:57.13386",
+            "origin": {
+              "origin": {
+                "originType": "New"
+              }
+            },
+            "model": {
+              "modelId": "f0ddfdba-ef89-4978-a4b9-fdf06fbc00a8",
+              "name": "BSSB Konven - Segmentation Historical LGD",
+              "description": "BSSB Konven - Segmentation Historical LGD",
+              "isPrivate": false,
+              "status": "Open",
+              "createdBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "createdWhen": "2025-10-20T07:01:53.360983",
+              "lastModifiedBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "lastModifiedWhen": "2025-10-20T07:12:57.13386",
+              "objectiveType": {
+                "objectiveTypeId": "c84eec4a-5e3d-4e88-bf7f-2c7a22a54d76",
+                "code": "Segmentation",
+                "name": "Segmentation",
+                "description": "Segmentation Model"
+              },
+              "modelType": {
+                "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+                "name": "Simulation",
+                "description": "Model simulation type",
+                "style": {
+                  "border": "solid 1px #36116f",
+                  "backgroundColor": "#563d7c",
+                  "color": "white"
+                }
+              }
+            },
+            "segmentationConfiguration": {
+              "segments": [
+                {
+                  "segmentId": "bb067a10-5716-470b-8911-eace89543a2d",
+                  "name": "LGD Investasi",
+                  "description": "LGD Investasi",
+                  "category": "LGD Investasi",
+                  "lastModifiedWhen": "2025-10-20T07:02:23.6279377"
+                },
+                {
+                  "segmentId": "67c260b4-11a5-45bf-b0a3-03cc1c6eec98",
+                  "name": "LGD Modal Kerja",
+                  "description": "LGD Modal Kerja",
+                  "category": "LGD Modal Kerja",
+                  "lastModifiedWhen": "2025-10-20T07:02:33.0315399"
+                },
+                {
+                  "segmentId": "35282f55-bddc-473c-8920-1158d507a54a",
+                  "name": "LGD Kredit Lainya",
+                  "description": "LGD Kredit Lainya",
+                  "category": "LGD Kredit Lainya",
+                  "lastModifiedWhen": "2025-10-20T07:02:44.2040717"
+                }
+              ],
+              "rules": [
+                {
+                  "ruleId": "dd8c0e0e-b87b-41cb-b71e-ae1525a98eae",
+                  "name": "Rules segment LGD investasi",
+                  "description": "Rules segment LGD investasi",
+                  "priority": 1,
+                  "lastModifiedWhen": "2025-10-20T07:04:02.4243543",
+                  "segments": [
+                    {
+                      "segmentRuleId": "b7c05286-ebc9-4f2f-b1e6-48407ec2dd91",
+                      "segmentId": "bb067a10-5716-470b-8911-eace89543a2d",
+                      "segmentName": "LGD Investasi",
+                      "priority": 1,
+                      "condition": {
+                        "conditionId": "cbb4204f-beb1-4c8e-87fe-86224f10d31a",
+                        "conditions": [
+                          {
+                            "conditionId": "ef62848a-6ff2-43a4-b3e8-60693bf77fd8",
+                            "field": "ProductSubtype",
+                            "operator": "In",
+                            "value": "",
+                            "values": [
+                              "BSSB-K601",
+                              "BSSB-K681"
+                            ]
+                          }
+                        ],
+                        "combinator": "And"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "ruleId": "70e56380-7265-4006-b521-4e5e0dd115a2",
+                  "name": "Rules segment LGD modal kerja",
+                  "description": "Rules segment LGD modal kerja",
+                  "priority": 2,
+                  "lastModifiedWhen": "2025-10-20T07:10:07.9367292",
+                  "segments": [
+                    {
+                      "segmentRuleId": "e9da378e-d12d-4cc2-8f18-5bf4530ce491",
+                      "segmentId": "67c260b4-11a5-45bf-b0a3-03cc1c6eec98",
+                      "segmentName": "LGD Modal Kerja",
+                      "priority": 1,
+                      "condition": {
+                        "conditionId": "7113f671-4a37-4ae0-9df4-90b4cf6ec2bd",
+                        "conditions": [
+                          {
+                            "conditionId": "61137d34-da2f-4603-b1d8-c4307ebda387",
+                            "field": "ProductSubtype",
+                            "operator": "In",
+                            "value": "",
+                            "values": [
+                              "BSSB-K602",
+                              "BSSB-K005",
+                              "BSSB-K682"
+                            ]
+                          }
+                        ],
+                        "combinator": "And"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "ruleId": "66077f20-84dd-4048-a0a9-251496beebbb",
+                  "name": "Rules segment kredit lainya",
+                  "description": "Rules segment kredit lainya",
+                  "priority": 3,
+                  "lastModifiedWhen": "2025-10-20T07:12:57.1336981",
+                  "segments": [
+                    {
+                      "segmentRuleId": "d97c7524-fca0-4cca-acaf-83575636bebb",
+                      "segmentId": "35282f55-bddc-473c-8920-1158d507a54a",
+                      "segmentName": "LGD Kredit Lainya",
+                      "priority": 1,
+                      "condition": {
+                        "conditionId": "9708a8f9-7f69-445d-90a5-b0919023d8c0",
+                        "conditions": [
+                          {
+                            "conditionId": "6e554a1a-e7fb-4b9f-9a96-5121766df5c5",
+                            "field": "ProductSubtype",
+                            "operator": "In",
+                            "value": "",
+                            "values": [
+                              "BSSB-K603",
+                              "BSSB-K604"
+                            ]
+                          }
+                        ],
+                        "combinator": "And"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "hierarchies": [],
+              "nodes": [
+                {
+                  "id": "f8193d77-7c90-45c0-a400-a88fe6b9bfb1",
+                  "path": "/BSSB Konven - Segmentation Historical LGD",
+                  "name": "BSSB Konven - Segmentation Historical LGD",
+                  "description": "BSSB Konven - Segmentation Historical LGD",
+                  "nodeType": "Model"
+                },
+                {
+                  "id": "bb067a10-5716-470b-8911-eace89543a2d",
+                  "path": "/BSSB Konven - Segmentation Historical LGD/LGD Investasi",
+                  "name": "LGD Investasi",
+                  "description": "LGD Investasi",
+                  "category": "LGD Investasi",
+                  "nodeType": "Segment",
+                  "parentId": "f8193d77-7c90-45c0-a400-a88fe6b9bfb1"
+                },
+                {
+                  "id": "67c260b4-11a5-45bf-b0a3-03cc1c6eec98",
+                  "path": "/BSSB Konven - Segmentation Historical LGD/LGD Modal Kerja",
+                  "name": "LGD Modal Kerja",
+                  "description": "LGD Modal Kerja",
+                  "category": "LGD Modal Kerja",
+                  "nodeType": "Segment",
+                  "parentId": "f8193d77-7c90-45c0-a400-a88fe6b9bfb1"
+                },
+                {
+                  "id": "35282f55-bddc-473c-8920-1158d507a54a",
+                  "path": "/BSSB Konven - Segmentation Historical LGD/LGD Kredit Lainya",
+                  "name": "LGD Kredit Lainya",
+                  "description": "LGD Kredit Lainya",
+                  "category": "LGD Kredit Lainya",
+                  "nodeType": "Segment",
+                  "parentId": "f8193d77-7c90-45c0-a400-a88fe6b9bfb1"
+                }
+              ]
+            },
+            "testSuites": {
+              "testSuites": []
+            }
+          },
+          "approaches": {
+            "approaches": [
+              {
+                "approachId": "573b0f62-d79b-4d64-a353-1db29cadd21c",
+                "name": "Historical LGD",
+                "description": "Historical LGD ",
+                "approachType": "SingleMethod",
+                "segments": [
+                  {
+                    "segmentId": "bb067a10-5716-470b-8911-eace89543a2d",
+                    "name": "LGD Investasi"
+                  },
+                  {
+                    "segmentId": "67c260b4-11a5-45bf-b0a3-03cc1c6eec98",
+                    "name": "LGD Modal Kerja"
+                  },
+                  {
+                    "segmentId": "35282f55-bddc-473c-8920-1158d507a54a",
+                    "name": "LGD Kredit Lainya"
+                  }
+                ],
+                "method": {
+                  "methodId": "8b452f47-0f08-4005-a0a4-51c72496e8a2",
+                  "calcMethodId": "2e1ffcf8-9d83-45a6-949a-b465f6da5840",
+                  "calcMethod": {
+                    "calcMethodId": "2e1ffcf8-9d83-45a6-949a-b465f6da5840",
+                    "name": "Workout LGD",
+                    "description": "Workout LGD",
+                    "code": "Workout"
+                  },
+                  "configuration": {
+                    "observation": {
+                      "observationWindowTimeUnitMultiplicity": 7,
+                      "observationWindowTimeUnit": "Y",
+                      "minWorkoutTimeUnitMultiplicity": 6,
+                      "minWorkoutTimeUnit": "M",
+                      "maxWorkoutTimeUnitMultiplicity": 7,
+                      "maxWorkoutTimeUnit": "Y"
+                    },
+                    "outcomes": [
+                      {
+                        "outcomeId": "6e49af81-e6b0-4ebe-8656-7135b51c9406",
+                        "priority": 1,
+                        "outcomeType": "Default",
+                        "description": "",
+                        "outcomeCondition": {
+                          "combinator": "Or",
+                          "conditionId": "b95d3bf0-3ad1-454e-87a0-fff5935aa1b6",
+                          "conditions": [
+                            {
+                              "field": "DaysPastDue",
+                              "operator": "GreaterThan",
+                              "value": "90",
+                              "conditionId": "c0fdedf9-6d3a-4c75-bd15-ee83c4255d85"
+                            },
+                            {
+                              "field": "IsRestructured",
+                              "operator": "Equal",
+                              "value": "true",
+                              "conditionId": "28344c7b-10a2-48c5-b609-d6785e7d9d4b"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "outcomeId": "c3ad9eba-f21f-4c81-8470-4be353da1c6d",
+                        "priority": 2,
+                        "outcomeType": "NonDefault",
+                        "description": "",
+                        "outcomeCondition": {
+                          "combinator": "And",
+                          "conditionId": "da6862a3-a014-48bd-9e23-3dd6191a0c92",
+                          "conditions": []
+                        }
+                      }
+                    ],
+                    "consolidation": {
+                      "primaryConsolidation": "SimpleAverage",
+                      "secondaryConsolidations": [
+                        "WeightedOutstandingAmount"
+                      ]
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 07:46:32.364519",
+      "ImpersonatedUserId": null
+    }
+  ]
+}

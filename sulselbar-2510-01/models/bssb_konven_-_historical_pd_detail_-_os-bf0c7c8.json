@@ -1,0 +1,377 @@
+{
+  "ModelId": "9e0b022c-d056-5fea-a11d-9e747bf0c7c8",
+  "DomainId": "e14c08f1-b42c-4514-a12a-f5f1e43f3c04",
+  "Name": "BSSB Konven - Historical PD Detail - OS",
+  "Description": "BSSB Konven - Historical PD Detail by Kategori Debitur and Kategori Pengguna- OS",
+  "ModelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+  "ObjectiveTypeId": "a7c5ee8f-30d2-4ea2-8833-657c306318e6",
+  "ParentDeckId": null,
+  "IsPrivate": false,
+  "Status": "Open",
+  "Data": {
+    "deletionProtection": {
+      "enabled": false
+    }
+  },
+  "LatestVersionId": "62c67b8a-e61b-54c2-a7ef-c515d59fdba5",
+  "LatestVersion": 1,
+  "LatestStatus": "Draft",
+  "LatestErrors": null,
+  "LatestWarnings": null,
+  "LatestValidatedWhen": null,
+  "PublishedVersions": 0,
+  "ArchivedBy": null,
+  "ArchivedWhen": null,
+  "CreatedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+  "CreatedWhen": "2025-10-20 13:32:15.047938",
+  "LastModifiedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+  "LastModifiedWhen": "2025-10-20 13:32:46.509038",
+  "ObjectiveTypeCode": "Historical",
+  "ModelTypeName": "Simulation",
+  "activityExport": {
+    "sourceId": "9e0b022c-d056-5fea-a11d-9e747bf0c7c8",
+    "name": "BSSB Konven - Historical PD Detail - OS",
+    "path": "models/activities",
+    "file": "activities_sourceId_bf0c7c8.json"
+  },
+  "versions": [
+    {
+      "VersionId": "62c67b8a-e61b-54c2-a7ef-c515d59fdba5",
+      "ModelId": "9e0b022c-d056-5fea-a11d-9e747bf0c7c8",
+      "Version": 1,
+      "Description": "Initial Version",
+      "Status": "Draft",
+      "PublishedBy": null,
+      "PublishedWhen": null,
+      "PublishComments": null,
+      "ExpiryDate": null,
+      "ArchivedBy": null,
+      "ArchivedWhen": null,
+      "ConcurrencyId": "4fff7f62-2052-458f-b36d-8ed6cedd6df9",
+      "CreatedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "CreatedWhen": "2025-10-20 13:32:15.149361",
+      "LastModifiedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "LastModifiedWhen": "2025-10-20 13:32:46.509038",
+      "versionProps": [
+        {
+          "VersionPropId": "36fa962e-c5bc-4cf0-8902-71f85da21e7f",
+          "VersionId": "62c67b8a-e61b-54c2-a7ef-c515d59fdba5",
+          "Key": "Origin",
+          "Value": {
+            "origin": {
+              "originType": "Clone",
+              "originVersionId": "29833fb1-c7d2-5a82-b4fe-27f6b2cfe958",
+              "originModelId": "94c6278c-68fe-5e91-99f5-31fd05e04f69",
+              "name": "BSSB Konven - Historical PD Detail- NOA",
+              "version": 1
+            }
+          }
+        },
+        {
+          "VersionPropId": "7d937907-c02d-5240-b1b1-f641d1e441e0",
+          "VersionId": "62c67b8a-e61b-54c2-a7ef-c515d59fdba5",
+          "Key": "General",
+          "Value": {
+            "segmentationVersionId": "0312ff59-8811-52d8-a161-83e11559a66d"
+          }
+        },
+        {
+          "VersionPropId": "47fb2ffb-abfb-5f88-a3d5-7b753399cdd5",
+          "VersionId": "62c67b8a-e61b-54c2-a7ef-c515d59fdba5",
+          "Key": "Approaches",
+          "Value": {
+            "approaches": [
+              {
+                "approachId": "acfd6a05-bf5a-5dca-9b9a-814a7cf0783e",
+                "name": "Transisition Matrix",
+                "description": "Transisition Matrix",
+                "approachType": "SingleMethod",
+                "segments": [
+                  {
+                    "segmentId": "ef3014f0-7188-5e16-b9cf-39664fa34b5d"
+                  },
+                  {
+                    "segmentId": "ba9e076f-974e-50fb-9d18-fbc479ec2542"
+                  },
+                  {
+                    "segmentId": "c4737a3c-13b6-445d-8c05-700d83d313c3"
+                  },
+                  {
+                    "segmentId": "e42461da-9c51-4a4f-b9fa-7092f2d782d0"
+                  },
+                  {
+                    "segmentId": "8c34c65e-1f4c-4897-952c-7fbda4ce7f28"
+                  },
+                  {
+                    "segmentId": "231b84b8-1ab1-4f95-bc80-e4b42408fa1e"
+                  },
+                  {
+                    "segmentId": "3ad4b9dd-9956-460e-a938-0889b949daae"
+                  },
+                  {
+                    "segmentId": "66b89733-8a21-4d28-bdec-dbcadc121fd1"
+                  },
+                  {
+                    "segmentId": "40feaeed-11d5-4117-beea-9242b24e3ed3"
+                  },
+                  {
+                    "segmentId": "093ba82d-15d1-4ded-b2bc-2cb16c97cdc1"
+                  }
+                ],
+                "method": {
+                  "methodId": "f5fff485-cb1a-57fe-a9e2-5d3f226c9aa3",
+                  "calcMethodId": "1db0e93a-ec0f-4246-8393-e84f087d38a7",
+                  "configuration": {
+                    "observation": {
+                      "observationWindowTimeUnitMultiplicity": 7,
+                      "observationWindowTimeUnit": "Y",
+                      "observePointTimeUnitMultiplicity": 1,
+                      "observePointTimeUnit": "M",
+                      "performanceWindowTimeUnitMultiplicity": 12,
+                      "performanceWindowTimeUnit": "M",
+                      "measurementUnit": "OutstandingAmount",
+                      "everDefault": {
+                        "method": "None"
+                      }
+                    },
+                    "buckets": [
+                      {
+                        "bucketId": "25225889-94e4-5af5-8cba-f8d9ba52c484",
+                        "sequence": 1,
+                        "name": "Bucket 1",
+                        "description": "DPD 0 ",
+                        "type": "Standard",
+                        "creditState": "Transient"
+                      },
+                      {
+                        "bucketId": "c586224d-2c60-5357-9545-18174b60bd2f",
+                        "sequence": 2,
+                        "name": "Bucket 2",
+                        "description": "DPD 1 sd 30",
+                        "type": "Standard",
+                        "creditState": "Transient"
+                      },
+                      {
+                        "bucketId": "79232306-3914-5bd2-ad2e-bcb7502c024e",
+                        "sequence": 3,
+                        "name": "Bucket 3",
+                        "description": "DPD 31 sd 60",
+                        "type": "Standard",
+                        "creditState": "Transient"
+                      },
+                      {
+                        "bucketId": "8e45c9e3-ef22-5da2-9e15-322638cc649c",
+                        "sequence": 4,
+                        "name": "Bucket 4",
+                        "description": "DPD 61 sd 90",
+                        "type": "Standard",
+                        "creditState": "Transient"
+                      },
+                      {
+                        "bucketId": "ae62ea33-31b3-5368-bd0e-2aaffc4a1520",
+                        "sequence": 5,
+                        "name": "Bucket Default",
+                        "description": "DPD >90",
+                        "type": "Default",
+                        "creditState": "Absorbing"
+                      },
+                      {
+                        "bucketId": "684c72f5-b7c4-575a-8ea9-2bbf96174245",
+                        "sequence": 6,
+                        "name": "Bucket Settled",
+                        "description": "Bucket Settled",
+                        "type": "Settled",
+                        "creditState": "Transient"
+                      }
+                    ],
+                    "gapFilling": {
+                      "apply": false,
+                      "bucketId": null
+                    },
+                    "rules": [
+                      {
+                        "ruleId": "42435069-2df4-5858-bf50-0d8f260b7584",
+                        "priority": 1,
+                        "name": "Bucket 1",
+                        "description": "Bucket 1 (DPD 0)",
+                        "bucketId": "25225889-94e4-5af5-8cba-f8d9ba52c484",
+                        "lastModifiedWhen": "2025-10-20T10:47:21.941Z",
+                        "ruleCondition": {
+                          "combinator": "And",
+                          "conditionId": "66e2e11b-29ca-4ab3-972e-94a4aa1b6665",
+                          "conditions": [
+                            {
+                              "field": "DaysPastDue",
+                              "operator": "Equal",
+                              "value": "0",
+                              "conditionId": "53686f55-e550-4672-836d-e68aa72a9de5"
+                            },
+                            {
+                              "field": "IsRestructured",
+                              "operator": "Equal",
+                              "value": "false",
+                              "conditionId": "220f24ce-1d20-4b09-b7d1-dd937b8103cf"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "ruleId": "0062f537-ecef-5bcf-be60-31032037f09e",
+                        "priority": 2,
+                        "name": "Bucket 2",
+                        "description": "Bucket 2 (DPD 1 sd 30)",
+                        "bucketId": "c586224d-2c60-5357-9545-18174b60bd2f",
+                        "lastModifiedWhen": "2025-10-20T10:47:55.808Z",
+                        "ruleCondition": {
+                          "combinator": "And",
+                          "conditionId": "003b359c-9e4c-4f68-9f20-f579d067770e",
+                          "conditions": [
+                            {
+                              "field": "DaysPastDue",
+                              "operator": "GreaterThan",
+                              "value": "0",
+                              "conditionId": "4fcdc686-5321-4253-8191-e565a915f0a3"
+                            },
+                            {
+                              "field": "DaysPastDue",
+                              "operator": "LessThanOrEqual",
+                              "value": "30",
+                              "conditionId": "7385fe08-8138-444a-9363-d836d081aab9"
+                            },
+                            {
+                              "field": "IsRestructured",
+                              "operator": "Equal",
+                              "value": "false",
+                              "conditionId": "07d66773-393f-4482-8cef-a5aaad33bc63"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "ruleId": "79a07aef-e7da-5289-8031-bdf6394b148b",
+                        "priority": 3,
+                        "name": "Bucket 3",
+                        "description": "Bucket 3 (DPD 31 sd 60)",
+                        "bucketId": "79232306-3914-5bd2-ad2e-bcb7502c024e",
+                        "lastModifiedWhen": "2025-10-20T10:48:07.327Z",
+                        "ruleCondition": {
+                          "combinator": "And",
+                          "conditionId": "7d356df8-371c-4e71-9fa5-6d719e0e1be9",
+                          "conditions": [
+                            {
+                              "field": "DaysPastDue",
+                              "operator": "GreaterThan",
+                              "value": "30",
+                              "conditionId": "cc83510c-aac7-46f3-9f82-e6303e24f951"
+                            },
+                            {
+                              "field": "DaysPastDue",
+                              "operator": "LessThanOrEqual",
+                              "value": "60",
+                              "conditionId": "9323c182-7cf0-48cf-a3a0-52050c3075d3"
+                            },
+                            {
+                              "field": "IsRestructured",
+                              "operator": "Equal",
+                              "value": "false",
+                              "conditionId": "53311f82-1f5a-487f-90ac-fc0e88b3a5f5"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "ruleId": "02887f99-d8d4-5f91-9ab6-f5b69271aea6",
+                        "priority": 4,
+                        "name": "Bucket 4",
+                        "description": "Bucket 4 (DPD 61 sd 90)",
+                        "bucketId": "8e45c9e3-ef22-5da2-9e15-322638cc649c",
+                        "lastModifiedWhen": "2025-10-20T10:48:20.129Z",
+                        "ruleCondition": {
+                          "combinator": "And",
+                          "conditionId": "c143ce6d-fe26-4535-b6eb-390f01f33ecd",
+                          "conditions": [
+                            {
+                              "field": "DaysPastDue",
+                              "operator": "GreaterThan",
+                              "value": "60",
+                              "conditionId": "eacdea1d-e7e8-4720-b930-2fe420b7b306"
+                            },
+                            {
+                              "field": "DaysPastDue",
+                              "operator": "LessThanOrEqual",
+                              "value": "89",
+                              "conditionId": "0fd09083-2595-4ef7-92b7-88d26f5d08cc"
+                            },
+                            {
+                              "field": "IsRestructured",
+                              "operator": "Equal",
+                              "value": "false",
+                              "conditionId": "f86519a9-2c2d-4d5e-aff9-6970f6cee5a7"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "ruleId": "fd7ff3b5-07e9-53a4-b603-eb8437bcd913",
+                        "priority": 5,
+                        "name": "Bucket Default",
+                        "description": "Bucket Default (DPD > 90)",
+                        "bucketId": "ae62ea33-31b3-5368-bd0e-2aaffc4a1520",
+                        "lastModifiedWhen": "2025-10-20T10:48:34.869Z",
+                        "ruleCondition": {
+                          "combinator": "Or",
+                          "conditionId": "36876877-4404-4579-97c4-2b80a14ff252",
+                          "conditions": [
+                            {
+                              "field": "DaysPastDue",
+                              "operator": "GreaterThan",
+                              "value": "90",
+                              "conditionId": "f6c6f73d-926a-422e-b35e-97b50f81a351"
+                            },
+                            {
+                              "field": "IsRestructured",
+                              "operator": "Equal",
+                              "value": "true",
+                              "conditionId": "e514cec6-2297-4c1b-8683-c9c40bf88b4a"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "ruleId": "df23e508-d55b-5ccc-bd20-12d84231f76d",
+                        "priority": 6,
+                        "name": "Bucket Settled",
+                        "description": "Bucket Settled",
+                        "bucketId": "684c72f5-b7c4-575a-8ea9-2bbf96174245",
+                        "lastModifiedWhen": "2025-10-20T10:41:57.239Z",
+                        "ruleCondition": {
+                          "combinator": "And",
+                          "conditionId": "203f6054-515b-4179-a0d0-1e9fef5492e7",
+                          "conditions": []
+                        }
+                      }
+                    ],
+                    "consolidation": {
+                      "primaryConsolidation": "SimpleAverage",
+                      "secondaryConsolidations": [],
+                      "curveFitting": {
+                        "apply": false
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "publishRequests": [],
+      "activityExport": {
+        "sourceId": "62c67b8a-e61b-54c2-a7ef-c515d59fdba5",
+        "name": "BSSB Konven - Historical PD Detail - OS_v1",
+        "path": "models/activities",
+        "file": "activities_sourceId_59fdba5.json"
+      }
+    }
+  ]
+}

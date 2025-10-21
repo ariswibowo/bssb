@@ -1,0 +1,26 @@
+{
+  "activities": [
+    {
+      "ActivityId": "d2af8ade-7dee-4ea6-a7e6-7d5f95a1a972",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "52e96a77-c667-4162-ae8a-af530880f1a9",
+      "Source": "Model",
+      "Action": "CreateModel",
+      "Description": "Created model BSSB - Konvensional Stage Asessment",
+      "Trace": null,
+      "Timestamp": "2025-10-20 04:36:53.447296",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "8686f849-6080-4809-a26d-7df2bbd559ac",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "52e96a77-c667-4162-ae8a-af530880f1a9",
+      "Source": "Model",
+      "Action": "UpdateModel",
+      "Description": "Updated model BSSB Konven - Stage Asessment",
+      "Trace": null,
+      "Timestamp": "2025-10-20 06:57:53.060139",
+      "ImpersonatedUserId": null
+    }
+  ]
+}

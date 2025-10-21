@@ -1,0 +1,822 @@
+{
+  "activities": [
+    {
+      "ActivityId": "a499c1c9-92c6-4db3-877a-39f57b03d430",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "4bb757f2-62c3-43b2-bde0-6a89966644ba",
+      "Source": "Version",
+      "Action": "CreateVersion",
+      "Description": "Created version 1 of model BBSB Konven - EAD Outstanding Amount",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "4bb757f2-62c3-43b2-bde0-6a89966644ba",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "createdWhen": "2025-10-20T07:00:01.7141012",
+          "lastModifiedBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "lastModifiedWhen": "2025-10-20T07:00:01.7141012",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "76d254d3-5928-42d4-a4a4-d425ccee3e93",
+            "name": "BBSB Konven - EAD Outstanding Amount",
+            "description": "BBSB Konven - EAD Outstanding Amount",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T07:00:01.7141012",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T07:00:01.7141012",
+            "objectiveType": {
+              "objectiveTypeId": "5ad5186f-c43b-4711-8f25-287818b09bcf",
+              "code": "Ead",
+              "name": "Ead",
+              "description": "Ead Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          },
+          "segmentation": null
+        }
+      },
+      "Timestamp": "2025-10-20 07:00:01.714101",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "a597bbc1-af52-4702-8365-4d46a2d6fed6",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "4bb757f2-62c3-43b2-bde0-6a89966644ba",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BBSB Konven - EAD Outstanding Amount",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "4bb757f2-62c3-43b2-bde0-6a89966644ba",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "createdWhen": "2025-10-20T07:00:01.714101",
+          "lastModifiedBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "lastModifiedWhen": "2025-10-20T07:00:09.1430181",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "76d254d3-5928-42d4-a4a4-d425ccee3e93",
+            "name": "BBSB Konven - EAD Outstanding Amount",
+            "description": "BBSB Konven - EAD Outstanding Amount",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T07:00:01.714101",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T07:00:09.1430181",
+            "objectiveType": {
+              "objectiveTypeId": "5ad5186f-c43b-4711-8f25-287818b09bcf",
+              "code": "Ead",
+              "name": "Ead",
+              "description": "Ead Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          },
+          "segmentation": {
+            "versionId": "6f182c43-89d8-4c7a-82b8-d889f0beee35",
+            "version": 1,
+            "status": "Draft",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T06:54:31.986213",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T06:54:57.925645",
+            "origin": {
+              "origin": {
+                "originType": "New"
+              }
+            },
+            "model": {
+              "modelId": "a1d3b263-6c39-48ce-9f9f-f61bf8c61b6d",
+              "name": "BSSB Konven - All products",
+              "description": "BSSB Konven - All products",
+              "isPrivate": false,
+              "status": "Open",
+              "createdBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "createdWhen": "2025-10-20T06:54:31.986213",
+              "lastModifiedBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "lastModifiedWhen": "2025-10-20T06:54:57.925645",
+              "objectiveType": {
+                "objectiveTypeId": "c84eec4a-5e3d-4e88-bf7f-2c7a22a54d76",
+                "code": "Segmentation",
+                "name": "Segmentation",
+                "description": "Segmentation Model"
+              },
+              "modelType": {
+                "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+                "name": "Simulation",
+                "description": "Model simulation type",
+                "style": {
+                  "border": "solid 1px #36116f",
+                  "backgroundColor": "#563d7c",
+                  "color": "white"
+                }
+              }
+            },
+            "segmentationConfiguration": {
+              "segments": [
+                {
+                  "segmentId": "2d131a71-00cb-4e60-b1d0-2350ceadbe13",
+                  "name": "All products",
+                  "description": "All products",
+                  "category": "All products",
+                  "lastModifiedWhen": "2025-10-20T06:54:45.6037661"
+                }
+              ],
+              "rules": [
+                {
+                  "ruleId": "90c5be4c-5d5c-4dbe-8d36-5d221306063b",
+                  "name": "All products",
+                  "description": "All products",
+                  "priority": 1,
+                  "lastModifiedWhen": "2025-10-20T06:54:57.9255362",
+                  "segments": [
+                    {
+                      "segmentRuleId": "343e47de-72f3-49df-922a-625971d44a07",
+                      "segmentId": "2d131a71-00cb-4e60-b1d0-2350ceadbe13",
+                      "segmentName": "All products",
+                      "priority": 1
+                    }
+                  ]
+                }
+              ],
+              "hierarchies": [],
+              "nodes": [
+                {
+                  "id": "6f182c43-89d8-4c7a-82b8-d889f0beee35",
+                  "path": "/BSSB Konven - All products",
+                  "name": "BSSB Konven - All products",
+                  "description": "BSSB Konven - All products",
+                  "nodeType": "Model"
+                },
+                {
+                  "id": "2d131a71-00cb-4e60-b1d0-2350ceadbe13",
+                  "path": "/BSSB Konven - All products/All products",
+                  "name": "All products",
+                  "description": "All products",
+                  "category": "All products",
+                  "nodeType": "Segment",
+                  "parentId": "6f182c43-89d8-4c7a-82b8-d889f0beee35"
+                }
+              ]
+            },
+            "testSuites": {
+              "testSuites": []
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 07:00:09.162023",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "b3fccf91-be28-4e8a-aa59-682a6d96ac1c",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "4bb757f2-62c3-43b2-bde0-6a89966644ba",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BBSB Konven - EAD Outstanding Amount",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "4bb757f2-62c3-43b2-bde0-6a89966644ba",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "createdWhen": "2025-10-20T07:00:01.714101",
+          "lastModifiedBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "lastModifiedWhen": "2025-10-20T07:00:33.2267253",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "76d254d3-5928-42d4-a4a4-d425ccee3e93",
+            "name": "BBSB Konven - EAD Outstanding Amount",
+            "description": "BBSB Konven - EAD Outstanding Amount",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T07:00:01.714101",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T07:00:33.2267253",
+            "objectiveType": {
+              "objectiveTypeId": "5ad5186f-c43b-4711-8f25-287818b09bcf",
+              "code": "Ead",
+              "name": "Ead",
+              "description": "Ead Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          },
+          "segmentation": {
+            "versionId": "6f182c43-89d8-4c7a-82b8-d889f0beee35",
+            "version": 1,
+            "status": "Draft",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T06:54:31.986213",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T06:54:57.925645",
+            "origin": {
+              "origin": {
+                "originType": "New"
+              }
+            },
+            "model": {
+              "modelId": "a1d3b263-6c39-48ce-9f9f-f61bf8c61b6d",
+              "name": "BSSB Konven - All products",
+              "description": "BSSB Konven - All products",
+              "isPrivate": false,
+              "status": "Open",
+              "createdBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "createdWhen": "2025-10-20T06:54:31.986213",
+              "lastModifiedBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "lastModifiedWhen": "2025-10-20T06:54:57.925645",
+              "objectiveType": {
+                "objectiveTypeId": "c84eec4a-5e3d-4e88-bf7f-2c7a22a54d76",
+                "code": "Segmentation",
+                "name": "Segmentation",
+                "description": "Segmentation Model"
+              },
+              "modelType": {
+                "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+                "name": "Simulation",
+                "description": "Model simulation type",
+                "style": {
+                  "border": "solid 1px #36116f",
+                  "backgroundColor": "#563d7c",
+                  "color": "white"
+                }
+              }
+            },
+            "segmentationConfiguration": {
+              "segments": [
+                {
+                  "segmentId": "2d131a71-00cb-4e60-b1d0-2350ceadbe13",
+                  "name": "All products",
+                  "description": "All products",
+                  "category": "All products",
+                  "lastModifiedWhen": "2025-10-20T06:54:45.6037661"
+                }
+              ],
+              "rules": [
+                {
+                  "ruleId": "90c5be4c-5d5c-4dbe-8d36-5d221306063b",
+                  "name": "All products",
+                  "description": "All products",
+                  "priority": 1,
+                  "lastModifiedWhen": "2025-10-20T06:54:57.9255362",
+                  "segments": [
+                    {
+                      "segmentRuleId": "343e47de-72f3-49df-922a-625971d44a07",
+                      "segmentId": "2d131a71-00cb-4e60-b1d0-2350ceadbe13",
+                      "segmentName": "All products",
+                      "priority": 1
+                    }
+                  ]
+                }
+              ],
+              "hierarchies": [],
+              "nodes": [
+                {
+                  "id": "6f182c43-89d8-4c7a-82b8-d889f0beee35",
+                  "path": "/BSSB Konven - All products",
+                  "name": "BSSB Konven - All products",
+                  "description": "BSSB Konven - All products",
+                  "nodeType": "Model"
+                },
+                {
+                  "id": "2d131a71-00cb-4e60-b1d0-2350ceadbe13",
+                  "path": "/BSSB Konven - All products/All products",
+                  "name": "All products",
+                  "description": "All products",
+                  "category": "All products",
+                  "nodeType": "Segment",
+                  "parentId": "6f182c43-89d8-4c7a-82b8-d889f0beee35"
+                }
+              ]
+            },
+            "testSuites": {
+              "testSuites": []
+            }
+          },
+          "approaches": {
+            "approaches": [
+              {
+                "approachId": "f391637c-5110-41b4-b6e6-cfec638d65ec",
+                "name": "EAD Remaining Outstanding Amount",
+                "description": "EAD Remaining Outstanding Amount",
+                "approachType": "SingleMethod",
+                "segments": [],
+                "method": {
+                  "methodId": "f146aa54-5ae8-4ce4-b2a7-6cd2a0382fc2",
+                  "calcMethodId": "52d6d46f-e388-45b1-aa2f-6925985c5a82",
+                  "calcMethod": {
+                    "calcMethodId": "52d6d46f-e388-45b1-aa2f-6925985c5a82",
+                    "name": "Outstanding Balance",
+                    "description": "Outstanding Balance",
+                    "code": "OutstandingBalance"
+                  },
+                  "configuration": {}
+                }
+              }
+            ]
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 07:00:33.250329",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "70d4095d-aaed-4285-9036-42b98cd988f2",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "4bb757f2-62c3-43b2-bde0-6a89966644ba",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BBSB Konven - EAD Outstanding Amount",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "4bb757f2-62c3-43b2-bde0-6a89966644ba",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "createdWhen": "2025-10-20T07:00:01.714101",
+          "lastModifiedBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "lastModifiedWhen": "2025-10-20T07:00:37.5381485",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "76d254d3-5928-42d4-a4a4-d425ccee3e93",
+            "name": "BBSB Konven - EAD Outstanding Amount",
+            "description": "BBSB Konven - EAD Outstanding Amount",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T07:00:01.714101",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T07:00:37.5381485",
+            "objectiveType": {
+              "objectiveTypeId": "5ad5186f-c43b-4711-8f25-287818b09bcf",
+              "code": "Ead",
+              "name": "Ead",
+              "description": "Ead Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          },
+          "segmentation": {
+            "versionId": "6f182c43-89d8-4c7a-82b8-d889f0beee35",
+            "version": 1,
+            "status": "Draft",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T06:54:31.986213",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T06:54:57.925645",
+            "origin": {
+              "origin": {
+                "originType": "New"
+              }
+            },
+            "model": {
+              "modelId": "a1d3b263-6c39-48ce-9f9f-f61bf8c61b6d",
+              "name": "BSSB Konven - All products",
+              "description": "BSSB Konven - All products",
+              "isPrivate": false,
+              "status": "Open",
+              "createdBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "createdWhen": "2025-10-20T06:54:31.986213",
+              "lastModifiedBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "lastModifiedWhen": "2025-10-20T06:54:57.925645",
+              "objectiveType": {
+                "objectiveTypeId": "c84eec4a-5e3d-4e88-bf7f-2c7a22a54d76",
+                "code": "Segmentation",
+                "name": "Segmentation",
+                "description": "Segmentation Model"
+              },
+              "modelType": {
+                "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+                "name": "Simulation",
+                "description": "Model simulation type",
+                "style": {
+                  "border": "solid 1px #36116f",
+                  "backgroundColor": "#563d7c",
+                  "color": "white"
+                }
+              }
+            },
+            "segmentationConfiguration": {
+              "segments": [
+                {
+                  "segmentId": "2d131a71-00cb-4e60-b1d0-2350ceadbe13",
+                  "name": "All products",
+                  "description": "All products",
+                  "category": "All products",
+                  "lastModifiedWhen": "2025-10-20T06:54:45.6037661"
+                }
+              ],
+              "rules": [
+                {
+                  "ruleId": "90c5be4c-5d5c-4dbe-8d36-5d221306063b",
+                  "name": "All products",
+                  "description": "All products",
+                  "priority": 1,
+                  "lastModifiedWhen": "2025-10-20T06:54:57.9255362",
+                  "segments": [
+                    {
+                      "segmentRuleId": "343e47de-72f3-49df-922a-625971d44a07",
+                      "segmentId": "2d131a71-00cb-4e60-b1d0-2350ceadbe13",
+                      "segmentName": "All products",
+                      "priority": 1
+                    }
+                  ]
+                }
+              ],
+              "hierarchies": [],
+              "nodes": [
+                {
+                  "id": "6f182c43-89d8-4c7a-82b8-d889f0beee35",
+                  "path": "/BSSB Konven - All products",
+                  "name": "BSSB Konven - All products",
+                  "description": "BSSB Konven - All products",
+                  "nodeType": "Model"
+                },
+                {
+                  "id": "2d131a71-00cb-4e60-b1d0-2350ceadbe13",
+                  "path": "/BSSB Konven - All products/All products",
+                  "name": "All products",
+                  "description": "All products",
+                  "category": "All products",
+                  "nodeType": "Segment",
+                  "parentId": "6f182c43-89d8-4c7a-82b8-d889f0beee35"
+                }
+              ]
+            },
+            "testSuites": {
+              "testSuites": []
+            }
+          },
+          "approaches": {
+            "approaches": [
+              {
+                "approachId": "f391637c-5110-41b4-b6e6-cfec638d65ec",
+                "name": "EAD Remaining Outstanding Amount",
+                "description": "EAD Remaining Outstanding Amount",
+                "approachType": "SingleMethod",
+                "segments": [
+                  {
+                    "segmentId": "2d131a71-00cb-4e60-b1d0-2350ceadbe13",
+                    "name": "All products"
+                  }
+                ],
+                "method": {
+                  "methodId": "f146aa54-5ae8-4ce4-b2a7-6cd2a0382fc2",
+                  "calcMethodId": "52d6d46f-e388-45b1-aa2f-6925985c5a82",
+                  "calcMethod": {
+                    "calcMethodId": "52d6d46f-e388-45b1-aa2f-6925985c5a82",
+                    "name": "Outstanding Balance",
+                    "description": "Outstanding Balance",
+                    "code": "OutstandingBalance"
+                  },
+                  "configuration": {}
+                }
+              }
+            ]
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 07:00:37.557012",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "5fb6dccc-4f88-4f38-b239-e64fdb857a9f",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "4bb757f2-62c3-43b2-bde0-6a89966644ba",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BBSB Konven - EAD Outstanding Amount",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "4bb757f2-62c3-43b2-bde0-6a89966644ba",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "createdWhen": "2025-10-20T07:00:01.714101",
+          "lastModifiedBy": {
+            "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+            "name": "Ahmad Ridwan"
+          },
+          "lastModifiedWhen": "2025-10-20T07:00:48.7794242",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "76d254d3-5928-42d4-a4a4-d425ccee3e93",
+            "name": "BBSB Konven - EAD Outstanding Amount",
+            "description": "BBSB Konven - EAD Outstanding Amount",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T07:00:01.714101",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T07:00:48.7794242",
+            "objectiveType": {
+              "objectiveTypeId": "5ad5186f-c43b-4711-8f25-287818b09bcf",
+              "code": "Ead",
+              "name": "Ead",
+              "description": "Ead Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          },
+          "segmentation": {
+            "versionId": "6f182c43-89d8-4c7a-82b8-d889f0beee35",
+            "version": 1,
+            "status": "Draft",
+            "createdBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "createdWhen": "2025-10-20T06:54:31.986213",
+            "lastModifiedBy": {
+              "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+              "name": "Ahmad Ridwan"
+            },
+            "lastModifiedWhen": "2025-10-20T06:54:57.925645",
+            "origin": {
+              "origin": {
+                "originType": "New"
+              }
+            },
+            "model": {
+              "modelId": "a1d3b263-6c39-48ce-9f9f-f61bf8c61b6d",
+              "name": "BSSB Konven - All products",
+              "description": "BSSB Konven - All products",
+              "isPrivate": false,
+              "status": "Open",
+              "createdBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "createdWhen": "2025-10-20T06:54:31.986213",
+              "lastModifiedBy": {
+                "userId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+                "name": "Ahmad Ridwan"
+              },
+              "lastModifiedWhen": "2025-10-20T06:54:57.925645",
+              "objectiveType": {
+                "objectiveTypeId": "c84eec4a-5e3d-4e88-bf7f-2c7a22a54d76",
+                "code": "Segmentation",
+                "name": "Segmentation",
+                "description": "Segmentation Model"
+              },
+              "modelType": {
+                "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+                "name": "Simulation",
+                "description": "Model simulation type",
+                "style": {
+                  "border": "solid 1px #36116f",
+                  "backgroundColor": "#563d7c",
+                  "color": "white"
+                }
+              }
+            },
+            "segmentationConfiguration": {
+              "segments": [
+                {
+                  "segmentId": "2d131a71-00cb-4e60-b1d0-2350ceadbe13",
+                  "name": "All products",
+                  "description": "All products",
+                  "category": "All products",
+                  "lastModifiedWhen": "2025-10-20T06:54:45.6037661"
+                }
+              ],
+              "rules": [
+                {
+                  "ruleId": "90c5be4c-5d5c-4dbe-8d36-5d221306063b",
+                  "name": "All products",
+                  "description": "All products",
+                  "priority": 1,
+                  "lastModifiedWhen": "2025-10-20T06:54:57.9255362",
+                  "segments": [
+                    {
+                      "segmentRuleId": "343e47de-72f3-49df-922a-625971d44a07",
+                      "segmentId": "2d131a71-00cb-4e60-b1d0-2350ceadbe13",
+                      "segmentName": "All products",
+                      "priority": 1
+                    }
+                  ]
+                }
+              ],
+              "hierarchies": [],
+              "nodes": [
+                {
+                  "id": "6f182c43-89d8-4c7a-82b8-d889f0beee35",
+                  "path": "/BSSB Konven - All products",
+                  "name": "BSSB Konven - All products",
+                  "description": "BSSB Konven - All products",
+                  "nodeType": "Model"
+                },
+                {
+                  "id": "2d131a71-00cb-4e60-b1d0-2350ceadbe13",
+                  "path": "/BSSB Konven - All products/All products",
+                  "name": "All products",
+                  "description": "All products",
+                  "category": "All products",
+                  "nodeType": "Segment",
+                  "parentId": "6f182c43-89d8-4c7a-82b8-d889f0beee35"
+                }
+              ]
+            },
+            "testSuites": {
+              "testSuites": []
+            }
+          },
+          "approaches": {
+            "approaches": [
+              {
+                "approachId": "f391637c-5110-41b4-b6e6-cfec638d65ec",
+                "name": "EAD Remaining Outstanding Amount",
+                "description": "EAD Remaining Outstanding Amount",
+                "approachType": "SingleMethod",
+                "segments": [
+                  {
+                    "segmentId": "2d131a71-00cb-4e60-b1d0-2350ceadbe13",
+                    "name": "All products"
+                  }
+                ],
+                "method": {
+                  "methodId": "f146aa54-5ae8-4ce4-b2a7-6cd2a0382fc2",
+                  "calcMethodId": "52d6d46f-e388-45b1-aa2f-6925985c5a82",
+                  "calcMethod": {
+                    "calcMethodId": "52d6d46f-e388-45b1-aa2f-6925985c5a82",
+                    "name": "Outstanding Balance",
+                    "description": "Outstanding Balance",
+                    "code": "OutstandingBalance"
+                  },
+                  "configuration": {
+                    "termStructure": {
+                      "termStructureType": "Monthly"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 07:00:48.797850",
+      "ImpersonatedUserId": null
+    }
+  ]
+}

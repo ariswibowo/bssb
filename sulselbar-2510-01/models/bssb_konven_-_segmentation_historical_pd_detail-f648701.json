@@ -1,0 +1,501 @@
+{
+  "ModelId": "0029f937-988a-58dc-b317-91acff648701",
+  "DomainId": "1c534bff-1288-4a89-a31b-01ee7bda1fde",
+  "Name": "BSSB Konven - Segmentation Historical PD Detail",
+  "Description": "BSSB Konven - Segmentation Historical PD Detail",
+  "ModelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+  "ObjectiveTypeId": "c84eec4a-5e3d-4e88-bf7f-2c7a22a54d76",
+  "ParentDeckId": null,
+  "IsPrivate": false,
+  "Status": "Open",
+  "Data": {
+    "deletionProtection": {
+      "enabled": false
+    }
+  },
+  "LatestVersionId": "0312ff59-8811-52d8-a161-83e11559a66d",
+  "LatestVersion": 1,
+  "LatestStatus": "Draft",
+  "LatestErrors": null,
+  "LatestWarnings": null,
+  "LatestValidatedWhen": null,
+  "PublishedVersions": 0,
+  "ArchivedBy": null,
+  "ArchivedWhen": null,
+  "CreatedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+  "CreatedWhen": "2025-10-20 10:50:20.620350",
+  "LastModifiedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+  "LastModifiedWhen": "2025-10-20 13:27:13.741201",
+  "ObjectiveTypeCode": "Segmentation",
+  "ModelTypeName": "Simulation",
+  "activityExport": {
+    "sourceId": "0029f937-988a-58dc-b317-91acff648701",
+    "name": "BSSB Konven - Segmentation Historical PD Detail",
+    "path": "models/activities",
+    "file": "activities_sourceId_f648701.json"
+  },
+  "versions": [
+    {
+      "VersionId": "0312ff59-8811-52d8-a161-83e11559a66d",
+      "ModelId": "0029f937-988a-58dc-b317-91acff648701",
+      "Version": 1,
+      "Description": "Initial Version",
+      "Status": "Draft",
+      "PublishedBy": null,
+      "PublishedWhen": null,
+      "PublishComments": null,
+      "ExpiryDate": null,
+      "ArchivedBy": null,
+      "ArchivedWhen": null,
+      "ConcurrencyId": "0451c332-6877-4613-ae4c-ee604275df7f",
+      "CreatedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "CreatedWhen": "2025-10-20 10:50:20.717897",
+      "LastModifiedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "LastModifiedWhen": "2025-10-20 13:27:13.741201",
+      "versionProps": [
+        {
+          "VersionPropId": "5e6a6ffd-0218-402c-a414-d005135531ee",
+          "VersionId": "0312ff59-8811-52d8-a161-83e11559a66d",
+          "Key": "Origin",
+          "Value": {
+            "origin": {
+              "originType": "Clone",
+              "originVersionId": "52178d96-570f-58de-a0c7-c1114ddec3a7",
+              "originModelId": "7c395fb5-a108-5b34-af53-1bca354f1918",
+              "name": "BSSB Konven - Segmentation Historical PD Group",
+              "version": 1
+            }
+          }
+        },
+        {
+          "VersionPropId": "e847222a-7419-5b3f-9fe1-c37b0c87f717",
+          "VersionId": "0312ff59-8811-52d8-a161-83e11559a66d",
+          "Key": "TestSuites",
+          "Value": {
+            "testSuites": []
+          }
+        },
+        {
+          "VersionPropId": "c28098f9-7d36-50cc-9908-8e5a2b6c9fb0",
+          "VersionId": "0312ff59-8811-52d8-a161-83e11559a66d",
+          "Key": "SegmentationConfiguration",
+          "Value": {
+            "segments": [
+              {
+                "segmentId": "ef3014f0-7188-5e16-b9cf-39664fa34b5d",
+                "name": "PD Investasi Korporasi",
+                "description": "PD Investasi",
+                "category": "PD Investasi",
+                "lastModifiedWhen": "2025-10-20T07:02:23.6279377"
+              },
+              {
+                "segmentId": "ba9e076f-974e-50fb-9d18-fbc479ec2542",
+                "name": "PD Kredit Lainnya - KPR",
+                "description": "PD Kredit Lainnya - KPR",
+                "category": "PD Kredit Lainnya - KPR",
+                "lastModifiedWhen": "2025-10-20T07:02:44.2040717"
+              },
+              {
+                "segmentId": "c4737a3c-13b6-445d-8c05-700d83d313c3",
+                "name": "PD Investasi Menengah",
+                "description": "PD Investasi Menengah",
+                "category": "PD Investasi Menengah",
+                "lastModifiedWhen": "2025-10-20T13:04:06.9526023"
+              },
+              {
+                "segmentId": "e42461da-9c51-4a4f-b9fa-7092f2d782d0",
+                "name": "PD Investasi Kecil",
+                "description": "PD Investasi Kecil",
+                "category": "PD Investasi Kecil",
+                "lastModifiedWhen": "2025-10-20T13:04:18.4517157"
+              },
+              {
+                "segmentId": "8c34c65e-1f4c-4897-952c-7fbda4ce7f28",
+                "name": "PD Investasi Mikro",
+                "description": "PD Investasi Mikro",
+                "category": "PD Investasi Mikro",
+                "lastModifiedWhen": "2025-10-20T13:04:32.8716458"
+              },
+              {
+                "segmentId": "231b84b8-1ab1-4f95-bc80-e4b42408fa1e",
+                "name": "PD Modal Kerja Korporasi",
+                "description": "PD Modal Kerja Korporasi",
+                "category": "PD Modal Kerja Korporasi",
+                "lastModifiedWhen": "2025-10-20T13:04:51.5538582"
+              },
+              {
+                "segmentId": "3ad4b9dd-9956-460e-a938-0889b949daae",
+                "name": "PD Modal Kerja Menengah",
+                "description": "PD Modal Kerja Menengah",
+                "category": "PD Modal Kerja Menengah",
+                "lastModifiedWhen": "2025-10-20T13:05:04.6335985"
+              },
+              {
+                "segmentId": "66b89733-8a21-4d28-bdec-dbcadc121fd1",
+                "name": "PD Modal Kerja Kecil",
+                "description": "PD Modal Kerja Kecil",
+                "category": "PD Modal Kerja Kecil",
+                "lastModifiedWhen": "2025-10-20T13:05:19.0077405"
+              },
+              {
+                "segmentId": "40feaeed-11d5-4117-beea-9242b24e3ed3",
+                "name": "PD Modal Kerja Mikro",
+                "description": "PD Modal Kerja Mikro",
+                "category": "PD Modal Kerja Mikro",
+                "lastModifiedWhen": "2025-10-20T13:05:29.7514049"
+              },
+              {
+                "segmentId": "093ba82d-15d1-4ded-b2bc-2cb16c97cdc1",
+                "name": "PD Kredit Lainnya - Non KPR",
+                "description": "PD Kredit Lainnya - Non KPR",
+                "category": "PD Kredit Lainnya - Non KPR",
+                "lastModifiedWhen": "2025-10-20T13:05:58.7412717"
+              }
+            ],
+            "rules": [
+              {
+                "ruleId": "3a7d869f-6949-55d3-8ba3-bebd09c4d675",
+                "name": "Rules segment PD investasi korporasi",
+                "description": "Rules segment PD investasi korporasi",
+                "priority": 1,
+                "lastModifiedWhen": "2025-10-20T13:23:34.8687666",
+                "segments": [
+                  {
+                    "segmentRuleId": "4e454bc0-1443-5b6c-a25a-d04fc8110a9d",
+                    "segmentId": "ef3014f0-7188-5e16-b9cf-39664fa34b5d",
+                    "segmentName": "LGD Investasi",
+                    "priority": 1,
+                    "condition": {
+                      "conditionId": "cbb4204f-beb1-4c8e-87fe-86224f10d31a",
+                      "conditions": [
+                        {
+                          "conditionId": "b92ff846-7ec7-4cf0-b94f-8454274ce213",
+                          "field": "AntasenaJenisPengguna",
+                          "operator": "Equal",
+                          "value": "2"
+                        },
+                        {
+                          "conditionId": "d591f920-2ad9-4cf2-8a03-c88e4a6482a7",
+                          "field": "AntasenaKategoriDebitur",
+                          "operator": "Equal",
+                          "value": "NU"
+                        }
+                      ],
+                      "combinator": "And"
+                    }
+                  }
+                ]
+              },
+              {
+                "ruleId": "9aa675ba-484c-53cc-bd6d-da7ba90c50f7",
+                "name": "Rules segment PD modal kerja korporasi",
+                "description": "Rules segment PD modal kerja korporasi",
+                "priority": 5,
+                "lastModifiedWhen": "2025-10-20T13:23:34.876278",
+                "segments": [
+                  {
+                    "segmentRuleId": "6a477b0c-ab90-47c2-85fa-ebf0f3651301",
+                    "segmentId": "231b84b8-1ab1-4f95-bc80-e4b42408fa1e",
+                    "segmentName": "PD Modal Kerja Korporasi",
+                    "priority": 1,
+                    "condition": {
+                      "conditionId": "0b9cee5a-cf33-40ca-8dae-5ad5d5f42c8a",
+                      "conditions": [
+                        {
+                          "conditionId": "c3d27f3b-1ffa-4877-b271-d54c36f192b7",
+                          "field": "AntasenaJenisPengguna",
+                          "operator": "Equal",
+                          "value": "1"
+                        },
+                        {
+                          "conditionId": "f8fe0d88-d45d-42a7-91ec-ebcfa979bf0d",
+                          "field": "AntasenaKategoriDebitur",
+                          "operator": "Equal",
+                          "value": "NU"
+                        }
+                      ],
+                      "combinator": "And"
+                    }
+                  }
+                ]
+              },
+              {
+                "ruleId": "41306113-87cd-50d9-a149-ef662bada736",
+                "name": "Rules segment PD kredit lainya KPR",
+                "description": "Rules segment PD kredit lainya KPR",
+                "priority": 9,
+                "lastModifiedWhen": "2025-10-20T13:25:45.3825092",
+                "segments": [
+                  {
+                    "segmentRuleId": "9fd8c043-3c69-5b11-9703-11e48a8ef312",
+                    "segmentId": "ba9e076f-974e-50fb-9d18-fbc479ec2542",
+                    "segmentName": "LGD Kredit Lainya",
+                    "priority": 1,
+                    "condition": {
+                      "conditionId": "9708a8f9-7f69-445d-90a5-b0919023d8c0",
+                      "conditions": [
+                        {
+                          "conditionId": "6e554a1a-e7fb-4b9f-9a96-5121766df5c5",
+                          "field": "ProductSubtype",
+                          "operator": "In",
+                          "value": "",
+                          "values": [
+                            "BSSB-K603",
+                            "BSSB-K604"
+                          ]
+                        },
+                        {
+                          "conditionId": "9db554f6-1c64-418c-b372-55e1f9f8114d",
+                          "field": "AntasenaJenisPengguna",
+                          "operator": "Equal",
+                          "value": "3"
+                        }
+                      ],
+                      "combinator": "And"
+                    }
+                  }
+                ]
+              },
+              {
+                "ruleId": "6eec099a-06c5-4979-bafa-779cef407ec7",
+                "name": "Rules segment PD investasi menengah",
+                "description": "Rules segment PD investasi menengah",
+                "priority": 2,
+                "lastModifiedWhen": "2025-10-20T13:23:34.870728",
+                "segments": [
+                  {
+                    "segmentRuleId": "f79f4841-a45a-4881-9aa3-956e32235b36",
+                    "segmentId": "c4737a3c-13b6-445d-8c05-700d83d313c3",
+                    "segmentName": "PD Investasi Menengah",
+                    "priority": 1,
+                    "condition": {
+                      "conditionId": "68835b7c-eaa8-4eed-b72d-a52e004fdfeb",
+                      "conditions": [
+                        {
+                          "conditionId": "ef72f0fe-dfac-4d34-886d-036306a91e7e",
+                          "field": "AntasenaJenisPengguna",
+                          "operator": "Equal",
+                          "value": "2"
+                        },
+                        {
+                          "conditionId": "29c821f4-0ea0-4686-b59d-f360aa0bff1d",
+                          "field": "AntasenaKategoriDebitur",
+                          "operator": "Equal",
+                          "value": "UT"
+                        }
+                      ],
+                      "combinator": "And"
+                    }
+                  }
+                ]
+              },
+              {
+                "ruleId": "08eb6108-5bba-462d-a378-7f9b2f64d06b",
+                "name": "Rules segment PD investasi kecil",
+                "description": "Rules segment PD investasi kecil",
+                "priority": 3,
+                "lastModifiedWhen": "2025-10-20T13:23:34.8725328",
+                "segments": [
+                  {
+                    "segmentRuleId": "08eff1ff-f213-48e3-a21c-61bc424afe44",
+                    "segmentId": "e42461da-9c51-4a4f-b9fa-7092f2d782d0",
+                    "segmentName": "PD Investasi Kecil",
+                    "priority": 1,
+                    "condition": {
+                      "conditionId": "5307e9dc-00f4-4a23-b79f-f2c6291287f2",
+                      "conditions": [
+                        {
+                          "conditionId": "e9824142-6e81-4903-84f0-9e82cf3956df",
+                          "field": "AntasenaJenisPengguna",
+                          "operator": "Equal",
+                          "value": "2"
+                        },
+                        {
+                          "conditionId": "8784f756-bfa4-4d55-882d-3d78ce113756",
+                          "field": "AntasenaKategoriDebitur",
+                          "operator": "Equal",
+                          "value": "UK"
+                        }
+                      ],
+                      "combinator": "And"
+                    }
+                  }
+                ]
+              },
+              {
+                "ruleId": "d02678c5-ade4-44d6-9f8b-eefc689320b7",
+                "name": "Rules segment PD Investasi mikro",
+                "description": "Rules segment PD Investasi mikro",
+                "priority": 4,
+                "lastModifiedWhen": "2025-10-20T13:23:34.8744453",
+                "segments": [
+                  {
+                    "segmentRuleId": "496f9aa1-81c0-48df-8f94-d3e37ace9453",
+                    "segmentId": "8c34c65e-1f4c-4897-952c-7fbda4ce7f28",
+                    "segmentName": "PD Investasi Mikro",
+                    "priority": 1,
+                    "condition": {
+                      "conditionId": "94aab612-3556-42a5-b152-5af4f935304b",
+                      "conditions": [
+                        {
+                          "conditionId": "cb73cbf7-eb8c-4a30-880b-cfd418a2154e",
+                          "field": "AntasenaJenisPengguna",
+                          "operator": "Equal",
+                          "value": "2"
+                        },
+                        {
+                          "conditionId": "edba31cf-0250-4693-9c66-7d48b22920db",
+                          "field": "AntasenaKategoriDebitur",
+                          "operator": "Equal",
+                          "value": "UM"
+                        }
+                      ],
+                      "combinator": "And"
+                    }
+                  }
+                ]
+              },
+              {
+                "ruleId": "20c5686f-a0b4-4304-a3f1-e51932e6280d",
+                "name": "Rules segment PD modal kerja menengah",
+                "description": "Rules segment PD modal kerja menengah",
+                "priority": 6,
+                "lastModifiedWhen": "2025-10-20T13:23:34.8780781",
+                "segments": [
+                  {
+                    "segmentRuleId": "162a8340-00c4-4345-bffa-d6922fc9ca66",
+                    "segmentId": "3ad4b9dd-9956-460e-a938-0889b949daae",
+                    "segmentName": "PD Modal Kerja Menengah",
+                    "priority": 1,
+                    "condition": {
+                      "conditionId": "57640270-3225-4212-84a3-d4bb067bf8eb",
+                      "conditions": [
+                        {
+                          "conditionId": "fcc1cd13-f9db-4d85-97e2-5f48ea4654cb",
+                          "field": "AntasenaJenisPengguna",
+                          "operator": "Equal",
+                          "value": "1"
+                        },
+                        {
+                          "conditionId": "d81dbdc4-6b76-4b93-b67a-accef68d27bc",
+                          "field": "AntasenaKategoriDebitur",
+                          "operator": "Equal",
+                          "value": "UT"
+                        }
+                      ],
+                      "combinator": "And"
+                    }
+                  }
+                ]
+              },
+              {
+                "ruleId": "e55bfbd4-3ec3-4ddc-aaf5-6e8269113ea0",
+                "name": "Rules segment PD modal kerja kecil",
+                "description": "Rules segment PD modal kerja kecil",
+                "priority": 7,
+                "lastModifiedWhen": "2025-10-20T13:23:34.8798501",
+                "segments": [
+                  {
+                    "segmentRuleId": "cbed89c0-b224-4f18-af0d-24ff8e40cb68",
+                    "segmentId": "66b89733-8a21-4d28-bdec-dbcadc121fd1",
+                    "segmentName": "PD Modal Kerja Kecil",
+                    "priority": 1,
+                    "condition": {
+                      "conditionId": "fdd7b498-f5f3-416f-829f-64d4e696bb89",
+                      "conditions": [
+                        {
+                          "conditionId": "dc59969c-51f1-4bbc-a3f0-12049d5a9856",
+                          "field": "AntasenaJenisPengguna",
+                          "operator": "Equal",
+                          "value": "1"
+                        },
+                        {
+                          "conditionId": "4b891e8e-84ce-4ffb-ba1e-35e5b9fa9037",
+                          "field": "AntasenaKategoriDebitur",
+                          "operator": "Equal",
+                          "value": "UK"
+                        }
+                      ],
+                      "combinator": "And"
+                    }
+                  }
+                ]
+              },
+              {
+                "ruleId": "ea38fd3f-be90-46c4-9498-7ffdbe534bdf",
+                "name": "Rules segment PD modal kerja mikro",
+                "description": "Rules segment PD modal kerja mikro",
+                "priority": 8,
+                "lastModifiedWhen": "2025-10-20T13:24:35.2638695",
+                "segments": [
+                  {
+                    "segmentRuleId": "47bef22e-256a-4510-8054-37efcd34a3ec",
+                    "segmentId": "40feaeed-11d5-4117-beea-9242b24e3ed3",
+                    "segmentName": "PD Modal Kerja Mikro",
+                    "priority": 1,
+                    "condition": {
+                      "conditionId": "7d2400ac-7ae1-479b-8b3c-42764f3754e6",
+                      "conditions": [
+                        {
+                          "conditionId": "553e6632-4373-480b-8ead-bc5ae30c06ec",
+                          "field": "AntasenaJenisPengguna",
+                          "operator": "Equal",
+                          "value": "1"
+                        },
+                        {
+                          "conditionId": "1c90fe4f-c47a-4403-87d3-8cf5728b2653",
+                          "field": "AntasenaKategoriDebitur",
+                          "operator": "Equal",
+                          "value": "UM"
+                        }
+                      ],
+                      "combinator": "And"
+                    }
+                  }
+                ]
+              },
+              {
+                "ruleId": "ffdc5a16-e1f6-4165-8d32-82fdbeba596f",
+                "name": "Rules segment PD kredit lainya Non KPR",
+                "description": "Rules segment PD kredit lainya Non KPR",
+                "priority": 10,
+                "lastModifiedWhen": "2025-10-20T13:27:13.740987",
+                "segments": [
+                  {
+                    "segmentRuleId": "8006e6eb-96c3-479d-b419-cc18f5f5f0d9",
+                    "segmentId": "093ba82d-15d1-4ded-b2bc-2cb16c97cdc1",
+                    "segmentName": "PD Kredit Lainnya - Non KPR",
+                    "priority": 1,
+                    "condition": {
+                      "conditionId": "394a7368-8194-405d-8220-8925799a504c",
+                      "conditions": [
+                        {
+                          "conditionId": "8a1672a7-d01f-49c8-ba94-f7e5c71eb325",
+                          "field": "ProductSubtype",
+                          "operator": "In",
+                          "value": "",
+                          "values": [
+                            "BSSB-K604"
+                          ]
+                        }
+                      ],
+                      "combinator": "And"
+                    }
+                  }
+                ]
+              }
+            ],
+            "hierarchies": []
+          }
+        }
+      ],
+      "publishRequests": [],
+      "activityExport": {
+        "sourceId": "0312ff59-8811-52d8-a161-83e11559a66d",
+        "name": "BSSB Konven - Segmentation Historical PD Detail_v1",
+        "path": "models/activities",
+        "file": "activities_sourceId_559a66d.json"
+      }
+    }
+  ]
+}

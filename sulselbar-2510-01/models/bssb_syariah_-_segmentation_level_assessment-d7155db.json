@@ -1,0 +1,122 @@
+{
+  "ModelId": "c2efcbef-4d87-573e-8c06-03951d7155db",
+  "DomainId": "1c534bff-1288-4a89-a31b-01ee7bda1fde",
+  "Name": "BSSB Syariah - Segmentation Level Assessment",
+  "Description": "BSSB Syariah - Segmentation Level Assessment",
+  "ModelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+  "ObjectiveTypeId": "c84eec4a-5e3d-4e88-bf7f-2c7a22a54d76",
+  "ParentDeckId": null,
+  "IsPrivate": false,
+  "Status": "Open",
+  "Data": {
+    "deletionProtection": {
+      "enabled": false
+    }
+  },
+  "LatestVersionId": "0883f4a1-41b0-5f6a-827f-9b523ba5f5f9",
+  "LatestVersion": 1,
+  "LatestStatus": "Draft",
+  "LatestErrors": null,
+  "LatestWarnings": null,
+  "LatestValidatedWhen": null,
+  "PublishedVersions": 0,
+  "ArchivedBy": null,
+  "ArchivedWhen": null,
+  "CreatedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+  "CreatedWhen": "2025-10-20 13:43:38.143028",
+  "LastModifiedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+  "LastModifiedWhen": "2025-10-20 13:45:45.313829",
+  "ObjectiveTypeCode": "Segmentation",
+  "ModelTypeName": "Simulation",
+  "activityExport": {
+    "sourceId": "c2efcbef-4d87-573e-8c06-03951d7155db",
+    "name": "BSSB Syariah - Segmentation Level Assessment",
+    "path": "models/activities",
+    "file": "activities_sourceId_d7155db.json"
+  },
+  "versions": [
+    {
+      "VersionId": "0883f4a1-41b0-5f6a-827f-9b523ba5f5f9",
+      "ModelId": "c2efcbef-4d87-573e-8c06-03951d7155db",
+      "Version": 1,
+      "Description": "Initial Version",
+      "Status": "Draft",
+      "PublishedBy": null,
+      "PublishedWhen": null,
+      "PublishComments": null,
+      "ExpiryDate": null,
+      "ArchivedBy": null,
+      "ArchivedWhen": null,
+      "ConcurrencyId": "48cc3b5a-db44-4ba7-88f6-758ced3b84b9",
+      "CreatedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "CreatedWhen": "2025-10-20 13:43:38.242476",
+      "LastModifiedBy": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "LastModifiedWhen": "2025-10-20 13:45:45.313829",
+      "versionProps": [
+        {
+          "VersionPropId": "1ada2238-827d-5438-9a28-f901c8b4241f",
+          "VersionId": "0883f4a1-41b0-5f6a-827f-9b523ba5f5f9",
+          "Key": "TestSuites",
+          "Value": {
+            "testSuites": []
+          }
+        },
+        {
+          "VersionPropId": "fcbfa409-b74f-42ab-94e9-bb287f67cb70",
+          "VersionId": "0883f4a1-41b0-5f6a-827f-9b523ba5f5f9",
+          "Key": "Origin",
+          "Value": {
+            "origin": {
+              "originType": "Clone",
+              "originVersionId": "2877598e-c69a-4e4d-be20-d02bf88f3bc1",
+              "originModelId": "93fbdcf5-737f-4976-a141-de998063ac19",
+              "name": "BSSB Konven - Segmentation Level Assessment",
+              "version": 1
+            }
+          }
+        },
+        {
+          "VersionPropId": "0e06af99-0212-5f17-8813-18b645e3e816",
+          "VersionId": "0883f4a1-41b0-5f6a-827f-9b523ba5f5f9",
+          "Key": "SegmentationConfiguration",
+          "Value": {
+            "segments": [
+              {
+                "segmentId": "4c037ae8-6860-5fb1-b85b-575f3d9a07b1",
+                "name": "All contract syariah",
+                "description": "All contract syariah",
+                "category": "All contract syariah",
+                "lastModifiedWhen": "2025-10-20T02:58:19.2739807"
+              }
+            ],
+            "rules": [
+              {
+                "ruleId": "c39ca274-d36d-588e-bdc6-2772faf9e3a6",
+                "name": "All contract syariah",
+                "description": "All contract syariah",
+                "priority": 1,
+                "lastModifiedWhen": "2025-10-20T13:45:45.3137701",
+                "segments": [
+                  {
+                    "segmentRuleId": "49b27a55-e8fc-56fd-903a-8b7b0465d7a5",
+                    "segmentId": "4c037ae8-6860-5fb1-b85b-575f3d9a07b1",
+                    "segmentName": "All contract konvensional",
+                    "priority": 1
+                  }
+                ]
+              }
+            ],
+            "hierarchies": []
+          }
+        }
+      ],
+      "publishRequests": [],
+      "activityExport": {
+        "sourceId": "0883f4a1-41b0-5f6a-827f-9b523ba5f5f9",
+        "name": "BSSB Syariah - Segmentation Level Assessment_v1",
+        "path": "models/activities",
+        "file": "activities_sourceId_ba5f5f9.json"
+      }
+    }
+  ]
+}

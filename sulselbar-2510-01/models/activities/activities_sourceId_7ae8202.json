@@ -1,0 +1,26 @@
+{
+  "activities": [
+    {
+      "ActivityId": "e01d5424-3af3-4997-9ce3-44e863695c82",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "3763e799-f939-47e8-985e-7de5b7ae8202",
+      "Source": "Model",
+      "Action": "CreateModel",
+      "Description": "Created model BSSB - Konven - Level Assessment",
+      "Trace": null,
+      "Timestamp": "2025-10-20 03:00:54.405586",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "526223c8-5dd3-4567-8a5b-411afd2756f0",
+      "UserId": "856e360c-fa79-41e7-a5e4-a076c1d30502",
+      "SourceId": "3763e799-f939-47e8-985e-7de5b7ae8202",
+      "Source": "Model",
+      "Action": "UpdateModel",
+      "Description": "Updated model BSSB Konven - Level Asessment",
+      "Trace": null,
+      "Timestamp": "2025-10-20 06:58:30.139086",
+      "ImpersonatedUserId": null
+    }
+  ]
+}
