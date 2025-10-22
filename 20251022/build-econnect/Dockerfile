@@ -8,4 +8,4 @@ RUN mkdir -p /home/EConnect/
 
 WORKDIR /home/EConnect
 
-COPY src/ElysianNxt.EConnect/bin/Release/PublishOutput /home/EConnect/
+COPY PublishOutput /home/EConnect/
