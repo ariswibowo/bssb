@@ -25,7 +25,7 @@
   "CreatedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
   "CreatedWhen": "2025-09-30 04:20:06.527882",
   "LastModifiedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
-  "LastModifiedWhen": "2025-10-21 15:02:09.698715",
+  "LastModifiedWhen": "2025-10-22 00:15:13.560504",
   "ObjectiveTypeCode": "DataFeeds",
   "ModelTypeName": "Simulation",
   "activityExport": {
@@ -47,11 +47,11 @@
       "ExpiryDate": null,
       "ArchivedBy": null,
       "ArchivedWhen": null,
-      "ConcurrencyId": "1479aa69-36cf-4c8a-a779-8a32e1cf4d0e",
+      "ConcurrencyId": "dd7bf03c-8684-4bcd-94f8-9e9a6a46b5ba",
       "CreatedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
       "CreatedWhen": "2025-09-30 04:20:06.527882",
       "LastModifiedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
-      "LastModifiedWhen": "2025-10-21 15:02:09.698715",
+      "LastModifiedWhen": "2025-10-22 00:15:13.560504",
       "versionProps": [
         {
           "VersionPropId": "94e159e2-a8d1-4830-8c3d-a1390b988855",
@@ -3713,10 +3713,6 @@
                                     {
                                       "type": "Map",
                                       "fromProperty": "origin_contract_id"
-                                    },
-                                    {
-                                      "type": "FixedValue",
-                                      "fromValue": "MANUAL_PENYERTAAN"
                                     }
                                   ]
                                 }
@@ -3745,7 +3741,7 @@
                               "transformations": [
                                 {
                                   "type": "FixedValue",
-                                  "fromValue": "KONVEN"
+                                  "fromValue": "SSB-KONVEN"
                                 }
                               ]
                             },
@@ -3920,8 +3916,7 @@
                               "transformations": [
                                 {
                                   "type": "FixedValue",
-                                  "fromValue": "ContractProps",
-                                  "comment": ""
+                                  "fromValue": "ContractProps"
                                 }
                               ]
                             },
@@ -4011,8 +4006,8 @@
                               "toProperty": "BusinessUnit",
                               "transformations": [
                                 {
-                                  "type": "Map",
-                                  "fromProperty": "business_unit"
+                                  "type": "FixedValue",
+                                  "fromValue": "Konvensional"
                                 }
                               ]
                             },
@@ -4105,8 +4100,8 @@
                               "toProperty": "Entity",
                               "transformations": [
                                 {
-                                  "type": "Map",
-                                  "fromProperty": "entity"
+                                  "type": "FixedValue",
+                                  "fromValue": "SSB-KONVEN"
                                 }
                               ]
                             },
