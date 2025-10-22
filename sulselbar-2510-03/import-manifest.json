@@ -1,0 +1,197 @@
+{
+  "import": {
+    "importEnvironment": "LOCAL",
+    "imports": [
+      {
+        "name": "Data Mgmt Models",
+        "importType": "Models",
+        "importSettings": {
+          "path": "models",
+          "file": "bssb_-_data_adjustment-2d62704.json",
+          "dupHandlingApproach": "Delete",
+          "replaceUsers": true,
+          "sourceTokens": {
+            "ifrs9StudioUrl": "https://localhost/studio",
+            "eDrivePublicUrl": "https://localhost:5004",
+            "eDriveAvatarPath": "/avatars"
+          }
+        }
+      },
+      {
+        "name": "Data Mgmt Models",
+        "importType": "Models",
+        "importSettings": {
+          "path": "models",
+          "file": "bssb_-_data_quality-646cf9e.json",
+          "dupHandlingApproach": "Delete",
+          "replaceUsers": true,
+          "sourceTokens": {
+            "ifrs9StudioUrl": "https://localhost/studio",
+            "eDrivePublicUrl": "https://localhost:5004",
+            "eDriveAvatarPath": "/avatars"
+          }
+        }
+      },
+      {
+        "name": "Data Mgmt Models",
+        "importType": "Models",
+        "importSettings": {
+          "path": "models",
+          "file": "bssb_-_data_feeds-217fd7c.json",
+          "dupHandlingApproach": "Delete",
+          "replaceUsers": true,
+          "sourceTokens": {
+            "ifrs9StudioUrl": "https://localhost/studio",
+            "eDrivePublicUrl": "https://localhost:5004",
+            "eDriveAvatarPath": "/avatars"
+          }
+        }
+      },
+      {
+        "name": "Data Mgmt Models",
+        "importType": "Models",
+        "importSettings": {
+          "path": "models",
+          "file": "bssb_-_quality_profiles-87f4fb3.json",
+          "dupHandlingApproach": "Delete",
+          "replaceUsers": true,
+          "sourceTokens": {
+            "ifrs9StudioUrl": "https://localhost/studio",
+            "eDrivePublicUrl": "https://localhost:5004",
+            "eDriveAvatarPath": "/avatars"
+          }
+        }
+      },
+      {
+        "name": "ReportingDate initialization policy",
+        "importType": "Policies",
+        "importSettings": {
+          "path": "policies",
+          "file": "reportingdateinitialization-51bef83.json",
+          "database": "Fdr",
+          "table": "Policies",
+          "scope": null,
+          "migrateDefaultPolicy": false,
+          "migrateActivePolicy": true
+        }
+      },
+      {
+        "name": "All PortfolioContent",
+        "importType": "PortfolioContent",
+        "importSettings": {
+          "path": "portfolioContent",
+          "file": "data_quality_analysis-73e639b.json",
+          "dupHandlingApproach": "Delete"
+        }
+      },
+      {
+        "name": "All PortfolioContent",
+        "importType": "PortfolioContent",
+        "importSettings": {
+          "path": "portfolioContent",
+          "file": "portfolio-e84652c.json",
+          "dupHandlingApproach": "Delete"
+        }
+      },
+      {
+        "name": "All PortfolioContent",
+        "importType": "PortfolioContent",
+        "importSettings": {
+          "path": "portfolioContent",
+          "file": "contracts-defcd38.json",
+          "dupHandlingApproach": "Delete"
+        }
+      },
+      {
+        "name": "All PortfolioContent",
+        "importType": "PortfolioContent",
+        "importSettings": {
+          "path": "portfolioContent",
+          "file": "contract_query-0392af0.json",
+          "dupHandlingApproach": "Delete"
+        }
+      },
+      {
+        "name": "All PortfolioContent",
+        "importType": "PortfolioContent",
+        "importSettings": {
+          "path": "portfolioContent",
+          "file": "contract-4ab0d7b.json",
+          "dupHandlingApproach": "Delete"
+        }
+      },
+      {
+        "name": "All PortfolioContent",
+        "importType": "PortfolioContent",
+        "importSettings": {
+          "path": "portfolioContent",
+          "file": "counterparties-cbb587c.json",
+          "dupHandlingApproach": "Delete"
+        }
+      },
+      {
+        "name": "All PortfolioContent",
+        "importType": "PortfolioContent",
+        "importSettings": {
+          "path": "portfolioContent",
+          "file": "couterparty_query-7876d5a.json",
+          "dupHandlingApproach": "Delete"
+        }
+      },
+      {
+        "name": "All PortfolioContent",
+        "importType": "PortfolioContent",
+        "importSettings": {
+          "path": "portfolioContent",
+          "file": "counterparty-cc908e2.json",
+          "dupHandlingApproach": "Delete"
+        }
+      },
+      {
+        "name": "All PortfolioContent",
+        "importType": "PortfolioContent",
+        "importSettings": {
+          "path": "portfolioContent",
+          "file": "facilities-274bc90.json",
+          "dupHandlingApproach": "Delete"
+        }
+      },
+      {
+        "name": "All PortfolioContent",
+        "importType": "PortfolioContent",
+        "importSettings": {
+          "path": "portfolioContent",
+          "file": "facility_query-7743293.json",
+          "dupHandlingApproach": "Delete"
+        }
+      },
+      {
+        "name": "All PortfolioContent",
+        "importType": "PortfolioContent",
+        "importSettings": {
+          "path": "portfolioContent",
+          "file": "facility-f67b918.json",
+          "dupHandlingApproach": "Delete"
+        }
+      },
+      {
+        "name": "All PortfolioContent",
+        "importType": "PortfolioContent",
+        "importSettings": {
+          "path": "portfolioContent",
+          "file": "search-67ff92c.json",
+          "dupHandlingApproach": "Delete"
+        }
+      },
+      {
+        "name": "All PortfolioContent",
+        "importType": "PortfolioContent",
+        "importSettings": {
+          "path": "portfolioContent",
+          "file": "portfolio_home-89ea754.json",
+          "dupHandlingApproach": "Delete"
+        }
+      }
+    ]
+  }
+}

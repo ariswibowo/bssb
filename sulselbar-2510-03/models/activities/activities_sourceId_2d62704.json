@@ -1,0 +1,26 @@
+{
+  "activities": [
+    {
+      "ActivityId": "2125245c-8a3e-44fd-8a11-6f580e3fbe24",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "d50ddfe1-decf-450c-8931-78b6f2d62704",
+      "Source": "Model",
+      "Action": "CreateModel",
+      "Description": "Created model BSSB - Adjustment",
+      "Trace": null,
+      "Timestamp": "2025-10-21 14:51:17.984524",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "98e5e7fc-71c3-4239-ab31-f4d6fb7a1cf3",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "d50ddfe1-decf-450c-8931-78b6f2d62704",
+      "Source": "Model",
+      "Action": "UpdateModel",
+      "Description": "Updated model BSSB - Data Adjustment",
+      "Trace": null,
+      "Timestamp": "2025-10-21 15:03:44.072018",
+      "ImpersonatedUserId": null
+    }
+  ]
+}

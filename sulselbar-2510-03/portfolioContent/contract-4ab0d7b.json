@@ -1,0 +1,14 @@
+{
+  "ContentId": "5cee02b0-7eed-470d-8113-c5e464ab0d7b",
+  "Code": "Contract",
+  "Name": "Contract",
+  "Description": "Contract Page",
+  "Route": "/portfolio/contracts/query/{contractId}",
+  "DataAccess": null,
+  "Content": "{\"contentType\":\"ContractPage\",\"contentProps\":{\"breadcrumbs\":[{\"label\":\"Home\",\"link\":\"/portfolio/home\"},{\"label\":\"Contracts\",\"link\":\"/portfolio/contracts\"},{\"label\":\"Search\",\"link\":\"/portfolio/contracts/query\"}],\"title\":\"Contract: {{originSystemId}}/{{originContractId}}\",\"facilityBasePath\":\"/portfolio/facilities/query\",\"counterpartyBasePath\":\"/portfolio/counterparties/query\"}}",
+  "ConcurrencyId": "53b849a4-3e48-4b04-9f1e-d8a7ccefbd88",
+  "CreatedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "CreatedWhen": "2023-11-09 04:01:52",
+  "LastModifiedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "LastModifiedWhen": "2023-11-09 04:01:52"
+}

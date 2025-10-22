@@ -1,0 +1,167 @@
+{
+  "ModelId": "d50ddfe1-decf-450c-8931-78b6f2d62704",
+  "DomainId": "5c2c60f7-e546-484e-aa8b-bcbc964933ee",
+  "Name": "BSSB - Data Adjustment",
+  "Description": "BSSB - Data Adjustment",
+  "ModelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+  "ObjectiveTypeId": "06b6381a-353c-4ac3-913f-c59ef9af33a5",
+  "ParentDeckId": null,
+  "IsPrivate": false,
+  "Status": "Open",
+  "Data": {
+    "deletionProtection": {
+      "enabled": false
+    }
+  },
+  "LatestVersionId": "1d13131b-6e14-4141-aead-d4aacc43a540",
+  "LatestVersion": 1,
+  "LatestStatus": "Draft",
+  "LatestErrors": null,
+  "LatestWarnings": null,
+  "LatestValidatedWhen": null,
+  "PublishedVersions": 0,
+  "ArchivedBy": null,
+  "ArchivedWhen": null,
+  "CreatedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "CreatedWhen": "2025-10-21 14:51:17.984524",
+  "LastModifiedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "LastModifiedWhen": "2025-10-21 15:03:44.072018",
+  "ObjectiveTypeCode": "Adjustments",
+  "ModelTypeName": "Simulation",
+  "activityExport": {
+    "sourceId": "d50ddfe1-decf-450c-8931-78b6f2d62704",
+    "name": "BSSB - Data Adjustment",
+    "path": "models/activities",
+    "file": "activities_sourceId_2d62704.json"
+  },
+  "versions": [
+    {
+      "VersionId": "1d13131b-6e14-4141-aead-d4aacc43a540",
+      "ModelId": "d50ddfe1-decf-450c-8931-78b6f2d62704",
+      "Version": 1,
+      "Description": "Initial Version",
+      "Status": "Draft",
+      "PublishedBy": null,
+      "PublishedWhen": null,
+      "PublishComments": null,
+      "ExpiryDate": null,
+      "ArchivedBy": null,
+      "ArchivedWhen": null,
+      "ConcurrencyId": "18dd1f2c-b05b-478f-97fa-e42ff4cd764b",
+      "CreatedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "CreatedWhen": "2025-10-21 14:51:17.984524",
+      "LastModifiedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "LastModifiedWhen": "2025-10-21 15:01:30.857463",
+      "versionProps": [
+        {
+          "VersionPropId": "0c58703d-1174-47d0-b9bc-e401cb859110",
+          "VersionId": "1d13131b-6e14-4141-aead-d4aacc43a540",
+          "Key": "Origin",
+          "Value": {
+            "origin": {
+              "originType": "New"
+            }
+          }
+        },
+        {
+          "VersionPropId": "debb12f5-8f33-4a39-857b-0d43353b8626",
+          "VersionId": "1d13131b-6e14-4141-aead-d4aacc43a540",
+          "Key": "Adjustments",
+          "Value": {
+            "adjustmentTypes": [
+              {
+                "adjustmentTypeId": "1225e63e-4e6c-49a6-a0d4-b7252bc1b63c",
+                "name": "Contracts",
+                "description": "Adjustment contracts",
+                "domain": {
+                  "name": "Contracts",
+                  "code": "Contracts"
+                },
+                "configuration": {
+                  "scope": {
+                    "scopeRules": []
+                  },
+                  "behaviors": {
+                    "entryTypes": [
+                      {
+                        "code": "DataUpload",
+                        "name": "Data Upload"
+                      },
+                      {
+                        "code": "RulesBased",
+                        "name": "Rules Based"
+                      }
+                    ],
+                    "properties": [
+                      {
+                        "name": "Days Past Due",
+                        "property": "DaysPastDue"
+                      },
+                      {
+                        "name": "Collectibility",
+                        "property": "Collectibility"
+                      }
+                    ],
+                    "reasons": [
+                      {
+                        "code": "DataEntryIsWrong",
+                        "name": "Data entry is wrong",
+                        "commentsBehavior": "Optional"
+                      },
+                      {
+                        "code": "DataMigrationIssue",
+                        "name": "Data migration issue",
+                        "commentsBehavior": "Optional"
+                      },
+                      {
+                        "code": "ManagementDecision",
+                        "name": "Management decision",
+                        "commentsBehavior": "Optional"
+                      },
+                      {
+                        "code": "SourceSystemIsWrong",
+                        "name": "Source system is wrong",
+                        "commentsBehavior": "Optional"
+                      },
+                      {
+                        "code": "Others",
+                        "name": "Others",
+                        "commentsBehavior": "Mandatory"
+                      }
+                    ]
+                  },
+                  "accessPermissions": {
+                    "teams": [
+                      {
+                        "teamId": "8af1e7a1-d465-4c7d-9b46-691169ddd443",
+                        "permission": "Manage"
+                      }
+                    ],
+                    "users": []
+                  },
+                  "approvalLevels": [],
+                  "entity": {
+                    "useMultiEntity": false,
+                    "allowCrossEntityAdjustments": false,
+                    "entities": [],
+                    "entity": "SSB-KONVEN"
+                  },
+                  "post": {
+                    "behavior": "AutomaticallyPostUponApproval"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "publishRequests": [],
+      "activityExport": {
+        "sourceId": "1d13131b-6e14-4141-aead-d4aacc43a540",
+        "name": "BSSB - Data Adjustment_v1",
+        "path": "models/activities",
+        "file": "activities_sourceId_c43a540.json"
+      }
+    }
+  ]
+}
