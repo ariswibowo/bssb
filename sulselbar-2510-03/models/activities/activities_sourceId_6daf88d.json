@@ -4681,6 +4681,71 @@
       "ImpersonatedUserId": null
     },
     {
+      "ActivityId": "6bd95e81-0cb3-4431-9224-87b658e0c1af",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "6fafdece-3e58-4155-841c-cf0206daf88d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Quality Profiles",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "6fafdece-3e58-4155-841c-cf0206daf88d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:21:17.132877",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-22T09:00:35.4825663",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "33801a8f-2e51-41f1-9b0f-dd68787f4fb3",
+            "name": "BSSB - Quality Profiles",
+            "description": "BSSB - Quality Profiles",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:21:17.132877",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-22T09:00:35.4825663",
+            "objectiveType": {
+              "objectiveTypeId": "333c90bc-a535-4f3e-abe6-28e51541dbd2",
+              "code": "QualityProfiles",
+              "name": "Quality Profiles",
+              "description": "Quality Profiles"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-22 09:00:35.495886",
+      "ImpersonatedUserId": null
+    },
+    {
       "ActivityId": "7bdd35eb-7e77-4048-95eb-4c1ca4af90b7",
       "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
       "SourceId": "6fafdece-3e58-4155-841c-cf0206daf88d",
@@ -4811,6 +4876,71 @@
       "ImpersonatedUserId": null
     },
     {
+      "ActivityId": "fc94663c-3098-411a-8d68-9fc96eec6d73",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "6fafdece-3e58-4155-841c-cf0206daf88d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Quality Profiles",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "6fafdece-3e58-4155-841c-cf0206daf88d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:21:17.132877",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-22T09:11:28.9604385",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "33801a8f-2e51-41f1-9b0f-dd68787f4fb3",
+            "name": "BSSB - Quality Profiles",
+            "description": "BSSB - Quality Profiles",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:21:17.132877",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-22T09:11:28.9604385",
+            "objectiveType": {
+              "objectiveTypeId": "333c90bc-a535-4f3e-abe6-28e51541dbd2",
+              "code": "QualityProfiles",
+              "name": "Quality Profiles",
+              "description": "Quality Profiles"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-22 09:11:28.976195",
+      "ImpersonatedUserId": null
+    },
+    {
       "ActivityId": "27e6908c-c84f-47e1-b48e-dfd12afb757c",
       "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
       "SourceId": "6fafdece-3e58-4155-841c-cf0206daf88d",
@@ -4873,6 +5003,71 @@
         }
       },
       "Timestamp": "2025-10-22 08:15:31.869332",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "a64eedcf-a05d-4e76-8628-ad47a661b00b",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "6fafdece-3e58-4155-841c-cf0206daf88d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Quality Profiles",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "6fafdece-3e58-4155-841c-cf0206daf88d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:21:17.132877",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-22T09:12:01.5670272",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "33801a8f-2e51-41f1-9b0f-dd68787f4fb3",
+            "name": "BSSB - Quality Profiles",
+            "description": "BSSB - Quality Profiles",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:21:17.132877",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-22T09:12:01.5670272",
+            "objectiveType": {
+              "objectiveTypeId": "333c90bc-a535-4f3e-abe6-28e51541dbd2",
+              "code": "QualityProfiles",
+              "name": "Quality Profiles",
+              "description": "Quality Profiles"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-22 09:12:01.583109",
       "ImpersonatedUserId": null
     },
     {

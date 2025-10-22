@@ -25,7 +25,7 @@
   "CreatedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
   "CreatedWhen": "2025-09-30 04:20:06.527882",
   "LastModifiedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
-  "LastModifiedWhen": "2025-10-22 08:14:48.669067",
+  "LastModifiedWhen": "2025-10-22 09:00:59.385336",
   "ObjectiveTypeCode": "DataFeeds",
   "ModelTypeName": "Simulation",
   "activityExport": {
@@ -47,11 +47,11 @@
       "ExpiryDate": null,
       "ArchivedBy": null,
       "ArchivedWhen": null,
-      "ConcurrencyId": "8d90df26-5924-4c15-af50-1b3bd781523e",
+      "ConcurrencyId": "f45ba0fd-6b04-4b29-9bdd-58506c943d01",
       "CreatedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
       "CreatedWhen": "2025-09-30 04:20:06.527882",
       "LastModifiedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
-      "LastModifiedWhen": "2025-10-22 08:14:48.669067",
+      "LastModifiedWhen": "2025-10-22 09:00:59.385336",
       "versionProps": [
         {
           "VersionPropId": "94e159e2-a8d1-4830-8c3d-a1390b988855",
@@ -1181,8 +1181,8 @@
                               "toProperty": "Entity",
                               "transformations": [
                                 {
-                                  "type": "Map",
-                                  "fromProperty": "entity"
+                                  "type": "FixedValue",
+                                  "fromValue": "SSB-KONVEN"
                                 }
                               ]
                             },
@@ -1209,7 +1209,7 @@
                               "transformations": [
                                 {
                                   "type": "FixedValue",
-                                  "fromProperty": "true"
+                                  "fromValue": "true"
                                 }
                               ]
                             },
@@ -1788,8 +1788,8 @@
                               "toProperty": "Entity",
                               "transformations": [
                                 {
-                                  "type": "Map",
-                                  "fromProperty": "entity"
+                                  "type": "FixedValue",
+                                  "fromValue": "SSB-KONVEN"
                                 }
                               ]
                             },
@@ -1857,6 +1857,15 @@
                               ]
                             },
                             {
+                              "toProperty": "OutstandingAmount",
+                              "transformations": [
+                                {
+                                  "type": "FixedValue",
+                                  "fromValue": "0"
+                                }
+                              ]
+                            },
+                            {
                               "toProperty": "ProductSubtype",
                               "transformations": [
                                 {
@@ -1907,15 +1916,6 @@
                                 {
                                   "type": "Map",
                                   "fromProperty": "undrawn_amount"
-                                }
-                              ]
-                            },
-                            {
-                              "toProperty": "OutstandingAmount",
-                              "transformations": [
-                                {
-                                  "type": "FixedValue",
-                                  "fromValue": "0"
                                 }
                               ]
                             }

@@ -25,7 +25,7 @@
   "CreatedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
   "CreatedWhen": "2025-09-30 04:21:17.132877",
   "LastModifiedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
-  "LastModifiedWhen": "2025-10-22 08:15:31.855956",
+  "LastModifiedWhen": "2025-10-22 09:12:01.567027",
   "ObjectiveTypeCode": "QualityProfiles",
   "ModelTypeName": "Simulation",
   "activityExport": {
@@ -47,11 +47,11 @@
       "ExpiryDate": null,
       "ArchivedBy": null,
       "ArchivedWhen": null,
-      "ConcurrencyId": "b5908a4f-48ef-4ea5-bd45-a707c5bf0236",
+      "ConcurrencyId": "43e6b18a-65bc-4a4b-a390-992207b22311",
       "CreatedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
       "CreatedWhen": "2025-09-30 04:21:17.132877",
       "LastModifiedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
-      "LastModifiedWhen": "2025-10-22 08:15:31.855956",
+      "LastModifiedWhen": "2025-10-22 09:12:01.567027",
       "versionProps": [
         {
           "VersionPropId": "3539d60e-1f97-4cf2-b9b7-afe976282f05",
@@ -3023,7 +3023,7 @@
                     "checks": [
                       {
                         "type": "Mandatory",
-                        "value": true,
+                        "value": false,
                         "dataQuality": {
                           "rule": "MandatoryProperty"
                         }
@@ -3405,6 +3405,106 @@
                     "type": "PropertyCheck",
                     "enabled": true,
                     "property": "AccountStatus",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "String",
+                        "dataQuality": {
+                          "rule": "StringProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check AntasenaJenisPengguna",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "AntasenaJenisPengguna",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "String",
+                        "dataQuality": {
+                          "rule": "StringProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check AntasenaKategoriDebitur",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "AntasenaKategoriDebitur",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "String",
+                        "dataQuality": {
+                          "rule": "StringProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check BranchCode",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "BranchCode",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "String",
+                        "dataQuality": {
+                          "rule": "StringProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check CashflowFlag",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "CashflowFlag",
                     "checks": [
                       {
                         "type": "Mandatory",
