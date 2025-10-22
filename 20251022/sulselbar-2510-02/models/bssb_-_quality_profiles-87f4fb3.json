@@ -1,0 +1,3997 @@
+{
+  "ModelId": "33801a8f-2e51-41f1-9b0f-dd68787f4fb3",
+  "DomainId": "5c2c60f7-e546-484e-aa8b-bcbc964933ee",
+  "Name": "BSSB - Quality Profiles",
+  "Description": "BSSB - Quality Profiles",
+  "ModelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+  "ObjectiveTypeId": "333c90bc-a535-4f3e-abe6-28e51541dbd2",
+  "ParentDeckId": null,
+  "IsPrivate": false,
+  "Status": "Open",
+  "Data": {
+    "deletionProtection": {
+      "enabled": false
+    }
+  },
+  "LatestVersionId": "6fafdece-3e58-4155-841c-cf0206daf88d",
+  "LatestVersion": 1,
+  "LatestStatus": "Draft",
+  "LatestErrors": null,
+  "LatestWarnings": null,
+  "LatestValidatedWhen": null,
+  "PublishedVersions": 0,
+  "ArchivedBy": null,
+  "ArchivedWhen": null,
+  "CreatedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "CreatedWhen": "2025-09-30 04:21:17.132877",
+  "LastModifiedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "LastModifiedWhen": "2025-10-21 15:02:27.705579",
+  "ObjectiveTypeCode": "QualityProfiles",
+  "ModelTypeName": "Simulation",
+  "activityExport": {
+    "sourceId": "33801a8f-2e51-41f1-9b0f-dd68787f4fb3",
+    "name": "BSSB - Quality Profiles",
+    "path": "models/activities",
+    "file": "activities_sourceId_87f4fb3.json"
+  },
+  "versions": [
+    {
+      "VersionId": "6fafdece-3e58-4155-841c-cf0206daf88d",
+      "ModelId": "33801a8f-2e51-41f1-9b0f-dd68787f4fb3",
+      "Version": 1,
+      "Description": "Initial Version",
+      "Status": "Draft",
+      "PublishedBy": null,
+      "PublishedWhen": null,
+      "PublishComments": null,
+      "ExpiryDate": null,
+      "ArchivedBy": null,
+      "ArchivedWhen": null,
+      "ConcurrencyId": "0a46312b-4387-4925-abbd-aebfd3e1db7d",
+      "CreatedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "CreatedWhen": "2025-09-30 04:21:17.132877",
+      "LastModifiedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "LastModifiedWhen": "2025-10-21 15:02:27.705579",
+      "versionProps": [
+        {
+          "VersionPropId": "3539d60e-1f97-4cf2-b9b7-afe976282f05",
+          "VersionId": "6fafdece-3e58-4155-841c-cf0206daf88d",
+          "Key": "Origin",
+          "Value": {
+            "origin": {
+              "originType": "New"
+            }
+          }
+        },
+        {
+          "VersionPropId": "58b7c6e2-7ec0-402a-a43f-2586842777a2",
+          "VersionId": "6fafdece-3e58-4155-841c-cf0206daf88d",
+          "Key": "QualityProfiles",
+          "Value": {
+            "qualityProfiles": [
+              {
+                "qualityProfileId": "f70ffe9b-fd2f-4026-9ac9-63c44718aa7b",
+                "name": "Ayda",
+                "description": "Quality profile ayda",
+                "target": {
+                  "sinkId": "6c705dfd-eace-4cc1-89be-396e6a8c87eb",
+                  "sinkName": "Contracts"
+                },
+                "checks": [
+                  {
+                    "name": "Check ContractId",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "ContractId",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Guid",
+                        "dataQuality": {
+                          "rule": "GuidProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check ReportingDate",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "ReportingDate",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Date",
+                        "dataQuality": {
+                          "rule": "DateProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check Entity",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "Entity",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "String",
+                        "dataQuality": {
+                          "rule": "StringProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check ProductType",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "ProductType",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "String",
+                        "dataQuality": {
+                          "rule": "StringProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "FixedValue",
+                      "value": ""
+                    }
+                  },
+                  {
+                    "name": "Check ProductSubtype",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "ProductSubtype",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "String",
+                        "dataQuality": {
+                          "rule": "StringProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "FixedValue",
+                      "value": ""
+                    }
+                  },
+                  {
+                    "name": "Check BusinessUnit",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "BusinessUnit",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "String",
+                        "dataQuality": {
+                          "rule": "StringProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check CounterpartyId",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "CounterpartyId",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Guid",
+                        "dataQuality": {
+                          "rule": "GuidProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check BaseLgd",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "BaseLgd",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Numeric",
+                        "dataQuality": {
+                          "rule": "NumericProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check BasePd",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "BasePd",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Numeric",
+                        "dataQuality": {
+                          "rule": "NumericProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check CreditRating",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "CreditRating",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "String",
+                        "dataQuality": {
+                          "rule": "StringProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check CreditRatingAgency",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "CreditRatingAgency",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "String",
+                        "dataQuality": {
+                          "rule": "StringProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check Collectibility",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "Collectibility",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "String",
+                        "dataQuality": {
+                          "rule": "StringProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check IsRestructured",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "IsRestructured",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Boolean",
+                        "dataQuality": {
+                          "rule": "BooleanProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check Currency",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "Currency",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "String",
+                        "dataQuality": {
+                          "rule": "StringProperty"
+                        }
+                      },
+                      {
+                        "type": "Pattern",
+                        "value": "^(AED|AFN|ALL|AMD|ANG|AOA|ARS|AUD|AWG|AZN|BAM|BBD|BDT|BGN|BHD|BIF|BMD|BND|BOB|BOV|BRL|BSD|BTN|BWP|BYN|BZD|CAD|CDF|CHE|CHF|CHW|CLF|CLP|CNY|COP|COU|CRC|CUC|CUP|CVE|CZK|DJF|DKK|DOP|DZD|EGP|ERN|ETB|EUR|FJD|FKP|GBP|GEL|GHS|GIP|GMD|GNF|GTQ|GYD|HKD|HNL|HRK|HTG|HUF|IDR|ILS|INR|IQD|IRR|ISK|JMD|JOD|JPY|KES|KGS|KHR|KMF|KPW|KRW|KWD|KYD|KZT|LAK|LBP|LKR|LRD|LSL|LYD|MAD|MDL|MGA|MKD|MMK|MNT|MOP|MRU|MUR|MVR|MWK|MXN|MXV|MYR|MZN|NAD|NGN|NIO|NOK|NPR|NZD|OMR|PAB|PEN|PGK|PHP|PKR|PLN|PYG|QAR|RON|RSD|RUB|RWF|SAR|SBD|SCR|SDG|SEK|SGD|SHP|SLL|SOS|SRD|SSP|STN|SVC|SYP|SZL|THB|TJS|TMT|TND|TOP|TRY|TTD|TWD|TZS|UAH|UGX|USD|UYI|UYU|UYW|UZS|VES|VND|VUV|WST|XTS|XUA|XXX|YER|ZAR|ZMW|ZWL|XAF|XCD|XOF|XPF|BYR|LVL|YUM|XBB|XSC|HUP|ADP|CNH|UYP|STD|ZMK|XAG|XAU|MRO|XPT|XBC|XBD|XPD|XDR|XSJ|ZRN|GWP|VEB|BRR|TMM|VEF|LTL|XA1|MZM|XNI|GRD|PTE|EEK|IDN|SKK|SIT|NLG|FIM|ATS|MTL|IEP|DEM|BEF|CYP|LUF|FRF|ESP|MLT|ITL|SLE)$",
+                        "dataQuality": {
+                          "rule": "CurrencyFormat"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "FixedValue",
+                      "value": "XXX"
+                    }
+                  },
+                  {
+                    "name": "Check CurrentPd",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "CurrentPd",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Numeric",
+                        "dataQuality": {
+                          "rule": "NumericProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check DaysPastDue",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "DaysPastDue",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Integer",
+                        "dataQuality": {
+                          "rule": "IntegerProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check DiscountRate",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "DiscountRate",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Numeric",
+                        "dataQuality": {
+                          "rule": "NumericProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check EffectiveInterestRate",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "EffectiveInterestRate",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Numeric",
+                        "dataQuality": {
+                          "rule": "NumericProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check EffectiveInterestRateIncludingFeesAndCosts",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "EffectiveInterestRateIncludingFeesAndCosts",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Numeric",
+                        "dataQuality": {
+                          "rule": "NumericProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check Segment",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "Segment",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "String",
+                        "dataQuality": {
+                          "rule": "StringProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check IsSecured",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "IsSecured",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Boolean",
+                        "dataQuality": {
+                          "rule": "BooleanProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check InitialPd",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "InitialPd",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Numeric",
+                        "dataQuality": {
+                          "rule": "NumericProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check InterestRate",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "InterestRate",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Numeric",
+                        "dataQuality": {
+                          "rule": "NumericProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "FixedValue",
+                      "value": "0"
+                    }
+                  },
+                  {
+                    "name": "Check InterestSpread",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "InterestSpread",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Numeric",
+                        "dataQuality": {
+                          "rule": "NumericProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check InterestCurve",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "InterestCurve",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "String",
+                        "dataQuality": {
+                          "rule": "StringProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check StartDate",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "StartDate",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Date",
+                        "dataQuality": {
+                          "rule": "DateProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "FixedValue",
+                      "value": "1900-01-01"
+                    }
+                  },
+                  {
+                    "name": "Check MaturityDate",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "MaturityDate",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Date",
+                        "dataQuality": {
+                          "rule": "DateProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check PrincipalAmount",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "PrincipalAmount",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Numeric",
+                        "dataQuality": {
+                          "rule": "NumericProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check OutstandingAmount",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "OutstandingAmount",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Numeric",
+                        "dataQuality": {
+                          "rule": "NumericProperty"
+                        }
+                      },
+                      {
+                        "type": "GreaterThanOrEqual",
+                        "parameters": {
+                          "valueType": "FixedValue",
+                          "value": "0",
+                          "type": "Numeric"
+                        },
+                        "dataQuality": {
+                          "rule": "OutstandingAmountNegative"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check LimitAmount",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "LimitAmount",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Numeric",
+                        "dataQuality": {
+                          "rule": "NumericProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check UndrawnAmount",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "UndrawnAmount",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Numeric",
+                        "dataQuality": {
+                          "rule": "NumericProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check AccruedInterest",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "AccruedInterest",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Numeric",
+                        "dataQuality": {
+                          "rule": "NumericProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check PresentValue",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "PresentValue",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Numeric",
+                        "dataQuality": {
+                          "rule": "NumericProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check PresentValueIncludingFeesAndCosts",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "PresentValueIncludingFeesAndCosts",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Numeric",
+                        "dataQuality": {
+                          "rule": "NumericProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check AsLb",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "AsLb",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "String",
+                        "dataQuality": {
+                          "rule": "StringProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check OriginSystemId",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "OriginSystemId",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "String",
+                        "dataQuality": {
+                          "rule": "StringProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check OriginCounterpartyId",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "OriginCounterpartyId",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "String",
+                        "dataQuality": {
+                          "rule": "StringProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "FixedValue",
+                      "value": ""
+                    }
+                  },
+                  {
+                    "name": "Check OriginContractId",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "OriginContractId",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "String",
+                        "dataQuality": {
+                          "rule": "StringProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  }
+                ],
+                "enableTrace": false
+              },
+              {
+                "qualityProfileId": "e2ab6661-4455-4995-8bcc-cf45a729b3ce",
+                "name": "Ayda Props",
+                "description": "Quality profile ayda props",
+                "target": {
+                  "sinkId": "fa427b60-6558-4500-a6f4-88a3386ae410",
+                  "sinkName": "Contract Properties Bag"
+                },
+                "checks": [
+                  {
+                    "name": "check ContractId",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "ContractId",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "guid"
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  }
+                ],
+                "enableTrace": false
+              },
+              {
+                "qualityProfileId": "370372c4-0aff-4535-98b2-f2a1aa9c3589",
+                "name": "Bank Guarantee",
+                "description": "Quality profile bank guarantee",
+                "target": {
+                  "sinkId": "6c705dfd-eace-4cc1-89be-396e6a8c87eb",
+                  "sinkName": "Contracts"
+                },
+                "checks": [
+                  {
+                    "name": "check ContractId",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "ContractId",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "guid"
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  }
+                ],
+                "enableTrace": false
+              },
+              {
+                "qualityProfileId": "48165015-282b-4b4a-bd48-68c7d40fa7b4",
+                "name": "Bank Guarantee Props",
+                "description": "Quality profile bank guarantee props",
+                "target": {
+                  "sinkId": "fa427b60-6558-4500-a6f4-88a3386ae410",
+                  "sinkName": "Contract Properties Bag"
+                },
+                "checks": [
+                  {
+                    "name": "check ContractId",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "ContractId",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "guid"
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  }
+                ],
+                "enableTrace": false
+              },
+              {
+                "qualityProfileId": "b6ee1c93-9368-45c3-a268-5ab76e8b69a2",
+                "name": "Counterparty Rating",
+                "description": "Quality profile counterparty rating",
+                "target": {
+                  "sinkId": "44398cc1-0240-43fb-ba02-a5bc1956a3d7",
+                  "sinkName": "Counterparty Ratings"
+                },
+                "checks": [
+                  {
+                    "name": "check CounterpartyId",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "CounterpartyId",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "guid"
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  }
+                ],
+                "enableTrace": false
+              },
+              {
+                "qualityProfileId": "5021f98b-86b4-43f3-8978-60781ceb8d19",
+                "name": "Credit",
+                "description": "Quality profile credit",
+                "target": {
+                  "sinkId": "6c705dfd-eace-4cc1-89be-396e6a8c87eb",
+                  "sinkName": "Contracts"
+                },
+                "checks": [
+                  {
+                    "name": "Check ContractId",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "ContractId",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Guid",
+                        "dataQuality": {
+                          "rule": "GuidProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check ReportingDate",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "ReportingDate",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Date",
+                        "dataQuality": {
+                          "rule": "DateProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check Entity",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "Entity",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "String",
+                        "dataQuality": {
+                          "rule": "StringProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check ProductType",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "ProductType",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "String",
+                        "dataQuality": {
+                          "rule": "StringProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check ProductSubtype",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "ProductSubtype",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "String",
+                        "dataQuality": {
+                          "rule": "StringProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check BusinessUnit",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "BusinessUnit",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "String",
+                        "dataQuality": {
+                          "rule": "StringProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check CounterpartyId",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "CounterpartyId",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Guid",
+                        "dataQuality": {
+                          "rule": "GuidProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check BaseLgd",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "BaseLgd",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Numeric",
+                        "dataQuality": {
+                          "rule": "NumericProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check BasePd",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "BasePd",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Numeric",
+                        "dataQuality": {
+                          "rule": "NumericProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check CreditRating",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "CreditRating",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "String",
+                        "dataQuality": {
+                          "rule": "StringProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check CreditRatingAgency",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "CreditRatingAgency",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "String",
+                        "dataQuality": {
+                          "rule": "StringProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check Collectibility",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "Collectibility",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "String",
+                        "dataQuality": {
+                          "rule": "StringProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check IsRestructured",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "IsRestructured",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Boolean",
+                        "dataQuality": {
+                          "rule": "BooleanProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check Currency",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "Currency",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "String",
+                        "dataQuality": {
+                          "rule": "StringProperty"
+                        }
+                      },
+                      {
+                        "type": "Pattern",
+                        "value": "^[A-Z]{3}$"
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check CurrentPd",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "CurrentPd",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Numeric",
+                        "dataQuality": {
+                          "rule": "NumericProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check DaysPastDue",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "DaysPastDue",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Integer",
+                        "dataQuality": {
+                          "rule": "IntegerProperty"
+                        }
+                      },
+                      {
+                        "type": "GreaterThanOrEqual",
+                        "parameters": {
+                          "type": "Numeric",
+                          "value": "0",
+                          "valueType": "FixedValue"
+                        },
+                        "dataQuality": {
+                          "rule": "InvalidValue"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check DiscountRate",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "DiscountRate",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Numeric",
+                        "dataQuality": {
+                          "rule": "NumericProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check EffectiveInterestRate",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "EffectiveInterestRate",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Numeric",
+                        "dataQuality": {
+                          "rule": "NumericProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check EffectiveInterestRateIncludingFeesAndCosts",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "EffectiveInterestRateIncludingFeesAndCosts",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Numeric",
+                        "dataQuality": {
+                          "rule": "NumericProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check Segment",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "Segment",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "String",
+                        "dataQuality": {
+                          "rule": "StringProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check IsSecured",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "IsSecured",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Boolean",
+                        "dataQuality": {
+                          "rule": "BooleanProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check InitialPd",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "InitialPd",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Numeric",
+                        "dataQuality": {
+                          "rule": "NumericProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check InterestRate",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "InterestRate",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Numeric",
+                        "dataQuality": {
+                          "rule": "NumericProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check InterestSpread",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "InterestSpread",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Numeric",
+                        "dataQuality": {
+                          "rule": "NumericProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check InterestCurve",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "InterestCurve",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "String",
+                        "dataQuality": {
+                          "rule": "StringProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check StartDate",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "StartDate",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Date",
+                        "dataQuality": {
+                          "rule": "DateProperty"
+                        }
+                      },
+                      {
+                        "type": "LessThanOrEqual",
+                        "parameters": {
+                          "type": "Date",
+                          "value": "ReportingDate",
+                          "valueType": "Property"
+                        },
+                        "dataQuality": {
+                          "rule": "InvalidValue"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check MaturityDate",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "MaturityDate",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Date",
+                        "dataQuality": {
+                          "rule": "DateProperty"
+                        }
+                      },
+                      {
+                        "type": "GreaterThanOrEqual",
+                        "parameters": {
+                          "type": "Date",
+                          "value": "StartDate",
+                          "valueType": "Property"
+                        },
+                        "dataQuality": {
+                          "rule": "InvalidValue"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check PrincipalAmount",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "PrincipalAmount",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Numeric",
+                        "dataQuality": {
+                          "rule": "NumericProperty"
+                        }
+                      },
+                      {
+                        "type": "GreaterThanOrEqual",
+                        "parameters": {
+                          "valueType": "FixedValue",
+                          "value": "0",
+                          "type": "Numeric"
+                        },
+                        "dataQuality": {
+                          "rule": "InvalidAmount"
+                        }
+                      },
+                      {
+                        "type": "LessThanOrEqual",
+                        "parameters": {
+                          "type": "Numeric",
+                          "value": "LimitAmount",
+                          "valueType": "Property"
+                        },
+                        "dataQuality": {
+                          "rule": "InvalidAmount"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check OutstandingAmount",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "OutstandingAmount",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Numeric",
+                        "dataQuality": {
+                          "rule": "NumericProperty"
+                        }
+                      },
+                      {
+                        "type": "GreaterThanOrEqual",
+                        "parameters": {
+                          "valueType": "FixedValue",
+                          "value": "0",
+                          "type": "Numeric"
+                        },
+                        "dataQuality": {
+                          "rule": "InvalidAmount"
+                        }
+                      },
+                      {
+                        "type": "LessThanOrEqual",
+                        "parameters": {
+                          "type": "Numeric",
+                          "value": "LimitAmount",
+                          "valueType": "Property"
+                        },
+                        "dataQuality": {
+                          "rule": "InvalidAmount"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check LimitAmount",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "LimitAmount",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Numeric",
+                        "dataQuality": {
+                          "rule": "NumericProperty"
+                        }
+                      },
+                      {
+                        "type": "GreaterThanOrEqual",
+                        "parameters": {
+                          "valueType": "FixedValue",
+                          "value": "0",
+                          "type": "Numeric"
+                        },
+                        "dataQuality": {
+                          "rule": "InvalidAmount"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check UndrawnAmount",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "UndrawnAmount",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Numeric",
+                        "dataQuality": {
+                          "rule": "NumericProperty"
+                        }
+                      },
+                      {
+                        "type": "GreaterThanOrEqual",
+                        "parameters": {
+                          "valueType": "FixedValue",
+                          "value": "0",
+                          "type": "Numeric"
+                        },
+                        "dataQuality": {
+                          "rule": "InvalidAmount"
+                        }
+                      },
+                      {
+                        "type": "LessThanOrEqual",
+                        "parameters": {
+                          "type": "Numeric",
+                          "value": "LimitAmount",
+                          "valueType": "Property"
+                        },
+                        "dataQuality": {
+                          "rule": "InvalidAmount"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check AccruedInterest",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "AccruedInterest",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Numeric",
+                        "dataQuality": {
+                          "rule": "NumericProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check PresentValue",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "PresentValue",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Numeric",
+                        "dataQuality": {
+                          "rule": "NumericProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check PresentValueIncludingFeesAndCosts",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "PresentValueIncludingFeesAndCosts",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Numeric",
+                        "dataQuality": {
+                          "rule": "NumericProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check AsLb",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "AsLb",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "String",
+                        "dataQuality": {
+                          "rule": "StringProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check OriginSystemId",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "OriginSystemId",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "String",
+                        "dataQuality": {
+                          "rule": "StringProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check OriginCounterpartyId",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "OriginCounterpartyId",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "String",
+                        "dataQuality": {
+                          "rule": "StringProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "FixedValue",
+                      "value": ""
+                    }
+                  },
+                  {
+                    "name": "Check OriginContractId",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "OriginContractId",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "String",
+                        "dataQuality": {
+                          "rule": "StringProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  }
+                ],
+                "enableTrace": true
+              },
+              {
+                "qualityProfileId": "c90ad310-b240-4313-8a1f-64ffcddc60e8",
+                "name": "Credit Props",
+                "description": "Quality profile credit props",
+                "target": {
+                  "sinkId": "fa427b60-6558-4500-a6f4-88a3386ae410",
+                  "sinkName": "Contract Properties Bag"
+                },
+                "enableTrace": true,
+                "checks": [
+                  {
+                    "name": "check ContractId",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "ContractId",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "guid"
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check AccountStatus",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "AccountStatus",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "String",
+                        "dataQuality": {
+                          "rule": "StringProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  }
+                ]
+              },
+              {
+                "qualityProfileId": "1e20e7de-b460-47aa-a718-e0a4573965cd",
+                "name": "Credit Undrawn",
+                "description": "Quality profile credit undrawn",
+                "target": {
+                  "sinkId": "6c705dfd-eace-4cc1-89be-396e6a8c87eb",
+                  "sinkName": "Contracts"
+                },
+                "checks": [
+                  {
+                    "name": "Check ContractId",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "ContractId",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Guid",
+                        "dataQuality": {
+                          "rule": "GuidProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check ReportingDate",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "ReportingDate",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Date",
+                        "dataQuality": {
+                          "rule": "DateProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check Entity",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "Entity",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "String",
+                        "dataQuality": {
+                          "rule": "StringProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check ProductType",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "ProductType",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "String",
+                        "dataQuality": {
+                          "rule": "StringProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "FixedValue",
+                      "value": ""
+                    }
+                  },
+                  {
+                    "name": "Check ProductSubtype",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "ProductSubtype",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "String",
+                        "dataQuality": {
+                          "rule": "StringProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "FixedValue",
+                      "value": ""
+                    }
+                  },
+                  {
+                    "name": "Check BusinessUnit",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "BusinessUnit",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "String",
+                        "dataQuality": {
+                          "rule": "StringProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check CounterpartyId",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "CounterpartyId",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Guid",
+                        "dataQuality": {
+                          "rule": "GuidProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check BaseLgd",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "BaseLgd",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Numeric",
+                        "dataQuality": {
+                          "rule": "NumericProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check BasePd",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "BasePd",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Numeric",
+                        "dataQuality": {
+                          "rule": "NumericProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check CreditRating",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "CreditRating",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "String",
+                        "dataQuality": {
+                          "rule": "StringProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check CreditRatingAgency",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "CreditRatingAgency",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "String",
+                        "dataQuality": {
+                          "rule": "StringProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check Collectibility",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "Collectibility",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "String",
+                        "dataQuality": {
+                          "rule": "StringProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check IsRestructured",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "IsRestructured",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Boolean",
+                        "dataQuality": {
+                          "rule": "BooleanProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check Currency",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "Currency",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "String",
+                        "dataQuality": {
+                          "rule": "StringProperty"
+                        }
+                      },
+                      {
+                        "type": "Pattern",
+                        "value": "^[A-Z]{3}$"
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check CurrentPd",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "CurrentPd",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Numeric",
+                        "dataQuality": {
+                          "rule": "NumericProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check DaysPastDue",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "DaysPastDue",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Integer",
+                        "dataQuality": {
+                          "rule": "IntegerProperty"
+                        }
+                      },
+                      {
+                        "type": "GreaterThanOrEqual",
+                        "parameters": {
+                          "type": "Numeric",
+                          "value": "0",
+                          "valueType": "FixedValue"
+                        },
+                        "dataQuality": {
+                          "rule": "InvalidValue"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check DiscountRate",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "DiscountRate",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Numeric",
+                        "dataQuality": {
+                          "rule": "NumericProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check EffectiveInterestRate",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "EffectiveInterestRate",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Numeric",
+                        "dataQuality": {
+                          "rule": "NumericProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check EffectiveInterestRateIncludingFeesAndCosts",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "EffectiveInterestRateIncludingFeesAndCosts",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Numeric",
+                        "dataQuality": {
+                          "rule": "NumericProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check Segment",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "Segment",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "String",
+                        "dataQuality": {
+                          "rule": "StringProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check IsSecured",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "IsSecured",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Boolean",
+                        "dataQuality": {
+                          "rule": "BooleanProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check InitialPd",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "InitialPd",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Numeric",
+                        "dataQuality": {
+                          "rule": "NumericProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check InterestRate",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "InterestRate",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Numeric",
+                        "dataQuality": {
+                          "rule": "NumericProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "FixedValue",
+                      "value": "0"
+                    }
+                  },
+                  {
+                    "name": "Check InterestSpread",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "InterestSpread",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Numeric",
+                        "dataQuality": {
+                          "rule": "NumericProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check InterestCurve",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "InterestCurve",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "String",
+                        "dataQuality": {
+                          "rule": "StringProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check StartDate",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "StartDate",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Date",
+                        "dataQuality": {
+                          "rule": "DateProperty"
+                        }
+                      },
+                      {
+                        "type": "LessThanOrEqual",
+                        "parameters": {
+                          "type": "Date",
+                          "value": "ReportingDate",
+                          "valueType": "Property"
+                        },
+                        "dataQuality": {
+                          "rule": "InvalidValue"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check MaturityDate",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "MaturityDate",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Date",
+                        "dataQuality": {
+                          "rule": "DateProperty"
+                        }
+                      },
+                      {
+                        "type": "GreaterThanOrEqual",
+                        "parameters": {
+                          "type": "Date",
+                          "value": "StartDate",
+                          "valueType": "Property"
+                        },
+                        "dataQuality": {
+                          "rule": "InvalidValue"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check PrincipalAmount",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "PrincipalAmount",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Numeric",
+                        "dataQuality": {
+                          "rule": "NumericProperty"
+                        }
+                      },
+                      {
+                        "type": "GreaterThanOrEqual",
+                        "parameters": {
+                          "valueType": "FixedValue",
+                          "value": "0",
+                          "type": "Numeric"
+                        },
+                        "dataQuality": {
+                          "rule": "InvalidAmount"
+                        }
+                      },
+                      {
+                        "type": "LessThanOrEqual",
+                        "parameters": {
+                          "type": "Numeric",
+                          "value": "LimitAmount",
+                          "valueType": "Property"
+                        },
+                        "dataQuality": {
+                          "rule": "InvalidAmount"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check OutstandingAmount",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "OutstandingAmount",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Numeric",
+                        "dataQuality": {
+                          "rule": "NumericProperty"
+                        }
+                      },
+                      {
+                        "type": "GreaterThanOrEqual",
+                        "parameters": {
+                          "valueType": "FixedValue",
+                          "value": "0",
+                          "type": "Numeric"
+                        },
+                        "dataQuality": {
+                          "rule": "InvalidAmount"
+                        }
+                      },
+                      {
+                        "type": "LessThanOrEqual",
+                        "parameters": {
+                          "type": "Numeric",
+                          "value": "LimitAmount",
+                          "valueType": "Property"
+                        },
+                        "dataQuality": {
+                          "rule": "InvalidAmount"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check LimitAmount",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "LimitAmount",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Numeric",
+                        "dataQuality": {
+                          "rule": "NumericProperty"
+                        }
+                      },
+                      {
+                        "type": "GreaterThanOrEqual",
+                        "parameters": {
+                          "valueType": "FixedValue",
+                          "value": "0",
+                          "type": "Numeric"
+                        },
+                        "dataQuality": {
+                          "rule": "InvalidAmount"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check UndrawnAmount",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "UndrawnAmount",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Numeric",
+                        "dataQuality": {
+                          "rule": "NumericProperty"
+                        }
+                      },
+                      {
+                        "type": "GreaterThanOrEqual",
+                        "parameters": {
+                          "valueType": "FixedValue",
+                          "value": "0",
+                          "type": "Numeric"
+                        },
+                        "dataQuality": {
+                          "rule": "InvalidAmount"
+                        }
+                      },
+                      {
+                        "type": "LessThanOrEqual",
+                        "parameters": {
+                          "type": "Numeric",
+                          "value": "LimitAmount",
+                          "valueType": "Property"
+                        },
+                        "dataQuality": {
+                          "rule": "InvalidAmount"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check AccruedInterest",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "AccruedInterest",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Numeric",
+                        "dataQuality": {
+                          "rule": "NumericProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check PresentValue",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "PresentValue",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Numeric",
+                        "dataQuality": {
+                          "rule": "NumericProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check PresentValueIncludingFeesAndCosts",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "PresentValueIncludingFeesAndCosts",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "Numeric",
+                        "dataQuality": {
+                          "rule": "NumericProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check AsLb",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "AsLb",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": false,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "String",
+                        "dataQuality": {
+                          "rule": "StringProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check OriginSystemId",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "OriginSystemId",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "String",
+                        "dataQuality": {
+                          "rule": "StringProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  },
+                  {
+                    "name": "Check OriginCounterpartyId",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "OriginCounterpartyId",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "String",
+                        "dataQuality": {
+                          "rule": "StringProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "FixedValue",
+                      "value": ""
+                    }
+                  },
+                  {
+                    "name": "Check OriginContractId",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "OriginContractId",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true,
+                        "dataQuality": {
+                          "rule": "MandatoryProperty"
+                        }
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "String",
+                        "dataQuality": {
+                          "rule": "StringProperty"
+                        }
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  }
+                ],
+                "enableTrace": true
+              },
+              {
+                "qualityProfileId": "1b2e250f-61fc-4736-b57d-35eca3b0eca4",
+                "name": "Credit Undrawn Props",
+                "description": "Quality profile credit undrawn props",
+                "target": {
+                  "sinkId": "fa427b60-6558-4500-a6f4-88a3386ae410",
+                  "sinkName": "Contract Properties Bag"
+                },
+                "enableTrace": true,
+                "checks": [
+                  {
+                    "name": "check ContractId",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "ContractId",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "guid"
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  }
+                ]
+              },
+              {
+                "qualityProfileId": "259e6420-47bd-4026-9297-b27fb9485d3e",
+                "name": "Delivered CashFlow Konven",
+                "description": "Quality profile delivered cashflow Konven",
+                "target": {
+                  "sinkId": "09340f9c-8f1e-427b-a352-55623cc8d890",
+                  "sinkName": "Cash Flows"
+                },
+                "checks": [
+                  {
+                    "name": "check ContractId",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "ContractId",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "guid"
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  }
+                ],
+                "enableTrace": false
+              },
+              {
+                "qualityProfileId": "48c60f06-b134-4d9a-b950-98586e2e63d3",
+                "name": "Delivered CashFlow Sharia",
+                "description": "Quality profile delivered cashflow Sharia",
+                "target": {
+                  "sinkId": "09340f9c-8f1e-427b-a352-55623cc8d890",
+                  "sinkName": "Cash Flows"
+                },
+                "checks": [
+                  {
+                    "name": "check ContractId",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "ContractId",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "guid"
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  }
+                ],
+                "enableTrace": false
+              },
+              {
+                "qualityProfileId": "712b9c93-af9e-46db-937c-93aaa7829029",
+                "name": "Historical Contracts Konven",
+                "description": "Quality profile historical contracts Konven",
+                "target": {
+                  "sinkId": "53f7ddc2-e1c1-4b61-b43f-049395d7657e",
+                  "sinkName": "Historical Contract Docs"
+                },
+                "checks": [
+                  {
+                    "name": "check ContractId",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "ContractId",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "guid"
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  }
+                ],
+                "enableTrace": false
+              },
+              {
+                "qualityProfileId": "6d86d48e-bf08-4b4b-a58b-d66a4818aa5b",
+                "name": "Historical Contracts Sharia",
+                "description": "Quality profile historical contracts Sharia",
+                "target": {
+                  "sinkId": "53f7ddc2-e1c1-4b61-b43f-049395d7657e",
+                  "sinkName": "Historical Contract Docs"
+                },
+                "checks": [
+                  {
+                    "name": "check ContractId",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "ContractId",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "guid"
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  }
+                ],
+                "enableTrace": false
+              },
+              {
+                "qualityProfileId": "447a86cc-61cc-4efd-b363-f9518e933ca6",
+                "name": "Market Rate",
+                "description": "Quality profile market rate",
+                "target": {
+                  "sinkId": "6c705dfd-eace-4cc1-89be-396e6a8c87eb",
+                  "sinkName": "Contracts"
+                },
+                "checks": [
+                  {
+                    "name": "check ContractId",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "ContractId",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "guid"
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  }
+                ],
+                "enableTrace": false
+              },
+              {
+                "qualityProfileId": "c3ce5058-be56-4f5e-a5b3-4136410b7bf4",
+                "name": "Market Rate Props",
+                "description": "Quality profile market rate props",
+                "target": {
+                  "sinkId": "fa427b60-6558-4500-a6f4-88a3386ae410",
+                  "sinkName": "Contract Properties Bag"
+                },
+                "enableTrace": false,
+                "checks": [
+                  {
+                    "name": "check ContractId",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "ContractId",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "guid"
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  }
+                ]
+              },
+              {
+                "qualityProfileId": "d75c4e70-4040-4c66-ba2f-a666604ce1de",
+                "name": "Nominative Sharia",
+                "description": "Quality profile nominative sharia",
+                "target": {
+                  "sinkId": "6c705dfd-eace-4cc1-89be-396e6a8c87eb",
+                  "sinkName": "Contracts"
+                },
+                "checks": [
+                  {
+                    "name": "check ContractId",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "ContractId",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "guid"
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  }
+                ],
+                "enableTrace": false
+              },
+              {
+                "qualityProfileId": "4b0ddf5b-28fa-4409-b02c-48ca6c591b99",
+                "name": "Nominative Sharia Props",
+                "description": "Quality profile nominative sharia props",
+                "target": {
+                  "sinkId": "fa427b60-6558-4500-a6f4-88a3386ae410",
+                  "sinkName": "Contract Properties Bag"
+                },
+                "enableTrace": false,
+                "checks": [
+                  {
+                    "name": "check ContractId",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "ContractId",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "guid"
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  }
+                ]
+              },
+              {
+                "qualityProfileId": "2f6f288c-548f-41aa-a31c-38a3644c31ef",
+                "name": "Penyertaan",
+                "description": "Quality profile penyertaan",
+                "target": {
+                  "sinkId": "6c705dfd-eace-4cc1-89be-396e6a8c87eb",
+                  "sinkName": "Contracts"
+                },
+                "checks": [
+                  {
+                    "name": "check ContractId",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "ContractId",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "guid"
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  }
+                ],
+                "enableTrace": false
+              },
+              {
+                "qualityProfileId": "5943bc60-ddfb-4548-82be-beea51d71c69",
+                "name": "Penyertaan Props",
+                "description": "Quality profile penyertaan props",
+                "target": {
+                  "sinkId": "fa427b60-6558-4500-a6f4-88a3386ae410",
+                  "sinkName": "Contract Properties Bag"
+                },
+                "enableTrace": false,
+                "checks": [
+                  {
+                    "name": "check ContractId",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "ContractId",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "guid"
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  }
+                ]
+              },
+              {
+                "qualityProfileId": "07c455bb-b684-42f3-8fa5-26259c2dabda",
+                "name": "Placement",
+                "description": "Quality profile placement",
+                "target": {
+                  "sinkId": "6c705dfd-eace-4cc1-89be-396e6a8c87eb",
+                  "sinkName": "Contracts"
+                },
+                "checks": [
+                  {
+                    "name": "check ContractId",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "ContractId",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "guid"
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  }
+                ],
+                "enableTrace": false
+              },
+              {
+                "qualityProfileId": "53ed64e3-506f-4965-9dd8-13874216a2a6",
+                "name": "Placement Props",
+                "description": "Quality profile placement props",
+                "target": {
+                  "sinkId": "fa427b60-6558-4500-a6f4-88a3386ae410",
+                  "sinkName": "Contract Properties Bag"
+                },
+                "enableTrace": false,
+                "checks": [
+                  {
+                    "name": "check ContractId",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "ContractId",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "guid"
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  }
+                ]
+              },
+              {
+                "qualityProfileId": "914d6cad-d455-490b-9c6f-107c717a7572",
+                "name": "Reverse Repo",
+                "description": "Quality profile reverse repo",
+                "target": {
+                  "sinkId": "6c705dfd-eace-4cc1-89be-396e6a8c87eb",
+                  "sinkName": "Contracts"
+                },
+                "checks": [
+                  {
+                    "name": "check ContractId",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "ContractId",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "guid"
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  }
+                ],
+                "enableTrace": false
+              },
+              {
+                "qualityProfileId": "21493f06-2879-4829-a9d1-d19cf0d08a9e",
+                "name": "Reverse Repo Props",
+                "description": "Quality profile reverse repo props",
+                "target": {
+                  "sinkId": "fa427b60-6558-4500-a6f4-88a3386ae410",
+                  "sinkName": "Contract Properties Bag"
+                },
+                "enableTrace": false,
+                "checks": [
+                  {
+                    "name": "check ContractId",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "ContractId",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "guid"
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  }
+                ]
+              },
+              {
+                "qualityProfileId": "2f285a4d-0c10-4084-9c4c-493ff233be0d",
+                "name": "SKBDN",
+                "description": "Quality profile skbdn",
+                "target": {
+                  "sinkId": "6c705dfd-eace-4cc1-89be-396e6a8c87eb",
+                  "sinkName": "Contracts"
+                },
+                "checks": [
+                  {
+                    "name": "check ContractId",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "ContractId",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "guid"
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  }
+                ],
+                "enableTrace": false
+              },
+              {
+                "qualityProfileId": "5de40050-0d38-4247-9c85-2c94334b22bd",
+                "name": "SKBDN Props",
+                "description": "Quality profile skbdn props",
+                "checks": [
+                  {
+                    "name": "check ContractId",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "ContractId",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "guid"
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  }
+                ],
+                "enableTrace": false,
+                "target": {
+                  "sinkId": "fa427b60-6558-4500-a6f4-88a3386ae410",
+                  "sinkName": "Contract Properties Bag"
+                }
+              },
+              {
+                "qualityProfileId": "1dddb8a4-8a1c-42a9-a4a6-2eb1fa066181",
+                "name": "Surat Berharga dan Obligasi",
+                "description": "Quality profile surat berharga dan Obligasi",
+                "target": {
+                  "sinkId": "6c705dfd-eace-4cc1-89be-396e6a8c87eb",
+                  "sinkName": "Contracts"
+                },
+                "checks": [
+                  {
+                    "name": "check ContractId",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "ContractId",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "guid"
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  }
+                ],
+                "enableTrace": false
+              },
+              {
+                "qualityProfileId": "1cc12261-d7be-4cb0-90fb-e5aa379d7604",
+                "name": "Surat Berharga dan Obligasi Props",
+                "description": "Quality profile surat berharga dan obligasi props",
+                "target": {
+                  "sinkId": "fa427b60-6558-4500-a6f4-88a3386ae410",
+                  "sinkName": "Contract Properties Bag"
+                },
+                "enableTrace": false,
+                "checks": [
+                  {
+                    "name": "check ContractId",
+                    "type": "PropertyCheck",
+                    "enabled": true,
+                    "property": "ContractId",
+                    "checks": [
+                      {
+                        "type": "Mandatory",
+                        "value": true
+                      },
+                      {
+                        "type": "DataType",
+                        "value": "guid"
+                      }
+                    ],
+                    "remediation": {
+                      "type": "Reject"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "publishRequests": [],
+      "activityExport": {
+        "sourceId": "6fafdece-3e58-4155-841c-cf0206daf88d",
+        "name": "BSSB - Quality Profiles_v1",
+        "path": "models/activities",
+        "file": "activities_sourceId_6daf88d.json"
+      }
+    }
+  ]
+}

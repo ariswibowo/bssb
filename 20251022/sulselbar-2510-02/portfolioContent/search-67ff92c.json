@@ -1,0 +1,14 @@
+{
+  "ContentId": "2091faf0-4662-47a5-b360-e6ddc67ff92c",
+  "Code": "Search",
+  "Name": "Search",
+  "Description": "Search Page",
+  "Route": "/portfolio/search",
+  "DataAccess": null,
+  "Content": "{\"contentType\":\"SearchResultsPage\",\"contentProps\":{\"breadcrumbs\":[{\"label\":\"Home\",\"link\":\"/portfolio/home\"},{\"label\":\"Search\",\"link\":\"/portfolio/search\"}],\"query\":{\"take\":50},\"contractBasePath\":\"/portfolio/contracts/query\",\"counterpartyBasePath\":\"/portfolio/counterparties/query\",\"facilityBasePath\":\"/portfolio/facilities/query\"}}",
+  "ConcurrencyId": "22383cbd-7a59-406c-b5ab-a11c7b2b36cd",
+  "CreatedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "CreatedWhen": "2023-11-09 04:01:52",
+  "LastModifiedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "LastModifiedWhen": "2023-11-09 04:01:52"
+}

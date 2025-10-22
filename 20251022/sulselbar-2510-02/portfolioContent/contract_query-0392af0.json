@@ -1,0 +1,14 @@
+{
+  "ContentId": "7e7ca13d-72b8-4c17-9b2e-b5f310392af0",
+  "Code": "ContractQuery",
+  "Name": "Contract Query",
+  "Description": "Contract Query page",
+  "Route": "/portfolio/contracts/query",
+  "DataAccess": null,
+  "Content": "{\"contentType\":\"ContractQueryPage\",\"contentProps\":{\"breadcrumbs\":[{\"label\":\"Home\",\"link\":\"/portfolio/home\"},{\"label\":\"Contracts\",\"link\":\"/portfolio/contracts\"},{\"label\":\"Search\",\"link\":\"/portfolio/contracts/query\"}],\"query\":{\"take\":50},\"contractBasePath\":\"/portfolio/contracts/query\",\"counterpartyBasePath\":\"/portfolio/counterparties/query\"}}",
+  "ConcurrencyId": "4f7508d9-ad8e-49fb-b013-e7e5f0e801f7",
+  "CreatedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "CreatedWhen": "2023-11-09 04:01:52",
+  "LastModifiedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "LastModifiedWhen": "2023-11-09 04:01:52"
+}

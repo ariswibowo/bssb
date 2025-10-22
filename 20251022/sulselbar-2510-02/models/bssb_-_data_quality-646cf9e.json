@@ -1,0 +1,878 @@
+{
+  "ModelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+  "DomainId": "5c2c60f7-e546-484e-aa8b-bcbc964933ee",
+  "Name": "BSSB - Data Quality",
+  "Description": "BSSB - Data Quality",
+  "ModelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+  "ObjectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+  "ParentDeckId": null,
+  "IsPrivate": false,
+  "Status": "Open",
+  "Data": {
+    "deletionProtection": {
+      "enabled": false
+    }
+  },
+  "LatestVersionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+  "LatestVersion": 1,
+  "LatestStatus": "Draft",
+  "LatestErrors": null,
+  "LatestWarnings": null,
+  "LatestValidatedWhen": null,
+  "PublishedVersions": 0,
+  "ArchivedBy": null,
+  "ArchivedWhen": null,
+  "CreatedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "CreatedWhen": "2025-09-30 04:22:04.772232",
+  "LastModifiedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "LastModifiedWhen": "2025-10-20 11:50:29.761182",
+  "ObjectiveTypeCode": "DataQuality",
+  "ModelTypeName": "Simulation",
+  "activityExport": {
+    "sourceId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+    "name": "BSSB - Data Quality",
+    "path": "models/activities",
+    "file": "activities_sourceId_646cf9e.json"
+  },
+  "versions": [
+    {
+      "VersionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "ModelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+      "Version": 1,
+      "Description": "Initial Version",
+      "Status": "Draft",
+      "PublishedBy": null,
+      "PublishedWhen": null,
+      "PublishComments": null,
+      "ExpiryDate": null,
+      "ArchivedBy": null,
+      "ArchivedWhen": null,
+      "ConcurrencyId": "625b5ad2-af2a-417d-8d5b-9b5e36222bab",
+      "CreatedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "CreatedWhen": "2025-09-30 04:22:04.772232",
+      "LastModifiedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "LastModifiedWhen": "2025-10-20 11:50:29.761182",
+      "versionProps": [
+        {
+          "VersionPropId": "ec9e4ef4-bbad-42bb-8eff-6e0cad5657bf",
+          "VersionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "Key": "Origin",
+          "Value": {
+            "origin": {
+              "originType": "New"
+            }
+          }
+        },
+        {
+          "VersionPropId": "6ecf040e-2995-40ab-8f4d-a079ff444a88",
+          "VersionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "Key": "Scoring",
+          "Value": {
+            "zones": [
+              {
+                "zoneId": "b896bebc-0063-4cf5-8bdd-574e0331bff1",
+                "name": "Low Quality",
+                "description": "Low Quality",
+                "type": "Minimum",
+                "limit": 0.6,
+                "color": "#C64B4B"
+              },
+              {
+                "zoneId": "bcc5bc3e-dfbc-4118-b2ed-152f86cde6e9",
+                "name": "Medium Quality",
+                "description": "Medium Quality",
+                "type": "Neutral",
+                "limit": 0.79,
+                "color": "#F8A03A"
+              },
+              {
+                "zoneId": "623850c1-dd5b-48c6-acf9-4d758054f1a1",
+                "name": "High Quality",
+                "description": "High Quality",
+                "type": "Target",
+                "color": "#4DBE51",
+                "limit": 1
+              }
+            ]
+          }
+        },
+        {
+          "VersionPropId": "8954c997-fc96-45ec-91ef-39e1f4f714ed",
+          "VersionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "Key": "Rules",
+          "Value": {
+            "rules": [
+              {
+                "ruleId": "f6e51fb4-cc74-4134-82e4-b0d9df041ee2",
+                "name": "Mandatory Property",
+                "description": "Mandatory Property",
+                "code": "MandatoryProperty",
+                "dimension": "Completeness",
+                "criticality": "High",
+                "tags": [],
+                "configuration": {
+                  "selectedSources": [
+                    {
+                      "sourceId": "0622601b-af3c-48d2-a1a5-d719ac4f5b55",
+                      "selectedFeeds": [
+                        {
+                          "feedId": "4a513cd8-bced-4eef-8793-dcd8885fc90b"
+                        },
+                        {
+                          "feedId": "4bbc353e-8c33-4c22-99ee-bc9df8121ead"
+                        },
+                        {
+                          "feedId": "b81ae007-b08a-4626-b935-a8d530fca44e"
+                        },
+                        {
+                          "feedId": "5a7c634a-5e82-475b-82e3-0c23b8cbee27"
+                        },
+                        {
+                          "feedId": "97edb0b1-1788-4c8e-a18d-6554f26ccaf4"
+                        },
+                        {
+                          "feedId": "eb7ca614-8321-4eef-837b-7115de8dbe2d"
+                        },
+                        {
+                          "feedId": "8e7c58a7-e901-449e-b8ea-48db94d4e4cc"
+                        },
+                        {
+                          "feedId": "8dabbab0-2e09-460e-80ae-2ab08fea0e56"
+                        },
+                        {
+                          "feedId": "77f7de3f-acc8-4701-b72a-6a5f3e421a04"
+                        },
+                        {
+                          "feedId": "3412ad0c-c3d4-4f77-a44b-977a536dd19a"
+                        },
+                        {
+                          "feedId": "fe08d95f-d2db-43ac-82bb-e6c55c803914"
+                        },
+                        {
+                          "feedId": "9a4f914d-f4fd-49da-ae3a-cb51c0f38bed"
+                        },
+                        {
+                          "feedId": "c95b0c3a-3874-4372-bfcf-50203f2688c8"
+                        },
+                        {
+                          "feedId": "5ce0e4b7-dd02-4ad3-b63b-cc0ba8ba40a5"
+                        },
+                        {
+                          "feedId": "02fd7cbe-4d77-4ebc-a10b-f6e77c3d9fa7"
+                        },
+                        {
+                          "feedId": "21bb4234-ec7b-435d-8742-09f95ee5d849"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "ruleId": "55988814-d1ea-4cf8-a41b-11d487e69e89",
+                "name": "Numeric Property",
+                "description": "Property should be of data type numeric",
+                "code": "NumericProperty",
+                "dimension": "Validity",
+                "criticality": "High",
+                "tags": [],
+                "configuration": {
+                  "selectedSources": [
+                    {
+                      "sourceId": "0622601b-af3c-48d2-a1a5-d719ac4f5b55",
+                      "selectedFeeds": [
+                        {
+                          "feedId": "4a513cd8-bced-4eef-8793-dcd8885fc90b"
+                        },
+                        {
+                          "feedId": "4bbc353e-8c33-4c22-99ee-bc9df8121ead"
+                        },
+                        {
+                          "feedId": "b81ae007-b08a-4626-b935-a8d530fca44e"
+                        },
+                        {
+                          "feedId": "5a7c634a-5e82-475b-82e3-0c23b8cbee27"
+                        },
+                        {
+                          "feedId": "97edb0b1-1788-4c8e-a18d-6554f26ccaf4"
+                        },
+                        {
+                          "feedId": "eb7ca614-8321-4eef-837b-7115de8dbe2d"
+                        },
+                        {
+                          "feedId": "8e7c58a7-e901-449e-b8ea-48db94d4e4cc"
+                        },
+                        {
+                          "feedId": "8dabbab0-2e09-460e-80ae-2ab08fea0e56"
+                        },
+                        {
+                          "feedId": "77f7de3f-acc8-4701-b72a-6a5f3e421a04"
+                        },
+                        {
+                          "feedId": "3412ad0c-c3d4-4f77-a44b-977a536dd19a"
+                        },
+                        {
+                          "feedId": "fe08d95f-d2db-43ac-82bb-e6c55c803914"
+                        },
+                        {
+                          "feedId": "9a4f914d-f4fd-49da-ae3a-cb51c0f38bed"
+                        },
+                        {
+                          "feedId": "c95b0c3a-3874-4372-bfcf-50203f2688c8"
+                        },
+                        {
+                          "feedId": "5ce0e4b7-dd02-4ad3-b63b-cc0ba8ba40a5"
+                        },
+                        {
+                          "feedId": "02fd7cbe-4d77-4ebc-a10b-f6e77c3d9fa7"
+                        },
+                        {
+                          "feedId": "21bb4234-ec7b-435d-8742-09f95ee5d849"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "ruleId": "0c8a30df-a12b-441e-ad97-7191770b5ff2",
+                "name": "Date Property",
+                "description": "Property should be of data type date",
+                "code": "DateProperty",
+                "dimension": "Validity",
+                "criticality": "High",
+                "tags": [],
+                "configuration": {
+                  "selectedSources": [
+                    {
+                      "sourceId": "0622601b-af3c-48d2-a1a5-d719ac4f5b55",
+                      "selectedFeeds": [
+                        {
+                          "feedId": "4a513cd8-bced-4eef-8793-dcd8885fc90b"
+                        },
+                        {
+                          "feedId": "4bbc353e-8c33-4c22-99ee-bc9df8121ead"
+                        },
+                        {
+                          "feedId": "b81ae007-b08a-4626-b935-a8d530fca44e"
+                        },
+                        {
+                          "feedId": "5a7c634a-5e82-475b-82e3-0c23b8cbee27"
+                        },
+                        {
+                          "feedId": "97edb0b1-1788-4c8e-a18d-6554f26ccaf4"
+                        },
+                        {
+                          "feedId": "eb7ca614-8321-4eef-837b-7115de8dbe2d"
+                        },
+                        {
+                          "feedId": "8e7c58a7-e901-449e-b8ea-48db94d4e4cc"
+                        },
+                        {
+                          "feedId": "8dabbab0-2e09-460e-80ae-2ab08fea0e56"
+                        },
+                        {
+                          "feedId": "77f7de3f-acc8-4701-b72a-6a5f3e421a04"
+                        },
+                        {
+                          "feedId": "3412ad0c-c3d4-4f77-a44b-977a536dd19a"
+                        },
+                        {
+                          "feedId": "fe08d95f-d2db-43ac-82bb-e6c55c803914"
+                        },
+                        {
+                          "feedId": "9a4f914d-f4fd-49da-ae3a-cb51c0f38bed"
+                        },
+                        {
+                          "feedId": "c95b0c3a-3874-4372-bfcf-50203f2688c8"
+                        },
+                        {
+                          "feedId": "5ce0e4b7-dd02-4ad3-b63b-cc0ba8ba40a5"
+                        },
+                        {
+                          "feedId": "02fd7cbe-4d77-4ebc-a10b-f6e77c3d9fa7"
+                        },
+                        {
+                          "feedId": "21bb4234-ec7b-435d-8742-09f95ee5d849"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "ruleId": "5bcfd5a3-ae68-4010-8e55-936402821d5b",
+                "name": "Integer Property",
+                "description": "Property should be of data type integer",
+                "code": "IntegerProperty",
+                "dimension": "Validity",
+                "criticality": "High",
+                "tags": [],
+                "configuration": {
+                  "selectedSources": [
+                    {
+                      "sourceId": "0622601b-af3c-48d2-a1a5-d719ac4f5b55",
+                      "selectedFeeds": [
+                        {
+                          "feedId": "4a513cd8-bced-4eef-8793-dcd8885fc90b"
+                        },
+                        {
+                          "feedId": "4bbc353e-8c33-4c22-99ee-bc9df8121ead"
+                        },
+                        {
+                          "feedId": "b81ae007-b08a-4626-b935-a8d530fca44e"
+                        },
+                        {
+                          "feedId": "5a7c634a-5e82-475b-82e3-0c23b8cbee27"
+                        },
+                        {
+                          "feedId": "97edb0b1-1788-4c8e-a18d-6554f26ccaf4"
+                        },
+                        {
+                          "feedId": "eb7ca614-8321-4eef-837b-7115de8dbe2d"
+                        },
+                        {
+                          "feedId": "8e7c58a7-e901-449e-b8ea-48db94d4e4cc"
+                        },
+                        {
+                          "feedId": "8dabbab0-2e09-460e-80ae-2ab08fea0e56"
+                        },
+                        {
+                          "feedId": "77f7de3f-acc8-4701-b72a-6a5f3e421a04"
+                        },
+                        {
+                          "feedId": "3412ad0c-c3d4-4f77-a44b-977a536dd19a"
+                        },
+                        {
+                          "feedId": "fe08d95f-d2db-43ac-82bb-e6c55c803914"
+                        },
+                        {
+                          "feedId": "9a4f914d-f4fd-49da-ae3a-cb51c0f38bed"
+                        },
+                        {
+                          "feedId": "c95b0c3a-3874-4372-bfcf-50203f2688c8"
+                        },
+                        {
+                          "feedId": "5ce0e4b7-dd02-4ad3-b63b-cc0ba8ba40a5"
+                        },
+                        {
+                          "feedId": "02fd7cbe-4d77-4ebc-a10b-f6e77c3d9fa7"
+                        },
+                        {
+                          "feedId": "21bb4234-ec7b-435d-8742-09f95ee5d849"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "ruleId": "48b9d4b2-7939-433e-b2f0-5c2df33ffe22",
+                "name": "Guid Property",
+                "description": "Property should be of data type date guid",
+                "code": "GuidProperty",
+                "dimension": "Validity",
+                "criticality": "High",
+                "tags": [],
+                "configuration": {
+                  "selectedSources": [
+                    {
+                      "sourceId": "0622601b-af3c-48d2-a1a5-d719ac4f5b55",
+                      "selectedFeeds": [
+                        {
+                          "feedId": "4a513cd8-bced-4eef-8793-dcd8885fc90b"
+                        },
+                        {
+                          "feedId": "4bbc353e-8c33-4c22-99ee-bc9df8121ead"
+                        },
+                        {
+                          "feedId": "b81ae007-b08a-4626-b935-a8d530fca44e"
+                        },
+                        {
+                          "feedId": "5a7c634a-5e82-475b-82e3-0c23b8cbee27"
+                        },
+                        {
+                          "feedId": "97edb0b1-1788-4c8e-a18d-6554f26ccaf4"
+                        },
+                        {
+                          "feedId": "eb7ca614-8321-4eef-837b-7115de8dbe2d"
+                        },
+                        {
+                          "feedId": "8e7c58a7-e901-449e-b8ea-48db94d4e4cc"
+                        },
+                        {
+                          "feedId": "8dabbab0-2e09-460e-80ae-2ab08fea0e56"
+                        },
+                        {
+                          "feedId": "77f7de3f-acc8-4701-b72a-6a5f3e421a04"
+                        },
+                        {
+                          "feedId": "3412ad0c-c3d4-4f77-a44b-977a536dd19a"
+                        },
+                        {
+                          "feedId": "fe08d95f-d2db-43ac-82bb-e6c55c803914"
+                        },
+                        {
+                          "feedId": "9a4f914d-f4fd-49da-ae3a-cb51c0f38bed"
+                        },
+                        {
+                          "feedId": "c95b0c3a-3874-4372-bfcf-50203f2688c8"
+                        },
+                        {
+                          "feedId": "5ce0e4b7-dd02-4ad3-b63b-cc0ba8ba40a5"
+                        },
+                        {
+                          "feedId": "02fd7cbe-4d77-4ebc-a10b-f6e77c3d9fa7"
+                        },
+                        {
+                          "feedId": "21bb4234-ec7b-435d-8742-09f95ee5d849"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "ruleId": "e4d38047-e94a-42dc-af6d-752e36a8d1cd",
+                "name": "Invalid Value",
+                "description": "If value is invalid or out of range",
+                "code": "InvalidValue",
+                "dimension": "Validity",
+                "criticality": "High",
+                "tags": [],
+                "configuration": {
+                  "selectedSources": [
+                    {
+                      "sourceId": "0622601b-af3c-48d2-a1a5-d719ac4f5b55",
+                      "selectedFeeds": [
+                        {
+                          "feedId": "4a513cd8-bced-4eef-8793-dcd8885fc90b"
+                        },
+                        {
+                          "feedId": "4bbc353e-8c33-4c22-99ee-bc9df8121ead"
+                        },
+                        {
+                          "feedId": "b81ae007-b08a-4626-b935-a8d530fca44e"
+                        },
+                        {
+                          "feedId": "5a7c634a-5e82-475b-82e3-0c23b8cbee27"
+                        },
+                        {
+                          "feedId": "97edb0b1-1788-4c8e-a18d-6554f26ccaf4"
+                        },
+                        {
+                          "feedId": "eb7ca614-8321-4eef-837b-7115de8dbe2d"
+                        },
+                        {
+                          "feedId": "8e7c58a7-e901-449e-b8ea-48db94d4e4cc"
+                        },
+                        {
+                          "feedId": "8dabbab0-2e09-460e-80ae-2ab08fea0e56"
+                        },
+                        {
+                          "feedId": "77f7de3f-acc8-4701-b72a-6a5f3e421a04"
+                        },
+                        {
+                          "feedId": "3412ad0c-c3d4-4f77-a44b-977a536dd19a"
+                        },
+                        {
+                          "feedId": "fe08d95f-d2db-43ac-82bb-e6c55c803914"
+                        },
+                        {
+                          "feedId": "9a4f914d-f4fd-49da-ae3a-cb51c0f38bed"
+                        },
+                        {
+                          "feedId": "c95b0c3a-3874-4372-bfcf-50203f2688c8"
+                        },
+                        {
+                          "feedId": "5ce0e4b7-dd02-4ad3-b63b-cc0ba8ba40a5"
+                        },
+                        {
+                          "feedId": "02fd7cbe-4d77-4ebc-a10b-f6e77c3d9fa7"
+                        },
+                        {
+                          "feedId": "21bb4234-ec7b-435d-8742-09f95ee5d849"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "ruleId": "fb97f08a-5b16-4025-b425-b91a18e19854",
+                "name": "Boolean Property",
+                "description": "Property should be of data type boolean",
+                "code": "BooleanProperty",
+                "dimension": "Validity",
+                "criticality": "High",
+                "tags": [],
+                "configuration": {
+                  "selectedSources": [
+                    {
+                      "sourceId": "0622601b-af3c-48d2-a1a5-d719ac4f5b55",
+                      "selectedFeeds": [
+                        {
+                          "feedId": "4a513cd8-bced-4eef-8793-dcd8885fc90b"
+                        },
+                        {
+                          "feedId": "4bbc353e-8c33-4c22-99ee-bc9df8121ead"
+                        },
+                        {
+                          "feedId": "b81ae007-b08a-4626-b935-a8d530fca44e"
+                        },
+                        {
+                          "feedId": "5a7c634a-5e82-475b-82e3-0c23b8cbee27"
+                        },
+                        {
+                          "feedId": "97edb0b1-1788-4c8e-a18d-6554f26ccaf4"
+                        },
+                        {
+                          "feedId": "eb7ca614-8321-4eef-837b-7115de8dbe2d"
+                        },
+                        {
+                          "feedId": "8e7c58a7-e901-449e-b8ea-48db94d4e4cc"
+                        },
+                        {
+                          "feedId": "8dabbab0-2e09-460e-80ae-2ab08fea0e56"
+                        },
+                        {
+                          "feedId": "77f7de3f-acc8-4701-b72a-6a5f3e421a04"
+                        },
+                        {
+                          "feedId": "3412ad0c-c3d4-4f77-a44b-977a536dd19a"
+                        },
+                        {
+                          "feedId": "fe08d95f-d2db-43ac-82bb-e6c55c803914"
+                        },
+                        {
+                          "feedId": "9a4f914d-f4fd-49da-ae3a-cb51c0f38bed"
+                        },
+                        {
+                          "feedId": "c95b0c3a-3874-4372-bfcf-50203f2688c8"
+                        },
+                        {
+                          "feedId": "5ce0e4b7-dd02-4ad3-b63b-cc0ba8ba40a5"
+                        },
+                        {
+                          "feedId": "02fd7cbe-4d77-4ebc-a10b-f6e77c3d9fa7"
+                        },
+                        {
+                          "feedId": "21bb4234-ec7b-435d-8742-09f95ee5d849"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "ruleId": "c8872b7e-6917-4ae7-937a-f54038497821",
+                "name": "String Property",
+                "description": "Property should be of data type string",
+                "code": "StringProperty",
+                "dimension": "Validity",
+                "criticality": "High",
+                "tags": [],
+                "configuration": {
+                  "selectedSources": [
+                    {
+                      "sourceId": "0622601b-af3c-48d2-a1a5-d719ac4f5b55",
+                      "selectedFeeds": [
+                        {
+                          "feedId": "4a513cd8-bced-4eef-8793-dcd8885fc90b"
+                        },
+                        {
+                          "feedId": "4bbc353e-8c33-4c22-99ee-bc9df8121ead"
+                        },
+                        {
+                          "feedId": "b81ae007-b08a-4626-b935-a8d530fca44e"
+                        },
+                        {
+                          "feedId": "5a7c634a-5e82-475b-82e3-0c23b8cbee27"
+                        },
+                        {
+                          "feedId": "97edb0b1-1788-4c8e-a18d-6554f26ccaf4"
+                        },
+                        {
+                          "feedId": "eb7ca614-8321-4eef-837b-7115de8dbe2d"
+                        },
+                        {
+                          "feedId": "8e7c58a7-e901-449e-b8ea-48db94d4e4cc"
+                        },
+                        {
+                          "feedId": "8dabbab0-2e09-460e-80ae-2ab08fea0e56"
+                        },
+                        {
+                          "feedId": "77f7de3f-acc8-4701-b72a-6a5f3e421a04"
+                        },
+                        {
+                          "feedId": "3412ad0c-c3d4-4f77-a44b-977a536dd19a"
+                        },
+                        {
+                          "feedId": "fe08d95f-d2db-43ac-82bb-e6c55c803914"
+                        },
+                        {
+                          "feedId": "9a4f914d-f4fd-49da-ae3a-cb51c0f38bed"
+                        },
+                        {
+                          "feedId": "c95b0c3a-3874-4372-bfcf-50203f2688c8"
+                        },
+                        {
+                          "feedId": "5ce0e4b7-dd02-4ad3-b63b-cc0ba8ba40a5"
+                        },
+                        {
+                          "feedId": "02fd7cbe-4d77-4ebc-a10b-f6e77c3d9fa7"
+                        },
+                        {
+                          "feedId": "21bb4234-ec7b-435d-8742-09f95ee5d849"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "ruleId": "9c6d7b87-c936-4258-924e-5f8ff76f5e9e",
+                "name": "Currency Format",
+                "description": "Currency code format should be exactly 3 characters",
+                "code": "CurrencyFormat",
+                "dimension": "Validity",
+                "criticality": "High",
+                "tags": [],
+                "configuration": {
+                  "selectedSources": [
+                    {
+                      "sourceId": "0622601b-af3c-48d2-a1a5-d719ac4f5b55",
+                      "selectedFeeds": [
+                        {
+                          "feedId": "4a513cd8-bced-4eef-8793-dcd8885fc90b"
+                        },
+                        {
+                          "feedId": "4bbc353e-8c33-4c22-99ee-bc9df8121ead"
+                        },
+                        {
+                          "feedId": "b81ae007-b08a-4626-b935-a8d530fca44e"
+                        },
+                        {
+                          "feedId": "5a7c634a-5e82-475b-82e3-0c23b8cbee27"
+                        },
+                        {
+                          "feedId": "97edb0b1-1788-4c8e-a18d-6554f26ccaf4"
+                        },
+                        {
+                          "feedId": "eb7ca614-8321-4eef-837b-7115de8dbe2d"
+                        },
+                        {
+                          "feedId": "8e7c58a7-e901-449e-b8ea-48db94d4e4cc"
+                        },
+                        {
+                          "feedId": "8dabbab0-2e09-460e-80ae-2ab08fea0e56"
+                        },
+                        {
+                          "feedId": "77f7de3f-acc8-4701-b72a-6a5f3e421a04"
+                        },
+                        {
+                          "feedId": "3412ad0c-c3d4-4f77-a44b-977a536dd19a"
+                        },
+                        {
+                          "feedId": "fe08d95f-d2db-43ac-82bb-e6c55c803914"
+                        },
+                        {
+                          "feedId": "9a4f914d-f4fd-49da-ae3a-cb51c0f38bed"
+                        },
+                        {
+                          "feedId": "c95b0c3a-3874-4372-bfcf-50203f2688c8"
+                        },
+                        {
+                          "feedId": "5ce0e4b7-dd02-4ad3-b63b-cc0ba8ba40a5"
+                        },
+                        {
+                          "feedId": "02fd7cbe-4d77-4ebc-a10b-f6e77c3d9fa7"
+                        },
+                        {
+                          "feedId": "21bb4234-ec7b-435d-8742-09f95ee5d849"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "ruleId": "d3f9aca2-3915-4247-8699-0c8d7f1a12e3",
+                "name": "Invalid Amount",
+                "description": "If amount is invalid",
+                "code": "InvalidAmount",
+                "dimension": "Validity",
+                "criticality": "High",
+                "tags": [],
+                "configuration": {
+                  "selectedSources": [
+                    {
+                      "sourceId": "0622601b-af3c-48d2-a1a5-d719ac4f5b55",
+                      "selectedFeeds": [
+                        {
+                          "feedId": "4a513cd8-bced-4eef-8793-dcd8885fc90b"
+                        },
+                        {
+                          "feedId": "4bbc353e-8c33-4c22-99ee-bc9df8121ead"
+                        },
+                        {
+                          "feedId": "b81ae007-b08a-4626-b935-a8d530fca44e"
+                        },
+                        {
+                          "feedId": "5a7c634a-5e82-475b-82e3-0c23b8cbee27"
+                        },
+                        {
+                          "feedId": "97edb0b1-1788-4c8e-a18d-6554f26ccaf4"
+                        },
+                        {
+                          "feedId": "eb7ca614-8321-4eef-837b-7115de8dbe2d"
+                        },
+                        {
+                          "feedId": "8e7c58a7-e901-449e-b8ea-48db94d4e4cc"
+                        },
+                        {
+                          "feedId": "8dabbab0-2e09-460e-80ae-2ab08fea0e56"
+                        },
+                        {
+                          "feedId": "77f7de3f-acc8-4701-b72a-6a5f3e421a04"
+                        },
+                        {
+                          "feedId": "3412ad0c-c3d4-4f77-a44b-977a536dd19a"
+                        },
+                        {
+                          "feedId": "fe08d95f-d2db-43ac-82bb-e6c55c803914"
+                        },
+                        {
+                          "feedId": "9a4f914d-f4fd-49da-ae3a-cb51c0f38bed"
+                        },
+                        {
+                          "feedId": "c95b0c3a-3874-4372-bfcf-50203f2688c8"
+                        },
+                        {
+                          "feedId": "5ce0e4b7-dd02-4ad3-b63b-cc0ba8ba40a5"
+                        },
+                        {
+                          "feedId": "02fd7cbe-4d77-4ebc-a10b-f6e77c3d9fa7"
+                        },
+                        {
+                          "feedId": "21bb4234-ec7b-435d-8742-09f95ee5d849"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "VersionPropId": "b0f916aa-9d0a-4bdc-ab71-b6622c52579a",
+          "VersionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "Key": "Sources",
+          "Value": {
+            "sources": [
+              {
+                "sourceId": "0622601b-af3c-48d2-a1a5-d719ac4f5b55",
+                "name": "Titanium",
+                "description": "High performance data integration system by ElysianNxt",
+                "type": "Elysian",
+                "configuration": {
+                  "code": "Titanium",
+                  "feeds": [
+                    {
+                      "feedId": "4a513cd8-bced-4eef-8793-dcd8885fc90b",
+                      "name": "Ayda",
+                      "description": "Ayda feed"
+                    },
+                    {
+                      "feedId": "4bbc353e-8c33-4c22-99ee-bc9df8121ead",
+                      "name": "Bank Guarantee",
+                      "description": "Bank Guarantee feed"
+                    },
+                    {
+                      "feedId": "b81ae007-b08a-4626-b935-a8d530fca44e",
+                      "name": "Counterparty Rating",
+                      "description": "Counterparty Rating feed"
+                    },
+                    {
+                      "feedId": "5a7c634a-5e82-475b-82e3-0c23b8cbee27",
+                      "name": "Credit",
+                      "description": "Credit feed"
+                    },
+                    {
+                      "feedId": "97edb0b1-1788-4c8e-a18d-6554f26ccaf4",
+                      "name": "Credit Undrawn",
+                      "description": "Credit Undrawn feed"
+                    },
+                    {
+                      "feedId": "eb7ca614-8321-4eef-837b-7115de8dbe2d",
+                      "name": "Delivered CashFlow Konven",
+                      "description": "Delivered CashFlow Konven feed"
+                    },
+                    {
+                      "feedId": "8e7c58a7-e901-449e-b8ea-48db94d4e4cc",
+                      "name": "Delivered CashFlow Sharia",
+                      "description": "Delivered CashFlow Sharia feed"
+                    },
+                    {
+                      "feedId": "8dabbab0-2e09-460e-80ae-2ab08fea0e56",
+                      "name": "Historical Contracts Konven",
+                      "description": "Historical Contracts Konven feed"
+                    },
+                    {
+                      "feedId": "77f7de3f-acc8-4701-b72a-6a5f3e421a04",
+                      "name": "Historical Contracts Sharia",
+                      "description": "Historical Contracts Sharia feed"
+                    },
+                    {
+                      "feedId": "3412ad0c-c3d4-4f77-a44b-977a536dd19a",
+                      "name": "Market Rate",
+                      "description": "Market Rate feed"
+                    },
+                    {
+                      "feedId": "fe08d95f-d2db-43ac-82bb-e6c55c803914",
+                      "name": "Nominative Sharia",
+                      "description": "Nominative Sharia feed"
+                    },
+                    {
+                      "feedId": "9a4f914d-f4fd-49da-ae3a-cb51c0f38bed",
+                      "name": "Penyertaan",
+                      "description": "Penyertaan feed"
+                    },
+                    {
+                      "feedId": "c95b0c3a-3874-4372-bfcf-50203f2688c8",
+                      "name": "Placement",
+                      "description": "Placement feed"
+                    },
+                    {
+                      "feedId": "5ce0e4b7-dd02-4ad3-b63b-cc0ba8ba40a5",
+                      "name": "Reverse Repo",
+                      "description": "Reverse Repo feed"
+                    },
+                    {
+                      "feedId": "02fd7cbe-4d77-4ebc-a10b-f6e77c3d9fa7",
+                      "name": "SKBDN",
+                      "description": "SKBDN feed"
+                    },
+                    {
+                      "feedId": "21bb4234-ec7b-435d-8742-09f95ee5d849",
+                      "name": "Surat Berharga dan Obligasi",
+                      "description": "Surat Berharga dan Obligasi feed"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "publishRequests": [],
+      "activityExport": {
+        "sourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+        "name": "BSSB - Data Quality_v1",
+        "path": "models/activities",
+        "file": "activities_sourceId_74f099d.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "export": {
+    "exportEnvironment": "LOCAL",
+    "importEnvironment": "BSSB-DEV",
+    "exports": [
+      {
+        "name": "Data Mgmt Models",
+        "exportType": "Models",
+        "exportSettings": {
+          "modelNames": [
+              "BSSB - Data Feeds",
+              "BSSB - Data Quality",
+              "BSSB - Data Adjustment",
+              "BSSB - Quality Profiles"
+           ],
+          "excludeModelNames": [],
+          "modelTypes": [],
+          "includePrivate": false,
+          "objectiveTypes": [],
+          "dupHandlingApproach": "Delete",
+          "replaceUsers": true,
+          "includeActivities": true
+        }
+      },
+			{
+				"name": "ReportingDate initialization policy",
+				"exportType": "Policies",
+				"exportSettings": {
+					"policyType": "ReportingDateInitialization",
+					"database": "Fdr",
+					"objectiveTypes": [],
+					"domains": [],
+					"migrateDefaultPolicy": false,
+					"migrateActivePolicy": true
+				}
+			},
+			{
+				"name": "All PortfolioContent",
+				"exportType": "PortfolioContent",
+				"exportSettings": {
+					"portfolioContentCodes": [],
+					"excludePortfolioContentCodes": [],
+					"dupHandlingApproach": "Delete"
+				}
+			}      
+    ]
+  }
+}

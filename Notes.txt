@@ -1,0 +1,18 @@
+-- Clone
+git clone https://github.com/ariswibowo/bssb.git
+
+-- Remote with token directly
+git remote set-url origin https://ariswibowo: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@github.com/ariswibowo/bssb.git
+
+-- Remove, and use the manual auth
+git remote set-url origin https://github.com/ariswibowo/bssb.git
+
+-- Check
+git remote -v
+
+-- Verify token
+curl -u ariswibowo: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 https://api.github.com/user
+
+-- Extract 7z (Linux)
+sudo dnf install p7zip p7zip-plugins -y
+7z x yourfile.7z
