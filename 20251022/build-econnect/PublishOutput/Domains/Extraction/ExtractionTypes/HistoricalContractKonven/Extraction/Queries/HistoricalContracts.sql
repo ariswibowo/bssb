@@ -13,6 +13,7 @@
     , hc.outstanding_amount
     , hc.days_past_due
     , hc.collectability
+    , hc.interest_rate
     , hc.antasena_jenis_pengguna
     , hc.antasena_kategori_debitur
     , hc.branch_code
