@@ -25,7 +25,7 @@
   "CreatedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
   "CreatedWhen": "2025-09-30 04:20:06.527882",
   "LastModifiedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
-  "LastModifiedWhen": "2025-10-22 09:00:59.385336",
+  "LastModifiedWhen": "2025-10-27 09:03:57.741683",
   "ObjectiveTypeCode": "DataFeeds",
   "ModelTypeName": "Simulation",
   "activityExport": {
@@ -47,11 +47,11 @@
       "ExpiryDate": null,
       "ArchivedBy": null,
       "ArchivedWhen": null,
-      "ConcurrencyId": "f45ba0fd-6b04-4b29-9bdd-58506c943d01",
+      "ConcurrencyId": "ba6b2f17-328e-46d7-851a-358640180b65",
       "CreatedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
       "CreatedWhen": "2025-09-30 04:20:06.527882",
       "LastModifiedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
-      "LastModifiedWhen": "2025-10-22 09:00:59.385336",
+      "LastModifiedWhen": "2025-10-27 09:03:57.741683",
       "versionProps": [
         {
           "VersionPropId": "94e159e2-a8d1-4830-8c3d-a1390b988855",
@@ -109,7 +109,7 @@
                       }
                     },
                     "transformations": {
-                      "enableTrace": false,
+                      "enableTrace": true,
                       "mappingRules": [
                         {
                           "ruleId": "d5adb164-2a76-4462-9f99-21be766cbf4c",
@@ -129,8 +129,21 @@
                                       "fromProperty": "reporting_date"
                                     },
                                     {
-                                      "type": "Map",
-                                      "fromProperty": "origin_contract_id"
+                                      "type": "Concatenate",
+                                      "parameters": [
+                                        {
+                                          "type": "Map",
+                                          "fromProperty": "branch_code"
+                                        },
+                                        {
+                                          "type": "FixedValue",
+                                          "fromValue": "_"
+                                        },
+                                        {
+                                          "type": "Map",
+                                          "fromProperty": "customer_name"
+                                        }
+                                      ]
                                     },
                                     {
                                       "type": "FixedValue",
@@ -151,12 +164,21 @@
                                       "fromProperty": "reporting_date"
                                     },
                                     {
-                                      "type": "Map",
-                                      "fromProperty": "id_pihak_lawan"
-                                    },
-                                    {
-                                      "type": "FixedValue",
-                                      "fromValue": "MANUAL_AYDA"
+                                      "type": "Concatenate",
+                                      "parameters": [
+                                        {
+                                          "type": "Map",
+                                          "fromProperty": "branch_code"
+                                        },
+                                        {
+                                          "type": "FixedValue",
+                                          "fromValue": "_"
+                                        },
+                                        {
+                                          "type": "Map",
+                                          "fromProperty": "customer_name"
+                                        }
+                                      ]
                                     }
                                   ]
                                 }
@@ -176,7 +198,7 @@
                               "transformations": [
                                 {
                                   "type": "FixedValue",
-                                  "fromValue": "KONVEN"
+                                  "fromValue": "SSB-KONVEN"
                                 }
                               ]
                             },
@@ -202,8 +224,21 @@
                               "toProperty": "OriginContractId",
                               "transformations": [
                                 {
-                                  "type": "Map",
-                                  "fromProperty": "origin_contract_id"
+                                  "type": "Concatenate",
+                                  "parameters": [
+                                    {
+                                      "type": "Map",
+                                      "fromProperty": "branch_code"
+                                    },
+                                    {
+                                      "type": "FixedValue",
+                                      "fromValue": "_"
+                                    },
+                                    {
+                                      "type": "Map",
+                                      "fromProperty": "customer_name"
+                                    }
+                                  ]
                                 }
                               ]
                             },
@@ -211,8 +246,21 @@
                               "toProperty": "OriginCounterpartyId",
                               "transformations": [
                                 {
-                                  "type": "Map",
-                                  "fromProperty": "id_pihak_lawan"
+                                  "type": "Concatenate",
+                                  "parameters": [
+                                    {
+                                      "type": "Map",
+                                      "fromProperty": "branch_code"
+                                    },
+                                    {
+                                      "type": "FixedValue",
+                                      "fromValue": "_"
+                                    },
+                                    {
+                                      "type": "Map",
+                                      "fromProperty": "customer_name"
+                                    }
+                                  ]
                                 }
                               ]
                             },
@@ -239,7 +287,7 @@
                               "transformations": [
                                 {
                                   "type": "FixedValue",
-                                  "fromValue": "AYDA"
+                                  "fromValue": "BSSB-K-AYDA"
                                 }
                               ]
                             },
@@ -248,7 +296,16 @@
                               "transformations": [
                                 {
                                   "type": "FixedValue",
-                                  "fromValue": "AYDA"
+                                  "fromValue": "BSSB-K-AYDA"
+                                }
+                              ]
+                            },
+                            {
+                              "toProperty": "Segment",
+                              "transformations": [
+                                {
+                                  "type": "FixedValue",
+                                  "fromValue": "BSSB-K-AYDA"
                                 }
                               ]
                             },
@@ -269,6 +326,15 @@
                                   "fromProperty": "reporting_date"
                                 }
                               ]
+                            },
+                            {
+                              "toProperty": "MaturityDate",
+                              "transformations": [
+                                {
+                                  "type": "Map",
+                                  "fromProperty": "reporting_date_plus_1month"
+                                }
+                              ]
                             }
                           ]
                         }
@@ -281,6 +347,44 @@
                       "qualityProfileId": "f70ffe9b-fd2f-4026-9ac9-63c44718aa7b",
                       "qualityProfileName": "Ayda",
                       "qualityProfileDescription": "Quality profile ayda"
+                    },
+                    "dataQuality": {
+                      "dataFeed": "Ayda",
+                      "materiality": {
+                        "mappings": [
+                          {
+                            "toProperty": "Weight",
+                            "transformations": [
+                              {
+                                "type": "Map",
+                                "fromProperty": "outstanding_amount"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "context": {
+                        "mappings": [
+                          {
+                            "toProperty": "ReportingDate",
+                            "transformations": [
+                              {
+                                "type": "Map",
+                                "fromProperty": "reporting_date"
+                              }
+                            ]
+                          },
+                          {
+                            "toProperty": "OriginContractId",
+                            "transformations": [
+                              {
+                                "type": "Map",
+                                "fromProperty": "origin_contract_id"
+                              }
+                            ]
+                          }
+                        ]
+                      }
                     }
                   }
                 ]
@@ -2481,13 +2585,21 @@
                         "updateStrategy": "IgnoreDuplicates",
                         "configuration": {
                           "historicalContractDocs": {
-                            "allowUpdateStandardProperties": false
+                            "allowUpdateStandardProperties": true,
+                            "updateableStandardProperties": [
+                              "BusinessUnit",
+                              "ProductType",
+                              "ProductSubtype",
+                              "Segment",
+                              "Currency",
+                              "MaturityDate"
+                            ]
                           }
                         }
                       }
                     },
                     "transformations": {
-                      "enableTrace": false,
+                      "enableTrace": true,
                       "mappingRules": [
                         {
                           "ruleId": "75152988-9eb4-4458-b5a3-41a77e494103",
@@ -2574,8 +2686,8 @@
                               "toProperty": "Entity",
                               "transformations": [
                                 {
-                                  "type": "Map",
-                                  "fromProperty": "entity"
+                                  "type": "FixedValue",
+                                  "fromValue": "SSB-KONVEN"
                                 }
                               ]
                             },
@@ -2620,6 +2732,24 @@
                                         {
                                           "type": "Map",
                                           "fromProperty": "outstanding_amount"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "toProperty": "DiscountRate",
+                                      "transformations": [
+                                        {
+                                          "type": "Divide",
+                                          "parameters": [
+                                            {
+                                              "type": "Map",
+                                              "fromProperty": "interest_rate"
+                                            },
+                                            {
+                                              "type": "FixedValue",
+                                              "fromValue": "100"
+                                            }
+                                          ]
                                         }
                                       ]
                                     }
@@ -2697,8 +2827,17 @@
                               "toProperty": "ProductSubtype",
                               "transformations": [
                                 {
-                                  "type": "Map",
-                                  "fromProperty": "product_subtype"
+                                  "type": "Concatenate",
+                                  "parameters": [
+                                    {
+                                      "type": "FixedValue",
+                                      "fromValue": "BSSB-K"
+                                    },
+                                    {
+                                      "type": "Map",
+                                      "fromProperty": "product_subtype"
+                                    }
+                                  ]
                                 }
                               ]
                             },
@@ -2706,8 +2845,17 @@
                               "toProperty": "ProductType",
                               "transformations": [
                                 {
-                                  "type": "Map",
-                                  "fromProperty": "product_type"
+                                  "type": "Concatenate",
+                                  "parameters": [
+                                    {
+                                      "type": "FixedValue",
+                                      "fromValue": "BSSB-K"
+                                    },
+                                    {
+                                      "type": "Map",
+                                      "fromProperty": "product_type"
+                                    }
+                                  ]
                                 }
                               ]
                             },
@@ -2731,6 +2879,44 @@
                       "qualityProfileId": "712b9c93-af9e-46db-937c-93aaa7829029",
                       "qualityProfileName": "Historical Contracts Konven",
                       "qualityProfileDescription": "Quality profile historical contracts Konven"
+                    },
+                    "dataQuality": {
+                      "dataFeed": "Historical Contracts Konven",
+                      "context": {
+                        "mappings": [
+                          {
+                            "toProperty": "ReportingDate",
+                            "transformations": [
+                              {
+                                "type": "Map",
+                                "fromProperty": "snapshot_date"
+                              }
+                            ]
+                          },
+                          {
+                            "toProperty": "OriginContractId",
+                            "transformations": [
+                              {
+                                "type": "Map",
+                                "fromProperty": "origin_contract_id"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "materiality": {
+                        "mappings": [
+                          {
+                            "toProperty": "Weight",
+                            "transformations": [
+                              {
+                                "type": "Map",
+                                "fromProperty": "outstanding_amount"
+                              }
+                            ]
+                          }
+                        ]
+                      }
                     }
                   }
                 ]
@@ -3835,7 +4021,7 @@
                       }
                     },
                     "transformations": {
-                      "enableTrace": false,
+                      "enableTrace": true,
                       "mappingRules": [
                         {
                           "ruleId": "c434907a-c508-4515-b582-de012143f846",
@@ -3896,8 +4082,21 @@
                                       "fromProperty": "reporting_date"
                                     },
                                     {
-                                      "type": "Map",
-                                      "fromProperty": "origin_contract_id"
+                                      "type": "Concatenate",
+                                      "parameters": [
+                                        {
+                                          "type": "Map",
+                                          "fromProperty": "branch_code"
+                                        },
+                                        {
+                                          "type": "FixedValue",
+                                          "fromValue": "_"
+                                        },
+                                        {
+                                          "type": "Map",
+                                          "fromProperty": "customer_name"
+                                        }
+                                      ]
                                     },
                                     {
                                       "type": "FixedValue",
@@ -3918,8 +4117,21 @@
                                       "fromProperty": "reporting_date"
                                     },
                                     {
-                                      "type": "Map",
-                                      "fromProperty": "origin_contract_id"
+                                      "type": "Concatenate",
+                                      "parameters": [
+                                        {
+                                          "type": "Map",
+                                          "fromProperty": "branch_code"
+                                        },
+                                        {
+                                          "type": "FixedValue",
+                                          "fromValue": "_"
+                                        },
+                                        {
+                                          "type": "Map",
+                                          "fromProperty": "customer_name"
+                                        }
+                                      ]
                                     }
                                   ]
                                 }
@@ -3983,8 +4195,21 @@
                               "toProperty": "OriginContractId",
                               "transformations": [
                                 {
-                                  "type": "Map",
-                                  "fromProperty": "origin_contract_id"
+                                  "type": "Concatenate",
+                                  "parameters": [
+                                    {
+                                      "type": "Map",
+                                      "fromProperty": "branch_code"
+                                    },
+                                    {
+                                      "type": "FixedValue",
+                                      "fromValue": "_"
+                                    },
+                                    {
+                                      "type": "Map",
+                                      "fromProperty": "customer_name"
+                                    }
+                                  ]
                                 }
                               ]
                             },
@@ -3992,8 +4217,21 @@
                               "toProperty": "OriginCounterpartyId",
                               "transformations": [
                                 {
-                                  "type": "Map",
-                                  "fromProperty": "origin_contract_id"
+                                  "type": "Concatenate",
+                                  "parameters": [
+                                    {
+                                      "type": "Map",
+                                      "fromProperty": "branch_code"
+                                    },
+                                    {
+                                      "type": "FixedValue",
+                                      "fromValue": "_"
+                                    },
+                                    {
+                                      "type": "Map",
+                                      "fromProperty": "customer_name"
+                                    }
+                                  ]
                                 }
                               ]
                             },
@@ -4020,7 +4258,7 @@
                               "transformations": [
                                 {
                                   "type": "FixedValue",
-                                  "fromValue": "Penyertaan"
+                                  "fromValue": "BSSB-K-PENYERTAAN"
                                 }
                               ]
                             },
@@ -4029,7 +4267,7 @@
                               "transformations": [
                                 {
                                   "type": "FixedValue",
-                                  "fromValue": "Penyertaan"
+                                  "fromValue": "BSSB-K-PENYERTAAN"
                                 }
                               ]
                             },
@@ -4050,6 +4288,15 @@
                                   "fromProperty": "reporting_date"
                                 }
                               ]
+                            },
+                            {
+                              "toProperty": "Segment",
+                              "transformations": [
+                                {
+                                  "type": "FixedValue",
+                                  "fromValue": "BSSB-K-PENYERTAAN"
+                                }
+                              ]
                             }
                           ]
                         }
@@ -4062,6 +4309,44 @@
                       "qualityProfileId": "2f6f288c-548f-41aa-a31c-38a3644c31ef",
                       "qualityProfileName": "Penyertaan",
                       "qualityProfileDescription": "Quality profile penyertaan"
+                    },
+                    "dataQuality": {
+                      "dataFeed": "Penyertaan",
+                      "context": {
+                        "mappings": [
+                          {
+                            "toProperty": "ReportingDate",
+                            "transformations": [
+                              {
+                                "type": "Map",
+                                "fromProperty": "reporting_date"
+                              }
+                            ]
+                          },
+                          {
+                            "toProperty": "OriginContractId",
+                            "transformations": [
+                              {
+                                "type": "Map",
+                                "fromProperty": "origin_contract_id"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "materiality": {
+                        "mappings": [
+                          {
+                            "toProperty": "Weight",
+                            "transformations": [
+                              {
+                                "type": "Map",
+                                "fromProperty": "outstanding_amount"
+                              }
+                            ]
+                          }
+                        ]
+                      }
                     }
                   },
                   {
@@ -4078,7 +4363,7 @@
                       }
                     },
                     "transformations": {
-                      "enableTrace": false,
+                      "enableTrace": true,
                       "mappingRules": [
                         {
                           "ruleId": "394885a4-ab6b-4fc2-a293-5122c56378ef",
@@ -4147,6 +4432,44 @@
                       "qualityProfileId": "5943bc60-ddfb-4548-82be-beea51d71c69",
                       "qualityProfileName": "Penyertaan Props",
                       "qualityProfileDescription": "Quality profile penyertaan props"
+                    },
+                    "dataQuality": {
+                      "dataFeed": "Penyertaan",
+                      "context": {
+                        "mappings": [
+                          {
+                            "toProperty": "ReportingDate",
+                            "transformations": [
+                              {
+                                "type": "Map",
+                                "fromProperty": "reporting_date"
+                              }
+                            ]
+                          },
+                          {
+                            "toProperty": "OriginContractId",
+                            "transformations": [
+                              {
+                                "type": "Map",
+                                "fromProperty": "origin_contract_id"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      "materiality": {
+                        "mappings": [
+                          {
+                            "toProperty": "Weight",
+                            "transformations": [
+                              {
+                                "type": "Map",
+                                "fromProperty": "outstanding_amount"
+                              }
+                            ]
+                          }
+                        ]
+                      }
                     }
                   }
                 ]

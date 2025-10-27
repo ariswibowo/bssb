@@ -23336,6 +23336,136 @@
       "ImpersonatedUserId": null
     },
     {
+      "ActivityId": "4c08548b-7bfb-46f9-9a95-126e8ea27a6c",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Feeds",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:20:06.527882",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-27T04:58:07.6056184",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "d18bb438-85a2-48ba-97d1-779aa217fd7c",
+            "name": "BSSB - Data Feeds",
+            "description": "BSSB - Data Feeds",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:20:06.527882",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-27T04:58:07.6056184",
+            "objectiveType": {
+              "objectiveTypeId": "6b2498f7-7902-483a-a490-408a07976c04",
+              "code": "DataFeeds",
+              "name": "Data Feeds",
+              "description": "Data Feeds"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-27 04:58:07.624393",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "a54a075e-d599-4ba0-b138-b5258179b283",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Feeds",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:20:06.527882",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-27T08:30:31.3101306",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "d18bb438-85a2-48ba-97d1-779aa217fd7c",
+            "name": "BSSB - Data Feeds",
+            "description": "BSSB - Data Feeds",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:20:06.527882",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-27T08:30:31.3101306",
+            "objectiveType": {
+              "objectiveTypeId": "6b2498f7-7902-483a-a490-408a07976c04",
+              "code": "DataFeeds",
+              "name": "Data Feeds",
+              "description": "Data Feeds"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-27 08:30:31.325861",
+      "ImpersonatedUserId": null
+    },
+    {
       "ActivityId": "76424fd4-21f9-493a-b067-bb7f713685ae",
       "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
       "SourceId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
@@ -23398,6 +23528,136 @@
         }
       },
       "Timestamp": "2025-10-22 05:12:59.968645",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "b89548a2-678e-416c-a5eb-ff4baa1f83a8",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Feeds",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:20:06.527882",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-27T05:31:00.2159992",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "d18bb438-85a2-48ba-97d1-779aa217fd7c",
+            "name": "BSSB - Data Feeds",
+            "description": "BSSB - Data Feeds",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:20:06.527882",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-27T05:31:00.2159992",
+            "objectiveType": {
+              "objectiveTypeId": "6b2498f7-7902-483a-a490-408a07976c04",
+              "code": "DataFeeds",
+              "name": "Data Feeds",
+              "description": "Data Feeds"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-27 05:31:00.230634",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "926ee5ef-fbf3-4498-a69b-cd553de858cb",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Feeds",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:20:06.527882",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-27T08:46:08.9640468",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "d18bb438-85a2-48ba-97d1-779aa217fd7c",
+            "name": "BSSB - Data Feeds",
+            "description": "BSSB - Data Feeds",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:20:06.527882",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-27T08:46:08.9640468",
+            "objectiveType": {
+              "objectiveTypeId": "6b2498f7-7902-483a-a490-408a07976c04",
+              "code": "DataFeeds",
+              "name": "Data Feeds",
+              "description": "Data Feeds"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-27 08:46:08.977793",
       "ImpersonatedUserId": null
     },
     {
@@ -23466,6 +23726,136 @@
       "ImpersonatedUserId": null
     },
     {
+      "ActivityId": "81a432d9-cedb-46a1-b288-9070bed3c62a",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Feeds",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:20:06.527882",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-27T05:36:13.3833706",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "d18bb438-85a2-48ba-97d1-779aa217fd7c",
+            "name": "BSSB - Data Feeds",
+            "description": "BSSB - Data Feeds",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:20:06.527882",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-27T05:36:13.3833706",
+            "objectiveType": {
+              "objectiveTypeId": "6b2498f7-7902-483a-a490-408a07976c04",
+              "code": "DataFeeds",
+              "name": "Data Feeds",
+              "description": "Data Feeds"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-27 05:36:13.398165",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "2f96a211-c98d-4421-9d04-8a9973bd6e28",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Feeds",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:20:06.527882",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-27T08:46:19.0977472",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "d18bb438-85a2-48ba-97d1-779aa217fd7c",
+            "name": "BSSB - Data Feeds",
+            "description": "BSSB - Data Feeds",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:20:06.527882",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-27T08:46:19.0977472",
+            "objectiveType": {
+              "objectiveTypeId": "6b2498f7-7902-483a-a490-408a07976c04",
+              "code": "DataFeeds",
+              "name": "Data Feeds",
+              "description": "Data Feeds"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-27 08:46:19.112958",
+      "ImpersonatedUserId": null
+    },
+    {
       "ActivityId": "572f69f4-0b44-420c-a04f-2910f895e8bc",
       "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
       "SourceId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
@@ -23528,6 +23918,71 @@
         }
       },
       "Timestamp": "2025-10-22 05:13:49.860656",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "e9ec5fd9-0a5c-4a3a-b574-d008d31a22db",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Feeds",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:20:06.527882",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-27T06:39:57.6507711",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "d18bb438-85a2-48ba-97d1-779aa217fd7c",
+            "name": "BSSB - Data Feeds",
+            "description": "BSSB - Data Feeds",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:20:06.527882",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-27T06:39:57.6507711",
+            "objectiveType": {
+              "objectiveTypeId": "6b2498f7-7902-483a-a490-408a07976c04",
+              "code": "DataFeeds",
+              "name": "Data Feeds",
+              "description": "Data Feeds"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-27 06:39:57.665095",
       "ImpersonatedUserId": null
     },
     {
@@ -23596,6 +24051,136 @@
       "ImpersonatedUserId": null
     },
     {
+      "ActivityId": "29d8b19d-7e59-4358-aebd-de92312b044b",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Feeds",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:20:06.527882",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-27T07:24:24.6390197",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "d18bb438-85a2-48ba-97d1-779aa217fd7c",
+            "name": "BSSB - Data Feeds",
+            "description": "BSSB - Data Feeds",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:20:06.527882",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-27T07:24:24.6390197",
+            "objectiveType": {
+              "objectiveTypeId": "6b2498f7-7902-483a-a490-408a07976c04",
+              "code": "DataFeeds",
+              "name": "Data Feeds",
+              "description": "Data Feeds"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-27 07:24:24.657297",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "d1fd6b1d-9a29-4af5-bd71-8d569d1780b1",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Feeds",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:20:06.527882",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-27T07:24:55.0156707",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "d18bb438-85a2-48ba-97d1-779aa217fd7c",
+            "name": "BSSB - Data Feeds",
+            "description": "BSSB - Data Feeds",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:20:06.527882",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-27T07:24:55.0156707",
+            "objectiveType": {
+              "objectiveTypeId": "6b2498f7-7902-483a-a490-408a07976c04",
+              "code": "DataFeeds",
+              "name": "Data Feeds",
+              "description": "Data Feeds"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-27 07:24:55.031790",
+      "ImpersonatedUserId": null
+    },
+    {
       "ActivityId": "0ede4042-8f8c-465b-b91a-526496a0488d",
       "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
       "SourceId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
@@ -23658,6 +24243,71 @@
         }
       },
       "Timestamp": "2025-10-22 05:26:34.534514",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "08025568-b886-4ffa-843e-14ef0cdf0fb4",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Feeds",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:20:06.527882",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-27T07:25:00.6081159",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "d18bb438-85a2-48ba-97d1-779aa217fd7c",
+            "name": "BSSB - Data Feeds",
+            "description": "BSSB - Data Feeds",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:20:06.527882",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-27T07:25:00.6081159",
+            "objectiveType": {
+              "objectiveTypeId": "6b2498f7-7902-483a-a490-408a07976c04",
+              "code": "DataFeeds",
+              "name": "Data Feeds",
+              "description": "Data Feeds"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-27 07:25:00.622106",
       "ImpersonatedUserId": null
     },
     {
@@ -23726,6 +24376,201 @@
       "ImpersonatedUserId": null
     },
     {
+      "ActivityId": "5c170b45-6daa-4e9d-ab0e-8883d22b2a60",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Feeds",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:20:06.527882",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-27T05:37:21.6989182",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "d18bb438-85a2-48ba-97d1-779aa217fd7c",
+            "name": "BSSB - Data Feeds",
+            "description": "BSSB - Data Feeds",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:20:06.527882",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-27T05:37:21.6989182",
+            "objectiveType": {
+              "objectiveTypeId": "6b2498f7-7902-483a-a490-408a07976c04",
+              "code": "DataFeeds",
+              "name": "Data Feeds",
+              "description": "Data Feeds"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-27 05:37:21.715911",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "391ba7b8-5359-4e0a-b96e-6f58b982ef6c",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Feeds",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:20:06.527882",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-27T07:25:18.5459268",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "d18bb438-85a2-48ba-97d1-779aa217fd7c",
+            "name": "BSSB - Data Feeds",
+            "description": "BSSB - Data Feeds",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:20:06.527882",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-27T07:25:18.5459268",
+            "objectiveType": {
+              "objectiveTypeId": "6b2498f7-7902-483a-a490-408a07976c04",
+              "code": "DataFeeds",
+              "name": "Data Feeds",
+              "description": "Data Feeds"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-27 07:25:18.561880",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "b4d6504e-a889-4ab8-aad6-6eaad8533fa2",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Feeds",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:20:06.527882",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-27T09:03:57.7416833",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "d18bb438-85a2-48ba-97d1-779aa217fd7c",
+            "name": "BSSB - Data Feeds",
+            "description": "BSSB - Data Feeds",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:20:06.527882",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-27T09:03:57.7416833",
+            "objectiveType": {
+              "objectiveTypeId": "6b2498f7-7902-483a-a490-408a07976c04",
+              "code": "DataFeeds",
+              "name": "Data Feeds",
+              "description": "Data Feeds"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-27 09:03:57.755983",
+      "ImpersonatedUserId": null
+    },
+    {
       "ActivityId": "ee19aa35-1168-44ab-8769-ffed790111b1",
       "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
       "SourceId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
@@ -23788,6 +24633,136 @@
         }
       },
       "Timestamp": "2025-10-22 05:26:49.048316",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "caf4c08c-e3d3-47c2-9305-1cc1b4e2206a",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Feeds",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:20:06.527882",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-27T05:37:36.6086478",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "d18bb438-85a2-48ba-97d1-779aa217fd7c",
+            "name": "BSSB - Data Feeds",
+            "description": "BSSB - Data Feeds",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:20:06.527882",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-27T05:37:36.6086478",
+            "objectiveType": {
+              "objectiveTypeId": "6b2498f7-7902-483a-a490-408a07976c04",
+              "code": "DataFeeds",
+              "name": "Data Feeds",
+              "description": "Data Feeds"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-27 05:37:36.623077",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "408a5aab-6dd4-440d-b780-d7c8bea7ba20",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Feeds",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:20:06.527882",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-27T07:25:32.8113594",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "d18bb438-85a2-48ba-97d1-779aa217fd7c",
+            "name": "BSSB - Data Feeds",
+            "description": "BSSB - Data Feeds",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:20:06.527882",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-27T07:25:32.8113594",
+            "objectiveType": {
+              "objectiveTypeId": "6b2498f7-7902-483a-a490-408a07976c04",
+              "code": "DataFeeds",
+              "name": "Data Feeds",
+              "description": "Data Feeds"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-27 07:25:32.826352",
       "ImpersonatedUserId": null
     },
     {
@@ -23856,6 +24831,71 @@
       "ImpersonatedUserId": null
     },
     {
+      "ActivityId": "4414acdc-83d8-46c5-a20b-c860f6ac2e99",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Feeds",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:20:06.527882",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-27T05:37:54.2470868",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "d18bb438-85a2-48ba-97d1-779aa217fd7c",
+            "name": "BSSB - Data Feeds",
+            "description": "BSSB - Data Feeds",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:20:06.527882",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-27T05:37:54.2470868",
+            "objectiveType": {
+              "objectiveTypeId": "6b2498f7-7902-483a-a490-408a07976c04",
+              "code": "DataFeeds",
+              "name": "Data Feeds",
+              "description": "Data Feeds"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-27 05:37:54.260514",
+      "ImpersonatedUserId": null
+    },
+    {
       "ActivityId": "f01eab5e-cf10-47b2-8642-3684ee968eba",
       "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
       "SourceId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
@@ -23918,6 +24958,136 @@
         }
       },
       "Timestamp": "2025-10-22 05:27:35.891380",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "6fba993c-44a1-400b-8957-7d5688e0ac49",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Feeds",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:20:06.527882",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-27T05:38:25.988399",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "d18bb438-85a2-48ba-97d1-779aa217fd7c",
+            "name": "BSSB - Data Feeds",
+            "description": "BSSB - Data Feeds",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:20:06.527882",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-27T05:38:25.988399",
+            "objectiveType": {
+              "objectiveTypeId": "6b2498f7-7902-483a-a490-408a07976c04",
+              "code": "DataFeeds",
+              "name": "Data Feeds",
+              "description": "Data Feeds"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-27 05:38:26.004923",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "ea35730f-5026-4558-b7e6-06402f7d00cc",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Feeds",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:20:06.527882",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-27T07:26:46.8477217",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "d18bb438-85a2-48ba-97d1-779aa217fd7c",
+            "name": "BSSB - Data Feeds",
+            "description": "BSSB - Data Feeds",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:20:06.527882",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-27T07:26:46.8477217",
+            "objectiveType": {
+              "objectiveTypeId": "6b2498f7-7902-483a-a490-408a07976c04",
+              "code": "DataFeeds",
+              "name": "Data Feeds",
+              "description": "Data Feeds"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-27 07:26:46.859540",
       "ImpersonatedUserId": null
     },
     {
@@ -23986,6 +25156,71 @@
       "ImpersonatedUserId": null
     },
     {
+      "ActivityId": "c8042d45-bb70-472d-ae8c-f2418c77f7b5",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Feeds",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:20:06.527882",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-27T05:38:35.9759542",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "d18bb438-85a2-48ba-97d1-779aa217fd7c",
+            "name": "BSSB - Data Feeds",
+            "description": "BSSB - Data Feeds",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:20:06.527882",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-27T05:38:35.9759542",
+            "objectiveType": {
+              "objectiveTypeId": "6b2498f7-7902-483a-a490-408a07976c04",
+              "code": "DataFeeds",
+              "name": "Data Feeds",
+              "description": "Data Feeds"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-27 05:38:35.990495",
+      "ImpersonatedUserId": null
+    },
+    {
       "ActivityId": "d61a1b23-aba0-4608-b7d4-4c91fd7a4c5b",
       "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
       "SourceId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
@@ -24048,6 +25283,71 @@
         }
       },
       "Timestamp": "2025-10-22 05:28:11.828997",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "38834331-1c37-4e2f-9892-5e157d336f67",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Feeds",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:20:06.527882",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-27T05:38:42.2982812",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "d18bb438-85a2-48ba-97d1-779aa217fd7c",
+            "name": "BSSB - Data Feeds",
+            "description": "BSSB - Data Feeds",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:20:06.527882",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-27T05:38:42.2982812",
+            "objectiveType": {
+              "objectiveTypeId": "6b2498f7-7902-483a-a490-408a07976c04",
+              "code": "DataFeeds",
+              "name": "Data Feeds",
+              "description": "Data Feeds"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-27 05:38:42.314408",
       "ImpersonatedUserId": null
     },
     {
@@ -24116,6 +25416,71 @@
       "ImpersonatedUserId": null
     },
     {
+      "ActivityId": "8b82e55c-576e-4e9d-a6eb-5b419ca46796",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Feeds",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:20:06.527882",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-27T05:38:53.2536038",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "d18bb438-85a2-48ba-97d1-779aa217fd7c",
+            "name": "BSSB - Data Feeds",
+            "description": "BSSB - Data Feeds",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:20:06.527882",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-27T05:38:53.2536038",
+            "objectiveType": {
+              "objectiveTypeId": "6b2498f7-7902-483a-a490-408a07976c04",
+              "code": "DataFeeds",
+              "name": "Data Feeds",
+              "description": "Data Feeds"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-27 05:38:53.267096",
+      "ImpersonatedUserId": null
+    },
+    {
       "ActivityId": "b09f7ece-59a0-4587-b113-30a13b9936ea",
       "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
       "SourceId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
@@ -24178,6 +25543,71 @@
         }
       },
       "Timestamp": "2025-10-22 05:28:39.195546",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "4a4b0eb5-8674-4a7d-ad47-f7cb372f94c9",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Feeds",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:20:06.527882",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-27T05:39:01.0882125",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "d18bb438-85a2-48ba-97d1-779aa217fd7c",
+            "name": "BSSB - Data Feeds",
+            "description": "BSSB - Data Feeds",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:20:06.527882",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-27T05:39:01.0882125",
+            "objectiveType": {
+              "objectiveTypeId": "6b2498f7-7902-483a-a490-408a07976c04",
+              "code": "DataFeeds",
+              "name": "Data Feeds",
+              "description": "Data Feeds"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-27 05:39:01.104415",
       "ImpersonatedUserId": null
     },
     {
@@ -24246,6 +25676,71 @@
       "ImpersonatedUserId": null
     },
     {
+      "ActivityId": "ee01d85d-a507-4536-b5a9-a48889ff9638",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Feeds",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:20:06.527882",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-27T05:39:14.5024624",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "d18bb438-85a2-48ba-97d1-779aa217fd7c",
+            "name": "BSSB - Data Feeds",
+            "description": "BSSB - Data Feeds",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:20:06.527882",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-27T05:39:14.5024624",
+            "objectiveType": {
+              "objectiveTypeId": "6b2498f7-7902-483a-a490-408a07976c04",
+              "code": "DataFeeds",
+              "name": "Data Feeds",
+              "description": "Data Feeds"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-27 05:39:14.518268",
+      "ImpersonatedUserId": null
+    },
+    {
       "ActivityId": "6a2f0c1b-d43c-40e0-9e2a-989a9de8d4e6",
       "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
       "SourceId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
@@ -24308,6 +25803,71 @@
         }
       },
       "Timestamp": "2025-10-22 05:28:55.925868",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "d0a84b0e-3460-4da9-8a4b-9d885e263bd4",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Feeds",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:20:06.527882",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-27T05:39:41.0511504",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "d18bb438-85a2-48ba-97d1-779aa217fd7c",
+            "name": "BSSB - Data Feeds",
+            "description": "BSSB - Data Feeds",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:20:06.527882",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-27T05:39:41.0511504",
+            "objectiveType": {
+              "objectiveTypeId": "6b2498f7-7902-483a-a490-408a07976c04",
+              "code": "DataFeeds",
+              "name": "Data Feeds",
+              "description": "Data Feeds"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-27 05:39:41.064018",
       "ImpersonatedUserId": null
     },
     {
@@ -24376,6 +25936,331 @@
       "ImpersonatedUserId": null
     },
     {
+      "ActivityId": "e067116f-caea-4c29-8e2c-24b963bfbb33",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Feeds",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:20:06.527882",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-27T05:40:00.2296568",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "d18bb438-85a2-48ba-97d1-779aa217fd7c",
+            "name": "BSSB - Data Feeds",
+            "description": "BSSB - Data Feeds",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:20:06.527882",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-27T05:40:00.2296568",
+            "objectiveType": {
+              "objectiveTypeId": "6b2498f7-7902-483a-a490-408a07976c04",
+              "code": "DataFeeds",
+              "name": "Data Feeds",
+              "description": "Data Feeds"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-27 05:40:00.246524",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "549a43b9-388e-4f10-a33d-2b501c26ba73",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Feeds",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:20:06.527882",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-27T05:40:10.0067764",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "d18bb438-85a2-48ba-97d1-779aa217fd7c",
+            "name": "BSSB - Data Feeds",
+            "description": "BSSB - Data Feeds",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:20:06.527882",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-27T05:40:10.0067764",
+            "objectiveType": {
+              "objectiveTypeId": "6b2498f7-7902-483a-a490-408a07976c04",
+              "code": "DataFeeds",
+              "name": "Data Feeds",
+              "description": "Data Feeds"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-27 05:40:10.023568",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "6dcab448-55d0-4c7a-8f8f-5bef0aa1d1aa",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Feeds",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:20:06.527882",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-27T05:40:15.4648756",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "d18bb438-85a2-48ba-97d1-779aa217fd7c",
+            "name": "BSSB - Data Feeds",
+            "description": "BSSB - Data Feeds",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:20:06.527882",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-27T05:40:15.4648756",
+            "objectiveType": {
+              "objectiveTypeId": "6b2498f7-7902-483a-a490-408a07976c04",
+              "code": "DataFeeds",
+              "name": "Data Feeds",
+              "description": "Data Feeds"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-27 05:40:15.478721",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "b177b7fa-4032-4f6d-ae85-216b0b22e877",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Feeds",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:20:06.527882",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-27T05:40:27.1895099",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "d18bb438-85a2-48ba-97d1-779aa217fd7c",
+            "name": "BSSB - Data Feeds",
+            "description": "BSSB - Data Feeds",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:20:06.527882",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-27T05:40:27.1895099",
+            "objectiveType": {
+              "objectiveTypeId": "6b2498f7-7902-483a-a490-408a07976c04",
+              "code": "DataFeeds",
+              "name": "Data Feeds",
+              "description": "Data Feeds"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-27 05:40:27.206746",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "4404e756-5559-4dea-bef7-4e12ea58a1d3",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Feeds",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:20:06.527882",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-27T06:00:36.9369968",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "d18bb438-85a2-48ba-97d1-779aa217fd7c",
+            "name": "BSSB - Data Feeds",
+            "description": "BSSB - Data Feeds",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:20:06.527882",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-27T06:00:36.9369968",
+            "objectiveType": {
+              "objectiveTypeId": "6b2498f7-7902-483a-a490-408a07976c04",
+              "code": "DataFeeds",
+              "name": "Data Feeds",
+              "description": "Data Feeds"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-27 06:00:36.960599",
+      "ImpersonatedUserId": null
+    },
+    {
       "ActivityId": "aa097fb5-bf68-4597-b7c5-73e744743e04",
       "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
       "SourceId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
@@ -24438,6 +26323,136 @@
         }
       },
       "Timestamp": "2025-10-22 06:03:00.774525",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "b06711b5-081c-4b31-8b03-4daadcbfb6fb",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Feeds",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:20:06.527882",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-27T06:01:36.3945191",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "d18bb438-85a2-48ba-97d1-779aa217fd7c",
+            "name": "BSSB - Data Feeds",
+            "description": "BSSB - Data Feeds",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:20:06.527882",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-27T06:01:36.3945191",
+            "objectiveType": {
+              "objectiveTypeId": "6b2498f7-7902-483a-a490-408a07976c04",
+              "code": "DataFeeds",
+              "name": "Data Feeds",
+              "description": "Data Feeds"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-27 06:01:36.409171",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "11d527a0-be93-4fcd-938d-0541ea3cf875",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Feeds",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:20:06.527882",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-27T06:06:35.7763176",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "d18bb438-85a2-48ba-97d1-779aa217fd7c",
+            "name": "BSSB - Data Feeds",
+            "description": "BSSB - Data Feeds",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:20:06.527882",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-27T06:06:35.7763176",
+            "objectiveType": {
+              "objectiveTypeId": "6b2498f7-7902-483a-a490-408a07976c04",
+              "code": "DataFeeds",
+              "name": "Data Feeds",
+              "description": "Data Feeds"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-27 06:06:35.790365",
       "ImpersonatedUserId": null
     },
     {
@@ -24571,6 +26586,71 @@
       "ImpersonatedUserId": null
     },
     {
+      "ActivityId": "905b0511-f3cb-4607-beba-1a1682d66ade",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Feeds",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:20:06.527882",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-27T06:29:25.6524328",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "d18bb438-85a2-48ba-97d1-779aa217fd7c",
+            "name": "BSSB - Data Feeds",
+            "description": "BSSB - Data Feeds",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:20:06.527882",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-27T06:29:25.6524328",
+            "objectiveType": {
+              "objectiveTypeId": "6b2498f7-7902-483a-a490-408a07976c04",
+              "code": "DataFeeds",
+              "name": "Data Feeds",
+              "description": "Data Feeds"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-27 06:29:25.665198",
+      "ImpersonatedUserId": null
+    },
+    {
       "ActivityId": "d2f3affe-e1c3-4192-a364-d8b1bf6b4006",
       "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
       "SourceId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
@@ -24633,6 +26713,71 @@
         }
       },
       "Timestamp": "2025-10-22 06:08:57.165722",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "93b9a188-fc76-4097-997a-13396d953ca1",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Feeds",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:20:06.527882",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-27T06:29:42.0675422",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "d18bb438-85a2-48ba-97d1-779aa217fd7c",
+            "name": "BSSB - Data Feeds",
+            "description": "BSSB - Data Feeds",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:20:06.527882",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-27T06:29:42.0675422",
+            "objectiveType": {
+              "objectiveTypeId": "6b2498f7-7902-483a-a490-408a07976c04",
+              "code": "DataFeeds",
+              "name": "Data Feeds",
+              "description": "Data Feeds"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-27 06:29:42.082472",
       "ImpersonatedUserId": null
     },
     {
@@ -24701,6 +26846,71 @@
       "ImpersonatedUserId": null
     },
     {
+      "ActivityId": "53dff00c-5627-4817-a967-9039dfeeadc3",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Feeds",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:20:06.527882",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-27T06:29:56.7191424",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "d18bb438-85a2-48ba-97d1-779aa217fd7c",
+            "name": "BSSB - Data Feeds",
+            "description": "BSSB - Data Feeds",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:20:06.527882",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-27T06:29:56.7191424",
+            "objectiveType": {
+              "objectiveTypeId": "6b2498f7-7902-483a-a490-408a07976c04",
+              "code": "DataFeeds",
+              "name": "Data Feeds",
+              "description": "Data Feeds"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-27 06:29:56.735596",
+      "ImpersonatedUserId": null
+    },
+    {
       "ActivityId": "b2f63864-3eb9-422e-87cd-f14f8ff1b736",
       "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
       "SourceId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
@@ -24763,6 +26973,71 @@
         }
       },
       "Timestamp": "2025-10-22 06:09:45.293627",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "5912c467-4a9b-4ec7-ad81-baaa57acc5ab",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Feeds",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:20:06.527882",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-27T06:30:07.4626092",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "d18bb438-85a2-48ba-97d1-779aa217fd7c",
+            "name": "BSSB - Data Feeds",
+            "description": "BSSB - Data Feeds",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:20:06.527882",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-27T06:30:07.4626092",
+            "objectiveType": {
+              "objectiveTypeId": "6b2498f7-7902-483a-a490-408a07976c04",
+              "code": "DataFeeds",
+              "name": "Data Feeds",
+              "description": "Data Feeds"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-27 06:30:07.476471",
       "ImpersonatedUserId": null
     },
     {
@@ -24831,6 +27106,71 @@
       "ImpersonatedUserId": null
     },
     {
+      "ActivityId": "6ddb3cb4-8571-4932-b3f4-63a6cf5de572",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Feeds",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:20:06.527882",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-27T06:30:56.5929095",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "d18bb438-85a2-48ba-97d1-779aa217fd7c",
+            "name": "BSSB - Data Feeds",
+            "description": "BSSB - Data Feeds",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:20:06.527882",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-27T06:30:56.5929095",
+            "objectiveType": {
+              "objectiveTypeId": "6b2498f7-7902-483a-a490-408a07976c04",
+              "code": "DataFeeds",
+              "name": "Data Feeds",
+              "description": "Data Feeds"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-27 06:30:56.607299",
+      "ImpersonatedUserId": null
+    },
+    {
       "ActivityId": "6a40aa3f-c4f8-4a76-833b-ec2c92495551",
       "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
       "SourceId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
@@ -24893,6 +27233,71 @@
         }
       },
       "Timestamp": "2025-10-22 06:10:11.188963",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "a649a05d-7426-4126-b9df-77f40f0cad53",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Feeds",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:20:06.527882",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-27T06:31:01.4427741",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "d18bb438-85a2-48ba-97d1-779aa217fd7c",
+            "name": "BSSB - Data Feeds",
+            "description": "BSSB - Data Feeds",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:20:06.527882",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-27T06:31:01.4427741",
+            "objectiveType": {
+              "objectiveTypeId": "6b2498f7-7902-483a-a490-408a07976c04",
+              "code": "DataFeeds",
+              "name": "Data Feeds",
+              "description": "Data Feeds"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-27 06:31:01.458235",
       "ImpersonatedUserId": null
     },
     {
@@ -24961,6 +27366,71 @@
       "ImpersonatedUserId": null
     },
     {
+      "ActivityId": "690bd0f4-195d-463e-b4aa-6c1af82f2d43",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Feeds",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:20:06.527882",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-27T06:33:39.3599185",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "d18bb438-85a2-48ba-97d1-779aa217fd7c",
+            "name": "BSSB - Data Feeds",
+            "description": "BSSB - Data Feeds",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:20:06.527882",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-27T06:33:39.3599185",
+            "objectiveType": {
+              "objectiveTypeId": "6b2498f7-7902-483a-a490-408a07976c04",
+              "code": "DataFeeds",
+              "name": "Data Feeds",
+              "description": "Data Feeds"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-27 06:33:39.387634",
+      "ImpersonatedUserId": null
+    },
+    {
       "ActivityId": "8dc09a0d-6e3c-407c-811d-973cbd7fac0a",
       "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
       "SourceId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
@@ -25023,6 +27493,71 @@
         }
       },
       "Timestamp": "2025-10-22 06:10:31.340596",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "de329a7b-f6b7-463f-a183-b3a66daf683c",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Feeds",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "90bef55f-2363-4c87-aa41-372739ccc7e4",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:20:06.527882",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-27T06:34:38.505575",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "d18bb438-85a2-48ba-97d1-779aa217fd7c",
+            "name": "BSSB - Data Feeds",
+            "description": "BSSB - Data Feeds",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:20:06.527882",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-27T06:34:38.505575",
+            "objectiveType": {
+              "objectiveTypeId": "6b2498f7-7902-483a-a490-408a07976c04",
+              "code": "DataFeeds",
+              "name": "Data Feeds",
+              "description": "Data Feeds"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-27 06:34:38.521816",
       "ImpersonatedUserId": null
     },
     {
