@@ -5,5 +5,6 @@ WITH obs AS (
     FROM "HistoricalContractDocs",
          jsonb_array_elements("Observations"::jsonb -> 'observations') WITH ORDINALITY arr(item, position)
     WHERE TO_DATE(item ->> 'observationDate', 'YYYY-MM-DD') = @ReportingDate
+    AND "Entity" = @Entity
 )
 UPDATE "HistoricalContractDocs" SET "Observations" = obs.new_value FROM obs WHERE "HistoricalContractDocs"."OriginContractId" = obs."OriginContractId";
