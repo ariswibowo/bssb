@@ -1,0 +1,436 @@
+{
+	"checks": [
+		{
+			"name": "check contract Id",
+			"type": "PropertyCheck",
+			"enabled": true,
+			"property": "ContractId",
+			"checks": [
+				{
+					"type": "Mandatory",
+					"value": true
+				},
+				{
+					"type": "DataType",
+					"value": "guid"
+				}
+			],
+			"remediation": {
+				"type": "Reject"
+			}
+		},
+		{
+			"name": "check counter party id",
+			"type": "PropertyCheck",
+			"enabled": true,
+			"property": "CounterpartyId",
+			"checks": [
+				{
+					"type": "Mandatory",
+					"value": false
+				},
+				{
+					"type": "DataType",
+					"value": "guid"
+				}
+			],
+			"remediation": {
+				"type": "Reject"
+			}
+		},
+		{
+			"name": "check reporting date",
+			"type": "PropertyCheck",
+			"enabled": true,
+			"property": "ReportingDate",
+			"checks": [
+				{
+					"type": "Mandatory",
+					"value": true
+				},
+				{
+					"type": "DataType",
+					"value": "date"
+				}
+			],
+			"remediation": {
+				"type": "Reject"
+			}
+		},
+		{
+			"name": "check entity",
+			"type": "PropertyCheck",
+			"enabled": true,
+			"property": "Entity",
+			"checks": [
+				{
+					"type": "Mandatory",
+					"value": false
+				},
+				{
+					"type": "DataType",
+					"value": "string"
+				}
+			],
+			"remediation": {
+				"type": "Reject"
+			}
+		},
+		{
+			"name": "check origin contract Id",
+			"type": "PropertyCheck",
+			"enabled": true,
+			"property": "OriginContractId",
+			"checks": [
+				{
+					"type": "Mandatory",
+					"value": true
+				},
+				{
+					"type": "DataType",
+					"value": "string"
+				}
+			],
+			"remediation": {
+				"type": "Reject"
+			}
+		},
+		{
+			"name": "check origin counterparty Id",
+			"type": "PropertyCheck",
+			"enabled": true,
+			"property": "OriginCounterpartyId",
+			"checks": [
+				{
+					"type": "Mandatory",
+					"value": true
+				},
+				{
+					"type": "DataType",
+					"value": "string"
+				}
+			],
+			"remediation": {
+				"type": "Reject"
+			}
+		},
+		{
+			"name": "check origin system id",
+			"type": "PropertyCheck",
+			"enabled": true,
+			"property": "OriginSystemId",
+			"checks": [
+				{
+					"type": "Mandatory",
+					"value": true
+				},
+				{
+					"type": "DataType",
+					"value": "string"
+				}
+			],
+			"remediation": {
+				"type": "Reject"
+			}
+		},
+		{
+			"name": "check product type",
+			"type": "PropertyCheck",
+			"enabled": true,
+			"property": "ProductType",
+			"checks": [
+				{
+					"type": "Mandatory",
+					"value": true
+				},
+				{
+					"type": "DataType",
+					"value": "string"
+				}
+			],
+			"remediation": {
+				"type": "Reject"
+			}
+		},
+		{
+			"name": "check product subtype",
+			"type": "PropertyCheck",
+			"enabled": true,
+			"property": "ProductSubtype",
+			"checks": [
+				{
+					"type": "Mandatory",
+					"value": true
+				},
+				{
+					"type": "DataType",
+					"value": "string"
+				}
+			],
+			"remediation": {
+				"type": "Reject"
+			}
+		},
+		{
+			"name": "check currency",
+			"type": "PropertyCheck",
+			"enabled": true,
+			"property": "Currency",
+			"checks": [
+				{
+					"type": "Mandatory",
+					"value": true
+				},
+				{
+					"type": "DataType",
+					"value": "string"
+				},
+				{
+					"type": "Pattern",
+					"value": "^[A-Z]{3}$"
+				}
+			],
+			"remediation": {
+				"type": "Reject"
+			}
+		},
+		{
+			"name": "check Segment",
+			"type": "PropertyCheck",
+			"enabled": true,
+			"property": "Segment",
+			"checks": [
+				{
+					"type": "Mandatory",
+					"value": true
+				},
+				{
+					"type": "DataType",
+					"value": "string"
+				}
+			],
+			"remediation": {
+				"type": "Reject"
+			}
+		},
+		{
+			"name": "check MaturityDate",
+			"type": "PropertyCheck",
+			"enabled": true,
+			"property": "MaturityDate",
+			"checks": [
+				{
+					"type": "Mandatory",
+					"value": true
+				},
+				{
+					"type": "DataType",
+					"value": "date"
+				}
+			],
+			"remediation": {
+				"type": "Reject"
+			}
+		},
+		{
+			"name": "check Observations",
+			"type": "Array",
+			"enabled": true,
+			"property": "HistoricalContractObservationItems",
+			"array": [
+				{
+					"name": "check observationDate",
+					"type": "PropertyCheck",
+					"enabled": true,
+					"property": "ObservationDate",
+					"checks": [
+						{
+							"type": "Mandatory",
+							"value": true
+						},
+						{
+							"type": "DataType",
+							"value": "date"
+						}
+					],
+					"remediation": {
+						"type": "Reject"
+					}
+				},
+				{
+					"name": "check Collectibility",
+					"type": "PropertyCheck",
+					"enabled": true,
+					"property": "Collectibility",
+					"checks": [
+						{
+							"type": "Mandatory",
+							"value": true
+						},
+						{
+							"type": "DataType",
+							"value": "string"
+						}
+					],
+					"remediation": {
+						"type": "Reject"
+					}
+				},
+				{
+					"name": "check DaysPastDue",
+					"type": "PropertyCheck",
+					"enabled": true,
+					"property": "DaysPastDue",
+					"checks": [
+						{
+							"type": "Mandatory",
+							"value": true
+						},
+						{
+							"type": "DataType",
+							"value": "numeric"
+						},
+						{
+							"type": "GreaterThanOrEqual",
+							"parameters": {
+								"type": "Numeric",
+								"value": "0",
+								"valueType": "FixedValue"
+							}
+						}
+					],
+					"remediation": {
+						"type": "Reject"
+					}
+				},
+				{
+					"name": "check OutstandingAmount",
+					"type": "PropertyCheck",
+					"enabled": true,
+					"property": "OutstandingAmount",
+					"checks": [
+						{
+							"type": "Mandatory",
+							"value": false
+						},
+						{
+							"type": "DataType",
+							"value": "numeric"
+						},
+						{
+							"type": "GreaterThanOrEqual",
+							"parameters": {
+								"type": "Numeric",
+								"value": "0",
+								"valueType": "FixedValue"
+							}
+						}
+					],
+					"remediation": {
+						"type": "Reject"
+					}
+				},
+				{
+					"name": "check DiscountRate",
+					"type": "PropertyCheck",
+					"enabled": true,
+					"property": "DiscountRate",
+					"checks": [
+						{
+							"type": "Mandatory",
+							"value": false
+						},
+						{
+							"type": "DataType",
+							"value": "numeric"
+						},
+						{
+							"type": "LessThanOrEqual",
+							"parameters": {
+								"type": "Numeric",
+								"value": "1",
+								"valueType": "FixedValue"
+							}
+						},
+						{
+							"type": "GreaterThanOrEqual",
+							"parameters": {
+								"type": "Numeric",
+								"value": "0",
+								"valueType": "FixedValue"
+							}
+						}
+					],
+					"remediation": {
+						"type": "Reject"
+					}
+				},
+				{
+					"name": "check IsDefaulted",
+					"type": "PropertyCheck",
+					"enabled": true,
+					"property": "IsDefaulted",
+					"checks": [
+						{
+							"type": "Mandatory",
+							"value": false
+						},
+						{
+							"type": "DataType",
+							"value": "boolean"
+						}
+					],
+					"remediation": {
+						"type": "Reject"
+					}
+				}
+			]
+		},
+		{
+			"name": "check Recoveries",
+			"type": "Array",
+			"enabled": true,
+			"property": "HistoricalContractRecoveryItems",
+			"array": [
+				{
+					"name": "check RecoveryDate",
+					"type": "PropertyCheck",
+					"enabled": true,
+					"property": "RecoveryDate",
+					"checks": [
+						{
+							"type": "Mandatory",
+							"value": true
+						},
+						{
+							"type": "DataType",
+							"value": "Date"
+						}
+					],
+					"remediation": {
+						"type": "Reject"
+					}
+				},
+				{
+					"name": "check RecoveryAmount",
+					"type": "PropertyCheck",
+					"enabled": true,
+					"property": "RecoveryAmount",
+					"checks": [
+						{
+							"type": "Mandatory",
+							"value": false
+						},
+						{
+							"type": "DataType",
+							"value": "Numeric"
+						}
+					],
+					"remediation": {
+						"type": "Reject"
+					}
+				}
+			]
+		}
+	]
+}
