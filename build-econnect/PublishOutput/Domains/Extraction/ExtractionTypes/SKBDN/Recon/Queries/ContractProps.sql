@@ -7,4 +7,4 @@ JOIN "ContractProps" cp
   ON cp."ContractId" = c."ContractId"
  WHERE c."ReportingDate" = @ReportingDate
   AND c."Entity" = @Entity
-  AND cm."OriginSystemId" = 'Manual'
+  AND cm."OriginSystemId" = 'MANUAL_SKBDN'

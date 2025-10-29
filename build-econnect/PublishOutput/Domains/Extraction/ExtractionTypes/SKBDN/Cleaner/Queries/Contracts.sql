@@ -18,5 +18,5 @@ BEGIN
         contract_table,
         contract_master_table
     )
-    USING reporting_date, entity, 'Manual';
+    USING reporting_date, entity, 'MANUAL_SKBDN';
 END $$;

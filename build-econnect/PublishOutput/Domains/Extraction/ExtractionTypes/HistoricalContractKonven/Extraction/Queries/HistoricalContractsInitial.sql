@@ -1,5 +1,6 @@
 ﻿SELECT 
     hc.reporting_date
+    , hc.snapshot_date
     , hc.observation_date
     , hc.entity
     , hc.origin_contract_id
@@ -27,5 +28,5 @@ ON
   AND hc.reporting_date = hr.reporting_date
 WHERE 
   1=1
-  AND hc.reporting_date = @ReportingDate
+  AND hc.reporting_date BETWEEN @DateFrom AND @DateTo
 ORDER BY hc.reporting_date, hc.origin_contract_id ASC

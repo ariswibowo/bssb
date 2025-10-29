@@ -6,4 +6,4 @@ WHERE
   AND c."ContractMasterId" = cm."ContractMasterId"
   AND c."ReportingDate" = @ReportingDate
   AND c."Entity" = @Entity
-  AND cm."OriginSystemId" = 'Manual'
+  AND cm."OriginSystemId" = 'MANUAL_SKBDN'

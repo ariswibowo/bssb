@@ -1,5 +1,6 @@
 ﻿SELECT 
     hc.reporting_date
+    , hc.snapshot_date
     , hc.observation_date
     , hc.entity
     , hc.origin_contract_id
@@ -20,12 +21,12 @@
     , hr.recovery_date
     , hr.recovery_amount
 FROM 
-  historical_contracts_konven hc
-LEFT JOIN historical_recovery_konven hr
+  historical_contracts_syariah hc
+LEFT JOIN historical_recovery_syariah hr
 ON 
   hc.origin_contract_id = hr.origin_contract_id 
   AND hc.reporting_date = hr.reporting_date
 WHERE 
   1=1
-  AND hc.reporting_date = @ReportingDate
+  AND hc.reporting_date BETWEEN @DateFrom AND @DateTo
 ORDER BY hc.reporting_date, hc.origin_contract_id ASC

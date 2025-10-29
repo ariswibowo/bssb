@@ -6,4 +6,4 @@ JOIN "ContractMaster" cm
   ON c."ContractMasterId" = cm."ContractMasterId"
  WHERE c."ReportingDate" = @ReportingDate
   AND c."Entity" = @Entity
-  AND cm."OriginSystemId" = 'Manual'
+  AND cm."OriginSystemId" = 'MANUAL_SKBDN'
