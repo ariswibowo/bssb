@@ -1,0 +1,14 @@
+{
+  "ContentId": "dba57440-c534-4c82-b4f2-e3c207743293",
+  "Code": "FacilityQuery",
+  "Name": "Facility Query",
+  "Description": "Facility Query Page",
+  "Route": "/portfolio/facilities/query",
+  "DataAccess": null,
+  "Content": "{\"contentType\":\"FacilityQueryPage\",\"contentProps\":{\"breadcrumbs\":[{\"label\":\"Home\",\"link\":\"/portfolio/home\"},{\"label\":\"Facilities\",\"link\":\"/portfolio/facilities\"},{\"label\":\"Search\",\"link\":\"/portfolio/facilities/query\"}],\"query\":{\"take\":50},\"facilityBasePath\":\"/portfolio/facilities/query\",\"counterpartyBasePath\":\"/portfolio/counterparties/query\"}}",
+  "ConcurrencyId": "d891b1d2-a27a-451b-8100-95ad01037bb5",
+  "CreatedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "CreatedWhen": "2023-11-09 04:01:52",
+  "LastModifiedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "LastModifiedWhen": "2023-11-09 04:01:52"
+}

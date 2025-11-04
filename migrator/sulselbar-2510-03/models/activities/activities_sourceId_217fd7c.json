@@ -1,0 +1,15 @@
+{
+  "activities": [
+    {
+      "ActivityId": "0815f148-60ec-433a-ba5e-2a9978df5a7c",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "d18bb438-85a2-48ba-97d1-779aa217fd7c",
+      "Source": "Model",
+      "Action": "CreateModel",
+      "Description": "Created model BSSB - Data Feeds",
+      "Trace": null,
+      "Timestamp": "2025-09-30 04:20:06.527882",
+      "ImpersonatedUserId": null
+    }
+  ]
+}

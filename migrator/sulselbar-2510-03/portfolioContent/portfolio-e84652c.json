@@ -1,0 +1,14 @@
+{
+  "ContentId": "875a7a66-96c7-480c-a2c6-b2b7ae84652c",
+  "Code": "Portfolio",
+  "Name": "Portfolio",
+  "Description": null,
+  "Route": "/portfolio",
+  "DataAccess": null,
+  "Content": "{}",
+  "ConcurrencyId": "c1e207b4-e93e-4e48-9774-68ea6371ab6f",
+  "CreatedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "CreatedWhen": "2023-11-09 04:01:52",
+  "LastModifiedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "LastModifiedWhen": "2023-11-09 04:01:52"
+}

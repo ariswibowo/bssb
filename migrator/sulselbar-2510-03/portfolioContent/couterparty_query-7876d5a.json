@@ -1,0 +1,14 @@
+{
+  "ContentId": "1cc74e5b-efb1-4b1a-8f50-879f97876d5a",
+  "Code": "CouterpartyQuery",
+  "Name": "Couterparty Query",
+  "Description": "Couterparty Query Page",
+  "Route": "/portfolio/counterparties/query",
+  "DataAccess": null,
+  "Content": "{\"contentType\":\"CounterpartyQueryPage\",\"contentProps\":{\"breadcrumbs\":[{\"label\":\"Home\",\"link\":\"/portfolio/home\"},{\"label\":\"Counterparties\",\"link\":\"/portfolio/counterparties\"},{\"label\":\"Search\",\"link\":\"/portfolio/counterparties/query\"}],\"query\":{\"take\":50},\"counterpartyBasePath\":\"/portfolio/counterparties/query\"}}",
+  "ConcurrencyId": "5c7ffe63-3e96-4b42-bf92-18a205a1b890",
+  "CreatedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "CreatedWhen": "2023-11-09 04:01:52",
+  "LastModifiedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "LastModifiedWhen": "2023-11-09 04:01:52"
+}
