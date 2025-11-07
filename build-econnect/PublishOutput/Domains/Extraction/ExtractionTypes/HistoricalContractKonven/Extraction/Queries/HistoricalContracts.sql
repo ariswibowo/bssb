@@ -17,6 +17,7 @@
     , hc.antasena_jenis_pengguna
     , hc.antasena_kategori_debitur
     , hc.branch_code
+    , hc.is_restructured
     , hr.recovery_date
     , hr.recovery_amount
 FROM 
