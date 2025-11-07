@@ -1,0 +1,4229 @@
+{
+  "activities": [
+    {
+      "ActivityId": "482c16e9-bb21-4c53-a3a1-45ae08bf0438",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "CreateVersion",
+      "Description": "Created version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.7722321",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-09-30T04:22:04.7722321",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.7722321",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-09-30T04:22:04.7722321",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-09-30 04:22:04.772232",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "63e489b2-e58f-4a4c-9463-d3aee421b031",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-13T02:26:26.737666",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-13T02:26:26.737666",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-13 02:26:26.963162",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "10202236-ef01-48dd-ae46-b4973622450d",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-13T02:27:32.9421837",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-13T02:27:32.9421837",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-13 02:27:33.010769",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "b7ff0016-4182-43e0-8f1e-3c6acb2da758",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-13T02:27:43.494936",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-13T02:27:43.494936",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-13 02:27:43.570653",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "c55c5cd4-7bef-4799-9e0d-b9577c88dc1e",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-13T02:27:53.2583581",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-13T02:27:53.2583581",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-13 02:27:53.347978",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "1f03cb8f-3409-4896-88fb-3e241818f834",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-13T02:28:02.9840678",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-13T02:28:02.9840678",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-13 02:28:03.066450",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "8f70bd65-03d0-40d3-83b1-691ee5aa4713",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-13T02:28:28.7946515",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-13T02:28:28.7946515",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-13 02:28:28.867244",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "3e36ac82-8bee-4c0c-91ef-afc241d108fc",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-13T02:28:40.3630666",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-13T02:28:40.3630666",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-13 02:28:40.451338",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "f193d954-3206-4411-9ff5-802e64850b52",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-13T02:28:46.4636922",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-13T02:28:46.4636922",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-13 02:28:46.595926",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "bff8cd69-2141-452e-8afd-346cb39545eb",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-13T02:28:52.3741753",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-13T02:28:52.3741753",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-13 02:28:52.479445",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "a36112cf-434f-458d-b58f-e1c8dfcef67d",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-13T02:28:58.5093974",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-13T02:28:58.5093974",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-13 02:28:58.602849",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "a57ce882-c1d0-4eec-8097-ca7efe64d0dd",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-13T02:29:04.2570495",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-13T02:29:04.2570495",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-13 02:29:04.354006",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "237e6005-b839-4bd9-97e4-203fe125046c",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-13T02:29:10.291839",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-13T02:29:10.291839",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-13 02:29:10.389043",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "19ee1b24-00a8-4abc-a294-361e66198d47",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-13T02:29:16.7449853",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-13T02:29:16.7449853",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-13 02:29:16.816772",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "47472cf0-a23d-40e0-b024-d803926ed7b4",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-13T02:29:22.6257582",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-13T02:29:22.6257582",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-13 02:29:22.725394",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "ebe838e2-1bd5-4a81-9f8a-20aac1b177c8",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-13T02:29:28.5966665",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-13T02:29:28.5966665",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-13 02:29:28.670216",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "68381bf6-1a7c-4ac3-be30-01e966a3ca3d",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-13T02:29:34.9365817",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-13T02:29:34.9365817",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-13 02:29:35.027919",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "4b22cf7c-c0a2-415b-bced-f1fde4d7169a",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-13T02:29:41.9745582",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-13T02:29:41.9745582",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-13 02:29:42.052198",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "2137c411-b803-4fbb-8028-83e0ed1a185b",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-13T02:29:47.5739716",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-13T02:29:47.5739716",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-13 02:29:47.647738",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "fed9d190-bf4a-48da-bee1-30e300cfa45f",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-13T02:30:37.6444223",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-13T02:30:37.6444223",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-13 02:30:37.710478",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "4fc472b6-20c9-466d-af13-725bb05796f1",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-13T02:31:32.3301417",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-13T02:31:32.3301417",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-13 02:31:32.401707",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "f7ec671f-84ff-495d-b0dc-d19de934f1c3",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-13T02:32:45.9493042",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-13T02:32:45.9493042",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-13 02:32:46.014608",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "3433586f-cd93-4185-b519-7e8f6b3ec074",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-13T02:32:56.5378916",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-13T02:32:56.5378916",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-13 02:32:56.696692",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "fbbe6002-7623-4117-afd0-37ae3c268cd8",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-13T02:33:54.5834828",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-13T02:33:54.5834828",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-13 02:33:54.646581",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "78b79610-c81a-465b-9b5a-dae37ecdf496",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-13T02:33:58.6572553",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-13T02:33:58.6572553",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-13 02:33:58.737707",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "7ebc7c45-d479-48c8-9e9d-2a690cc3cc64",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-13T02:34:38.41399",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-13T02:34:38.41399",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-13 02:34:38.523881",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "7c4c37a2-3987-4601-a2ef-337222e5d586",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-13T02:34:41.5312831",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-13T02:34:41.5312831",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-13 02:34:41.619703",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "e89b1fd4-7e75-4689-bb33-6ba24d1f5dbc",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-13T02:35:22.9140524",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-13T02:35:22.9140524",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-13 02:35:22.996551",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "0fc69cfe-f74c-4220-8b47-2bf130159cae",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-13T02:35:26.0786911",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-13T02:35:26.0786911",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-13 02:35:26.175240",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "a9b9ffe6-b700-4f77-9155-75f5d94b9556",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-13T02:35:42.0461685",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-13T02:35:42.0461685",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-13 02:35:42.120599",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "b5bf22c9-deb0-433f-8227-35f4d4bc1c19",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-13T02:35:46.2596988",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-13T02:35:46.2596988",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-13 02:35:46.340395",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "9a2d4ff5-9426-4100-b320-64679a382955",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-13T02:36:11.4194738",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-13T02:36:11.4194738",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-13 02:36:11.531893",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "68885324-70db-4ffa-9cb2-47023bd5f844",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-13T02:36:15.0972532",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-13T02:36:15.0972532",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-13 02:36:15.211614",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "0cdacaaa-3535-4f4d-87ac-f4dea1f01550",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-13T02:37:51.9139168",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-13T02:37:51.9139168",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-13 02:37:52.020438",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "7e328a11-548b-42e2-9312-acc1e2b70f49",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-13T02:37:55.7974825",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-13T02:37:55.7974825",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-13 02:37:55.940681",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "878ad43e-5fd3-4e5d-9805-b87013e270e5",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-13T02:39:21.6514687",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-13T02:39:21.6514687",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-13 02:39:21.741011",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "c09b4db6-63b6-4fe2-959a-8683301a7596",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-13T02:39:30.2663984",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-13T02:39:30.2663984",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-13 02:39:30.350811",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "663d204a-208d-4418-89bb-5ef8a0e40c55",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-13T02:39:41.2046625",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-13T02:39:41.2046625",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-13 02:39:41.280269",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "c59333b6-4dad-4d5f-9718-590d1a8edd30",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-13T02:40:10.8057738",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-13T02:40:10.8057738",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-13 02:40:10.885462",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "a1866e1a-dceb-48c2-82a2-e04571b19425",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-13T02:41:18.5093122",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-13T02:41:18.5093122",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-13 02:41:18.587211",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "aee3be18-2fbd-44d3-9a81-caa531315f7d",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-13T02:41:23.1469185",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-13T02:41:23.1469185",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-13 02:41:23.242589",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "de2eb8b6-ae70-4e9a-acea-5ffd0d18a8a9",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-13T02:42:14.9198449",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-13T02:42:14.9198449",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-13 02:42:15.037021",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "9a8913f8-4d66-400c-b851-7f1bac805afd",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-13T02:42:18.9022884",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-13T02:42:18.9022884",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-13 02:42:19.047678",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "1020b5d0-ee78-4354-9d9d-4599ba03e7e1",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-13T02:46:05.7177019",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-13T02:46:05.7177019",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-13 02:46:05.784210",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "d0ec2f9c-d924-45c4-9fe3-f8591121e8ca",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-13T02:46:10.0398109",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-13T02:46:10.0398109",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-13 02:46:10.168774",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "a04a0452-688f-41c4-afad-03339e5ce704",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-20T11:48:43.6366153",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-20T11:48:43.6366153",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 11:48:43.697126",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "8c298c23-40de-4a5d-8f5a-ff48d8554c07",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-20T11:48:52.9041147",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-20T11:48:52.9041147",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 11:48:52.970165",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "419f784f-c06c-452e-80f2-d7c043c33ef0",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-20T11:48:55.3384342",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-20T11:48:55.3384342",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 11:48:55.422382",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "88e6aabb-1383-4f1c-92b3-ac0bd9fc213f",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-20T11:49:04.7487834",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-20T11:49:04.7487834",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 11:49:04.809522",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "98cff0e3-765c-4d89-9ce9-b21ed90cf579",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-20T11:49:10.3412676",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-20T11:49:10.3412676",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 11:49:10.420223",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "deb9eb14-cdf9-4d00-8a36-bd4676e0fcd7",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-20T11:49:12.7674396",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-20T11:49:12.7674396",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 11:49:12.839730",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "0d6d68bf-c975-4e37-8c77-7ac801fd1b8a",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-20T11:49:17.2817881",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-20T11:49:17.2817881",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 11:49:17.340682",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "d1774f07-278c-4504-953c-bdb73e592927",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-20T11:49:19.8200846",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-20T11:49:19.8200846",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 11:49:19.894372",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "865d9af2-4511-4eba-9114-084364a9524c",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-20T11:49:24.1907391",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-20T11:49:24.1907391",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 11:49:24.262888",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "a81a81ef-bfe8-4176-a87f-232d4794e2b0",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-20T11:49:26.3545145",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-20T11:49:26.3545145",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 11:49:26.444748",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "2fcb8c91-3c54-4434-87b8-3d206005c9b6",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-20T11:49:30.6351831",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-20T11:49:30.6351831",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 11:49:30.702934",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "78dda73a-b68a-4079-b84d-1d718c96c938",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-20T11:49:32.9639629",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-20T11:49:32.9639629",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 11:49:33.046828",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "f1276604-bbe8-4f1e-8f85-4ed52c7d62f1",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-20T11:49:37.2158003",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-20T11:49:37.2158003",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 11:49:37.282109",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "86b5c8ef-35a9-4c62-b0c4-152644309ac6",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-20T11:49:39.4343852",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-20T11:49:39.4343852",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 11:49:39.513212",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "b59f5061-5102-4c4a-a609-6d6270709628",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-20T11:49:45.742325",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-20T11:49:45.742325",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 11:49:45.806103",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "291b78eb-62ae-4cb4-af0e-07b0df814bd0",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-20T11:49:47.8187603",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-20T11:49:47.8187603",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 11:49:47.898613",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "3d7b5715-38e4-4db4-bb2e-09b8104f761b",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-20T11:50:10.0727185",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-20T11:50:10.0727185",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 11:50:10.142376",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "fedbb034-4dc3-4339-b408-fe25cc966bf0",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-20T11:50:12.2813067",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-20T11:50:12.2813067",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 11:50:12.357402",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "b32e12d9-9eea-47df-809c-e4e0e13ba5e9",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-20T11:50:27.6496707",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-20T11:50:27.6496707",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 11:50:27.721806",
+      "ImpersonatedUserId": null
+    },
+    {
+      "ActivityId": "f749f78a-f808-4a23-9d65-83307ab70ba1",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+      "Source": "Version",
+      "Action": "UpdateVersion",
+      "Description": "Updated version 1 of model BSSB - Data Quality",
+      "Trace": {
+        "versionSnapshot": {
+          "versionId": "abefbf84-6676-4b33-8158-cb9c674f099d",
+          "version": 1,
+          "status": "Draft",
+          "createdBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "createdWhen": "2025-09-30T04:22:04.772232",
+          "lastModifiedBy": {
+            "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+            "name": "Elysian Admin"
+          },
+          "lastModifiedWhen": "2025-10-20T11:50:29.7611825",
+          "origin": {
+            "origin": {
+              "originType": "New"
+            }
+          },
+          "model": {
+            "modelId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+            "name": "BSSB - Data Quality",
+            "description": "BSSB - Data Quality",
+            "isPrivate": false,
+            "status": "Open",
+            "createdBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "createdWhen": "2025-09-30T04:22:04.772232",
+            "lastModifiedBy": {
+              "userId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+              "name": "Elysian Admin"
+            },
+            "lastModifiedWhen": "2025-10-20T11:50:29.7611825",
+            "objectiveType": {
+              "objectiveTypeId": "78d7071d-b9c8-48c5-a5cc-cd8ac1db64af",
+              "code": "DataQuality",
+              "name": "Data Quality",
+              "description": "Data Quality Model"
+            },
+            "modelType": {
+              "modelTypeId": "43466d4c-8fc8-4b41-b4a7-415d9481a709",
+              "name": "Simulation",
+              "description": "Model simulation type",
+              "style": {
+                "border": "solid 1px #36116f",
+                "backgroundColor": "#563d7c",
+                "color": "white"
+              }
+            }
+          }
+        }
+      },
+      "Timestamp": "2025-10-20 11:50:29.842019",
+      "ImpersonatedUserId": null
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "ContentId": "c8d5ed97-bd14-463a-9bee-bb10f274bc90",
+  "Code": "Facilities",
+  "Name": "Facilities",
+  "Description": "Facilities Page",
+  "Route": "/portfolio/facilities",
+  "DataAccess": null,
+  "Content": "{\"contentType\":\"FacilitiesPage\",\"contentProps\":{\"query\":{\"portfolioName\":\"Facilities\",\"dimensions\":[\"currency\",\"facilityType\",\"counterpartyType\"],\"measures\":[\"principalAmount\",\"outstandingAmount\",\"limitAmount\",\"undrawnAmount\",\"numFacilities\"]},\"fields\":[{\"key\":\"facilityType\",\"label\":\"Facility Type\",\"type\":\"String\"},{\"key\":\"currency\",\"label\":\"Currency\",\"type\":\"String\"},{\"key\":\"outstandingAmount\",\"label\":\"Outstanding Amount\",\"type\":\"Amount\"},{\"key\":\"principalAmount\",\"label\":\"Principal Amount\",\"type\":\"Amount\"},{\"key\":\"undrawnAmount\",\"label\":\"Undrawn Amount\",\"type\":\"Amount\"},{\"key\":\"numFacilities\",\"label\":\"Facilities\",\"type\":\"Integer\"},{\"key\":\"limitAmount\",\"label\":\"Limit Amount\",\"type\":\"Amount\"}],\"breadcrumbs\":[{\"label\":\"Home\",\"link\":\"/portfolio/home\"},{\"label\":\"Facilities\",\"link\":\"/portfolio/facilities\"}],\"summary\":{\"filters\":[\"currency\"],\"table\":{\"aggregation\":{\"dimensions\":[\"facilityType\",\"currency\"],\"measures\":[\"outstandingAmount\",\"principalAmount\",\"undrawnAmount\",\"limitAmount\",\"numFacilities\"]},\"columns\":[{\"name\":\"facilityType\",\"link\":\"/portfolio/facilities/query?q=facilities:facilityType:\\\"{{facilityType}}\\\"\"},{\"name\":\"currency\",\"link\":\"/portfolio/facilities/query?q=facilities:currency:\\\"{{currency}}\\\"\"},\"outstandingAmount\",\"principalAmount\",\"undrawnAmount\",\"limitAmount\",\"numFacilities\"]}},\"analysis\":{\"defaultPivotConfig\":{\"rows\":[\"facilityType\"],\"values\":[\"outstandingAmount\",\"numFacilities\"],\"columns\":[],\"filters\":[]}},\"search\":{\"query\":{\"take\":50},\"facilityBasePath\":\"/portfolio/facilities/query\",\"counterpartyBasePath\":\"/portfolio/counterparties/query\"}}}",
+  "ConcurrencyId": "dbfc6896-623e-451a-b659-367fa9613687",
+  "CreatedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "CreatedWhen": "2023-11-09 04:01:52",
+  "LastModifiedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "LastModifiedWhen": "2023-11-09 04:01:52"
+}

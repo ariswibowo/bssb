@@ -1,0 +1,15 @@
+{
+  "activities": [
+    {
+      "ActivityId": "e869bf2c-32df-4869-b844-6b17cca92658",
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "SourceId": "9839c470-7aab-4005-9c8e-e2582646cf9e",
+      "Source": "Model",
+      "Action": "CreateModel",
+      "Description": "Created model BSSB - Data Quality",
+      "Trace": null,
+      "Timestamp": "2025-09-30 04:22:04.772232",
+      "ImpersonatedUserId": null
+    }
+  ]
+}

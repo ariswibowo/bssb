@@ -1,0 +1,14 @@
+{
+  "ContentId": "4c3ac12a-8d1e-44e6-8539-38041f67b918",
+  "Code": "Facility",
+  "Name": "Facility",
+  "Description": "Facility Page",
+  "Route": "/portfolio/facilities/query/{facilityId}",
+  "DataAccess": null,
+  "Content": "{\"contentType\":\"FacilityPage\",\"contentProps\":{\"breadcrumbs\":[{\"label\":\"Home\",\"link\":\"/portfolio/home\"},{\"label\":\"Facilities\",\"link\":\"/portfolio/facilities\"},{\"label\":\"Search\",\"link\":\"/portfolio/facilities/query\"}],\"title\":\"Facility: {{originSystemId}}/{{originFacilityId}}\",\"contractBasePath\":\"/portfolio/contracts/query\",\"counterpartyBasePath\":\"/portfolio/counterparties/query\"}}",
+  "ConcurrencyId": "99a1967e-da7b-4023-ab67-e201b6169936",
+  "CreatedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "CreatedWhen": "2023-11-09 04:01:52",
+  "LastModifiedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "LastModifiedWhen": "2023-11-09 04:01:52"
+}

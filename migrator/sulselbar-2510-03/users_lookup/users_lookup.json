@@ -1,0 +1,53 @@
+{
+  "users": {
+    "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649": {
+      "UserId": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+      "Username": "Admin",
+      "AvatarName": "avatar-d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649b6b59c27.png"
+    },
+    "88931351-8bb6-4846-9e4b-07cfd27f9463": {
+      "UserId": "88931351-8bb6-4846-9e4b-07cfd27f9463",
+      "Username": "RidwanA",
+      "AvatarName": "avatar-88931351-8bb6-4846-9e4b-07cfd27f9463b2378eeb.png"
+    },
+    "fefdb1b6-bf71-4783-bf06-ff1ddae6592a": {
+      "UserId": "fefdb1b6-bf71-4783-bf06-ff1ddae6592a",
+      "Username": "PeterC",
+      "AvatarName": "avatar-fefdb1b6-bf71-4783-bf06-ff1ddae6592a73fe8f4a.png"
+    },
+    "6eda8a70-b02c-4521-8eef-7df58ec90ed2": {
+      "UserId": "6eda8a70-b02c-4521-8eef-7df58ec90ed2",
+      "Username": "bssb01",
+      "AvatarName": "avatar-6eda8a70-b02c-4521-8eef-7df58ec90ed2a9364ea4.png"
+    },
+    "649e9f6d-8e52-4c4c-b720-41324edf1bfd": {
+      "UserId": "649e9f6d-8e52-4c4c-b720-41324edf1bfd",
+      "Username": "ArisW",
+      "AvatarName": "avatar-649e9f6d-8e52-4c4c-b720-41324edf1bfd28d5cee6.png"
+    },
+    "afc3853e-9e93-477e-90c1-a851c53f4b39": {
+      "UserId": "afc3853e-9e93-477e-90c1-a851c53f4b39",
+      "Username": "AdhityaD",
+      "AvatarName": "avatar-afc3853e-9e93-477e-90c1-a851c53f4b39efa50115.png"
+    },
+    "b9cbafc1-b7ba-4dda-b28c-cbe24fba3055": {
+      "UserId": "b9cbafc1-b7ba-4dda-b28c-cbe24fba3055",
+      "Username": "ElysianAppUser",
+      "AvatarName": "avatar-b9cbafc1-b7ba-4dda-b28c-cbe24fba3055-4c3710b5.png"
+    }
+  },
+  "teams": {
+    "afd9b401-e4a6-4ee5-b9d4-7b87d44bcdc8": {
+      "TeamId": "afd9b401-e4a6-4ee5-b9d4-7b87d44bcdc8",
+      "Name": "Elysian Application Users"
+    },
+    "ea2d9c71-83a2-4560-b43a-bab1ea63d32b": {
+      "TeamId": "ea2d9c71-83a2-4560-b43a-bab1ea63d32b",
+      "Name": "System Administrators"
+    },
+    "8af1e7a1-d465-4c7d-9b46-691169ddd443": {
+      "TeamId": "8af1e7a1-d465-4c7d-9b46-691169ddd443",
+      "Name": "Everyone"
+    }
+  }
+}

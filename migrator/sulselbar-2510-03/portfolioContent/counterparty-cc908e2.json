@@ -1,0 +1,14 @@
+{
+  "ContentId": "7bb728e9-f872-40e3-82a9-c7173cc908e2",
+  "Code": "Counterparty",
+  "Name": "Counterparty",
+  "Description": "Counterparty Page",
+  "Route": "/portfolio/counterparties/query/{counterpartyId}",
+  "DataAccess": null,
+  "Content": "{\"contentType\":\"CounterpartyPage\",\"contentProps\":{\"breadcrumbs\":[{\"label\":\"Home\",\"link\":\"/portfolio/home\"},{\"label\":\"Counterparty\",\"link\":\"/portfolio/counterparties\"},{\"label\":\"Search\",\"link\":\"/portfolio/counterparties/query\"}],\"title\":\"Counterparty: {{originSystemId}}/{{originCounterpartyId}}\",\"facilityBasePath\":\"/portfolio/facilities/query\",\"contractBasePath\":\"/portfolio/contracts/query\"}}",
+  "ConcurrencyId": "0bce6105-391f-485b-969a-d2c2e5c2675e",
+  "CreatedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "CreatedWhen": "2023-11-09 04:01:52",
+  "LastModifiedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "LastModifiedWhen": "2023-11-09 04:01:52"
+}

@@ -1,0 +1,14 @@
+{
+  "ContentId": "d427a4ef-d563-4013-801c-ad8d8defcd38",
+  "Code": "Contracts",
+  "Name": "Contracts",
+  "Description": "Contracts page",
+  "Route": "/portfolio/contracts",
+  "DataAccess": null,
+  "Content": "{\"contentType\":\"ContractsPage\",\"contentProps\":{\"query\":{\"portfolioName\":\"Contracts\",\"dimensions\":[\"productType\",\"productSubtype\"],\"measures\":[\"outstandingAmount\",\"numContracts\"]},\"fields\":[{\"key\":\"productType\",\"label\":\"Product Type\",\"type\":\"String\"},{\"key\":\"productSubtype\",\"label\":\"Product Subtype\",\"type\":\"String\"},{\"key\":\"outstandingAmount\",\"label\":\"Outstanding Amount\",\"type\":\"Amount\"},{\"key\":\"numContracts\",\"label\":\"Contracts\",\"type\":\"Integer\"}],\"breadcrumbs\":[{\"label\":\"Home\",\"link\":\"/portfolio/home\"},{\"label\":\"Contracts\",\"link\":\"/portfolio/contracts\"}],\"summary\":{\"filters\":[\"productType\"],\"table\":{\"aggregation\":{\"dimensions\":[\"productSubtype\",\"productType\"],\"measures\":[\"numContracts\",\"outstandingAmount\"]},\"columns\":[{\"name\":\"productType\",\"link\":\"/portfolio/contracts/query?q=contracts:productType:\\\"{{productType}}\\\"\"},{\"name\":\"productSubtype\",\"link\":\"/portfolio/contracts/query?q=contracts:productSubtype:\\\"{{productSubtype}}\\\"\"},\"outstandingAmount\",\"numContracts\"]}},\"analysis\":{\"defaultPivotConfig\":{\"rows\":[\"productType\",\"productSubtype\"],\"values\":[\"outstandingAmount\",\"numContracts\"],\"columns\":[],\"filters\":[]}},\"search\":{\"query\":{\"take\":50},\"contractBasePath\":\"/portfolio/contracts/query\",\"counterpartyBasePath\":\"/portfolio/counterparties/query\"}}}",
+  "ConcurrencyId": "f54bd185-b3cc-468a-ac7f-4e21dd35489f",
+  "CreatedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "CreatedWhen": "2023-11-09 04:01:52",
+  "LastModifiedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "LastModifiedWhen": "2023-11-09 04:01:52"
+}

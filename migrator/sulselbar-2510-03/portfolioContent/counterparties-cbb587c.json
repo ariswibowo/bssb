@@ -1,0 +1,14 @@
+{
+  "ContentId": "1efe1895-2c50-4b94-a047-d62cdcbb587c",
+  "Code": "Counterparties",
+  "Name": "Counterparties",
+  "Description": "Counterparties Page",
+  "Route": "/portfolio/counterparties",
+  "DataAccess": null,
+  "Content": "{\"contentType\":\"CounterpartiesPage\",\"contentProps\":{\"query\":{\"portfolioName\":\"Counterparties\",\"dimensions\":[\"counterpartyType\",\"industrySector\",\"businessUnit\"],\"measures\":[\"outstandingAmount\",\"numCounterparties\",\"numContracts\"]},\"breadcrumbs\":[{\"label\":\"Home\",\"link\":\"/portfolio/home\"},{\"label\":\"Counterparties\",\"link\":\"/portfolio/counterparties\"}],\"fields\":[{\"key\":\"counterpartyType\",\"label\":\"Counterparty Type\",\"type\":\"String\"},{\"key\":\"businessUnit\",\"label\":\"Business Unit\",\"type\":\"String\"},{\"key\":\"industrySector\",\"label\":\"Industry Sector\",\"type\":\"String\"},{\"key\":\"outstandingAmount\",\"label\":\"Outstanding Amount\",\"type\":\"Amount\"},{\"key\":\"numContracts\",\"label\":\"Number of Contracts\",\"type\":\"Integer\"},{\"key\":\"numCounterparties\",\"label\":\"Number of Counterparties\",\"type\":\"Integer\"}],\"summary\":{\"filters\":[\"counterpartyType\"],\"table\":{\"aggregation\":{\"dimensions\":[\"counterpartyType\",\"industrySector\",\"businessUnit\"],\"measures\":[\"outstandingAmount\",\"numCounterparties\",\"numContracts\"]},\"columns\":[{\"name\":\"counterpartyType\",\"link\":\"/portfolio/counterparties/query?q=counterparties:counterpartyType:\\\"{{counterpartyType}}\\\"\"},\"businessUnit\",\"industrySector\",\"outstandingAmount\",\"numCounterparties\",\"numContracts\"]}},\"analysis\":{\"defaultPivotConfig\":{\"rows\":[\"counterpartyType\"],\"values\":[\"outstandingAmount\",\"numContracts\",\"numCounterparties\"],\"columns\":[],\"filters\":[]}},\"search\":{\"query\":{\"take\":20},\"contractBasePath\":\"/portfolio/contracts/query\",\"counterpartyBasePath\":\"/portfolio/counterparties/query\"}}}",
+  "ConcurrencyId": "2aaaee25-399b-4d71-9a6a-060ca0216fbb",
+  "CreatedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "CreatedWhen": "2023-11-09 04:01:52",
+  "LastModifiedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "LastModifiedWhen": "2023-11-09 04:01:52"
+}
