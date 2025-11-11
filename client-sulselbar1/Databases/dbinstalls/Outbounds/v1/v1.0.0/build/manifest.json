@@ -1,0 +1,36 @@
+{
+  "name": "Release 1.0.0",
+  "releaseDate": "01-Oct-2025",
+  "description": "Database release v1.0.0 (full install)",
+  "manifestVersion": 2,
+  "installs": [
+    {
+      "name": "BuildDatabase",
+      "type": "Feature",
+      "scripts": [
+        {
+          "file": "InitializeDb.sql",
+          "log": "Initializing database..."
+        },
+        {
+          "file": "DbVersions.sql",
+          "log": "Creating DbVersions..."
+        }
+      ]
+    },
+    {
+      "name": "BuildTables",
+      "type": "Feature",
+      "scripts": [
+        {
+          "file": "OutboundExecutions.sql",
+          "log": "Creating OutboundExecutions..."
+        },
+        {
+          "file": "TableRegistry.sql",
+          "log": "Creating TableRegistry..."
+        }
+      ]
+    }
+  ]
+}

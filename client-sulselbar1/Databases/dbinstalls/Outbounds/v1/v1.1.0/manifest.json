@@ -1,0 +1,36 @@
+{
+  "name": "Release 1.1.0",
+  "releaseDate": "01-Oct-2025",
+  "description": "Database release v1.1.0",
+  "manifestVersion": "2.0",
+  "installs": [
+    {
+      "name": "ImpairmentNominative",
+      "type": "Feature",
+      "scripts": [
+        {
+          "file": "init-ImpairmentNominative.sql",
+          "log": "Initializing ImpairmentNominative..."
+        },
+        { 
+          "file": "install-ImpairmentNominative.sql", 
+          "log": "Installing ImpairmentNominative table..." 
+        }
+      ]
+    },
+    {
+      "name": "MeasurementNominative",
+      "type": "Feature",
+      "scripts": [
+        {
+          "file": "init-MeasurementNominative.sql",
+          "log": "Initializing MeasurementNominative..."
+        },
+        { 
+          "file": "install-MeasurementNominative.sql", 
+          "log": "Installing MeasurementNominative table..." 
+        }
+      ]
+    }
+  ]
+}
