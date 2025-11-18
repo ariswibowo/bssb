@@ -5,6 +5,7 @@
 	, principal_amount
 	, profit_margin_amount
 	, remaining_principal
+	, payment_date
 FROM
   delivered_cashflow_syariah
 WHERE

@@ -19,14 +19,26 @@
     , hc.antasena_kategori_debitur
     , hc.branch_code
     , hc.is_restructured
-    , hr.recovery_date
-    , hr.recovery_amount
+    , rec.recovery_date
+    , rec.recovery_amount
 FROM 
   historical_contracts_konven hc
-LEFT JOIN historical_recovery_konven hr
+LEFT JOIN
+(
+  select 
+    reporting_date,
+    origin_contract_id,
+    coalesce(recovery_date, reporting_date) as recovery_date,
+    sum(coalesce(recovery_amount,0) + coalesce(insurance_recovery,0)) as recovery_amount
+  from historical_recovery_konven
+  group by
+    reporting_date,
+    origin_contract_id,
+    recovery_date
+) rec
 ON 
-  hc.origin_contract_id = hr.origin_contract_id 
-  AND hc.reporting_date = hr.reporting_date
+  hc.origin_contract_id = rec.origin_contract_id 
+  AND hc.reporting_date = rec.reporting_date
 WHERE 
   1=1
   AND hc.reporting_date BETWEEN @DateFrom AND @DateTo
