@@ -1,0 +1,8 @@
+{
+  "components": [
+    { "name": "HistoricalPDCalculationLoader", "tag": "client-sulselbar" },
+    { "name": "HistoricalLGDCalculationLoader", "tag": "client-sulselbar" },
+    { "name": "IFRS9ImpairmentCalculationLoader", "tag": "client-sulselbar" },    
+    { "name": "IFRS9MeasurementCalculationLoader", "tag": "client-sulselbar" }
+  ]
+}

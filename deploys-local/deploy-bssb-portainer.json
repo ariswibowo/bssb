@@ -1,0 +1,5 @@
+{
+  "components": [
+    { "name": "Portainer", "tag": "2.34.0" }
+  ]
+}

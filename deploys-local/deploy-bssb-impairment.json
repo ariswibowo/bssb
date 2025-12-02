@@ -1,0 +1,5 @@
+{
+  "components": [
+    { "name": "IFRS9ImpairmentCalculationLoader", "tag": "client-sulselbar" }
+  ]
+}
