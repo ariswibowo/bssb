@@ -1,0 +1,17 @@
+{
+    "export": {
+        "exportEnvironment": "BSSB-DEV",
+        "importEnvironment": "LOCAL",
+        "exports": [
+            {
+                "name": "All PortfolioContent",
+                "exportType": "PortfolioContent",
+                "exportSettings": {
+                    "portfolioContentCodes": [],
+                    "excludePortfolioContentCodes": [],
+                    "dupHandlingApproach": "Delete"
+                }
+            }
+        ]
+    }
+}

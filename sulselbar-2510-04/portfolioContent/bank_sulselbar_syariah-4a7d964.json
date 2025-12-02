@@ -1,0 +1,14 @@
+{
+  "ContentId": "12ffd96a-dd74-4339-bc95-776ba4a7d964",
+  "Code": "BankSulselbarSyariah",
+  "Name": "Bank Sulselbar Syariah",
+  "Description": "",
+  "Route": "/portfolio/syariah",
+  "DataAccess": null,
+  "Content": "{}",
+  "ConcurrencyId": "98c0b81d-404f-466e-be38-d54bf44d5cb5",
+  "CreatedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "CreatedWhen": "2025-11-27 10:29:30.864841",
+  "LastModifiedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "LastModifiedWhen": "2025-11-27 10:29:30.864841"
+}

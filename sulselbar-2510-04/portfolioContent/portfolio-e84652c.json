@@ -1,0 +1,14 @@
+{
+  "ContentId": "875a7a66-96c7-480c-a2c6-b2b7ae84652c",
+  "Code": "Portfolio",
+  "Name": "Portfolio",
+  "Description": null,
+  "Route": "/portfolio",
+  "DataAccess": null,
+  "Content": "{\"contentType\":\"Container\",\"children\":[{\"contentType\":\"Col\",\"children\":[{\"contentType\":\"Row\",\"children\":[{\"contentType\":\"Col\",\"children\":[{\"contentType\":\"Banner\",\"contentProps\":{\"title\":\"Bank Sulselbar\",\"subTitle\":\"Welcome to Portfolio Home\",\"image\":{\"path\":\"{{{eDrivePublicPath}}}/images/banner-logo.svg\",\"width\":436,\"height\":120},\"styles\":{\"titleWrapper\":{\"backgroundImage\":\"url(\\\"{{{eDrivePublicPath}}}/images/graffiti.png\\\")\",\"flex\":1,\"backgroundSize\":\"cover\",\"alignSelf\":\"stretch\",\"borderRadius\":\"5px\"},\"banner\":{\"background\":\"linear-gradient(270.3deg, rgb(72, 129, 182) -26.15%, rgb(0, 85, 134) 63.96%)\"}}}}]},{\"contentType\":\"Applications\",\"contentProps\":{\"apps\":[{\"name\":\"adjustment\",\"to\":\"/portfolio/adjustments\",\"label\":\"Adjustment\"},{\"name\":\"data-quality\",\"to\":\"/portfolio/data-quality-analysis\",\"label\":\"Data Quality\"}]}}]},{\"contentType\":\"QuickSearch\",\"contentProps\":{\"widget\":{\"header\":\"Quick Search\"},\"searchPageRoute\":\"/portfolio/search\"}},{\"contentType\":\"Counter\",\"contentProps\":{\"widget\":{\"header\":\"Repository\"},\"query\":{\"portfolioName\":\"RepositoryCounts\",\"dimensions\":[\"domain\"],\"measures\":[\"numTotal\"]},\"nameColumn\":{\"key\":\"domain\",\"label\":\"Area\"},\"totalColumn\":{\"key\":\"numTotal\",\"label\":\"Total\"},\"links\":[{\"domain\":\"Counterparties\",\"to\":\"/portfolio/counterparties\"},{\"domain\":\"Contracts\",\"to\":\"/portfolio/contracts\"}]}}]}]}",
+  "ConcurrencyId": "3b3872b6-df60-4736-ba52-8dac95c76bd4",
+  "CreatedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "CreatedWhen": "2023-11-09 04:01:52",
+  "LastModifiedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "LastModifiedWhen": "2025-11-28 09:12:15.907845"
+}

@@ -1,0 +1,14 @@
+{
+  "ContentId": "ee56606d-d05b-4515-88c4-65a7489ea754",
+  "Code": "PortfolioHome",
+  "Name": "Portfolio Home",
+  "Description": null,
+  "Route": "/portfolio/home",
+  "DataAccess": null,
+  "Content": "{\"contentType\":\"Container\",\"children\":[{\"contentType\":\"Banner\",\"contentProps\":{\"title\":\"Bank Sulselbar Group\",\"subTitle\":\"Welcome to Portfolio Home\",\"image\":{\"path\":\"{{{eDrivePublicPath}}}/images/banner-logo.svg\",\"width\":436,\"height\":120},\"styles\":{\"titleWrapper\":{\"backgroundImage\":\"url(\\\"{{{eDrivePublicPath}}}/images/graffiti.png\\\")\",\"flex\":1,\"backgroundSize\":\"cover\",\"alignSelf\":\"stretch\",\"borderRadius\":\"5px\"},\"banner\":{\"background\":\"linear-gradient(270.3deg, rgb(72, 129, 182) -26.15%, rgb(0, 85, 134) 63.96%)\"}}}},{\"contentType\":\"Container\",\"contentProps\":{\"display\":\"Grid\",\"displayOptions\":{\"numCols\":2}},\"children\":[{\"contentType\":\"Container\",\"contentProps\":{\"display\":\"Grid\",\"displayOptions\":{\"numRows\":2}},\"children\":[{\"contentType\":\"Banner\",\"contentProps\":{\"subTitle\":\"Konvensional\",\"styles\":{\"banner\":{\"height\":40,\"background\":\"linear-gradient(270.3deg, rgb(72, 129, 182) -26.15%, rgb(0, 85, 134) 63.96%)\"}}}},{\"contentType\":\"Container\",\"children\":[{\"contentType\":\"Links\",\"contentProps\":{\"links\":[{\"to\":\"/portfolio/konven/home\",\"name\":\"Data\"}]}}]}]},{\"contentType\":\"Container\",\"contentProps\":{\"display\":\"Grid\",\"displayOptions\":{\"numRows\":2}},\"children\":[{\"contentType\":\"Banner\",\"contentProps\":{\"subTitle\":\"Syariah\",\"styles\":{\"banner\":{\"height\":40,\"background\":\"linear-gradient(270.3deg, rgb(72, 129, 182) -26.15%, rgb(0, 85, 134) 63.96%)\"}}}},{\"contentType\":\"Container\",\"children\":[{\"contentType\":\"Links\",\"contentProps\":{\"links\":[{\"to\":\"/portfolio/syariah/home\",\"name\":\"Data\"}]}}]}]}]},{\"contentType\":\"DeckDashboardViewer\",\"contentProps\":{\"widget\":{\"header\":\"Impairment Group\"},\"deckName\":\"IFRS9 - Impairment Group\"}}]}",
+  "ConcurrencyId": "fffcf5c5-51f5-4cff-b648-a87c13afec2d",
+  "CreatedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "CreatedWhen": "2023-11-09 04:01:52",
+  "LastModifiedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "LastModifiedWhen": "2025-11-27 10:29:09.030334"
+}

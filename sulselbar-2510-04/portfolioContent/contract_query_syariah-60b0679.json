@@ -1,0 +1,14 @@
+{
+  "ContentId": "b949358a-c077-45e4-8f48-9777560b0679",
+  "Code": "ContractQuerySyariah",
+  "Name": "Contract Query Syariah",
+  "Description": "",
+  "Route": "/portfolio/syariah/contracts/query",
+  "DataAccess": null,
+  "Content": "{\"contentType\":\"ContractQueryPage\",\"contentProps\":{\"breadcrumbs\":[{\"label\":\"Home\",\"link\":\"/portfolio/syariah/home\"},{\"label\":\"Contracts\",\"link\":\"/portfolio/syariah/contracts\"},{\"label\":\"Search\",\"link\":\"/portfolio/syariah/contracts/query\"}],\"query\":{\"take\":50},\"contractBasePath\":\"/portfolio/syariah/contracts/query\",\"counterpartyBasePath\":\"/portfolio/syariah/counterparties/query\"}}",
+  "ConcurrencyId": "c4af9d9f-e174-4c29-955b-56ef276beee0",
+  "CreatedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "CreatedWhen": "2025-12-02 07:22:37.472821",
+  "LastModifiedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "LastModifiedWhen": "2025-12-02 07:24:55.024432"
+}

@@ -1,0 +1,14 @@
+{
+  "ContentId": "5984d392-ab3a-4018-bcf7-b0e08b3fd907",
+  "Code": "KonvenHome",
+  "Name": "Konven Home",
+  "Description": "",
+  "Route": "/portfolio/konven/home",
+  "DataAccess": null,
+  "Content": "{\"contentType\":\"Container\",\"children\":[{\"contentType\":\"Col\",\"children\":[{\"contentType\":\"Row\",\"children\":[{\"contentType\":\"Col\",\"children\":[{\"contentType\":\"Banner\",\"contentProps\":{\"title\":\"Bank Sulselbar Konvensional\",\"subTitle\":\"Welcome to Portfolio Home\",\"image\":{\"path\":\"{{{eDrivePublicPath}}}/images/banner-logo.svg\",\"width\":436,\"height\":120},\"styles\":{\"titleWrapper\":{\"backgroundImage\":\"url(\\\"{{{eDrivePublicPath}}}/images/graffiti.png\\\")\",\"flex\":1,\"backgroundSize\":\"cover\",\"alignSelf\":\"stretch\",\"borderRadius\":\"5px\"},\"banner\":{\"background\":\"linear-gradient(270.3deg, rgb(72, 129, 182) -26.15%, rgb(0, 85, 134) 63.96%)\"}}}}]},{\"contentType\":\"Applications\",\"contentProps\":{\"apps\":[{\"name\":\"adjustment\",\"to\":\"/portfolio/konven/adjustments\",\"label\":\"Adjustment\"},{\"name\":\"data-quality\",\"to\":\"/portfolio/konven/data-quality-analysis\",\"label\":\"Data Quality\"}]}}]},{\"contentType\":\"QuickSearch\",\"contentProps\":{\"widget\":{\"header\":\"Quick Search\"},\"searchPageRoute\":\"/portfolio/search\"}},{\"contentType\":\"Counter\",\"contentProps\":{\"widget\":{\"header\":\"Repository\"},\"query\":{\"portfolioName\":\"RepositoryCounts\",\"dimensions\":[\"domain\"],\"measures\":[\"numTotal\"],\"dataFilter\":\"$[?(@.entity=='SSB-KONVEN')]\"},\"nameColumn\":{\"key\":\"domain\",\"label\":\"Area\"},\"totalColumn\":{\"key\":\"numTotal\",\"label\":\"Total\"},\"links\":[{\"domain\":\"Counterparties\",\"to\":\"/portfolio/konven/counterparties\"},{\"domain\":\"Contracts\",\"to\":\"/portfolio/konven/contracts\"}]}}]}]}",
+  "ConcurrencyId": "e1440c8c-2239-4182-aac3-8fab10e6d6e6",
+  "CreatedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "CreatedWhen": "2025-11-27 10:31:15.045087",
+  "LastModifiedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "LastModifiedWhen": "2025-12-01 12:50:39.962977"
+}

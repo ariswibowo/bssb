@@ -1,0 +1,14 @@
+{
+  "ContentId": "6f8477cb-e971-4efb-a6dd-8f386fa2902a",
+  "Code": "DataAdjustments",
+  "Name": "Data Adjustments",
+  "Description": "data-adjustments",
+  "Route": "/portfolio/konven/adjustments/*",
+  "DataAccess": null,
+  "Content": "{\"contentType\":\"AdjustmentsPage\",\"contentProps\":{\"entities\":[\"SSB-KONVEN\",\"SSB-SYARIA\"],\"measures\":[\"outstandingAmount\"]}}",
+  "ConcurrencyId": "30a2ecb5-8a9e-4998-aa9b-3c877f4c4ea3",
+  "CreatedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "CreatedWhen": "2025-11-27 05:23:36.793952",
+  "LastModifiedBy": "88931351-8bb6-4846-9e4b-07cfd27f9463",
+  "LastModifiedWhen": "2025-11-28 09:05:15.091835"
+}

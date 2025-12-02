@@ -1,0 +1,14 @@
+{
+  "ContentId": "8f30f917-9e0e-4526-b164-671224540356",
+  "Code": "BankSulselbarKonven",
+  "Name": "Bank Sulselbar Konven",
+  "Description": "",
+  "Route": "/portfolio/konven",
+  "DataAccess": null,
+  "Content": "{}",
+  "ConcurrencyId": "6217560c-a9e5-4a5b-bee2-0200f90edc7e",
+  "CreatedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "CreatedWhen": "2025-11-27 10:29:19.461917",
+  "LastModifiedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "LastModifiedWhen": "2025-11-27 10:29:19.461917"
+}
