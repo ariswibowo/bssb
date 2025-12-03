@@ -5,10 +5,10 @@
   "Description": "data-quality-analysis",
   "Route": "/portfolio/konven/data-quality-analysis/*",
   "DataAccess": null,
-  "Content": "{\"contentType\":\"DataQualityPage\",\"contentProps\":{\"title\":\"Data Quality\",\"entities\":[\"SSB-KONVEN\",\"SSB-SYARIA\"],\"reports\":{\"metricsReportName\":\"Data Quality Metrics\",\"entities\":null,\"labels\":{}}}}",
-  "ConcurrencyId": "d9824d4f-0791-4a6f-80b8-190fbdc2f132",
+  "Content": "{\"contentType\":\"DataQualityPage\",\"contentProps\":{\"title\":\"Data Quality\",\"entities\":[\"SSB-KONVEN\"],\"reports\":{\"metricsReportName\":\"Data Quality Metrics\",\"entities\":null,\"labels\":{}}}}",
+  "ConcurrencyId": "628b26b8-8415-4fd3-b99e-1993737977d2",
   "CreatedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
   "CreatedWhen": "2025-10-20 10:58:03.625589",
-  "LastModifiedBy": "88931351-8bb6-4846-9e4b-07cfd27f9463",
-  "LastModifiedWhen": "2025-11-28 09:05:23.577139"
+  "LastModifiedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "LastModifiedWhen": "2025-12-03 22:37:43.772736"
 }

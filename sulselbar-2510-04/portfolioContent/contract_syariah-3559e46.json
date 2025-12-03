@@ -1,14 +1,14 @@
 {
   "ContentId": "49a684d3-7ebb-483a-9930-e053c3559e46",
-  "Code": "ContractQueryPages",
-  "Name": "Contract Query Pages",
+  "Code": "ContractSyariah",
+  "Name": "Contract Syariah",
   "Description": "",
   "Route": "/portfolio/syariah/contracts/query/{contractId}",
   "DataAccess": null,
   "Content": "{\"contentType\":\"ContractPage\",\"contentProps\":{\"breadcrumbs\":[{\"label\":\"Home\",\"link\":\"/portfolio/home\"},{\"label\":\"Contracts\",\"link\":\"/portfolio/contracts\"},{\"label\":\"Search\",\"link\":\"/portfolio/contracts/query\"}],\"title\":\"Contract: {{originSystemId}}/{{originContractId}}\",\"facilityBasePath\":\"/portfolio/facilities/query\",\"counterpartyBasePath\":\"/portfolio/counterparties/query\"}}",
-  "ConcurrencyId": "b474b82b-5502-4511-8e2a-e65b651f9a93",
+  "ConcurrencyId": "d1b9f754-580f-4111-a124-07d21ee9836b",
   "CreatedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
   "CreatedWhen": "2025-12-02 07:23:25.072314",
   "LastModifiedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
-  "LastModifiedWhen": "2025-12-02 07:23:34.694639"
+  "LastModifiedWhen": "2025-12-03 22:45:17.655394"
 }

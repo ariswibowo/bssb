@@ -2,13 +2,13 @@
   "ContentId": "05f5d62e-6900-4142-a81a-77911928f93b",
   "Code": "ContractsSyariah",
   "Name": "Contracts Syariah",
-  "Description": "Contracts page",
+  "Description": "",
   "Route": "/portfolio/syariah/contracts",
   "DataAccess": null,
   "Content": "{\"contentType\":\"ContractsPage\",\"contentProps\":{\"query\":{\"portfolioName\":\"Contracts\",\"dimensions\":[\"productType\",\"productSubtype\"],\"measures\":[\"outstandingAmount\",\"numContracts\"]},\"fields\":[{\"key\":\"productType\",\"label\":\"Product Type\",\"type\":\"String\"},{\"key\":\"productSubtype\",\"label\":\"Product Subtype\",\"type\":\"String\"},{\"key\":\"outstandingAmount\",\"label\":\"Outstanding Amount\",\"type\":\"Amount\"},{\"key\":\"numContracts\",\"label\":\"Contracts\",\"type\":\"Integer\"}],\"breadcrumbs\":[{\"label\":\"Home\",\"link\":\"/portfolio/syariah/home\"},{\"label\":\"Contracts\",\"link\":\"/portfolio/syariah/contracts\"}],\"summary\":{\"filters\":[\"productType\"],\"table\":{\"aggregation\":{\"dimensions\":[\"productSubtype\",\"productType\"],\"measures\":[\"numContracts\",\"outstandingAmount\"]},\"columns\":[{\"name\":\"productType\",\"link\":\"/portfolio/syariah/contracts/query?q=contracts:productType:\\\"{{productType}}\\\"\"},{\"name\":\"productSubtype\",\"link\":\"/portfolio/syariah/contracts/query?q=contracts:productSubtype:\\\"{{productSubtype}}\\\"\"},\"outstandingAmount\",\"numContracts\"]}},\"analysis\":{\"defaultPivotConfig\":{\"rows\":[\"productType\",\"productSubtype\"],\"values\":[\"outstandingAmount\",\"numContracts\"],\"columns\":[],\"filters\":[]}},\"search\":{\"query\":{\"take\":50,\"entities\":[\"SSB-SYARIA\"]},\"contractBasePath\":\"/portfolio/syariah/contracts/query\",\"counterpartyBasePath\":\"/portfolio/syariah/counterparties/query\"}}}",
-  "ConcurrencyId": "4bea95ed-a5d5-4ad3-a328-f1bbb19f9ed7",
+  "ConcurrencyId": "0abb8d07-683f-4773-9592-07aa504c9b66",
   "CreatedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
   "CreatedWhen": "2025-12-02 07:21:30.727184",
   "LastModifiedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
-  "LastModifiedWhen": "2025-12-02 11:56:21.053666"
+  "LastModifiedWhen": "2025-12-03 22:44:11.027897"
 }
