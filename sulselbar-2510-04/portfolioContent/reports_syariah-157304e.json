@@ -1,0 +1,14 @@
+{
+  "ContentId": "e9abec10-d24c-498c-a60d-a68fa157304e",
+  "Code": "ReportsSyariah",
+  "Name": "Reports Syariah",
+  "Description": "",
+  "Route": "/portfolio/syariah/report",
+  "DataAccess": null,
+  "Content": "{\"contentType\":\"Container\",\"children\":[{\"contentType\":\"Breadcrumbs\",\"contentProps\":{\"breadcrumbs\":[\"sourceUrlBased\"]}},{\"contentType\":\"ReportPage\",\"contentProps\":{\"links\":[{\"column\":\"originContractId\",\"link\":\"/portfolio/syariah/contracts/contract?originContractId={{originContractId}}\"},{\"column\":\"originCounterpartyId\",\"link\":\"/portfolio/syariah/contracts/counterparty?originCounterpartyId={{originCounterpartyId}}\"}]},\"query\":{\"entities\":[\"SSB-SYARIA\"]}}]}",
+  "ConcurrencyId": "b9b39023-745a-4a3c-9794-852d41301d40",
+  "CreatedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "CreatedWhen": "2025-12-05 06:16:37.926664",
+  "LastModifiedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "LastModifiedWhen": "2025-12-05 06:16:48.981450"
+}

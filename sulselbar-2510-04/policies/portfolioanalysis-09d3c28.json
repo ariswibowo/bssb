@@ -1,0 +1,79 @@
+{
+  "PolicyId": "0dc50003-45a7-4a17-a63b-9ac7f09d3c28",
+  "PolicyType": "PortfolioAnalysis",
+  "ActivePolicy": {
+    "portfolios": {
+      "logRetention": 10,
+      "analysis": [
+        {
+          "name": "OnBalanceSheetKonven",
+          "description": "",
+          "analysisType": "External",
+          "configuration": {
+            "hook": "EConnect",
+            "action": "Analysis",
+            "payload": {
+              "analysisName": "HomeSummary",
+              "entity": "SSB-KONVEN",
+              "getAssetLiab": "true"
+            }
+          },
+          "dependencies": [
+            "Contracts"
+          ]
+        },
+        {
+          "name": "OffBalanceSheetKonven",
+          "description": "",
+          "analysisType": "External",
+          "configuration": {
+            "hook": "EConnect",
+            "action": "Analysis",
+            "payload": {
+              "analysisName": "HomeSummary",
+              "entity": "SSB-KONVEN",
+              "getAssetLiab": "false"
+            }
+          },
+          "dependencies": [
+            "Contracts"
+          ]
+        },
+        {
+          "name": "OnBalanceSheetSyariah",
+          "description": "",
+          "analysisType": "External",
+          "configuration": {
+            "hook": "EConnect",
+            "action": "Analysis",
+            "payload": {
+              "analysisName": "HomeSummary",
+              "entity": "SSB-SYARIA",
+              "getAssetLiab": "true"
+            }
+          },
+          "dependencies": [
+            "Contracts"
+          ]
+        },
+        {
+          "name": "OffBalanceSheetSyariah",
+          "description": "",
+          "analysisType": "External",
+          "configuration": {
+            "hook": "EConnect",
+            "action": "Analysis",
+            "payload": {
+              "analysisName": "HomeSummary",
+              "entity": "SSB-SYARIA",
+              "getAssetLiab": "false"
+            }
+          },
+          "dependencies": [
+            "Contracts"
+          ]
+        }
+      ]
+    }
+  }
+}

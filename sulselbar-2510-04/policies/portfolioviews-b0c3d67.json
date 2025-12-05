@@ -1,0 +1,1014 @@
+{
+  "PolicyId": "02a35f69-c964-48c1-b5a2-f707fb0c3d67",
+  "PolicyType": "PortfolioViews",
+  "ActivePolicy": {
+    "portfolioViews": [
+      {
+        "domain": "Contracts",
+        "views": [
+          {
+            "viewId": "e48b37d0-345b-4e5d-b427-df6e886b160d",
+            "name": "Standard Contract View",
+            "description": "",
+            "configuration": {
+              "sections": [
+                {
+                  "sectionType": "Alert",
+                  "sectionProps": {
+                    "condition": {
+                      "key": "isAdjusted",
+                      "operator": "equals",
+                      "value": true
+                    },
+                    "message": "Contract has been adjusted"
+                  },
+                  "name": "Section 1",
+                  "sectionId": "957b0ce3-e41a-471e-ab43-e1528ca843a6",
+                  "description": ""
+                },
+                {
+                  "sectionType": "PropertyGrid",
+                  "container": {
+                    "title": "Contract"
+                  },
+                  "sectionProps": {
+                    "columns": [
+                      {
+                        "fields": [
+                          {
+                            "key": "originContractId",
+                            "label": "Contract Id"
+                          },
+                          {
+                            "key": "reportingDate",
+                            "label": "Reporting Date",
+                            "type": "Date"
+                          },
+                          {
+                            "key": "originSystemId",
+                            "label": "Source System"
+                          },
+                          {
+                            "key": "entity",
+                            "label": "Entity"
+                          },
+                          {
+                            "key": "daysPastDue",
+                            "label": "Days Past Due"
+                          },
+                          {
+                            "key": "counterparty.name",
+                            "label": "Counterparty Name",
+                            "link": "{{{context.counterpartyBasePath}}}/{{counterparty.counterpartyId}}"
+                          }
+                        ]
+                      },
+                      {
+                        "fields": [
+                          {
+                            "key": "currency",
+                            "label": "Currency"
+                          },
+                          {
+                            "key": "outstandingAmount",
+                            "label": "Outstanding Amount",
+                            "type": "Amount"
+                          },
+                          {
+                            "key": "accruedInterest",
+                            "label": "Accrued Interest",
+                            "type": "Pecent"
+                          },
+                          {
+                            "key": "principalAmount",
+                            "label": "Principal Amount",
+                            "type": "Amount"
+                          },
+                          {
+                            "key": "interestRate",
+                            "label": "Interest Rate",
+                            "type": "Rate"
+                          }
+                        ]
+                      },
+                      {
+                        "styles": {
+                          "columnSize": "230px"
+                        },
+                        "fields": [
+                          {
+                            "key": "productType",
+                            "label": "Product Type"
+                          },
+                          {
+                            "key": "productSubtype",
+                            "label": "Product Subtype"
+                          },
+                          {
+                            "key": "businessUnit",
+                            "label": "Business Unit"
+                          },
+                          {
+                            "key": "collectibility",
+                            "label": "Collectibility"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "name": "Section 2",
+                  "sectionId": "3702cc48-0f94-466f-9d0f-16023a1676f6",
+                  "description": ""
+                },
+                {
+                  "sectionType": "AdjustmentHistory",
+                  "container": {
+                    "title": "Adjustment History",
+                    "canExpand": true
+                  },
+                  "name": "Section 3",
+                  "sectionId": "06601aeb-e7dc-44fd-8ec3-4f658416ad3a",
+                  "description": ""
+                },
+                {
+                  "sectionType": "TitaniumTrace",
+                  "container": {
+                    "title": "Data Lineage",
+                    "canExpand": true,
+                    "initialExpanded": false
+                  },
+                  "sectionProps": {
+                    "tidIdAccessor": "data.titanium.tiId"
+                  },
+                  "name": "Section 4",
+                  "sectionId": "05bc98cd-aa90-4b3f-9908-a4e8d4da78f8",
+                  "description": ""
+                }
+              ]
+            },
+            "source": {
+              "schema": {
+                "shape": {
+                  "$type:contract": {
+                    "returnType": "Object"
+                  },
+                  "counterparty": {
+                    "$type:counterparty": {
+                      "returnType": "Object"
+                    }
+                  }
+                }
+              },
+              "resolvers": {
+                "contract": {
+                  "resolverType": "Sql",
+                  "config": {
+                    "queries": [
+                      {
+                        "provider": "PostgreSQL",
+                        "query": "SELECT cm.\"OriginContractId\", cm.\"OriginSystemId\", ct.* FROM \"Contracts\" ct, \"ContractMaster\" cm WHERE ct.\"ContractMasterId\" = cm.\"ContractMasterId\" AND  \"ContractId\" = {params.contractId}"
+                      },
+                      {
+                        "provider": "SQLServer",
+                        "query": "SELECT cm.[OriginContractId], cm.[OriginSystemId], ct.* FROM [Contracts] ct, [ContractMaster] cm WHERE  ct.[ContractMasterId] = cm.[ContractMasterId] AND ct.[ContractId] = {params.contractId}"
+                      }
+                    ]
+                  }
+                },
+                "counterparty": {
+                  "resolverType": "Sql",
+                  "config": {
+                    "queries": [
+                      {
+                        "provider": "PostgreSQL",
+                        "query": "SELECT * FROM \"Counterparties\" WHERE \"CounterpartyId\" = {contract.counterpartyId}"
+                      },
+                      {
+                        "provider": "SQLServer",
+                        "query": "SELECT * FROM [Counterparties] WHERE [CounterpartyId] = {contract.counterpartyId}"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "rules": [
+          {
+            "ruleId": "5dc2571d-4e8c-46f6-beaa-d45f697d347f",
+            "priority": 1,
+            "name": "Standard contract view rule",
+            "description": "",
+            "viewId": "e48b37d0-345b-4e5d-b427-df6e886b160d",
+            "lastModifiedWhen": "2022-02-28T05:24:33.069",
+            "ruleCondition": {
+              "combinator": "And",
+              "conditionId": "44f05afa-7df8-40b5-8eac-7aa46fd217bf",
+              "conditions": []
+            }
+          }
+        ],
+        "ruleSource": {
+          "sourceType": "Sql",
+          "queries": [
+            {
+              "provider": "PostgreSQL",
+              "query": "SELECT *\nFROM \"Contracts\"\nWHERE \"ContractId\" = { contractId }"
+            },
+            {
+              "provider": "SQLServer",
+              "query": "SELECT *\nFROM [Contracts]\nWHERE [ContractId] = { contractId }"
+            }
+          ]
+        }
+      },
+      {
+        "domain": "Counterparties",
+        "views": [
+          {
+            "viewId": "723822aa-959d-47fc-9f96-b327c44e18e2",
+            "name": "Standard counterparty view",
+            "description": "",
+            "configuration": {
+              "sections": [
+                {
+                  "container": {
+                    "title": "Counterparty Information"
+                  },
+                  "sectionType": "PropertyGrid",
+                  "sectionProps": {
+                    "columns": [
+                      {
+                        "fields": [
+                          {
+                            "key": "name",
+                            "label": "Name"
+                          },
+                          {
+                            "key": "originCounterpartyId",
+                            "label": "Counterparty Id"
+                          },
+                          {
+                            "key": "counterpartyType",
+                            "label": "Counterparty Type"
+                          },
+                          {
+                            "key": "originSystemId",
+                            "label": "Source System"
+                          }
+                        ]
+                      },
+                      {
+                        "fields": [
+                          {
+                            "key": "totalOutstanding",
+                            "label": "Total Outstanding",
+                            "type": "Amount"
+                          },
+                          {
+                            "key": "numContracts",
+                            "label": "Contracts",
+                            "type": "Integer"
+                          },
+                          {
+                            "key": "maxDaysPastDue",
+                            "label": "Max Day Past Due"
+                          },
+                          {
+                            "key": "collectibility",
+                            "label": "Collectibility"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "name": "Section 1",
+                  "sectionId": "db80a88b-7115-4c2a-98ff-23ab3184f58e",
+                  "description": ""
+                },
+                {
+                  "sectionType": "PropertyTable",
+                  "container": {
+                    "title": "Contracts",
+                    "canExpand": true,
+                    "initialExpanded": false
+                  },
+                  "sectionProps": {
+                    "tableDataAccessor": "contracts",
+                    "columns": [
+                      {
+                        "key": "originContractId",
+                        "label": "Contract Id",
+                        "link": "{{{context.contractBasePath}}}/{{contractId}}"
+                      },
+                      {
+                        "key": "counterpartyName",
+                        "dataAccessor": "name",
+                        "label": "Counterparty"
+                      },
+                      {
+                        "key": "entity",
+                        "label": "Entity"
+                      },
+                      {
+                        "key": "daysPastDue",
+                        "label": "Days Past Due",
+                        "align": "right"
+                      },
+                      {
+                        "key": "currency",
+                        "label": "Currency",
+                        "align": "center"
+                      },
+                      {
+                        "key": "accruedInterest",
+                        "label": "Accrued Interest",
+                        "align": "right"
+                      },
+                      {
+                        "key": "principalAmount",
+                        "label": "Principal Amount",
+                        "align": "right",
+                        "type": "Amount"
+                      },
+                      {
+                        "key": "interestRate",
+                        "label": "Interest Rate",
+                        "align": "right"
+                      },
+                      {
+                        "key": "productType",
+                        "label": "Product Type",
+                        "align": "center"
+                      },
+                      {
+                        "key": "productSubtype",
+                        "label": "Product Subtype",
+                        "align": "center"
+                      },
+                      {
+                        "key": "businessUnit",
+                        "label": "Business Unit",
+                        "align": "center"
+                      },
+                      {
+                        "key": "collectibility",
+                        "label": "Collectibility"
+                      }
+                    ]
+                  },
+                  "name": "Section 2",
+                  "sectionId": "bb75dba7-c4b1-4b76-9b60-54b851642cd3",
+                  "description": ""
+                }
+              ]
+            },
+            "source": {
+              "schema": {
+                "shape": {
+                  "$type:counterparty": {
+                    "returnType": "Object"
+                  },
+                  "contracts": {
+                    "$type:contracts": {
+                      "returnType": "List"
+                    }
+                  },
+                  "collaterals": {
+                    "$type:collaterals": {
+                      "returnType": "List"
+                    }
+                  },
+                  "nettingAgreements": {
+                    "$type:nettingAgreements": {
+                      "returnType": "List"
+                    }
+                  },
+                  "facilities": {
+                    "$type:facilities": {
+                      "returnType": "List"
+                    }
+                  },
+                  "clusters": {
+                    "$type:clusters": {
+                      "returnType": "List"
+                    }
+                  }
+                }
+              },
+              "resolvers": {
+                "counterparty": {
+                  "resolverType": "Sql",
+                  "config": {
+                    "queries": [
+                      {
+                        "provider": "PostgreSQL",
+                        "query": "SELECT cm.\"OriginCounterpartyId\", cm.\"OriginSystemId\", cp.* FROM \"Counterparties\" cp, \"CounterpartyMaster\" cm WHERE cp.\"CounterpartyMasterId\" = cm.\"CounterpartyMasterId\" AND  cp.\"CounterpartyId\" = {params.counterpartyId}"
+                      },
+                      {
+                        "provider": "SQLServer",
+                        "query": "SELECT cm.[OriginCounterpartyId], cm.[OriginSystemId], cp.* FROM [Counterparties] cp, [CounterpartyMaster] cm WHERE  cp.[CounterpartyMasterId] = cm.[CounterpartyMasterId] AND cp.[CounterpartyId] = {params.counterpartyId}"
+                      }
+                    ]
+                  }
+                },
+                "contracts": {
+                  "resolverType": "Sql",
+                  "config": {
+                    "queries": [
+                      {
+                        "provider": "PostgreSQL",
+                        "query": "SELECT cm.\"OriginContractId\", ct.* FROM \"Contracts\" ct, \"ContractMaster\" cm WHERE ct.\"ContractMasterId\" = cm.\"ContractMasterId\" AND  ct.\"CounterpartyId\" = {counterparty.counterpartyId}"
+                      },
+                      {
+                        "provider": "SQLServer",
+                        "query": "SELECT cm.[OriginContractId], ct.* FROM [Contracts] ct, [ContractMaster] cm WHERE  ct.[ContractMasterId] = cm.[ContractMasterId] AND ct.[CounterpartyId] = {counterparty.counterpartyId}"
+                      }
+                    ]
+                  }
+                },
+                "collaterals": {
+                  "resolverType": "Sql",
+                  "config": {
+                    "queries": [
+                      {
+                        "provider": "PostgreSQL",
+                        "query": "SELECT cm.\"OriginCollateralId\", ct.* FROM \"Collaterals\" ct, \"CollateralMaster\" cm WHERE ct.\"CollateralMasterId\" = cm.\"CollateralMasterId\" AND  ct.\"CounterpartyId\" = {counterparty.counterpartyId}"
+                      },
+                      {
+                        "provider": "SQLServer",
+                        "query": "SELECT cm.[OriginCollateralId], ct.* FROM [Collaterals] ct, [CollateralMaster] cm WHERE  ct.[CollateralMasterId] = cm.[CollateralMasterId] AND ct.[CounterpartyId] = {counterparty.counterpartyId}"
+                      }
+                    ]
+                  }
+                },
+                "nettingAgreements": {
+                  "resolverType": "Sql",
+                  "config": {
+                    "queries": [
+                      {
+                        "provider": "PostgreSQL",
+                        "query": "SELECT nm.\"OriginNettingAgreementId\", na.* FROM \"NettingAgreements\" na, \"NettingAgreementMaster\" nm WHERE nm.\"NettingAgreementMasterId\" = na.\"NettingAgreementMasterId\" AND  na.\"CounterpartyId\" = {counterparty.counterpartyId}"
+                      },
+                      {
+                        "provider": "SQLServer",
+                        "query": "SELECT nm.[OriginNettingAgreementId], na.* FROM [NettingAgreements] na, [NettingAgreementMaster] nm WHERE  nm.[NettingAgreementMasterId] = na.[NettingAgreementMasterId] AND na.[CounterpartyId] = {counterparty.counterpartyId}"
+                      }
+                    ]
+                  }
+                },
+                "facilities": {
+                  "resolverType": "Sql",
+                  "config": {
+                    "queries": [
+                      {
+                        "provider": "PostgreSQL",
+                        "query": "SELECT fm.\"OriginFacilityId\", fc.* FROM \"Facilities\" fc, \"FacilityMaster\" fm WHERE fm.\"FacilityMasterId\" = fc.\"FacilityMasterId\" AND  fc.\"CounterpartyId\" = {counterparty.counterpartyId}"
+                      },
+                      {
+                        "provider": "SQLServer",
+                        "query": "SELECT fm.[OriginFacilityId], fc.* FROM [Facilities] fc, [FacilityMaster] fm WHERE  fm.[FacilityMasterId] = fc.[FacilityMasterId] AND fc.[CounterpartyId] = {counterparty.counterpartyId}"
+                      }
+                    ]
+                  }
+                },
+                "clusters": {
+                  "resolverType": "Sql",
+                  "config": {
+                    "queries": [
+                      {
+                        "provider": "PostgreSQL",
+                        "query": "select distinct ccluster.* from \"CollateralClusters\" ccluster,\"CollateralClusters\" cc,\"Collaterals\" cl,\"Counterparties\" cp,\"CollateralContracts\" cct where cp.\"CounterpartyId\" = {counterparty.counterpartyId} AND cl.\"CounterpartyId\" = {counterparty.counterpartyId} AND cct.\"CollateralId\" = cl.\"CollateralId\" AND cct.\"ClusterId\" = ccluster.\"ClusterId\" UNION select distinct ccluster.* from \"CollateralClusters\" ccluster,\"CollateralClusters\" cc,\"Contracts\" ct,\"Counterparties\" cp,\"CollateralContracts\" cct where cp.\"CounterpartyId\" = {counterparty.counterpartyId} AND ct.\"CounterpartyId\" = {counterparty.counterpartyId} AND cct.\"ContractId\" = ct.\"ContractId\" AND cct.\"ClusterId\" = ccluster.\"ClusterId\""
+                      },
+                      {
+                        "provider": "SQLServer",
+                        "query": "select distinct ccluster.* from [CollateralClusters] ccluster,[CollateralClusters] cc,[Collaterals] cl,[Counterparties] cp,[CollateralContracts] cct where cp.[CounterpartyId] = {counterparty.counterpartyId} AND cl.[CounterpartyId] = {counterparty.counterpartyId} AND cct.[CollateralId] = cl.[CollateralId] AND cct.[ClusterId] = ccluster.[ClusterId] UNION select distinct ccluster.* from [CollateralClusters] ccluster,[CollateralClusters] cc,[Contracts] ct,[Counterparties] cp,[CollateralContracts] cct where cp.[CounterpartyId] = {counterparty.counterpartyId} AND ct.[CounterpartyId] = {counterparty.counterpartyId} AND cct.[ContractId] = ct.[ContractId] AND cct.[ClusterId] = ccluster.[ClusterId]"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "rules": [
+          {
+            "ruleId": "992010bd-bea2-4ff8-bc4b-76ecd1520e97",
+            "priority": 1,
+            "name": "Standard counterparty rule",
+            "description": "",
+            "viewId": "723822aa-959d-47fc-9f96-b327c44e18e2",
+            "lastModifiedWhen": "2022-02-28T06:20:19.632",
+            "ruleCondition": {
+              "combinator": "And",
+              "conditionId": "bf0284ec-7859-4acf-95da-4c8605af7c6c",
+              "conditions": []
+            }
+          }
+        ],
+        "ruleSource": {
+          "sourceType": "Sql",
+          "queries": [
+            {
+              "provider": "PostgreSQL",
+              "query": "SELECT * FROM \"Counterparties\" WHERE \"CounterpartyId\" = {counterpartyId}"
+            },
+            {
+              "provider": "SQLServer",
+              "query": "SELECT *\nFROM [Counterparties]\nWHERE [CounterpartyId] = { counterpartyId }"
+            }
+          ]
+        }
+      },
+      {
+        "domain": "Facilities",
+        "views": [
+          {
+            "viewId": "74d735ac-091a-43a8-b93f-d8a9e20ea257",
+            "name": "Standard facility view",
+            "description": "",
+            "configuration": {
+              "sections": [
+                {
+                  "sectionType": "PropertyGrid",
+                  "container": {
+                    "title": "Facility Information"
+                  },
+                  "sectionProps": {
+                    "columns": [
+                      {
+                        "fields": [
+                          {
+                            "key": "originFacilityId",
+                            "label": "Facility Id"
+                          },
+                          {
+                            "key": "reportingDate",
+                            "label": "Reporting Date",
+                            "type": "Date"
+                          },
+                          {
+                            "key": "counterpartyName",
+                            "label": "Counterparty Name",
+                            "link": "{{{context.counterpartyBasePath}}}/{{counterpartyId}}"
+                          },
+                          {
+                            "key": "entity",
+                            "label": "Entity"
+                          },
+                          {
+                            "key": "startDate",
+                            "label": "Start Date",
+                            "type": "Date"
+                          },
+                          {
+                            "key": "maturityDate",
+                            "label": "Maturity Date",
+                            "type": "Date"
+                          },
+                          {
+                            "key": "originSystemId",
+                            "label": "Source System"
+                          }
+                        ]
+                      },
+                      {
+                        "fields": [
+                          {
+                            "key": "currency",
+                            "label": "Currency"
+                          },
+                          {
+                            "key": "principalAmount",
+                            "label": "Principal Amount",
+                            "type": "Amount"
+                          },
+                          {
+                            "key": "outstandingAmount",
+                            "label": "Outstanding Amount",
+                            "type": "Amount"
+                          },
+                          {
+                            "key": "limitAmount",
+                            "label": "Limit Amount",
+                            "type": "Amount"
+                          },
+                          {
+                            "key": "undrawnAmount",
+                            "label": "Undrawn Amount",
+                            "type": "Amount"
+                          },
+                          {
+                            "key": "numContracts",
+                            "label": "Contracts",
+                            "type": "Integer"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "name": "Section 1",
+                  "sectionId": "c3808022-7169-4cce-9d52-415eead369e6",
+                  "description": ""
+                },
+                {
+                  "sectionType": "PropertyTable",
+                  "container": {
+                    "title": "Contracts",
+                    "canExpand": true,
+                    "initialExpanded": false
+                  },
+                  "sectionProps": {
+                    "tableDataAccessor": "contracts",
+                    "columns": [
+                      {
+                        "key": "originContractId",
+                        "label": "Contract Id",
+                        "link": "{{{context.contractBasePath}}}/{{contractId}}"
+                      },
+                      {
+                        "key": "counterpartyName",
+                        "dataAccessor": "counterpartyName",
+                        "label": "Counterparty"
+                      },
+                      {
+                        "key": "entity",
+                        "label": "Entity"
+                      },
+                      {
+                        "key": "daysPastDue",
+                        "label": "Days Past Due",
+                        "align": "right"
+                      },
+                      {
+                        "key": "currency",
+                        "label": "Currency",
+                        "align": "center"
+                      },
+                      {
+                        "key": "accruedInterest",
+                        "label": "Accrued Interest",
+                        "align": "right"
+                      },
+                      {
+                        "key": "principalAmount",
+                        "label": "Principal Amount",
+                        "align": "right",
+                        "type": "Amount"
+                      },
+                      {
+                        "key": "interestRate",
+                        "label": "Interest Rate",
+                        "align": "right"
+                      },
+                      {
+                        "key": "productType",
+                        "label": "Product Type",
+                        "align": "center"
+                      },
+                      {
+                        "key": "productSubtype",
+                        "label": "Product Subtype",
+                        "align": "center"
+                      },
+                      {
+                        "key": "businessUnit",
+                        "label": "Business Unit",
+                        "align": "center"
+                      },
+                      {
+                        "key": "collectibility",
+                        "label": "Collectibility",
+                        "align": "center"
+                      }
+                    ]
+                  },
+                  "name": "Section 2",
+                  "sectionId": "caae4ddd-23a6-4158-b730-3c583c1fa250",
+                  "description": ""
+                },
+                {
+                  "sectionType": "TitaniumTrace",
+                  "container": {
+                    "title": "Data Lineage",
+                    "canExpand": true,
+                    "initialExpanded": false
+                  },
+                  "sectionProps": {
+                    "tidIdAccessor": "titanium.tiId"
+                  },
+                  "name": "Section 3",
+                  "sectionId": "e3e03753-29be-4081-a8fa-28db4c4fdd79",
+                  "description": ""
+                }
+              ]
+            },
+            "source": {
+              "schema": {
+                "shape": {
+                  "$type:facility": {
+                    "returnType": "Object"
+                  },
+                  "contracts": {
+                    "$type:contracts": {
+                      "returnType": "List"
+                    }
+                  }
+                }
+              },
+              "resolvers": {
+                "facility": {
+                  "resolverType": "Sql",
+                  "config": {
+                    "queries": [
+                      {
+                        "provider": "PostgreSQL",
+                        "query": "SELECT fm.\"OriginFacilityId\", fm.\"OriginSystemId\", cp.\"Name\" AS \"CounterpartyName\", fc.* FROM \"Facilities\" fc, \"FacilityMaster\" fm, \"Counterparties\" cp WHERE cp.\"CounterpartyId\" = fc.\"CounterpartyId\" AND fc.\"FacilityMasterId\" = fm.\"FacilityMasterId\" AND  fc.\"FacilityId\" = {params.facilityId}"
+                      },
+                      {
+                        "provider": "SQLServer",
+                        "query": "SELECT fm.[OriginFacilityId], fm.[OriginSystemId], cp.[Name] AS [CounterpartyName], fc.* FROM [Facilities] fc, [FacilityMaster] fm, [Counterparties] cp WHERE  cp.[CounterpartyId] = fc.[CounterpartyId] AND fc.[FacilityMasterId] = fm.[FacilityMasterId] AND fc.[FacilityId] = {params.facilityId}"
+                      }
+                    ]
+                  }
+                },
+                "contracts": {
+                  "resolverType": "Sql",
+                  "config": {
+                    "queries": [
+                      {
+                        "provider": "PostgreSQL",
+                        "query": "SELECT cm.\"OriginContractId\", cp.\"Name\" AS \"CounterpartyName\", ct.* FROM \"Contracts\" ct, \"ContractMaster\" cm, \"Counterparties\" cp WHERE ct.\"ContractMasterId\" = cm.\"ContractMasterId\" AND cp.\"CounterpartyId\" = {facility.counterpartyId} AND  ct.\"CounterpartyId\" = {facility.counterpartyId}"
+                      },
+                      {
+                        "provider": "SQLServer",
+                        "query": "SELECT cm.[OriginContractId], cp.[Name] AS [CounterpartyName], ct.* FROM [Contracts] ct, [ContractMaster] cm,  [Counterparties] cp WHERE  ct.[ContractMasterId] = cm.[ContractMasterId] AND cp.[CounterpartyId] = {facility.counterpartyId} AND ct.[CounterpartyId] = {facility.counterpartyId}"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "rules": [
+          {
+            "ruleId": "69662b7f-d8bb-4db9-83e7-8dc8230fa4d6",
+            "priority": 1,
+            "name": "Standard facility view rule",
+            "description": "",
+            "viewId": "74d735ac-091a-43a8-b93f-d8a9e20ea257",
+            "lastModifiedWhen": "2022-02-28T06:50:43.204",
+            "ruleCondition": {
+              "combinator": "And",
+              "conditionId": "98cf8c38-e833-4d4f-8511-1bcc215cedf6",
+              "conditions": []
+            }
+          }
+        ],
+        "ruleSource": {
+          "sourceType": "Sql",
+          "queries": [
+            {
+              "provider": "PostgreSQL",
+              "query": "SELECT * FROM \"Facilities\" WHERE \"FacilityId\" = {facilityId}"
+            },
+            {
+              "provider": "SQLServer",
+              "query": "SELECT *\nFROM [Facilities]\nWHERE [FacilityId] = { facilityId }"
+            }
+          ]
+        }
+      }
+    ],
+    "ruleProps": {
+      "contracts": {
+        "properties": [
+          {
+            "name": "Currency",
+            "label": "Currency",
+            "type": "string",
+            "length": "3"
+          },
+          {
+            "name": "Entity",
+            "label": "Entity",
+            "type": "string",
+            "length": "50"
+          },
+          {
+            "name": "Segment",
+            "label": "Segment",
+            "type": "string",
+            "length": "30"
+          },
+          {
+            "name": "ProductType",
+            "label": "Product Type",
+            "type": "string",
+            "length": "20"
+          },
+          {
+            "name": "CreditRating",
+            "label": "Credit Rating",
+            "type": "string",
+            "length": "20"
+          },
+          {
+            "name": "CreditRatingScale",
+            "label": "Credit Rating Scale",
+            "type": "string",
+            "length": "20"
+          },
+          {
+            "name": "CreditRatingAgency",
+            "label": "Credit Rating Agency",
+            "type": "string",
+            "length": "20"
+          },
+          {
+            "name": "Collectibility",
+            "label": "Collectibility",
+            "type": "string",
+            "length": "20"
+          },
+          {
+            "name": "ProductSubtype",
+            "label": "Product Subtype",
+            "type": "string",
+            "length": "20"
+          },
+          {
+            "name": "MaturityDate",
+            "label": "Maturity Date",
+            "type": "date",
+            "length": "10"
+          },
+          {
+            "name": "IsSecured",
+            "label": "Is Secured",
+            "type": "boolean",
+            "length": "1"
+          },
+          {
+            "name": "OriginSystemId",
+            "label": "System Id",
+            "type": "string",
+            "length": "36"
+          },
+          {
+            "name": "DaysPastDue",
+            "label": "Days Past Due",
+            "type": "integer",
+            "length": "10"
+          },
+          {
+            "name": "CounterpartyType",
+            "label": "Counterparty Type",
+            "type": "string",
+            "length": "20"
+          },
+          {
+            "name": "OutstandingAmount",
+            "label": "Outstanding Amount",
+            "type": "double",
+            "length": "20"
+          }
+        ]
+      },
+      "counterparties": {
+        "properties": [
+          {
+            "name": "CounterpartyType",
+            "label": "Counterparty Type",
+            "type": "string",
+            "length": "20"
+          },
+          {
+            "name": "Collectibility",
+            "label": "Collectibility",
+            "type": "string",
+            "length": "20"
+          },
+          {
+            "name": "OriginSystemId",
+            "label": "System Id",
+            "type": "string",
+            "length": "36"
+          },
+          {
+            "name": "MaxDaysPastDue",
+            "label": "Max Days Past Due",
+            "type": "integer",
+            "length": "10"
+          },
+          {
+            "name": "NumContracts",
+            "label": "Num Contracts",
+            "type": "integer",
+            "length": "10"
+          },
+          {
+            "name": "TotalOutstanding",
+            "label": "Total Outstanding",
+            "type": "double",
+            "length": "20"
+          }
+        ]
+      },
+      "facilities": {
+        "properties": [
+          {
+            "name": "Currency",
+            "label": "Currency",
+            "type": "string",
+            "length": "3"
+          },
+          {
+            "name": "Entity",
+            "label": "Entity",
+            "type": "string",
+            "length": "50"
+          },
+          {
+            "name": "MaturityDate",
+            "label": "Maturity Date",
+            "type": "date",
+            "length": "10"
+          },
+          {
+            "name": "StartDate",
+            "label": "Start Date",
+            "type": "date",
+            "length": "10"
+          },
+          {
+            "name": "OriginSystemId",
+            "label": "System Id",
+            "type": "string",
+            "length": "36"
+          },
+          {
+            "name": "FacilityType",
+            "label": "FacilityType Type",
+            "type": "string",
+            "length": "20"
+          },
+          {
+            "name": "OutstandingAmount",
+            "label": "Outstanding Amount",
+            "type": "double",
+            "length": "20"
+          },
+          {
+            "name": "PrincipalAmount",
+            "label": "Principal Amount",
+            "type": "double",
+            "length": "20"
+          },
+          {
+            "name": "LimitAmount",
+            "label": "Limit Amount",
+            "type": "double",
+            "length": "20"
+          },
+          {
+            "name": "UndrawnAmount",
+            "label": "Undrawn Amount",
+            "type": "double",
+            "length": "20"
+          }
+        ]
+      },
+      "collaterals": {
+        "properties": [
+          {
+            "name": "Currency",
+            "label": "Currency",
+            "type": "string",
+            "length": "3"
+          },
+          {
+            "name": "CollateralType",
+            "label": "Collateral Type",
+            "type": "string",
+            "length": "20"
+          },
+          {
+            "name": "CollateralAmount",
+            "label": "Collateral Amount",
+            "type": "double",
+            "length": "20"
+          },
+          {
+            "name": "OriginSystemId",
+            "label": "System Id",
+            "type": "string",
+            "length": "36"
+          }
+        ]
+      }
+    }
+  }
+}

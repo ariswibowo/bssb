@@ -1,0 +1,14 @@
+{
+  "ContentId": "2091faf0-4662-47a5-b360-e6ddc67ff92c",
+  "Code": "SearchKonven",
+  "Name": "Search Konven",
+  "Description": "Search Page",
+  "Route": "/portfolio/konven/search",
+  "DataAccess": null,
+  "Content": "{\"contentType\":\"SearchResultsPage\",\"contentProps\":{\"breadcrumbs\":[{\"label\":\"Home\",\"link\":\"/portfolio/konven/home\"},{\"label\":\"Search\",\"link\":\"/portfolio/konven/search\"}],\"query\":{\"take\":50},\"contractBasePath\":\"/portfolio/konven/contracts/query\",\"counterpartyBasePath\":\"/portfolio/konven/counterparties/query\"}}",
+  "ConcurrencyId": "aaf5d580-4760-4236-9769-02ba40529866",
+  "CreatedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "CreatedWhen": "2023-11-09 04:01:52",
+  "LastModifiedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "LastModifiedWhen": "2025-12-05 06:43:25.868454"
+}
