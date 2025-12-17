@@ -1,0 +1,14 @@
+{
+  "ContentId": "bf283b19-74d8-4ea9-8d29-70f9d181c68e",
+  "Code": "DetailContractSyariah",
+  "Name": "Detail Contract Syariah",
+  "Description": "",
+  "Route": "/portfolio/syariah/contracts/contract",
+  "DataAccess": null,
+  "Content": "{\"contentType\":\"Container\",\"children\":[{\"contentType\":\"Breadcrumbs\",\"contentProps\":{\"breadcrumbs\":[\"sourceUrlBased\"]}},{\"contentType\":\"ContractPage\",\"contentProps\":{\"query\":{\"entities\":[\"SSB-SYARIA\"],\"take\":50},\"title\":\"Contract: {{originSystemId}}/{{originContractId}}\",\"contractBasePath\":\"/portfolio/syariah/contracts/query\",\"counterpartyBasePath\":\"/portfolio/syariah/counterparties/query\"}}]}",
+  "ConcurrencyId": "9985a199-d0e8-453a-9a2c-88be45bb421a",
+  "CreatedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "CreatedWhen": "2025-12-05 06:33:42.683138",
+  "LastModifiedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "LastModifiedWhen": "2025-12-05 06:34:00.540208"
+}

@@ -7,7 +7,79 @@
         "importType": "PortfolioContent",
         "importSettings": {
           "path": "portfolioContent",
-          "file": "contract-4ab0d7b.json",
+          "file": "detail_contract_konven-46ca0b2.json",
+          "dupHandlingApproach": "Delete"
+        }
+      },
+      {
+        "name": "All PortfolioContent",
+        "importType": "PortfolioContent",
+        "importSettings": {
+          "path": "portfolioContent",
+          "file": "konven_home-b3fd907.json",
+          "dupHandlingApproach": "Delete"
+        }
+      },
+      {
+        "name": "All PortfolioContent",
+        "importType": "PortfolioContent",
+        "importSettings": {
+          "path": "portfolioContent",
+          "file": "syariah_home-60eeac9.json",
+          "dupHandlingApproach": "Delete"
+        }
+      },
+      {
+        "name": "All PortfolioContent",
+        "importType": "PortfolioContent",
+        "importSettings": {
+          "path": "portfolioContent",
+          "file": "data_quality_analysis-73e639b.json",
+          "dupHandlingApproach": "Delete"
+        }
+      },
+      {
+        "name": "All PortfolioContent",
+        "importType": "PortfolioContent",
+        "importSettings": {
+          "path": "portfolioContent",
+          "file": "contract_query_pages-3559e46.json",
+          "dupHandlingApproach": "Delete"
+        }
+      },
+      {
+        "name": "All PortfolioContent",
+        "importType": "PortfolioContent",
+        "importSettings": {
+          "path": "portfolioContent",
+          "file": "contracts_syariah-928f93b.json",
+          "dupHandlingApproach": "Delete"
+        }
+      },
+      {
+        "name": "All PortfolioContent",
+        "importType": "PortfolioContent",
+        "importSettings": {
+          "path": "portfolioContent",
+          "file": "detail_contract_syariah-181c68e.json",
+          "dupHandlingApproach": "Delete"
+        }
+      },
+      {
+        "name": "All PortfolioContent",
+        "importType": "PortfolioContent",
+        "importSettings": {
+          "path": "portfolioContent",
+          "file": "data_adjustments-fa2902a.json",
+          "dupHandlingApproach": "Delete"
+        }
+      },
+      {
+        "name": "All PortfolioContent",
+        "importType": "PortfolioContent",
+        "importSettings": {
+          "path": "portfolioContent",
+          "file": "counterparties_syariah-ad4f81a.json",
           "dupHandlingApproach": "Delete"
         }
       },
@@ -17,6 +89,15 @@
         "importSettings": {
           "path": "portfolioContent",
           "file": "contract_query-0392af0.json",
+          "dupHandlingApproach": "Delete"
+        }
+      },
+      {
+        "name": "All PortfolioContent",
+        "importType": "PortfolioContent",
+        "importSettings": {
+          "path": "portfolioContent",
+          "file": "contract-4ab0d7b.json",
           "dupHandlingApproach": "Delete"
         }
       },
@@ -43,7 +124,7 @@
         "importType": "PortfolioContent",
         "importSettings": {
           "path": "portfolioContent",
-          "file": "data_quality_analysis_syariah-1a6951b.json",
+          "file": "counterparties_query_syariah-f1deda5.json",
           "dupHandlingApproach": "Delete"
         }
       },
@@ -52,61 +133,7 @@
         "importType": "PortfolioContent",
         "importSettings": {
           "path": "portfolioContent",
-          "file": "search-67ff92c.json",
-          "dupHandlingApproach": "Delete"
-        }
-      },
-      {
-        "name": "All PortfolioContent",
-        "importType": "PortfolioContent",
-        "importSettings": {
-          "path": "portfolioContent",
-          "file": "contracts_syariah-928f93b.json",
-          "dupHandlingApproach": "Delete"
-        }
-      },
-      {
-        "name": "All PortfolioContent",
-        "importType": "PortfolioContent",
-        "importSettings": {
-          "path": "portfolioContent",
-          "file": "data_quality_analysis-73e639b.json",
-          "dupHandlingApproach": "Delete"
-        }
-      },
-      {
-        "name": "All PortfolioContent",
-        "importType": "PortfolioContent",
-        "importSettings": {
-          "path": "portfolioContent",
-          "file": "data_adjustments-fa2902a.json",
-          "dupHandlingApproach": "Delete"
-        }
-      },
-      {
-        "name": "All PortfolioContent",
-        "importType": "PortfolioContent",
-        "importSettings": {
-          "path": "portfolioContent",
-          "file": "contract_syariah-3559e46.json",
-          "dupHandlingApproach": "Delete"
-        }
-      },
-      {
-        "name": "All PortfolioContent",
-        "importType": "PortfolioContent",
-        "importSettings": {
-          "path": "portfolioContent",
-          "file": "syariah_home-60eeac9.json",
-          "dupHandlingApproach": "Delete"
-        }
-      },
-      {
-        "name": "All PortfolioContent",
-        "importType": "PortfolioContent",
-        "importSettings": {
-          "path": "portfolioContent",
-          "file": "konven_home-b3fd907.json",
+          "file": "search_konven-67ff92c.json",
           "dupHandlingApproach": "Delete"
         }
       },
@@ -134,6 +161,15 @@
         "importSettings": {
           "path": "portfolioContent",
           "file": "bank_sulselbar_syariah-4a7d964.json",
+          "dupHandlingApproach": "Delete"
+        }
+      },
+      {
+        "name": "All PortfolioContent",
+        "importType": "PortfolioContent",
+        "importSettings": {
+          "path": "portfolioContent",
+          "file": "counterparty_syariah-7c9f53d.json",
           "dupHandlingApproach": "Delete"
         }
       },
@@ -178,7 +214,7 @@
         "importType": "PortfolioContent",
         "importSettings": {
           "path": "portfolioContent",
-          "file": "data_adjustments_syariah-2990f6b.json",
+          "file": "reports_syariah-157304e.json",
           "dupHandlingApproach": "Delete"
         }
       },
@@ -187,7 +223,7 @@
         "importType": "PortfolioContent",
         "importSettings": {
           "path": "portfolioContent",
-          "file": "counterparties_syariah-270e274.json",
+          "file": "reports_konven-781af24.json",
           "dupHandlingApproach": "Delete"
         }
       },
@@ -196,17 +232,34 @@
         "importType": "PortfolioContent",
         "importSettings": {
           "path": "portfolioContent",
-          "file": "counterparty_query_syariah-985df49.json",
+          "file": "search_syariah-3cbff9d.json",
           "dupHandlingApproach": "Delete"
         }
       },
       {
-        "name": "All PortfolioContent",
-        "importType": "PortfolioContent",
+        "name": "Portfolio Views",
+        "importType": "Policies",
         "importSettings": {
-          "path": "portfolioContent",
-          "file": "counterparty_syariah-ff4a91a.json",
-          "dupHandlingApproach": "Delete"
+          "path": "policies",
+          "file": "portfolioviews-b0c3d67.json",
+          "database": "Fdr",
+          "table": "Policies",
+          "scope": null,
+          "migrateDefaultPolicy": false,
+          "migrateActivePolicy": true
+        }
+      },
+      {
+        "name": "Portfolio Analysis",
+        "importType": "Policies",
+        "importSettings": {
+          "path": "policies",
+          "file": "portfolioanalysis-09d3c28.json",
+          "database": "Fdr",
+          "table": "Policies",
+          "scope": null,
+          "migrateDefaultPolicy": false,
+          "migrateActivePolicy": true
         }
       }
     ]

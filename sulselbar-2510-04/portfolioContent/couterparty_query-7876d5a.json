@@ -5,10 +5,10 @@
   "Description": "Couterparty Query Page",
   "Route": "/portfolio/konven/counterparties/query",
   "DataAccess": null,
-  "Content": "{\"contentType\":\"CounterpartyQueryPage\",\"contentProps\":{\"breadcrumbs\":[{\"label\":\"Home\",\"link\":\"/portfolio/home\"},{\"label\":\"Counterparties\",\"link\":\"/portfolio/counterparties\"},{\"label\":\"Search\",\"link\":\"/portfolio/counterparties/query\"}],\"query\":{\"take\":50},\"counterpartyBasePath\":\"/portfolio/counterparties/query\"}}",
-  "ConcurrencyId": "5c7ffe63-3e96-4b42-bf92-18a205a1b890",
+  "Content": "{\"contentType\":\"CounterpartyQueryPage\",\"contentProps\":{\"breadcrumbs\":[{\"label\":\"Home\",\"link\":\"/portfolio/konven/home\"},{\"label\":\"Counterparties\",\"link\":\"/portfolio/konven/counterparties\"},{\"label\":\"Search\",\"link\":\"/portfolio/konven/counterparties/query\"}],\"query\":{\"take\":50},\"counterpartyBasePath\":\"/portfolio/konven/counterparties/query\"}}",
+  "ConcurrencyId": "9db98413-5a29-4d8a-b833-48dca3bcca55",
   "CreatedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
   "CreatedWhen": "2023-11-09 04:01:52",
   "LastModifiedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
-  "LastModifiedWhen": "2023-11-09 04:01:52"
+  "LastModifiedWhen": "2025-12-05 06:31:48.238509"
 }

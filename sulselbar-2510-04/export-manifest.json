@@ -11,7 +11,31 @@
                     "excludePortfolioContentCodes": [],
                     "dupHandlingApproach": "Delete"
                 }
-            }
+            },
+      {
+        "name": "Portfolio Views",
+        "exportType": "Policies",
+        "exportSettings": {
+          "policyType": "PortfolioViews",
+          "database": "Fdr",
+          "objectiveTypes": [],
+          "domains": [],
+          "migrateDefaultPolicy": false,
+          "migrateActivePolicy": true
+        }
+      }	,
+  {
+        "name": "Portfolio Analysis",
+        "exportType": "Policies",
+        "exportSettings": {
+          "policyType": "PortfolioAnalysis",
+          "database": "Fdr",
+          "objectiveTypes": [],
+          "domains": [],
+          "migrateDefaultPolicy": false,
+          "migrateActivePolicy": true
+        }
+      }
         ]
     }
 }

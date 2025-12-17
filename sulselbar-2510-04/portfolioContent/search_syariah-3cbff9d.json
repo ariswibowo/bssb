@@ -1,0 +1,14 @@
+{
+  "ContentId": "b7370c71-2b40-4fc1-bfb8-855fa3cbff9d",
+  "Code": "SearchSyariah",
+  "Name": "Search Syariah",
+  "Description": "",
+  "Route": "/portfolio/syariah/search",
+  "DataAccess": null,
+  "Content": "{\"contentType\":\"SearchResultsPage\",\"contentProps\":{\"breadcrumbs\":[{\"label\":\"Home\",\"link\":\"/portfolio/syariah/home\"},{\"label\":\"Search\",\"link\":\"/portfolio/syariah/search\"}],\"query\":{\"take\":50},\"contractBasePath\":\"/portfolio/syariah/contracts/query\",\"counterpartyBasePath\":\"/portfolio/syariah/counterparties/query\"}}",
+  "ConcurrencyId": "9bf8a701-c5ac-4f6a-bd82-685a5c0d8193",
+  "CreatedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "CreatedWhen": "2025-12-05 06:43:43.704907",
+  "LastModifiedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "LastModifiedWhen": "2025-12-05 06:43:56.608806"
+}

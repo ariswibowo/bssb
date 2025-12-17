@@ -1,0 +1,14 @@
+{
+  "ContentId": "a2896f37-c523-4305-a757-9b863f1deda5",
+  "Code": "CounterpartiesQuerySyariah",
+  "Name": "Counterparties Query Syariah",
+  "Description": "",
+  "Route": "/portfolio/syariah/counterparties/query",
+  "DataAccess": null,
+  "Content": "{\"contentType\":\"CounterpartyQueryPage\",\"contentProps\":{\"breadcrumbs\":[{\"label\":\"Home\",\"link\":\"/portfolio/syariah/home\"},{\"label\":\"Counterparties\",\"link\":\"/portfolio/syariah/counterparties\"},{\"label\":\"Search\",\"link\":\"/portfolio/syariah/counterparties/query\"}],\"query\":{\"take\":50},\"counterpartyBasePath\":\"/portfolio/syariah/counterparties/query\"}}",
+  "ConcurrencyId": "68c11a28-21c9-48eb-b93e-7db839ecda8a",
+  "CreatedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "CreatedWhen": "2025-12-05 06:36:09.567932",
+  "LastModifiedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "LastModifiedWhen": "2025-12-05 06:36:20.767742"
+}

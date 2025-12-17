@@ -1,0 +1,14 @@
+{
+  "ContentId": "d85c715d-aeb7-4f99-bceb-365d846ca0b2",
+  "Code": "DetailContractKonven",
+  "Name": "Detail Contract Konven",
+  "Description": "",
+  "Route": "/portfolio/konven/contracts/contract",
+  "DataAccess": null,
+  "Content": "{\"contentType\":\"Container\",\"children\":[{\"contentType\":\"Breadcrumbs\",\"contentProps\":{\"breadcrumbs\":[\"sourceUrlBased\"]}},{\"contentType\":\"ContractPage\",\"contentProps\":{\"query\":{\"entities\":[\"SSB-KONVEN\"],\"take\":50},\"title\":\"Contract: {{originSystemId}}/{{originContractId}}\",\"contractBasePath\":\"/portfolio/konven/contracts/query\",\"counterpartyBasePath\":\"/portfolio/konven/counterparties/query\"}}]}",
+  "ConcurrencyId": "6f6b835b-6f99-4840-9f9a-7836a76b98a2",
+  "CreatedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "CreatedWhen": "2025-12-05 06:29:13.845604",
+  "LastModifiedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "LastModifiedWhen": "2025-12-05 06:29:50.012097"
+}

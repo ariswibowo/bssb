@@ -1,0 +1,14 @@
+{
+  "ContentId": "c027c2c9-3e6d-48bb-885a-9c7bcad4f81a",
+  "Code": "CounterpartiesSyariah",
+  "Name": "Counterparties Syariah",
+  "Description": "",
+  "Route": "/portfolio/syariah/counterparties",
+  "DataAccess": null,
+  "Content": "{\"contentType\":\"CounterpartiesPage\",\"contentProps\":{\"query\":{\"portfolioName\":\"Counterparties\",\"dimensions\":[\"counterpartyType\",\"industrySector\",\"businessUnit\"],\"measures\":[\"outstandingAmount\",\"numCounterparties\",\"numContracts\"]},\"breadcrumbs\":[{\"label\":\"Home\",\"link\":\"/portfolio/syariah/home\"},{\"label\":\"Counterparties\",\"link\":\"/portfolio/syariah/counterparties\"}],\"fields\":[{\"key\":\"counterpartyType\",\"label\":\"Counterparty Type\",\"type\":\"String\"},{\"key\":\"businessUnit\",\"label\":\"Business Unit\",\"type\":\"String\"},{\"key\":\"industrySector\",\"label\":\"Industry Sector\",\"type\":\"String\"},{\"key\":\"outstandingAmount\",\"label\":\"Outstanding Amount\",\"type\":\"Amount\"},{\"key\":\"numContracts\",\"label\":\"Number of Contracts\",\"type\":\"Integer\"},{\"key\":\"numCounterparties\",\"label\":\"Number of Counterparties\",\"type\":\"Integer\"}],\"summary\":{\"filters\":[\"counterpartyType\"],\"table\":{\"aggregation\":{\"dimensions\":[\"counterpartyType\",\"industrySector\",\"businessUnit\"],\"measures\":[\"outstandingAmount\",\"numCounterparties\",\"numContracts\"]},\"columns\":[{\"name\":\"counterpartyType\",\"link\":\"/portfolio/syariah/counterparties/query?q=counterparties:counterpartyType:\\\"{{counterpartyType}}\\\"\"},\"businessUnit\",\"industrySector\",\"outstandingAmount\",\"numCounterparties\",\"numContracts\"]}},\"analysis\":{\"defaultPivotConfig\":{\"rows\":[\"counterpartyType\"],\"values\":[\"outstandingAmount\",\"numContracts\",\"numCounterparties\"],\"columns\":[],\"filters\":[]}},\"search\":{\"query\":{\"take\":20},\"contractBasePath\":\"/portfolio/syariah/contracts/query\",\"counterpartyBasePath\":\"/portfolio/syariah/counterparties/query\"}}}",
+  "ConcurrencyId": "0f3e1f65-997c-42fe-b2fd-4d69de7297a1",
+  "CreatedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "CreatedWhen": "2025-12-05 06:34:55.480328",
+  "LastModifiedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "LastModifiedWhen": "2025-12-05 06:35:43.504139"
+}

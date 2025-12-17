@@ -1,0 +1,14 @@
+{
+  "ContentId": "eed0eb35-717c-4232-94e8-39c30781af24",
+  "Code": "ReportsKonven",
+  "Name": "Reports Konven",
+  "Description": "",
+  "Route": "/portfolio/konven/report",
+  "DataAccess": null,
+  "Content": "{\"contentType\":\"Container\",\"children\":[{\"contentType\":\"Breadcrumbs\",\"contentProps\":{\"breadcrumbs\":[\"sourceUrlBased\"]}},{\"contentType\":\"ReportPage\",\"contentProps\":{\"links\":[{\"column\":\"originContractId\",\"link\":\"/portfolio/konven/contracts/contract?originContractId={{originContractId}}\"},{\"column\":\"originCounterpartyId\",\"link\":\"/portfolio/konven/contracts/counterparty?originCounterpartyId={{originCounterpartyId}}\"}]},\"query\":{\"entities\":[\"SSB-KONVEN\"]}}]}",
+  "ConcurrencyId": "e0522bf4-4c4c-4034-9ac6-3cac51bd5088",
+  "CreatedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "CreatedWhen": "2025-12-05 06:16:09.706735",
+  "LastModifiedBy": "d0df3ed1-e2b4-44d2-a7a2-3f2f04c75649",
+  "LastModifiedWhen": "2025-12-05 06:19:28.419032"
+}
